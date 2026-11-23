@@ -167,16 +167,16 @@ function desenharViagens() {
   caixa.innerHTML = `<h2>🧳 Minhas viagens compradas</h2>` + lista.map(v => {
     const linhas = Object.entries(v.classes || {}).map(([c, i]) => {
       const minha = c === v.classe_comprada;
-      const dif = minha
+      const dif = i.diferenca == null ? "—" : (minha && !v.pago) ? `<span class="mais">referência</span>` : minha
         ? (i.diferenca < 0 ? `<span class="menos">baixou ${reais(-i.diferenca)}</span>` : `<span class="mais">+${reais(i.diferenca)}</span>`)
         : (i.diferenca <= 0 ? `<span class="menos">mais barata que a sua!</span>` : `<span class="mais">+${reais(i.diferenca)}</span>`);
-      return `<tr><td>${esc(nomes[c] || c)}${minha ? " (a sua)" : ""}</td><td class="num">${reais(i.preco)}</td><td class="num">${dif}</td>
+      return `<tr><td>${esc(nomes[c] || c)}${minha ? " (a sua" + (v.tarifa ? ", " + esc(v.tarifa) : "") + ")" : ""}${i.mesmos_voos ? "" : " <small class=\"mais\">outros voos</small>"}</td><td class="num">${reais(i.preco)}</td><td class="num">${dif}</td>
         <td class="num"><a href="${esc(i.google)}" target="_blank" rel="noopener">ver</a></td></tr>`;
     }).join("");
     const datas = dataBR(v.ida) + (v.volta ? " → " + dataBR(v.volta) : "");
     return `<article class="viagem"><div class="rota">${esc(v.nome)} <small>${esc(v.origem)} → ${esc(v.destino)} · ${datas}</small></div>
-      <div class="meta">Você pagou ${reais(v.pago)} · conferido em ${new Date(v.verificado).toLocaleString("pt-BR")}</div>
-      <table class="tabela"><tr><th>Classe</th><th class="num">Preço hoje</th><th class="num">Diferença</th><th></th></tr>${linhas}</table></article>`;
+      <div class="meta">${v.pago ? "Você pagou " + reais(v.pago) : "Upgrade estimado pela diferença de tarifa de hoje nos mesmos voos"} · conferido em ${new Date(v.verificado).toLocaleString("pt-BR")}</div>
+      <table class="tabela"><tr><th>Classe</th><th class="num">Preço hoje</th><th class="num">${v.pago ? "Diferença" : "Upgrade ≈"}</th><th></th></tr>${linhas}</table></article>`;
   }).join("");
 }
 

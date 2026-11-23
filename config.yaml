@@ -48,9 +48,41 @@ upgrades:
   avisar_se_minha_passagem_cair_pct: 10
   avisar_upgrade_ate_padrao: 2000    # R$ a mais que você aceitaria pagar (se a viagem não disser)
 
-viagens_compradas: []
-# Exemplo (apague o "[]" acima e descomente/ajuste as linhas abaixo):
-# viagens_compradas:
+# Itinerário Emirates (Economy Flex). Cada trecho é conferido separadamente.
+# Sem "preco_pago", o upgrade é estimado pela diferença entre as tarifas de
+# hoje nos mesmos voos; o radar manda um resumo e avisa quando ficar mais barato.
+viagens_compradas:
+  - nome: "Emirates 1/4: São Paulo → Dubai"
+    origem: GRU
+    destino: DXB
+    ida: 2026-12-11
+    voos_ida: [EK262]
+    classe_comprada: economica
+    tarifa: Economy Flex
+  - nome: "Emirates 2/4: Dubai → Bangkok"
+    origem: DXB
+    destino: BKK
+    ida: 2026-12-17
+    voos_ida: [EK374]
+    classe_comprada: economica
+    tarifa: Economy Flex
+  - nome: "Emirates 3/4: Tóquio → Dubai"
+    origem: HND
+    destino: DXB
+    ida: 2027-01-04
+    voos_ida: [EK313]
+    classe_comprada: economica
+    tarifa: Economy Flex
+  - nome: "Emirates 4/4: Dubai → São Paulo"
+    origem: DXB
+    destino: GRU
+    ida: 2027-01-04
+    voos_ida: [EK261]
+    classe_comprada: economica
+    tarifa: Economy Flex
+
+# Exemplo de outra viagem (com valor pago e limite de upgrade):
+#   (adicione na lista acima)
 #   - nome: Férias Orlando
 #     origem: GRU
 #     destino: MCO

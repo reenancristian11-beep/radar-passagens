@@ -13,6 +13,7 @@ from radar.promocoes import avaliar, deve_alertar
 
 CFG = carregar_config()
 CFG["prioridades"]["destinos"] = []  # testes gerais usam a config sem prioridades
+CFG["viagens_compradas"] = []        # ...e sem viagens (nunca consultar o Google nos testes)
 ROTAS = montar_rotas(CFG)
 
 
@@ -322,7 +323,8 @@ def test_upgrade_e_queda_de_preco_da_viagem_comprada():
                                 "BUSINESS": 6900, "FIRST": 15000})
     avisos, consultas = upgrades.verificar(cfg, situacao, alertados, busca)
     assert consultas == 4
-    tipos = {(a["tipo"], a["classe"]) for a in avisos}
+    assert avisos[-1]["tipo"] == "resumo"
+    tipos = {(a["tipo"], a["classe"]) for a in avisos[:-1]}
     # Queda de 12,5% na própria passagem; premium (+1.800) e executiva (+2.900) até R$ 3.000.
     assert tipos == {("queda", "Econômica"), ("upgrade", "Premium Economy"), ("upgrade", "Executiva")}
     assert situacao["Férias Orlando"]["classes"]["executiva"]["diferenca"] == 2900
@@ -336,8 +338,9 @@ def test_viagem_passada_ou_incompleta_e_ignorada():
 
     passada = viagem_cfg(ida="2020-01-01", volta="2020-01-10")
     assert upgrades.viagens_validas(passada) == []
-    sem_preco = viagem_cfg(preco_pago=None)
-    assert upgrades.viagens_validas(sem_preco) == []
+    sem_classe = viagem_cfg(classe_comprada=None)
+    assert upgrades.viagens_validas(sem_classe) == []
+    assert len(upgrades.viagens_validas(viagem_cfg(preco_pago=None))) == 1  # valor pago é opcional
 
 
 def test_aviso_de_upgrade_chega_no_alerta(tmp_path, monkeypatch):
@@ -351,7 +354,7 @@ def test_aviso_de_upgrade_chega_no_alerta(tmp_path, monkeypatch):
     res = principal.executar(args, tmp_path, lambda r, c: calendario([99999]),
                              lambda p, s: enviados.extend(p) or ["telegram"],
                              busca_viagem_falsa({"ECONOMY": 4100, "BUSINESS": 6500}))
-    assert [a["classe"] for a in res["avisos_viagens"]] == ["Executiva"]
+    assert [a.get("classe") for a in res["avisos_viagens"]] == ["Executiva", None]  # + resumo
     texto = texto_upgrade(enviados[0])
     assert "UPGRADE: Executiva por +R$ 2.500" in texto and "mesmos voos" in texto
     site = principal.ler_json(tmp_path / "site.json", {})
@@ -370,3 +373,37 @@ def test_escolhe_o_voo_informado():
     assert _escolher(opcoes, ["LA8190", "LA 510"]) == (opcoes[1], True)
     assert _escolher(opcoes, ["G3 1111"]) == (opcoes[0], False)  # não achou: mais barato
     assert _escolher(opcoes, []) == (opcoes[0], False)
+
+
+def test_viagem_sem_valor_pago_usa_tarifa_de_hoje_como_referencia():
+    from radar import upgrades
+    from radar.alertas import texto_upgrade
+
+    cfg = viagem_cfg(preco_pago=None, avisar_upgrade_ate=None, volta=None, tarifa="Economy Flex")
+    situacao, alertados = {}, {}
+    precos = {"ECONOMY": 4000, "BUSINESS": 9000, "FIRST": 20000}
+    avisos, _ = upgrades.verificar(cfg, situacao, alertados, busca_viagem_falsa(precos))
+    assert [a["tipo"] for a in avisos] == ["resumo"]  # 1ª vez: só o resumo com os valores
+    texto = texto_upgrade(avisos[0])
+    assert "Executiva: R$ 9.000 → upgrade ≈ <b>+R$ 5.000</b>" in texto
+    assert "Econômica (a sua) (Economy Flex): R$ 4.000" in texto
+    alertados[avisos[0]["chave"]] = {"preco": 0, "quando": "2026-01-01T00:00+00:00"}
+
+    # Upgrade cai para +R$ 4.000 (20% abaixo do menor já visto) → avisa.
+    precos["BUSINESS"] = 8000
+    avisos, _ = upgrades.verificar(cfg, situacao, alertados, busca_viagem_falsa(precos), forcar=True)
+    assert [(a["tipo"], a["classe"], a["diferenca"]) for a in avisos] == [("upgrade", "Executiva", 4000)]
+    assert "Econômica (Economy Flex) hoje: R$ 4.000" in texto_upgrade(avisos[0])
+
+    # Sobe um pouco: não avisa.
+    precos["BUSINESS"] = 8300
+    avisos, _ = upgrades.verificar(cfg, situacao, alertados, busca_viagem_falsa(precos), forcar=True)
+    assert avisos == []
+
+
+def test_viagens_do_config_real_sao_validas():
+    from radar import upgrades
+
+    viagens = upgrades.viagens_validas(carregar_config())
+    assert len(viagens) == 4
+    assert [v["voos_ida"] for v in viagens] == [["EK262"], ["EK374"], ["EK313"], ["EK261"]]

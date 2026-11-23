@@ -52,31 +52,57 @@ def texto_alerta(r: dict, site: str | None = None) -> str:
 
 
 def texto_upgrade(a: dict, site: str | None = None) -> str:
-    """Aviso sobre uma viagem já comprada (upgrade ou queda de preço)."""
+    """Aviso sobre uma viagem já comprada: resumo, upgrade ou queda de preço."""
     e = html.escape
-    voos = " + ".join(a["voos_ida"] + a["voos_volta"])
-    mesmos = "nos mesmos voos" if a["mesmos_voos"] else "nas mesmas datas (voos podem ser outros)"
-    if a["tipo"] == "upgrade":
+    tarifa = f" ({e(a['tarifa'])})" if a.get("tarifa") else ""
+    cabecalho = f"🧳 Sua viagem: <b>{e(a['viagem'])}</b> ({e(a['origem'])} → {e(a['destino'])})"
+    datas = f"📅 {_data_br(a['ida'])}" + (f" → {_data_br(a['volta'])}" if a.get("volta") else "")
+
+    if a["tipo"] == "resumo":
+        linhas = [f"📋 <b>Upgrade: valores de hoje</b>", cabecalho, datas]
+        if a.get("pago"):
+            linhas.append(f"Você pagou {_reais(a['pago'])} em {e(a['classe_comprada'])}{tarifa}.")
+        for c in a["classes"]:
+            voos = " + ".join(c["voos_ida"] + c["voos_volta"])
+            if c["minha"]:
+                linhas.append(f"• {e(c['classe'])} (a sua){tarifa}: {_reais(c['preco'])}"
+                              + (f" — voos {e(voos)}" if voos else ""))
+            else:
+                dif = f" → upgrade ≈ <b>+{_reais(c['diferenca'])}</b>" if c.get("diferenca") is not None else ""
+                aviso = "" if c["mesmos_voos"] else " (outros voos do dia)"
+                linhas.append(f"• {e(c['classe'])}: {_reais(c['preco'])}{dif}{aviso}")
+        if not a.get("pago"):
+            linhas.append("ℹ️ Sem o valor que você pagou, o upgrade é estimado pela diferença "
+                          "entre as tarifas de hoje nos mesmos voos.")
+        linhas.append("Vou avisar quando o upgrade ficar mais barato.")
+    elif a["tipo"] == "upgrade":
+        mesmos = "nos mesmos voos" if a["mesmos_voos"] else "nas mesmas datas (voos podem ser outros)"
+        base = (f"Você pagou {_reais(a['pago'])} em {e(a['classe_comprada'])}{tarifa}"
+                if a.get("pago") else
+                f"{e(a['classe_comprada'])}{tarifa} hoje: {_reais(a['referencia'])}")
         linhas = [
             f"⬆️ <b>UPGRADE: {e(a['classe'])} por +{_reais(a['diferenca'])}</b>",
-            f"🧳 Sua viagem: <b>{e(a['viagem'])}</b> ({e(a['origem'])} → {e(a['destino'])})",
-            f"Você pagou {_reais(a['pago'])} em {e(a['classe_comprada'])}; "
-            f"{e(a['classe'])} hoje custa {_reais(a['preco'])} {mesmos}.",
-            "👉 Peça o upgrade pago à companhia ou, se sua tarifa permite remarcar, "
-            "troque de classe pagando a diferença.",
+            cabecalho,
+            f"{base}; {e(a['classe'])} custa {_reais(a['preco'])} {mesmos}.",
+            "👉 Peça o upgrade pago à companhia (no site/app, em Gerenciar reserva) ou, "
+            "se sua tarifa permite remarcar, troque de classe pagando a diferença.",
+            datas,
         ]
     else:
+        mesmos = "nos mesmos voos" if a["mesmos_voos"] else "nas mesmas datas (voos podem ser outros)"
         linhas = [
             f"💸 <b>SUA PASSAGEM BAIXOU {_reais(-a['diferenca'])}</b>",
-            f"🧳 Sua viagem: <b>{e(a['viagem'])}</b> ({e(a['origem'])} → {e(a['destino'])})",
+            cabecalho,
             f"Você pagou {_reais(a['pago'])}; hoje a mesma classe ({e(a['classe'])}) "
             f"custa {_reais(a['preco'])} {mesmos}.",
             "👉 Se a sua tarifa permite remarcação ou crédito, vale consultar a companhia.",
+            datas,
         ]
-    linhas.append(f"📅 {_data_br(a['ida'])}" + (f" → {_data_br(a['volta'])}" if a.get("volta") else ""))
-    if voos:
-        linhas.append(f"Voos: {e(voos)}")
-    linhas.append(f'<a href="{e(a["google"])}">Ver no Google Flights</a>')
+    if a["tipo"] != "resumo":
+        voos = " + ".join(a["voos_ida"] + a["voos_volta"])
+        if voos:
+            linhas.append(f"Voos: {e(voos)}")
+        linhas.append(f'<a href="{e(a["google"])}">Ver no Google Flights</a>')
     if site:
         linhas.append(f'<a href="{e(site)}">Abrir o radar</a>')
     return "\n".join(linhas)

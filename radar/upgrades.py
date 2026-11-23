@@ -21,7 +21,7 @@ def viagens_validas(cfg: dict) -> list[dict]:
     hoje = date.today().isoformat()
     saida = []
     for i, v in enumerate(cfg.get("viagens_compradas") or []):
-        faltando = [c for c in ("origem", "destino", "ida", "classe_comprada", "preco_pago") if not v.get(c)]
+        faltando = [c for c in ("origem", "destino", "ida", "classe_comprada") if not v.get(c)]
         if faltando:
             print(f"[upgrades] Viagem {i + 1} ignorada: falta {', '.join(faltando)}.")
             continue
@@ -75,12 +75,15 @@ def verificar(cfg: dict, situacao: dict, alertados: dict, buscar, agora: datetim
         ultimo = estado.get("verificado")
         if not forcar and ultimo and agora - datetime.fromisoformat(ultimo) < intervalo:
             continue
-        pago = float(v["preco_pago"])
+        pago = float(v["preco_pago"]) if v.get("preco_pago") else None
         limite_upgrade = float(v.get("avisar_upgrade_ate") or regras.get("avisar_upgrade_ate_padrao") or 0)
         minha = ORDEM.index(v["classe_comprada"])
-        algum_preco = False
-        print(f"  ✈ Viagem comprada '{v['nome']}' ({v['origem']}→{v['destino']}, "
-              f"{classes_cfg[v['classe_comprada']]['nome']}, pagou R$ {pago:.0f})")
+        nome_minha = classes_cfg[v["classe_comprada"]]["nome"]
+        print(f"  ✈ Viagem comprada '{v['nome']}' ({v['origem']}→{v['destino']}, {nome_minha}"
+              + (f", pagou R$ {pago:.0f})" if pago else ", valor pago não informado)"))
+
+        # 1) Preço de hoje da sua classe e das classes acima, na mesma viagem.
+        achados: dict[str, dict] = {}
         for classe in ORDEM[minha:]:
             consultas += 1
             try:
@@ -88,29 +91,45 @@ def verificar(cfg: dict, situacao: dict, alertados: dict, buscar, agora: datetim
             except Exception as erro:
                 print(f"    ! {classe}: erro ({type(erro).__name__}: {erro})")
                 continue
-            if not r:
+            if r:
+                achados[classe] = r
+            else:
                 print(f"    - {classes_cfg[classe]['nome']}: sem preço")
-                estado["classes"].pop(classe, None)
-                continue
-            algum_preco = True
-            diferenca = r["preco"] - pago
+        if not achados:
+            continue  # o Google não respondeu: tenta de novo na próxima rodada
+
+        # 2) Referência: o que você pagou; sem isso, o preço de hoje da sua classe
+        # (o upgrade estimado é a diferença de tarifa entre as classes hoje).
+        hoje_minha = achados.get(v["classe_comprada"], {}).get("preco")
+        referencia = pago or hoje_minha
+        estado["classes"] = {}
+        menores = estado.setdefault("menor_diferenca", {})
+        for classe, r in achados.items():
+            diferenca = r["preco"] - referencia if referencia else None
             info = {
                 "preco": round(r["preco"], 2),
-                "diferenca": round(diferenca, 2),
+                "diferenca": round(diferenca, 2) if diferenca is not None else None,
                 "mesmos_voos": r["mesmos_voos"],
                 "voos_ida": r["voos_ida"],
                 "voos_volta": r["voos_volta"],
                 "google": link_google(v, classe, r["moeda"]),
             }
             estado["classes"][classe] = info
-            print(f"    · {classes_cfg[classe]['nome']}: R$ {r['preco']:.0f} ({diferenca:+.0f})")
+            print(f"    · {classes_cfg[classe]['nome']}: R$ {r['preco']:.0f}"
+                  + (f" ({diferenca:+.0f})" if diferenca is not None else ""))
 
             aviso = None
             if classe == v["classe_comprada"]:
-                if diferenca < 0 and -diferenca / pago * 100 >= queda_pct:
+                if pago and diferenca < 0 and -diferenca / pago * 100 >= queda_pct:
                     aviso = "queda"
-            elif limite_upgrade and diferenca <= limite_upgrade:
-                aviso = "upgrade"
+            elif diferenca is not None:
+                anterior_menor = menores.get(classe)
+                if pago and limite_upgrade:
+                    aviso = "upgrade" if diferenca <= limite_upgrade else None
+                elif anterior_menor is not None and diferenca <= anterior_menor * 0.9:
+                    aviso = "upgrade"  # sem limite: avisa quando fica 10% mais barato que o menor já visto
+                if anterior_menor is None or diferenca < anterior_menor:
+                    menores[classe] = round(diferenca, 2)
             if aviso:
                 chave = f"viagem:{v['nome']}:{classe}"
                 anterior = alertados.get(chave)
@@ -121,12 +140,29 @@ def verificar(cfg: dict, situacao: dict, alertados: dict, buscar, agora: datetim
                         "tipo": aviso, "chave": chave, "preco": info["preco"],
                         "viagem": v["nome"], "origem": v["origem"], "destino": v["destino"],
                         "ida": v["ida"], "volta": v["volta"], "pago": pago,
-                        "classe_comprada": classes_cfg[v["classe_comprada"]]["nome"],
+                        "referencia": referencia, "tarifa": v.get("tarifa"),
+                        "classe_comprada": nome_minha,
                         "classe": classes_cfg[classe]["nome"], **info,
                     })
-        if algum_preco:  # se o Google não respondeu, tenta de novo na próxima rodada
-            estado["verificado"] = agora.isoformat(timespec="minutes")
+
+        # 3) Na primeira conferência, manda um resumo com os valores de todas as classes.
+        chave_resumo = f"viagem:{v['nome']}:resumo"
+        if chave_resumo not in alertados:
+            avisos.append({
+                "tipo": "resumo", "chave": chave_resumo, "preco": referencia or 0,
+                "viagem": v["nome"], "origem": v["origem"], "destino": v["destino"],
+                "ida": v["ida"], "volta": v["volta"], "pago": pago, "referencia": referencia,
+                "tarifa": v.get("tarifa"), "classe_comprada": nome_minha,
+                "classes": [
+                    {"classe": classes_cfg[c]["nome"], "minha": c == v["classe_comprada"], **estado["classes"][c]}
+                    for c in ORDEM if c in estado["classes"]
+                ],
+            })
+
+        estado["verificado"] = agora.isoformat(timespec="minutes")
         estado["pago"] = pago
+        estado["referencia"] = referencia
+        estado["tarifa"] = v.get("tarifa")
         estado["classe_comprada"] = v["classe_comprada"]
         estado.update(origem=v["origem"], destino=v["destino"], ida=v["ida"], volta=v["volta"])
     return avisos, consultas
