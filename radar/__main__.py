@@ -123,7 +123,8 @@ def executar(args, dados: Path = DADOS, buscar=buscar_calendario, alertar=enviar
     avisos_viagens: list[dict] = []
     if not args.rota:
         avisos_viagens, consultas = upgrades.verificar(
-            cfg, viagens, alertados, buscar_viagem_ or buscar_viagem)
+            cfg, viagens, alertados, buscar_viagem_ or buscar_viagem,
+            esperar=lambda: time.sleep(pausa))
         if consultas:
             time.sleep(pausa)
 

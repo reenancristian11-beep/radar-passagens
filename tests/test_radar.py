@@ -407,3 +407,22 @@ def test_viagens_do_config_real_sao_validas():
     viagens = upgrades.viagens_validas(carregar_config())
     assert len(viagens) == 4
     assert [v["voos_ida"] for v in viagens] == [["EK262"], ["EK374"], ["EK313"], ["EK261"]]
+
+
+def test_viagem_sem_preco_da_sua_classe_e_conferida_de_novo():
+    from radar import upgrades
+
+    cfg = viagem_cfg(preco_pago=None, avisar_upgrade_ate=None, volta=None)
+    situacao, alertados = {}, {}
+    tentativas = []
+
+    def busca(v, classe_google, c):
+        tentativas.append(classe_google)
+        return busca_viagem_falsa({"FIRST": 20000})(v, classe_google, c)
+
+    avisos, consultas = upgrades.verificar(cfg, situacao, alertados, busca)
+    assert avisos == [] and consultas == 7  # 3 classes vazias tentadas 2x + primeira 1x
+    assert "verificado" not in situacao["Férias Orlando"]
+    # Na rodada seguinte, já tenta de novo (não espera 6 h).
+    _, consultas = upgrades.verificar(cfg, situacao, alertados, busca)
+    assert consultas == 7

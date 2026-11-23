@@ -50,7 +50,7 @@ def link_google(viagem: dict, classe: str, moeda: str = "BRL") -> str:
 
 
 def verificar(cfg: dict, situacao: dict, alertados: dict, buscar, agora: datetime | None = None,
-              forcar: bool = False) -> tuple[list[dict], int]:
+              forcar: bool = False, esperar=lambda: None) -> tuple[list[dict], int]:
     """Confere as viagens compradas que estão na hora de conferir.
 
     ``situacao`` (data/viagens.json) é atualizado no lugar. Retorna os avisos
@@ -85,18 +85,26 @@ def verificar(cfg: dict, situacao: dict, alertados: dict, buscar, agora: datetim
         # 1) Preço de hoje da sua classe e das classes acima, na mesma viagem.
         achados: dict[str, dict] = {}
         for classe in ORDEM[minha:]:
-            consultas += 1
-            try:
-                r = buscar(v, classes_cfg[classe]["google"], cfg)
-            except Exception as erro:
-                print(f"    ! {classe}: erro ({type(erro).__name__}: {erro})")
-                continue
+            r = None
+            for tentativa in range(2):  # resposta vazia às vezes é o Google limitando: tenta 2x
+                if consultas:
+                    esperar()
+                consultas += 1
+                try:
+                    r = buscar(v, classes_cfg[classe]["google"], cfg)
+                except Exception as erro:
+                    print(f"    ! {classe}: erro ({type(erro).__name__}: {erro})")
+                if r:
+                    break
             if r:
                 achados[classe] = r
             else:
                 print(f"    - {classes_cfg[classe]['nome']}: sem preço")
-        if not achados:
-            continue  # o Google não respondeu: tenta de novo na próxima rodada
+        if v["classe_comprada"] not in achados:
+            # Sem o preço da sua classe não há referência: tenta de novo na
+            # próxima rodada (sem esperar o intervalo de horas).
+            print("    ! sem o preço da sua classe; confiro de novo na próxima rodada")
+            continue
 
         # 2) Referência: o que você pagou; sem isso, o preço de hoje da sua classe
         # (o upgrade estimado é a diferença de tarifa entre as classes hoje).
@@ -147,7 +155,7 @@ def verificar(cfg: dict, situacao: dict, alertados: dict, buscar, agora: datetim
 
         # 3) Na primeira conferência, manda um resumo com os valores de todas as classes.
         chave_resumo = f"viagem:{v['nome']}:resumo"
-        if chave_resumo not in alertados:
+        if chave_resumo not in alertados and len(achados) > 1:
             avisos.append({
                 "tipo": "resumo", "chave": chave_resumo, "preco": referencia or 0,
                 "viagem": v["nome"], "origem": v["origem"], "destino": v["destino"],
