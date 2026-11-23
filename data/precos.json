@@ -1766,32 +1766,341 @@
   "atual": null
  },
  "SJP-MIA-economica": {
-  "historico": [],
-  "atual": null
+  "historico": [
+   [
+    "2026-11-23T22:27+00:00",
+    6564.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-MIA-economica",
+   "origem": "SJP",
+   "destino": "MIA",
+   "cidade": "Miami",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 6564.0,
+   "moeda": "BRL",
+   "ida": "2027-02-24",
+   "volta": "2027-03-06",
+   "referencia": 6608.0,
+   "desconto": 0.0067,
+   "limite": 2989.9999999999995,
+   "prioridade": "perto de Orlando (310 km)",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-24",
+     "volta": "2027-03-06",
+     "preco": 6564.0
+    },
+    {
+     "ida": "2027-04-09",
+     "volta": "2027-04-19",
+     "preco": 6564.0
+    },
+    {
+     "ida": "2027-06-01",
+     "volta": "2027-06-11",
+     "preco": 6652.0
+    },
+    {
+     "ida": "2026-12-23",
+     "volta": "2027-01-02",
+     "preco": 8784.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MIA%20from%20SJP%20on%202027-02-24%20through%202027-03-06%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/mia/270224/270306/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-23T22:27+00:00"
+  }
  },
  "SJP-MIA-premium": {
-  "historico": [],
-  "atual": null
+  "historico": [
+   [
+    "2026-11-23T22:28+00:00",
+    16925.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-MIA-premium",
+   "origem": "SJP",
+   "destino": "MIA",
+   "cidade": "Miami",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "premium",
+   "classe_nome": "Premium Economy",
+   "preco": 16925.0,
+   "moeda": "BRL",
+   "ida": "2027-05-31",
+   "volta": "2027-06-10",
+   "referencia": 18666.5,
+   "desconto": 0.0933,
+   "limite": 5175.0,
+   "prioridade": "perto de Orlando (310 km)",
+   "datas_baratas": [
+    {
+     "ida": "2027-05-31",
+     "volta": "2027-06-10",
+     "preco": 16925.0
+    },
+    {
+     "ida": "2027-04-20",
+     "volta": "2027-04-30",
+     "preco": 17797.0
+    },
+    {
+     "ida": "2027-02-17",
+     "volta": "2027-02-27",
+     "preco": 19536.0
+    },
+    {
+     "ida": "2026-12-25",
+     "volta": "2027-01-04",
+     "preco": 24153.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MIA%20from%20SJP%20on%202027-05-31%20through%202027-06-10%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/mia/270531/270610/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-23T22:28+00:00"
+  }
  },
  "SJP-MIA-executiva": {
-  "historico": [],
-  "atual": null
+  "historico": [
+   [
+    "2026-11-23T22:28+00:00",
+    23782.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-MIA-executiva",
+   "origem": "SJP",
+   "destino": "MIA",
+   "cidade": "Miami",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 23782.0,
+   "moeda": "BRL",
+   "ida": "2027-02-05",
+   "volta": "2027-02-15",
+   "referencia": 28150.5,
+   "desconto": 0.1552,
+   "limite": 9200.0,
+   "prioridade": "perto de Orlando (310 km)",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-05",
+     "volta": "2027-02-15",
+     "preco": 23782.0
+    },
+    {
+     "ida": "2026-12-03",
+     "volta": "2026-12-13",
+     "preco": 27392.0
+    },
+    {
+     "ida": "2027-04-06",
+     "volta": "2027-04-16",
+     "preco": 28909.0
+    },
+    {
+     "ida": "2027-05-29",
+     "volta": "2027-06-08",
+     "preco": 28909.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MIA%20from%20SJP%20on%202027-02-05%20through%202027-02-15%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/mia/270205/270215/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-23T22:28+00:00"
+  }
  },
  "SJP-MIA-primeira": {
   "historico": [],
   "atual": null
  },
  "SJP-MCO-economica": {
-  "historico": [],
-  "atual": null
+  "historico": [
+   [
+    "2026-11-23T22:29+00:00",
+    6621.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-MCO-economica",
+   "origem": "SJP",
+   "destino": "MCO",
+   "cidade": "Orlando",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 6621.0,
+   "moeda": "BRL",
+   "ida": "2027-02-07",
+   "volta": "2027-02-17",
+   "referencia": 7583.0,
+   "desconto": 0.1269,
+   "limite": 2989.9999999999995,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-07",
+     "volta": "2027-02-17",
+     "preco": 6621.0
+    },
+    {
+     "ida": "2027-02-08",
+     "volta": "2027-02-18",
+     "preco": 6621.0
+    },
+    {
+     "ida": "2027-02-10",
+     "volta": "2027-02-20",
+     "preco": 6621.0
+    },
+    {
+     "ida": "2027-03-13",
+     "volta": "2027-03-23",
+     "preco": 6621.0
+    },
+    {
+     "ida": "2027-04-03",
+     "volta": "2027-04-13",
+     "preco": 6621.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MCO%20from%20SJP%20on%202027-02-07%20through%202027-02-17%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/mco/270207/270217/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-23T22:29+00:00"
+  }
  },
  "SJP-MCO-premium": {
-  "historico": [],
-  "atual": null
+  "historico": [
+   [
+    "2026-11-23T22:29+00:00",
+    11792.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-MCO-premium",
+   "origem": "SJP",
+   "destino": "MCO",
+   "cidade": "Orlando",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "premium",
+   "classe_nome": "Premium Economy",
+   "preco": 11792.0,
+   "moeda": "BRL",
+   "ida": "2027-02-08",
+   "volta": "2027-02-18",
+   "referencia": 17723.0,
+   "desconto": 0.3346,
+   "limite": 5175.0,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-08",
+     "volta": "2027-02-18",
+     "preco": 11792.0
+    },
+    {
+     "ida": "2027-01-31",
+     "volta": "2027-02-10",
+     "preco": 13272.0
+    },
+    {
+     "ida": "2027-02-01",
+     "volta": "2027-02-11",
+     "preco": 13338.0
+    },
+    {
+     "ida": "2027-04-10",
+     "volta": "2027-04-20",
+     "preco": 16218.0
+    },
+    {
+     "ida": "2027-02-17",
+     "volta": "2027-02-27",
+     "preco": 16245.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MCO%20from%20SJP%20on%202027-02-08%20through%202027-02-18%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/mco/270208/270218/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-23T22:29+00:00"
+  }
  },
  "SJP-MCO-executiva": {
-  "historico": [],
-  "atual": null
+  "historico": [
+   [
+    "2026-11-23T22:30+00:00",
+    23933.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-MCO-executiva",
+   "origem": "SJP",
+   "destino": "MCO",
+   "cidade": "Orlando",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 23933.0,
+   "moeda": "BRL",
+   "ida": "2026-11-30",
+   "volta": "2026-12-10",
+   "referencia": 32272.0,
+   "desconto": 0.2584,
+   "limite": 9200.0,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2026-11-30",
+     "volta": "2026-12-10",
+     "preco": 23933.0
+    },
+    {
+     "ida": "2026-12-03",
+     "volta": "2026-12-13",
+     "preco": 23933.0
+    },
+    {
+     "ida": "2026-12-04",
+     "volta": "2026-12-14",
+     "preco": 23933.0
+    },
+    {
+     "ida": "2026-12-01",
+     "volta": "2026-12-11",
+     "preco": 27650.0
+    },
+    {
+     "ida": "2026-12-14",
+     "volta": "2026-12-24",
+     "preco": 27650.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MCO%20from%20SJP%20on%202026-11-30%20through%202026-12-10%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/mco/261130/261210/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-23T22:30+00:00"
+  }
  },
  "SJP-MCO-primeira": {
   "historico": [],
@@ -1800,5 +2109,111 @@
  "SJP-JFK-economica": {
   "historico": [],
   "atual": null
+ },
+ "SJP-ADZ-economica": {
+  "historico": [
+   [
+    "2026-11-23T22:31+00:00",
+    5114.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-ADZ-economica",
+   "origem": "SJP",
+   "destino": "ADZ",
+   "cidade": "San Andrés",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 5114.0,
+   "moeda": "BRL",
+   "ida": "2027-02-18",
+   "volta": "2027-02-28",
+   "referencia": 5114.0,
+   "desconto": 0.0,
+   "limite": 2989.9999999999995,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-18",
+     "volta": "2027-02-28",
+     "preco": 5114.0
+    },
+    {
+     "ida": "2027-04-21",
+     "volta": "2027-05-01",
+     "preco": 5114.0
+    },
+    {
+     "ida": "2027-06-17",
+     "volta": "2027-06-27",
+     "preco": 5114.0
+    },
+    {
+     "ida": "2026-12-03",
+     "volta": "2026-12-13",
+     "preco": 7735.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20ADZ%20from%20SJP%20on%202027-02-18%20through%202027-02-28%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/adz/270218/270228/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-23T22:31+00:00"
+  }
+ },
+ "SJP-ADZ-premium": {
+  "historico": [
+   [
+    "2026-11-23T22:31+00:00",
+    7493.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-ADZ-premium",
+   "origem": "SJP",
+   "destino": "ADZ",
+   "cidade": "San Andrés",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "premium",
+   "classe_nome": "Premium Economy",
+   "preco": 7493.0,
+   "moeda": "BRL",
+   "ida": "2027-02-03",
+   "volta": "2027-02-13",
+   "referencia": 7493.0,
+   "desconto": 0.0,
+   "limite": 5175.0,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-03",
+     "volta": "2027-02-13",
+     "preco": 7493.0
+    },
+    {
+     "ida": "2027-04-21",
+     "volta": "2027-05-01",
+     "preco": 7493.0
+    },
+    {
+     "ida": "2027-06-10",
+     "volta": "2027-06-20",
+     "preco": 7493.0
+    },
+    {
+     "ida": "2026-12-13",
+     "volta": "2026-12-23",
+     "preco": 8107.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20ADZ%20from%20SJP%20on%202027-02-03%20through%202027-02-13%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/adz/270203/270213/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-23T22:31+00:00"
+  }
  }
 }
