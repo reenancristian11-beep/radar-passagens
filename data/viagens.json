@@ -1,1 +1,144 @@
-{}
+{
+ "Emirates 1/4: São Paulo → Dubai": {
+  "classes": {
+   "primeira": {
+    "preco": 73094.0,
+    "diferenca": null,
+    "mesmos_voos": true,
+    "voos_ida": [
+     "EK262"
+    ],
+    "voos_volta": [],
+    "google": "https://www.google.com/travel/flights?q=Flights%20to%20DXB%20from%20GRU%20on%202026-12-11%20first%20class&curr=BRL&hl=pt-BR&gl=BR"
+   }
+  },
+  "menor_diferenca": {},
+  "verificado": "2026-11-23T23:08+00:00",
+  "pago": null,
+  "referencia": null,
+  "tarifa": "Economy Flex",
+  "classe_comprada": "economica",
+  "origem": "GRU",
+  "destino": "DXB",
+  "ida": "2026-12-11",
+  "volta": null
+ },
+ "Emirates 2/4: Dubai → Bangkok": {
+  "classes": {
+   "economica": {
+    "preco": 5078.0,
+    "diferenca": 0.0,
+    "mesmos_voos": true,
+    "voos_ida": [
+     "EK374"
+    ],
+    "voos_volta": [],
+    "google": "https://www.google.com/travel/flights?q=Flights%20to%20BKK%20from%20DXB%20on%202026-12-17%20economy&curr=BRL&hl=pt-BR&gl=BR"
+   },
+   "premium": {
+    "preco": 8065.0,
+    "diferenca": 2987.0,
+    "mesmos_voos": true,
+    "voos_ida": [
+     "EK374"
+    ],
+    "voos_volta": [],
+    "google": "https://www.google.com/travel/flights?q=Flights%20to%20BKK%20from%20DXB%20on%202026-12-17%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR"
+   },
+   "primeira": {
+    "preco": 30329.0,
+    "diferenca": 25251.0,
+    "mesmos_voos": true,
+    "voos_ida": [
+     "EK374"
+    ],
+    "voos_volta": [],
+    "google": "https://www.google.com/travel/flights?q=Flights%20to%20BKK%20from%20DXB%20on%202026-12-17%20first%20class&curr=BRL&hl=pt-BR&gl=BR"
+   }
+  },
+  "menor_diferenca": {
+   "premium": 2987.0,
+   "primeira": 25251.0
+  },
+  "verificado": "2026-11-23T23:08+00:00",
+  "pago": null,
+  "referencia": 5078.0,
+  "tarifa": "Economy Flex",
+  "classe_comprada": "economica",
+  "origem": "DXB",
+  "destino": "BKK",
+  "ida": "2026-12-17",
+  "volta": null
+ },
+ "Emirates 3/4: Tóquio → Dubai": {
+  "classes": {
+   "economica": {
+    "preco": 5235.0,
+    "diferenca": 0.0,
+    "mesmos_voos": true,
+    "voos_ida": [
+     "EK313"
+    ],
+    "voos_volta": [],
+    "google": "https://www.google.com/travel/flights?q=Flights%20to%20DXB%20from%20HND%20on%202027-01-04%20economy&curr=BRL&hl=pt-BR&gl=BR"
+   },
+   "executiva": {
+    "preco": 26885.0,
+    "diferenca": 21650.0,
+    "mesmos_voos": true,
+    "voos_ida": [
+     "EK313"
+    ],
+    "voos_volta": [],
+    "google": "https://www.google.com/travel/flights?q=Flights%20to%20DXB%20from%20HND%20on%202027-01-04%20business%20class&curr=BRL&hl=pt-BR&gl=BR"
+   },
+   "primeira": {
+    "preco": 56955.0,
+    "diferenca": 51720.0,
+    "mesmos_voos": true,
+    "voos_ida": [
+     "EK313"
+    ],
+    "voos_volta": [],
+    "google": "https://www.google.com/travel/flights?q=Flights%20to%20DXB%20from%20HND%20on%202027-01-04%20first%20class&curr=BRL&hl=pt-BR&gl=BR"
+   }
+  },
+  "menor_diferenca": {
+   "executiva": 21650.0,
+   "primeira": 51720.0
+  },
+  "verificado": "2026-11-23T23:08+00:00",
+  "pago": null,
+  "referencia": 5235.0,
+  "tarifa": "Economy Flex",
+  "classe_comprada": "economica",
+  "origem": "HND",
+  "destino": "DXB",
+  "ida": "2027-01-04",
+  "volta": null
+ },
+ "Emirates 4/4: Dubai → São Paulo": {
+  "classes": {
+   "executiva": {
+    "preco": 42776.0,
+    "diferenca": null,
+    "mesmos_voos": true,
+    "voos_ida": [
+     "EK261"
+    ],
+    "voos_volta": [],
+    "google": "https://www.google.com/travel/flights?q=Flights%20to%20GRU%20from%20DXB%20on%202027-01-04%20business%20class&curr=BRL&hl=pt-BR&gl=BR"
+   }
+  },
+  "menor_diferenca": {},
+  "verificado": "2026-11-23T23:08+00:00",
+  "pago": null,
+  "referencia": null,
+  "tarifa": "Economy Flex",
+  "classe_comprada": "economica",
+  "origem": "DXB",
+  "destino": "GRU",
+  "ida": "2027-01-04",
+  "volta": null
+ }
+}

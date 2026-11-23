@@ -1,1 +1,18 @@
-{}
+{
+ "viagem:Emirates 1/4: São Paulo → Dubai:resumo": {
+  "preco": 0,
+  "quando": "2026-11-23T23:14+00:00"
+ },
+ "viagem:Emirates 2/4: Dubai → Bangkok:resumo": {
+  "preco": 5078.0,
+  "quando": "2026-11-23T23:14+00:00"
+ },
+ "viagem:Emirates 3/4: Tóquio → Dubai:resumo": {
+  "preco": 5235.0,
+  "quando": "2026-11-23T23:14+00:00"
+ },
+ "viagem:Emirates 4/4: Dubai → São Paulo:resumo": {
+  "preco": 0,
+  "quando": "2026-11-23T23:14+00:00"
+ }
+}
