@@ -1,0 +1,1070 @@
+{
+ "gerado": "2026-11-23T21:47+00:00",
+ "origens": [
+  "SJP",
+  "GRU",
+  "VCP",
+  "CGH"
+ ],
+ "classes": {
+  "economica": "Econômica",
+  "premium": "Premium Economy",
+  "executiva": "Executiva",
+  "primeira": "Primeira Classe"
+ },
+ "regioes": {
+  "brasil": "Brasil",
+  "america_do_sul": "América do Sul",
+  "america_norte_central": "América do Norte, Central e Caribe",
+  "europa": "Europa",
+  "africa": "África",
+  "oriente_medio": "Oriente Médio",
+  "asia": "Ásia",
+  "oceania": "Oceania"
+ },
+ "total_rotas": 1028,
+ "rotas": [
+  {
+   "chave": "SJP-BSB-economica",
+   "origem": "SJP",
+   "destino": "BSB",
+   "cidade": "Brasília",
+   "regiao": "brasil",
+   "regiao_nome": "Brasil",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 376.0,
+   "moeda": "BRL",
+   "ida": "2027-02-07",
+   "volta": "2027-02-12",
+   "referencia": 769.5,
+   "desconto": 0.5114,
+   "limite": 450.0,
+   "datas_baratas": [
+    {
+     "ida": "2027-02-07",
+     "volta": "2027-02-12",
+     "preco": 376.0
+    },
+    {
+     "ida": "2027-02-08",
+     "volta": "2027-02-13",
+     "preco": 376.0
+    },
+    {
+     "ida": "2027-02-21",
+     "volta": "2027-02-26",
+     "preco": 470.0
+    },
+    {
+     "ida": "2027-02-24",
+     "volta": "2027-03-01",
+     "preco": 470.0
+    },
+    {
+     "ida": "2027-03-02",
+     "volta": "2027-03-07",
+     "preco": 470.0
+    }
+   ],
+   "promocao": true,
+   "motivos": [
+    "abaixo do preço-alvo de R$ 450",
+    "51% abaixo da média das outras datas"
+   ],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20BSB%20from%20SJP%20on%202027-02-07%20through%202027-02-12%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/bsb/270207/270212/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-23T21:42+00:00"
+  },
+  {
+   "chave": "SJP-MAO-economica",
+   "origem": "SJP",
+   "destino": "MAO",
+   "cidade": "Manaus",
+   "regiao": "brasil",
+   "regiao_nome": "Brasil",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 1472.0,
+   "moeda": "BRL",
+   "ida": "2027-06-10",
+   "volta": "2027-06-15",
+   "referencia": 2680.5,
+   "desconto": 0.4508,
+   "limite": 450.0,
+   "datas_baratas": [
+    {
+     "ida": "2027-06-10",
+     "volta": "2027-06-15",
+     "preco": 1472.0
+    },
+    {
+     "ida": "2027-01-22",
+     "volta": "2027-01-27",
+     "preco": 1836.0
+    },
+    {
+     "ida": "2027-01-24",
+     "volta": "2027-01-29",
+     "preco": 1883.0
+    },
+    {
+     "ida": "2027-01-23",
+     "volta": "2027-01-28",
+     "preco": 1897.0
+    },
+    {
+     "ida": "2027-01-25",
+     "volta": "2027-01-30",
+     "preco": 1897.0
+    }
+   ],
+   "promocao": true,
+   "motivos": [
+    "45% abaixo da média das outras datas"
+   ],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MAO%20from%20SJP%20on%202027-06-10%20through%202027-06-15%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/mao/270610/270615/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-23T21:43+00:00"
+  },
+  {
+   "chave": "SJP-FOR-economica",
+   "origem": "SJP",
+   "destino": "FOR",
+   "cidade": "Fortaleza",
+   "regiao": "brasil",
+   "regiao_nome": "Brasil",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 1445.0,
+   "moeda": "BRL",
+   "ida": "2027-05-28",
+   "volta": "2027-06-02",
+   "referencia": 2481.0,
+   "desconto": 0.4176,
+   "limite": 450.0,
+   "datas_baratas": [
+    {
+     "ida": "2027-05-28",
+     "volta": "2027-06-02",
+     "preco": 1445.0
+    },
+    {
+     "ida": "2027-05-29",
+     "volta": "2027-06-03",
+     "preco": 1445.0
+    },
+    {
+     "ida": "2027-05-31",
+     "volta": "2027-06-05",
+     "preco": 1445.0
+    },
+    {
+     "ida": "2027-06-01",
+     "volta": "2027-06-06",
+     "preco": 1445.0
+    },
+    {
+     "ida": "2027-06-02",
+     "volta": "2027-06-07",
+     "preco": 1445.0
+    }
+   ],
+   "promocao": true,
+   "motivos": [
+    "42% abaixo da média das outras datas"
+   ],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FOR%20from%20SJP%20on%202027-05-28%20through%202027-06-02%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/for/270528/270602/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-23T21:41+00:00"
+  },
+  {
+   "chave": "SJP-MCZ-economica",
+   "origem": "SJP",
+   "destino": "MCZ",
+   "cidade": "Maceió",
+   "regiao": "brasil",
+   "regiao_nome": "Brasil",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 1087.0,
+   "moeda": "BRL",
+   "ida": "2027-05-21",
+   "volta": "2027-05-26",
+   "referencia": 1816.0,
+   "desconto": 0.4014,
+   "limite": 450.0,
+   "datas_baratas": [
+    {
+     "ida": "2027-05-21",
+     "volta": "2027-05-26",
+     "preco": 1087.0
+    },
+    {
+     "ida": "2027-05-22",
+     "volta": "2027-05-27",
+     "preco": 1087.0
+    },
+    {
+     "ida": "2027-05-23",
+     "volta": "2027-05-28",
+     "preco": 1087.0
+    },
+    {
+     "ida": "2027-04-30",
+     "volta": "2027-05-05",
+     "preco": 1099.0
+    },
+    {
+     "ida": "2027-05-19",
+     "volta": "2027-05-24",
+     "preco": 1123.0
+    }
+   ],
+   "promocao": true,
+   "motivos": [
+    "40% abaixo da média das outras datas"
+   ],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MCZ%20from%20SJP%20on%202027-05-21%20through%202027-05-26%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/mcz/270521/270526/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-23T21:41+00:00"
+  },
+  {
+   "chave": "SJP-GIG-economica",
+   "origem": "SJP",
+   "destino": "GIG",
+   "cidade": "Rio de Janeiro",
+   "regiao": "brasil",
+   "regiao_nome": "Brasil",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 681.0,
+   "moeda": "BRL",
+   "ida": "2027-01-23",
+   "volta": "2027-01-28",
+   "referencia": 1043.0,
+   "desconto": 0.3471,
+   "limite": 450.0,
+   "datas_baratas": [
+    {
+     "ida": "2027-01-23",
+     "volta": "2027-01-28",
+     "preco": 681.0
+    },
+    {
+     "ida": "2027-01-25",
+     "volta": "2027-01-30",
+     "preco": 681.0
+    },
+    {
+     "ida": "2027-02-22",
+     "volta": "2027-02-27",
+     "preco": 711.0
+    },
+    {
+     "ida": "2027-02-27",
+     "volta": "2027-03-04",
+     "preco": 711.0
+    },
+    {
+     "ida": "2027-02-28",
+     "volta": "2027-03-05",
+     "preco": 711.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20GIG%20from%20SJP%20on%202027-01-23%20through%202027-01-28%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/gig/270123/270128/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-23T21:42+00:00"
+  },
+  {
+   "chave": "SJP-JPA-economica",
+   "origem": "SJP",
+   "destino": "JPA",
+   "cidade": "João Pessoa",
+   "regiao": "brasil",
+   "regiao_nome": "Brasil",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 1202.0,
+   "moeda": "BRL",
+   "ida": "2027-04-03",
+   "volta": "2027-04-08",
+   "referencia": 1807.0,
+   "desconto": 0.3348,
+   "limite": 450.0,
+   "datas_baratas": [
+    {
+     "ida": "2027-04-03",
+     "volta": "2027-04-08",
+     "preco": 1202.0
+    },
+    {
+     "ida": "2027-05-23",
+     "volta": "2027-05-28",
+     "preco": 1202.0
+    },
+    {
+     "ida": "2027-04-28",
+     "volta": "2027-05-03",
+     "preco": 1237.0
+    },
+    {
+     "ida": "2027-05-04",
+     "volta": "2027-05-09",
+     "preco": 1237.0
+    },
+    {
+     "ida": "2027-05-20",
+     "volta": "2027-05-25",
+     "preco": 1237.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20JPA%20from%20SJP%20on%202027-04-03%20through%202027-04-08%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/jpa/270403/270408/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-23T21:41+00:00"
+  },
+  {
+   "chave": "SJP-BPS-economica",
+   "origem": "SJP",
+   "destino": "BPS",
+   "cidade": "Porto Seguro",
+   "regiao": "brasil",
+   "regiao_nome": "Brasil",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 1090.0,
+   "moeda": "BRL",
+   "ida": "2027-04-23",
+   "volta": "2027-04-28",
+   "referencia": 1615.5,
+   "desconto": 0.3253,
+   "limite": 450.0,
+   "datas_baratas": [
+    {
+     "ida": "2027-04-23",
+     "volta": "2027-04-28",
+     "preco": 1090.0
+    },
+    {
+     "ida": "2027-04-26",
+     "volta": "2027-05-01",
+     "preco": 1090.0
+    },
+    {
+     "ida": "2027-05-07",
+     "volta": "2027-05-12",
+     "preco": 1090.0
+    },
+    {
+     "ida": "2027-05-10",
+     "volta": "2027-05-15",
+     "preco": 1090.0
+    },
+    {
+     "ida": "2027-05-12",
+     "volta": "2027-05-17",
+     "preco": 1090.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20BPS%20from%20SJP%20on%202027-04-23%20through%202027-04-28%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/bps/270423/270428/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-23T21:41+00:00"
+  },
+  {
+   "chave": "SJP-REC-economica",
+   "origem": "SJP",
+   "destino": "REC",
+   "cidade": "Recife",
+   "regiao": "brasil",
+   "regiao_nome": "Brasil",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 1048.0,
+   "moeda": "BRL",
+   "ida": "2027-02-24",
+   "volta": "2027-03-01",
+   "referencia": 1447.0,
+   "desconto": 0.2757,
+   "limite": 450.0,
+   "datas_baratas": [
+    {
+     "ida": "2027-02-24",
+     "volta": "2027-03-01",
+     "preco": 1048.0
+    },
+    {
+     "ida": "2027-04-04",
+     "volta": "2027-04-09",
+     "preco": 1048.0
+    },
+    {
+     "ida": "2027-04-01",
+     "volta": "2027-04-06",
+     "preco": 1076.0
+    },
+    {
+     "ida": "2027-04-07",
+     "volta": "2027-04-12",
+     "preco": 1081.0
+    },
+    {
+     "ida": "2027-04-09",
+     "volta": "2027-04-14",
+     "preco": 1083.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20REC%20from%20SJP%20on%202027-02-24%20through%202027-03-01%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/rec/270224/270301/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-23T21:41+00:00"
+  },
+  {
+   "chave": "SJP-SSA-economica",
+   "origem": "SJP",
+   "destino": "SSA",
+   "cidade": "Salvador",
+   "regiao": "brasil",
+   "regiao_nome": "Brasil",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 742.0,
+   "moeda": "BRL",
+   "ida": "2027-02-24",
+   "volta": "2027-03-01",
+   "referencia": 839.0,
+   "desconto": 0.1156,
+   "limite": 450.0,
+   "datas_baratas": [
+    {
+     "ida": "2027-02-24",
+     "volta": "2027-03-01",
+     "preco": 742.0
+    },
+    {
+     "ida": "2027-02-25",
+     "volta": "2027-03-02",
+     "preco": 742.0
+    },
+    {
+     "ida": "2027-03-08",
+     "volta": "2027-03-13",
+     "preco": 742.0
+    },
+    {
+     "ida": "2027-03-09",
+     "volta": "2027-03-14",
+     "preco": 742.0
+    },
+    {
+     "ida": "2027-03-10",
+     "volta": "2027-03-15",
+     "preco": 742.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20SSA%20from%20SJP%20on%202027-02-24%20through%202027-03-01%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/ssa/270224/270301/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-23T21:41+00:00"
+  },
+  {
+   "chave": "SJP-POA-economica",
+   "origem": "SJP",
+   "destino": "POA",
+   "cidade": "Porto Alegre",
+   "regiao": "brasil",
+   "regiao_nome": "Brasil",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 660.0,
+   "moeda": "BRL",
+   "ida": "2027-02-17",
+   "volta": "2027-02-22",
+   "referencia": 746.0,
+   "desconto": 0.1153,
+   "limite": 450.0,
+   "datas_baratas": [
+    {
+     "ida": "2027-02-17",
+     "volta": "2027-02-22",
+     "preco": 660.0
+    },
+    {
+     "ida": "2027-02-18",
+     "volta": "2027-02-23",
+     "preco": 660.0
+    },
+    {
+     "ida": "2027-02-23",
+     "volta": "2027-02-28",
+     "preco": 660.0
+    },
+    {
+     "ida": "2027-02-19",
+     "volta": "2027-02-24",
+     "preco": 680.0
+    },
+    {
+     "ida": "2027-02-20",
+     "volta": "2027-02-25",
+     "preco": 680.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20POA%20from%20SJP%20on%202027-02-17%20through%202027-02-22%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/poa/270217/270222/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-23T21:42+00:00"
+  },
+  {
+   "chave": "SJP-FLN-economica",
+   "origem": "SJP",
+   "destino": "FLN",
+   "cidade": "Florianópolis",
+   "regiao": "brasil",
+   "regiao_nome": "Brasil",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 540.0,
+   "moeda": "BRL",
+   "ida": "2027-05-31",
+   "volta": "2027-06-05",
+   "referencia": 603.0,
+   "desconto": 0.1045,
+   "limite": 450.0,
+   "datas_baratas": [
+    {
+     "ida": "2027-05-31",
+     "volta": "2027-06-05",
+     "preco": 540.0
+    },
+    {
+     "ida": "2027-06-01",
+     "volta": "2027-06-06",
+     "preco": 540.0
+    },
+    {
+     "ida": "2027-06-04",
+     "volta": "2027-06-09",
+     "preco": 540.0
+    },
+    {
+     "ida": "2027-06-08",
+     "volta": "2027-06-13",
+     "preco": 540.0
+    },
+    {
+     "ida": "2027-06-12",
+     "volta": "2027-06-17",
+     "preco": 540.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FLN%20from%20SJP%20on%202027-05-31%20through%202027-06-05%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/fln/270531/270605/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-23T21:42+00:00"
+  },
+  {
+   "chave": "SJP-NAT-economica",
+   "origem": "SJP",
+   "destino": "NAT",
+   "cidade": "Natal",
+   "regiao": "brasil",
+   "regiao_nome": "Brasil",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 1482.0,
+   "moeda": "BRL",
+   "ida": "2027-02-26",
+   "volta": "2027-03-03",
+   "referencia": 1643.0,
+   "desconto": 0.098,
+   "limite": 450.0,
+   "datas_baratas": [
+    {
+     "ida": "2027-02-26",
+     "volta": "2027-03-03",
+     "preco": 1482.0
+    },
+    {
+     "ida": "2027-02-27",
+     "volta": "2027-03-04",
+     "preco": 1482.0
+    },
+    {
+     "ida": "2027-03-05",
+     "volta": "2027-03-10",
+     "preco": 1482.0
+    },
+    {
+     "ida": "2027-03-08",
+     "volta": "2027-03-13",
+     "preco": 1482.0
+    },
+    {
+     "ida": "2027-02-24",
+     "volta": "2027-03-01",
+     "preco": 1483.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20NAT%20from%20SJP%20on%202027-02-26%20through%202027-03-03%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/nat/270226/270303/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-23T21:41+00:00"
+  },
+  {
+   "chave": "SJP-CNF-economica",
+   "origem": "SJP",
+   "destino": "CNF",
+   "cidade": "Belo Horizonte",
+   "regiao": "brasil",
+   "regiao_nome": "Brasil",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 654.0,
+   "moeda": "BRL",
+   "ida": "2027-02-23",
+   "volta": "2027-02-28",
+   "referencia": 719.0,
+   "desconto": 0.0904,
+   "limite": 450.0,
+   "datas_baratas": [
+    {
+     "ida": "2027-02-23",
+     "volta": "2027-02-28",
+     "preco": 654.0
+    },
+    {
+     "ida": "2027-02-24",
+     "volta": "2027-03-01",
+     "preco": 654.0
+    },
+    {
+     "ida": "2027-02-25",
+     "volta": "2027-03-02",
+     "preco": 654.0
+    },
+    {
+     "ida": "2027-02-26",
+     "volta": "2027-03-03",
+     "preco": 654.0
+    },
+    {
+     "ida": "2027-02-28",
+     "volta": "2027-03-05",
+     "preco": 654.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20CNF%20from%20SJP%20on%202027-02-23%20through%202027-02-28%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/cnf/270223/270228/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-23T21:42+00:00"
+  },
+  {
+   "chave": "SJP-EZE-executiva",
+   "origem": "SJP",
+   "destino": "EZE",
+   "cidade": "Buenos Aires",
+   "regiao": "america_do_sul",
+   "regiao_nome": "América do Sul",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 31892.0,
+   "moeda": "BRL",
+   "ida": "2027-03-25",
+   "volta": "2027-03-31",
+   "referencia": 34424.0,
+   "desconto": 0.0736,
+   "limite": 4500.0,
+   "datas_baratas": [
+    {
+     "ida": "2027-03-25",
+     "volta": "2027-03-31",
+     "preco": 31892.0
+    },
+    {
+     "ida": "2027-02-25",
+     "volta": "2027-03-03",
+     "preco": 34424.0
+    },
+    {
+     "ida": "2027-02-27",
+     "volta": "2027-03-05",
+     "preco": 34424.0
+    },
+    {
+     "ida": "2027-03-04",
+     "volta": "2027-03-10",
+     "preco": 34424.0
+    },
+    {
+     "ida": "2027-03-06",
+     "volta": "2027-03-12",
+     "preco": 34424.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20EZE%20from%20SJP%20on%202027-03-25%20through%202027-03-31%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/eze/270325/270331/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-23T21:44+00:00"
+  },
+  {
+   "chave": "SJP-CWB-economica",
+   "origem": "SJP",
+   "destino": "CWB",
+   "cidade": "Curitiba",
+   "regiao": "brasil",
+   "regiao_nome": "Brasil",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 806.0,
+   "moeda": "BRL",
+   "ida": "2027-02-21",
+   "volta": "2027-02-26",
+   "referencia": 844.0,
+   "desconto": 0.045,
+   "limite": 450.0,
+   "datas_baratas": [
+    {
+     "ida": "2027-02-21",
+     "volta": "2027-02-26",
+     "preco": 806.0
+    },
+    {
+     "ida": "2027-02-22",
+     "volta": "2027-02-27",
+     "preco": 806.0
+    },
+    {
+     "ida": "2027-02-23",
+     "volta": "2027-02-28",
+     "preco": 806.0
+    },
+    {
+     "ida": "2027-02-24",
+     "volta": "2027-03-01",
+     "preco": 806.0
+    },
+    {
+     "ida": "2027-02-25",
+     "volta": "2027-03-02",
+     "preco": 806.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20CWB%20from%20SJP%20on%202027-02-21%20through%202027-02-26%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/cwb/270221/270226/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-23T21:43+00:00"
+  },
+  {
+   "chave": "SJP-BRC-economica",
+   "origem": "SJP",
+   "destino": "BRC",
+   "cidade": "Bariloche",
+   "regiao": "america_do_sul",
+   "regiao_nome": "América do Sul",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 4285.0,
+   "moeda": "BRL",
+   "ida": "2027-04-26",
+   "volta": "2027-05-02",
+   "referencia": 4422.0,
+   "desconto": 0.031,
+   "limite": 1200.0,
+   "datas_baratas": [
+    {
+     "ida": "2027-04-26",
+     "volta": "2027-05-02",
+     "preco": 4285.0
+    },
+    {
+     "ida": "2027-06-10",
+     "volta": "2027-06-16",
+     "preco": 4559.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20BRC%20from%20SJP%20on%202027-04-26%20through%202027-05-02%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/brc/270426/270502/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-23T21:44+00:00"
+  },
+  {
+   "chave": "SJP-BEL-economica",
+   "origem": "SJP",
+   "destino": "BEL",
+   "cidade": "Belém",
+   "regiao": "brasil",
+   "regiao_nome": "Brasil",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 1498.0,
+   "moeda": "BRL",
+   "ida": "2027-02-21",
+   "volta": "2027-02-26",
+   "referencia": 1541.0,
+   "desconto": 0.0279,
+   "limite": 450.0,
+   "datas_baratas": [
+    {
+     "ida": "2027-02-21",
+     "volta": "2027-02-26",
+     "preco": 1498.0
+    },
+    {
+     "ida": "2027-02-23",
+     "volta": "2027-02-28",
+     "preco": 1498.0
+    },
+    {
+     "ida": "2027-02-24",
+     "volta": "2027-03-01",
+     "preco": 1498.0
+    },
+    {
+     "ida": "2027-02-25",
+     "volta": "2027-03-02",
+     "preco": 1498.0
+    },
+    {
+     "ida": "2027-02-26",
+     "volta": "2027-03-03",
+     "preco": 1498.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20BEL%20from%20SJP%20on%202027-02-21%20through%202027-02-26%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/bel/270221/270226/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-23T21:43+00:00"
+  },
+  {
+   "chave": "SJP-EZE-economica",
+   "origem": "SJP",
+   "destino": "EZE",
+   "cidade": "Buenos Aires",
+   "regiao": "america_do_sul",
+   "regiao_nome": "América do Sul",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 2765.0,
+   "moeda": "BRL",
+   "ida": "2027-02-13",
+   "volta": "2027-02-19",
+   "referencia": 2832.5,
+   "desconto": 0.0238,
+   "limite": 1200.0,
+   "datas_baratas": [
+    {
+     "ida": "2027-02-13",
+     "volta": "2027-02-19",
+     "preco": 2765.0
+    },
+    {
+     "ida": "2027-02-28",
+     "volta": "2027-03-06",
+     "preco": 2765.0
+    },
+    {
+     "ida": "2027-03-02",
+     "volta": "2027-03-08",
+     "preco": 2765.0
+    },
+    {
+     "ida": "2027-03-03",
+     "volta": "2027-03-09",
+     "preco": 2765.0
+    },
+    {
+     "ida": "2027-03-04",
+     "volta": "2027-03-10",
+     "preco": 2765.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20EZE%20from%20SJP%20on%202027-02-13%20through%202027-02-19%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/eze/270213/270219/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-23T21:44+00:00"
+  },
+  {
+   "chave": "SJP-FEN-economica",
+   "origem": "SJP",
+   "destino": "FEN",
+   "cidade": "Fernando de Noronha",
+   "regiao": "brasil",
+   "regiao_nome": "Brasil",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 2880.0,
+   "moeda": "BRL",
+   "ida": "2027-01-27",
+   "volta": "2027-02-01",
+   "referencia": 2880.0,
+   "desconto": 0.0,
+   "limite": 450.0,
+   "datas_baratas": [
+    {
+     "ida": "2027-01-27",
+     "volta": "2027-02-01",
+     "preco": 2880.0
+    },
+    {
+     "ida": "2027-01-29",
+     "volta": "2027-02-03",
+     "preco": 2880.0
+    },
+    {
+     "ida": "2027-01-31",
+     "volta": "2027-02-05",
+     "preco": 2880.0
+    },
+    {
+     "ida": "2027-02-03",
+     "volta": "2027-02-08",
+     "preco": 2880.0
+    },
+    {
+     "ida": "2027-02-10",
+     "volta": "2027-02-15",
+     "preco": 2880.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FEN%20from%20SJP%20on%202027-01-27%20through%202027-02-01%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/fen/270127/270201/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-23T21:42+00:00"
+  },
+  {
+   "chave": "SJP-IGU-economica",
+   "origem": "SJP",
+   "destino": "IGU",
+   "cidade": "Foz do Iguaçu",
+   "regiao": "brasil",
+   "regiao_nome": "Brasil",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 1007.0,
+   "moeda": "BRL",
+   "ida": "2027-06-19",
+   "volta": "2027-06-24",
+   "referencia": 1007.0,
+   "desconto": 0.0,
+   "limite": 450.0,
+   "datas_baratas": [
+    {
+     "ida": "2027-06-19",
+     "volta": "2027-06-24",
+     "preco": 1007.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20IGU%20from%20SJP%20on%202027-06-19%20through%202027-06-24%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/igu/270619/270624/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-23T21:43+00:00"
+  },
+  {
+   "chave": "SJP-MDZ-economica",
+   "origem": "SJP",
+   "destino": "MDZ",
+   "cidade": "Mendoza",
+   "regiao": "america_do_sul",
+   "regiao_nome": "América do Sul",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 2753.0,
+   "moeda": "BRL",
+   "ida": "2027-02-13",
+   "volta": "2027-02-19",
+   "referencia": 2753.0,
+   "desconto": 0.0,
+   "limite": 1200.0,
+   "datas_baratas": [
+    {
+     "ida": "2027-02-13",
+     "volta": "2027-02-19",
+     "preco": 2753.0
+    },
+    {
+     "ida": "2027-04-23",
+     "volta": "2027-04-29",
+     "preco": 2753.0
+    },
+    {
+     "ida": "2026-12-12",
+     "volta": "2026-12-18",
+     "preco": 3374.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MDZ%20from%20SJP%20on%202027-02-13%20through%202027-02-19%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/mdz/270213/270219/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-23T21:45+00:00"
+  },
+  {
+   "chave": "SJP-SCL-economica",
+   "origem": "SJP",
+   "destino": "SCL",
+   "cidade": "Santiago",
+   "regiao": "america_do_sul",
+   "regiao_nome": "América do Sul",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 2421.0,
+   "moeda": "BRL",
+   "ida": "2027-01-29",
+   "volta": "2027-02-04",
+   "referencia": 2421.0,
+   "desconto": 0.0,
+   "limite": 1200.0,
+   "datas_baratas": [
+    {
+     "ida": "2027-01-29",
+     "volta": "2027-02-04",
+     "preco": 2421.0
+    },
+    {
+     "ida": "2027-01-30",
+     "volta": "2027-02-05",
+     "preco": 2421.0
+    },
+    {
+     "ida": "2027-01-31",
+     "volta": "2027-02-06",
+     "preco": 2421.0
+    },
+    {
+     "ida": "2027-02-01",
+     "volta": "2027-02-07",
+     "preco": 2421.0
+    },
+    {
+     "ida": "2027-02-11",
+     "volta": "2027-02-17",
+     "preco": 2421.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20SCL%20from%20SJP%20on%202027-01-29%20through%202027-02-04%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/scl/270129/270204/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-23T21:45+00:00"
+  }
+ ]
+}
