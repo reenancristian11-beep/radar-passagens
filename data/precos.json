@@ -3252,5 +3252,420 @@
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/mxp/270126/270205/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
    "atualizado": "2026-11-23T23:13+00:00"
   }
+ },
+ "SJP-MXP-executiva": {
+  "historico": [
+   [
+    "2026-11-23T23:18+00:00",
+    24225.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-MXP-executiva",
+   "origem": "SJP",
+   "destino": "MXP",
+   "cidade": "Milão",
+   "regiao": "europa",
+   "regiao_nome": "Europa",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 24225.0,
+   "moeda": "BRL",
+   "ida": "2027-04-19",
+   "volta": "2027-04-29",
+   "referencia": 25248.0,
+   "desconto": 0.0405,
+   "limite": 10350.0,
+   "prioridade": "perto de Zurique (204 km)",
+   "datas_baratas": [
+    {
+     "ida": "2027-04-19",
+     "volta": "2027-04-29",
+     "preco": 24225.0
+    },
+    {
+     "ida": "2026-11-27",
+     "volta": "2026-12-07",
+     "preco": 25248.0
+    },
+    {
+     "ida": "2027-01-27",
+     "volta": "2027-02-06",
+     "preco": 30858.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MXP%20from%20SJP%20on%202027-04-19%20through%202027-04-29%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/mxp/270419/270429/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-23T23:18+00:00"
+  }
+ },
+ "SJP-MXP-primeira": {
+  "historico": [
+   [
+    "2026-11-23T23:19+00:00",
+    74550.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-MXP-primeira",
+   "origem": "SJP",
+   "destino": "MXP",
+   "cidade": "Milão",
+   "regiao": "europa",
+   "regiao_nome": "Europa",
+   "classe": "primeira",
+   "classe_nome": "Primeira Classe",
+   "preco": 74550.0,
+   "moeda": "BRL",
+   "ida": "2026-12-10",
+   "volta": "2026-12-20",
+   "referencia": 74550.0,
+   "desconto": 0.0,
+   "limite": 17250.0,
+   "prioridade": "perto de Zurique (204 km)",
+   "datas_baratas": [
+    {
+     "ida": "2026-12-10",
+     "volta": "2026-12-20",
+     "preco": 74550.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MXP%20from%20SJP%20on%202026-12-10%20through%202026-12-20%20first%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/mxp/261210/261220/?adultsv2=1&cabinclass=first&rtn=1",
+   "atualizado": "2026-11-23T23:19+00:00"
+  }
+ },
+ "SJP-DXB-economica": {
+  "historico": [
+   [
+    "2026-11-23T23:19+00:00",
+    8048.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-DXB-economica",
+   "origem": "SJP",
+   "destino": "DXB",
+   "cidade": "Dubai",
+   "regiao": "oriente_medio",
+   "regiao_nome": "Oriente Médio",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 8048.0,
+   "moeda": "BRL",
+   "ida": "2027-06-08",
+   "volta": "2027-06-18",
+   "referencia": 9620.5,
+   "desconto": 0.1635,
+   "limite": 4370.0,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-06-08",
+     "volta": "2027-06-18",
+     "preco": 8048.0
+    },
+    {
+     "ida": "2026-12-11",
+     "volta": "2026-12-21",
+     "preco": 11193.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20DXB%20from%20SJP%20on%202027-06-08%20through%202027-06-18%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/dxb/270608/270618/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-23T23:19+00:00"
+  }
+ },
+ "SJP-DXB-premium": {
+  "historico": [
+   [
+    "2026-11-23T23:20+00:00",
+    36256.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-DXB-premium",
+   "origem": "SJP",
+   "destino": "DXB",
+   "cidade": "Dubai",
+   "regiao": "oriente_medio",
+   "regiao_nome": "Oriente Médio",
+   "classe": "premium",
+   "classe_nome": "Premium Economy",
+   "preco": 36256.0,
+   "moeda": "BRL",
+   "ida": "2026-12-24",
+   "volta": "2027-01-03",
+   "referencia": 36256.0,
+   "desconto": 0.0,
+   "limite": 6899.999999999999,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2026-12-24",
+     "volta": "2027-01-03",
+     "preco": 36256.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20DXB%20from%20SJP%20on%202026-12-24%20through%202027-01-03%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/dxb/261224/270103/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-23T23:20+00:00"
+  }
+ },
+ "SJP-DXB-executiva": {
+  "historico": [
+   [
+    "2026-11-23T23:20+00:00",
+    28565.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-DXB-executiva",
+   "origem": "SJP",
+   "destino": "DXB",
+   "cidade": "Dubai",
+   "regiao": "oriente_medio",
+   "regiao_nome": "Oriente Médio",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 28565.0,
+   "moeda": "BRL",
+   "ida": "2027-02-24",
+   "volta": "2027-03-06",
+   "referencia": 28565.0,
+   "desconto": 0.0,
+   "limite": 11500.0,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-24",
+     "volta": "2027-03-06",
+     "preco": 28565.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20DXB%20from%20SJP%20on%202027-02-24%20through%202027-03-06%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/dxb/270224/270306/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-23T23:20+00:00"
+  }
+ },
+ "SJP-DXB-primeira": {
+  "historico": [
+   [
+    "2026-11-23T23:21+00:00",
+    104783.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-DXB-primeira",
+   "origem": "SJP",
+   "destino": "DXB",
+   "cidade": "Dubai",
+   "regiao": "oriente_medio",
+   "regiao_nome": "Oriente Médio",
+   "classe": "primeira",
+   "classe_nome": "Primeira Classe",
+   "preco": 104783.0,
+   "moeda": "BRL",
+   "ida": "2027-02-11",
+   "volta": "2027-02-21",
+   "referencia": 104783.0,
+   "desconto": 0.0,
+   "limite": 20700.0,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-11",
+     "volta": "2027-02-21",
+     "preco": 104783.0
+    },
+    {
+     "ida": "2027-06-06",
+     "volta": "2027-06-16",
+     "preco": 104783.0
+    },
+    {
+     "ida": "2026-12-10",
+     "volta": "2026-12-20",
+     "preco": 123002.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20DXB%20from%20SJP%20on%202027-02-11%20through%202027-02-21%20first%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/dxb/270211/270221/?adultsv2=1&cabinclass=first&rtn=1",
+   "atualizado": "2026-11-23T23:21+00:00"
+  }
+ },
+ "SJP-AUH-economica": {
+  "historico": [
+   [
+    "2026-11-23T23:21+00:00",
+    9438.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-AUH-economica",
+   "origem": "SJP",
+   "destino": "AUH",
+   "cidade": "Abu Dhabi",
+   "regiao": "oriente_medio",
+   "regiao_nome": "Oriente Médio",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 9438.0,
+   "moeda": "BRL",
+   "ida": "2027-02-16",
+   "volta": "2027-02-26",
+   "referencia": 13642.5,
+   "desconto": 0.3082,
+   "limite": 4370.0,
+   "prioridade": "perto de Dubai (116 km)",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-16",
+     "volta": "2027-02-26",
+     "preco": 9438.0
+    },
+    {
+     "ida": "2026-12-02",
+     "volta": "2026-12-12",
+     "preco": 17847.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20AUH%20from%20SJP%20on%202027-02-16%20through%202027-02-26%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/auh/270216/270226/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-23T23:21+00:00"
+  }
+ },
+ "SJP-AUH-premium": {
+  "historico": [
+   [
+    "2026-11-23T23:22+00:00",
+    35836.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-AUH-premium",
+   "origem": "SJP",
+   "destino": "AUH",
+   "cidade": "Abu Dhabi",
+   "regiao": "oriente_medio",
+   "regiao_nome": "Oriente Médio",
+   "classe": "premium",
+   "classe_nome": "Premium Economy",
+   "preco": 35836.0,
+   "moeda": "BRL",
+   "ida": "2027-02-22",
+   "volta": "2027-03-04",
+   "referencia": 35836.0,
+   "desconto": 0.0,
+   "limite": 6899.999999999999,
+   "prioridade": "perto de Dubai (116 km)",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-22",
+     "volta": "2027-03-04",
+     "preco": 35836.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20AUH%20from%20SJP%20on%202027-02-22%20through%202027-03-04%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/auh/270222/270304/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-23T23:22+00:00"
+  }
+ },
+ "SJP-AUH-executiva": {
+  "historico": [
+   [
+    "2026-11-23T23:22+00:00",
+    38550.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-AUH-executiva",
+   "origem": "SJP",
+   "destino": "AUH",
+   "cidade": "Abu Dhabi",
+   "regiao": "oriente_medio",
+   "regiao_nome": "Oriente Médio",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 38550.0,
+   "moeda": "BRL",
+   "ida": "2027-06-05",
+   "volta": "2027-06-15",
+   "referencia": 48924.5,
+   "desconto": 0.2121,
+   "limite": 11500.0,
+   "prioridade": "perto de Dubai (116 km)",
+   "datas_baratas": [
+    {
+     "ida": "2027-06-05",
+     "volta": "2027-06-15",
+     "preco": 38550.0
+    },
+    {
+     "ida": "2026-12-12",
+     "volta": "2026-12-22",
+     "preco": 59299.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20AUH%20from%20SJP%20on%202027-06-05%20through%202027-06-15%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/auh/270605/270615/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-23T23:22+00:00"
+  }
+ },
+ "SJP-AUH-primeira": {
+  "historico": [
+   [
+    "2026-11-23T23:23+00:00",
+    143303.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-AUH-primeira",
+   "origem": "SJP",
+   "destino": "AUH",
+   "cidade": "Abu Dhabi",
+   "regiao": "oriente_medio",
+   "regiao_nome": "Oriente Médio",
+   "classe": "primeira",
+   "classe_nome": "Primeira Classe",
+   "preco": 143303.0,
+   "moeda": "BRL",
+   "ida": "2026-12-12",
+   "volta": "2026-12-22",
+   "referencia": 143303.0,
+   "desconto": 0.0,
+   "limite": 20700.0,
+   "prioridade": "perto de Dubai (116 km)",
+   "datas_baratas": [
+    {
+     "ida": "2026-12-12",
+     "volta": "2026-12-22",
+     "preco": 143303.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20AUH%20from%20SJP%20on%202026-12-12%20through%202026-12-22%20first%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/auh/261212/261222/?adultsv2=1&cabinclass=first&rtn=1",
+   "atualizado": "2026-11-23T23:23+00:00"
+  }
  }
 }
