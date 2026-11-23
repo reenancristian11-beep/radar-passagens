@@ -14,7 +14,7 @@ import time
 from datetime import date, datetime, timezone
 from pathlib import Path
 
-from .alertas import enviar_alertas
+from .alertas import enviar_alertas, testar_alertas
 from .busca import buscar_calendario
 from .config import RAIZ, carregar_config, montar_rotas
 from .promocoes import avaliar, deve_alertar
@@ -169,7 +169,15 @@ def main() -> None:
     p.add_argument("--quantidade", type=int, help="quantas rotas pesquisar nesta rodada")
     p.add_argument("--rota", help="pesquisar só uma rota, ex.: GRU-LIS-executiva")
     p.add_argument("--sem-alertas", action="store_true", help="não envia Telegram/e-mail")
-    resultado = executar(p.parse_args())
+    p.add_argument("--testar-alerta", action="store_true", help="só manda uma mensagem de teste")
+    args = p.parse_args()
+    if args.testar_alerta:
+        site = ler_json(DADOS / "site.json", {})
+        promos = [r for r in site.get("rotas", []) if r.get("promocao")]
+        canais = testar_alertas(os.environ.get("SITE_URL"), promos[0] if promos else None)
+        print(f"Mensagem de teste enviada por: {', '.join(canais)}")
+        return
+    resultado = executar(args)
     if resultado["pesquisadas"] == 0:
         raise SystemExit(1)
 

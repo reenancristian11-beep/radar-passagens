@@ -3,7 +3,12 @@ name: Radar de passagens
 on:
   schedule:
     - cron: "17,47 * * * *"   # a cada 30 minutos
-  workflow_dispatch: {}       # botão "Run workflow" para rodar na hora
+  workflow_dispatch:          # botão "Run workflow" para rodar na hora
+    inputs:
+      testar_alerta:
+        description: "Só mandar uma mensagem de teste no Telegram/e-mail"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -36,10 +41,10 @@ jobs:
           SMTP_SENHA: ${{ secrets.SMTP_SENHA }}
           EMAIL_PARA: ${{ secrets.EMAIL_PARA }}
           SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
-        run: python -u -m radar
+        run: python -u -m radar ${{ inputs.testar_alerta && '--testar-alerta' || '' }}
 
       - name: Salvar preços no repositório
-        if: always()
+        if: always() && !inputs.testar_alerta
         run: |
           git config user.name "radar-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

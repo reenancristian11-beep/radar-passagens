@@ -178,3 +178,16 @@ def test_preco_caro_nao_vira_promocao_so_por_desconto():
     # Caso real da 1ª execução: SJP→Fortaleza a R$ 1.445, 40% abaixo das outras datas.
     r = avaliar(rota("SJP-FOR-economica"), calendario([1445] + [2500] * 20), [], CFG)
     assert not r["promocao"]
+
+
+def test_mensagem_de_teste(monkeypatch):
+    from radar import alertas
+
+    enviadas = []
+    monkeypatch.setenv("TELEGRAM_BOT_TOKEN", "x")
+    monkeypatch.setenv("TELEGRAM_CHAT_ID", "1")
+    monkeypatch.delenv("SMTP_USUARIO", raising=False)
+    monkeypatch.setattr(alertas, "enviar_telegram", lambda m: enviadas.append(m) or True)
+    promo = avaliar(rota("SJP-BSB-economica"), calendario([376, 700]), [], CFG)
+    assert alertas.testar_alertas("https://site/", promo) == ["telegram"]
+    assert "conectado" in enviadas[0] and "Brasília" in enviadas[0]

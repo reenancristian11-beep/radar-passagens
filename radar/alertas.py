@@ -12,6 +12,7 @@ import html
 import json
 import os
 import smtplib
+import urllib.error
 import urllib.request
 from email.message import EmailMessage
 
@@ -110,4 +111,35 @@ def enviar_alertas(resultados: list[dict], site: str | None = None) -> list[str]
     except Exception as erro:
         print(f"[alerta] Falha no e-mail: {erro}")
 
+    return canais
+
+
+def testar_alertas(site: str | None = None, promocao: dict | None = None) -> list[str]:
+    """Manda uma mensagem de teste em cada canal configurado.
+
+    Diferente do envio normal, aqui um erro interrompe com a mensagem do
+    problema, para ficar fácil descobrir o que está errado no log.
+    """
+    partes = ["✅ <b>Radar de Passagens conectado!</b>",
+              "Os alertas de promoção vão chegar aqui."]
+    if site:
+        partes.append(f'<a href="{html.escape(site)}">Abrir o site do radar</a>')
+    if promocao:
+        partes += ["", "Exemplo com uma promoção atual:", "", texto_alerta(promocao, None)]
+    mensagem = "\n".join(partes)
+
+    canais: list[str] = []
+    if os.environ.get("TELEGRAM_BOT_TOKEN"):
+        if not os.environ.get("TELEGRAM_CHAT_ID"):
+            raise SystemExit("Falta o secret TELEGRAM_CHAT_ID.")
+        try:
+            enviar_telegram(mensagem)
+        except urllib.error.HTTPError as erro:
+            detalhe = erro.read().decode(errors="replace")
+            raise SystemExit(f"Telegram recusou ({erro.code}): {detalhe}") from None
+        canais.append("telegram")
+    if os.environ.get("SMTP_USUARIO") and enviar_email("✅ Radar de Passagens conectado", mensagem):
+        canais.append("email")
+    if not canais:
+        raise SystemExit("Nenhum canal configurado (TELEGRAM_BOT_TOKEN / SMTP_USUARIO).")
     return canais
