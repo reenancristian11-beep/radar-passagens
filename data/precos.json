@@ -2685,5 +2685,523 @@
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/muc/261220/261230/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
    "atualizado": "2026-11-23T22:42+00:00"
   }
+ },
+ "SJP-MUC-executiva": {
+  "historico": [
+   [
+    "2026-11-23T23:02+00:00",
+    21724.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-MUC-executiva",
+   "origem": "SJP",
+   "destino": "MUC",
+   "cidade": "Munique",
+   "regiao": "europa",
+   "regiao_nome": "Europa",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 21724.0,
+   "moeda": "BRL",
+   "ida": "2027-02-10",
+   "volta": "2027-02-20",
+   "referencia": 24093.0,
+   "desconto": 0.0983,
+   "limite": 10350.0,
+   "prioridade": "perto de Zurique (261 km)",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-10",
+     "volta": "2027-02-20",
+     "preco": 21724.0
+    },
+    {
+     "ida": "2027-06-22",
+     "volta": "2027-07-02",
+     "preco": 24093.0
+    },
+    {
+     "ida": "2027-04-18",
+     "volta": "2027-04-28",
+     "preco": 24139.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MUC%20from%20SJP%20on%202027-02-10%20through%202027-02-20%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/muc/270210/270220/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-23T23:02+00:00"
+  }
+ },
+ "SJP-MUC-primeira": {
+  "historico": [
+   [
+    "2026-11-23T23:03+00:00",
+    115955.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-MUC-primeira",
+   "origem": "SJP",
+   "destino": "MUC",
+   "cidade": "Munique",
+   "regiao": "europa",
+   "regiao_nome": "Europa",
+   "classe": "primeira",
+   "classe_nome": "Primeira Classe",
+   "preco": 115955.0,
+   "moeda": "BRL",
+   "ida": "2027-02-03",
+   "volta": "2027-02-13",
+   "referencia": 115955.0,
+   "desconto": 0.0,
+   "limite": 17250.0,
+   "prioridade": "perto de Zurique (261 km)",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-03",
+     "volta": "2027-02-13",
+     "preco": 115955.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MUC%20from%20SJP%20on%202027-02-03%20through%202027-02-13%20first%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/muc/270203/270213/?adultsv2=1&cabinclass=first&rtn=1",
+   "atualizado": "2026-11-23T23:03+00:00"
+  }
+ },
+ "SJP-ZRH-economica": {
+  "historico": [
+   [
+    "2026-11-23T23:03+00:00",
+    6328.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-ZRH-economica",
+   "origem": "SJP",
+   "destino": "ZRH",
+   "cidade": "Zurique",
+   "regiao": "europa",
+   "regiao_nome": "Europa",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 6328.0,
+   "moeda": "BRL",
+   "ida": "2027-03-31",
+   "volta": "2027-04-10",
+   "referencia": 7119.0,
+   "desconto": 0.1111,
+   "limite": 3219.9999999999995,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-03-31",
+     "volta": "2027-04-10",
+     "preco": 6328.0
+    },
+    {
+     "ida": "2027-06-26",
+     "volta": "2027-07-06",
+     "preco": 7019.0
+    },
+    {
+     "ida": "2027-02-07",
+     "volta": "2027-02-17",
+     "preco": 7219.0
+    },
+    {
+     "ida": "2026-12-20",
+     "volta": "2026-12-30",
+     "preco": 9902.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20ZRH%20from%20SJP%20on%202027-03-31%20through%202027-04-10%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/zrh/270331/270410/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-23T23:03+00:00"
+  }
+ },
+ "SJP-ZRH-premium": {
+  "historico": [
+   [
+    "2026-11-23T23:04+00:00",
+    13747.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-ZRH-premium",
+   "origem": "SJP",
+   "destino": "ZRH",
+   "cidade": "Zurique",
+   "regiao": "europa",
+   "regiao_nome": "Europa",
+   "classe": "premium",
+   "classe_nome": "Premium Economy",
+   "preco": 13747.0,
+   "moeda": "BRL",
+   "ida": "2027-02-07",
+   "volta": "2027-02-17",
+   "referencia": 16067.0,
+   "desconto": 0.1444,
+   "limite": 5750.0,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-07",
+     "volta": "2027-02-17",
+     "preco": 13747.0
+    },
+    {
+     "ida": "2027-04-08",
+     "volta": "2027-04-18",
+     "preco": 16067.0
+    },
+    {
+     "ida": "2026-12-11",
+     "volta": "2026-12-21",
+     "preco": 22003.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20ZRH%20from%20SJP%20on%202027-02-07%20through%202027-02-17%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/zrh/270207/270217/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-23T23:04+00:00"
+  }
+ },
+ "SJP-ZRH-executiva": {
+  "historico": [
+   [
+    "2026-11-23T23:04+00:00",
+    24512.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-ZRH-executiva",
+   "origem": "SJP",
+   "destino": "ZRH",
+   "cidade": "Zurique",
+   "regiao": "europa",
+   "regiao_nome": "Europa",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 24512.0,
+   "moeda": "BRL",
+   "ida": "2027-04-14",
+   "volta": "2027-04-24",
+   "referencia": 24880.0,
+   "desconto": 0.0148,
+   "limite": 10350.0,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-04-14",
+     "volta": "2027-04-24",
+     "preco": 24512.0
+    },
+    {
+     "ida": "2027-02-06",
+     "volta": "2027-02-16",
+     "preco": 24880.0
+    },
+    {
+     "ida": "2027-05-30",
+     "volta": "2027-06-09",
+     "preco": 24880.0
+    },
+    {
+     "ida": "2026-12-02",
+     "volta": "2026-12-12",
+     "preco": 72010.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20ZRH%20from%20SJP%20on%202027-04-14%20through%202027-04-24%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/zrh/270414/270424/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-23T23:04+00:00"
+  }
+ },
+ "SJP-ZRH-primeira": {
+  "historico": [
+   [
+    "2026-11-23T23:05+00:00",
+    86986.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-ZRH-primeira",
+   "origem": "SJP",
+   "destino": "ZRH",
+   "cidade": "Zurique",
+   "regiao": "europa",
+   "regiao_nome": "Europa",
+   "classe": "primeira",
+   "classe_nome": "Primeira Classe",
+   "preco": 86986.0,
+   "moeda": "BRL",
+   "ida": "2026-12-12",
+   "volta": "2026-12-22",
+   "referencia": 103859.0,
+   "desconto": 0.1625,
+   "limite": 17250.0,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2026-12-12",
+     "volta": "2026-12-22",
+     "preco": 86986.0
+    },
+    {
+     "ida": "2027-01-30",
+     "volta": "2027-02-09",
+     "preco": 103846.0
+    },
+    {
+     "ida": "2027-04-04",
+     "volta": "2027-04-14",
+     "preco": 103872.0
+    },
+    {
+     "ida": "2027-06-19",
+     "volta": "2027-06-29",
+     "preco": 134948.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20ZRH%20from%20SJP%20on%202026-12-12%20through%202026-12-22%20first%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/zrh/261212/261222/?adultsv2=1&cabinclass=first&rtn=1",
+   "atualizado": "2026-11-23T23:05+00:00"
+  }
+ },
+ "SJP-FCO-economica": {
+  "historico": [
+   [
+    "2026-11-23T23:05+00:00",
+    6228.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-FCO-economica",
+   "origem": "SJP",
+   "destino": "FCO",
+   "cidade": "Roma",
+   "regiao": "europa",
+   "regiao_nome": "Europa",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 6228.0,
+   "moeda": "BRL",
+   "ida": "2027-02-07",
+   "volta": "2027-02-17",
+   "referencia": 6933.5,
+   "desconto": 0.1018,
+   "limite": 3219.9999999999995,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-07",
+     "volta": "2027-02-17",
+     "preco": 6228.0
+    },
+    {
+     "ida": "2027-06-21",
+     "volta": "2027-07-01",
+     "preco": 7639.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FCO%20from%20SJP%20on%202027-02-07%20through%202027-02-17%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/fco/270207/270217/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-23T23:05+00:00"
+  }
+ },
+ "SJP-FCO-premium": {
+  "historico": [
+   [
+    "2026-11-23T23:06+00:00",
+    17187.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-FCO-premium",
+   "origem": "SJP",
+   "destino": "FCO",
+   "cidade": "Roma",
+   "regiao": "europa",
+   "regiao_nome": "Europa",
+   "classe": "premium",
+   "classe_nome": "Premium Economy",
+   "preco": 17187.0,
+   "moeda": "BRL",
+   "ida": "2027-06-21",
+   "volta": "2027-07-01",
+   "referencia": 17913.0,
+   "desconto": 0.0405,
+   "limite": 5750.0,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-06-21",
+     "volta": "2027-07-01",
+     "preco": 17187.0
+    },
+    {
+     "ida": "2026-12-01",
+     "volta": "2026-12-11",
+     "preco": 17913.0
+    },
+    {
+     "ida": "2027-01-30",
+     "volta": "2027-02-09",
+     "preco": 17950.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FCO%20from%20SJP%20on%202027-06-21%20through%202027-07-01%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/fco/270621/270701/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-23T23:06+00:00"
+  }
+ },
+ "SJP-FCO-executiva": {
+  "historico": [
+   [
+    "2026-11-23T23:06+00:00",
+    23998.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-FCO-executiva",
+   "origem": "SJP",
+   "destino": "FCO",
+   "cidade": "Roma",
+   "regiao": "europa",
+   "regiao_nome": "Europa",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 23998.0,
+   "moeda": "BRL",
+   "ida": "2027-06-26",
+   "volta": "2027-07-06",
+   "referencia": 24419.5,
+   "desconto": 0.0173,
+   "limite": 10350.0,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-06-26",
+     "volta": "2027-07-06",
+     "preco": 23998.0
+    },
+    {
+     "ida": "2027-04-09",
+     "volta": "2027-04-19",
+     "preco": 24841.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FCO%20from%20SJP%20on%202027-06-26%20through%202027-07-06%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/fco/270626/270706/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-23T23:06+00:00"
+  }
+ },
+ "SJP-FCO-primeira": {
+  "historico": [
+   [
+    "2026-11-23T23:07+00:00",
+    74543.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-FCO-primeira",
+   "origem": "SJP",
+   "destino": "FCO",
+   "cidade": "Roma",
+   "regiao": "europa",
+   "regiao_nome": "Europa",
+   "classe": "primeira",
+   "classe_nome": "Primeira Classe",
+   "preco": 74543.0,
+   "moeda": "BRL",
+   "ida": "2026-12-02",
+   "volta": "2026-12-12",
+   "referencia": 93097.0,
+   "desconto": 0.1993,
+   "limite": 17250.0,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2026-12-02",
+     "volta": "2026-12-12",
+     "preco": 74543.0
+    },
+    {
+     "ida": "2027-01-30",
+     "volta": "2027-02-09",
+     "preco": 111651.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FCO%20from%20SJP%20on%202026-12-02%20through%202026-12-12%20first%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/fco/261202/261212/?adultsv2=1&cabinclass=first&rtn=1",
+   "atualizado": "2026-11-23T23:07+00:00"
+  }
+ },
+ "SJP-MXP-economica": {
+  "historico": [
+   [
+    "2026-11-23T23:07+00:00",
+    5894.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-MXP-economica",
+   "origem": "SJP",
+   "destino": "MXP",
+   "cidade": "Milão",
+   "regiao": "europa",
+   "regiao_nome": "Europa",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 5894.0,
+   "moeda": "BRL",
+   "ida": "2027-03-28",
+   "volta": "2027-04-07",
+   "referencia": 6025.0,
+   "desconto": 0.0217,
+   "limite": 3219.9999999999995,
+   "prioridade": "perto de Zurique (204 km)",
+   "datas_baratas": [
+    {
+     "ida": "2027-03-28",
+     "volta": "2027-04-07",
+     "preco": 5894.0
+    },
+    {
+     "ida": "2026-11-30",
+     "volta": "2026-12-10",
+     "preco": 6025.0
+    },
+    {
+     "ida": "2027-02-21",
+     "volta": "2027-03-03",
+     "preco": 6141.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MXP%20from%20SJP%20on%202027-03-28%20through%202027-04-07%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/mxp/270328/270407/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-23T23:07+00:00"
+  }
  }
 }
