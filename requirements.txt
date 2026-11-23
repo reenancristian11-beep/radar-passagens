@@ -1,0 +1,2 @@
+flights==0.9.0   # biblioteca "fli" (consulta o Google Flights, sem chave de API)
+PyYAML>=6.0

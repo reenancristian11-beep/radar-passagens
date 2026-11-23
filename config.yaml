@@ -1,0 +1,179 @@
+# =====================================================================
+#  Radar de Passagens — configuração
+#  Edite este arquivo para mudar origens, destinos, classes e limites.
+#  Todos os preços são em reais (BRL), por pessoa, IDA E VOLTA.
+# =====================================================================
+
+moeda: BRL
+idioma: pt-BR
+pais: BR
+
+# Aeroportos de origem (prioritários). Remova ou adicione códigos IATA.
+origens:
+  - SJP   # São José do Rio Preto
+  - GRU   # Guarulhos
+  - VCP   # Campinas / Viracopos
+  - CGH   # Congonhas
+
+# Nomes das classes usados no site e nos alertas.
+classes:
+  economica: { google: ECONOMY,         nome: "Econômica" }
+  premium:   { google: PREMIUM_ECONOMY, nome: "Premium Economy" }
+  executiva: { google: BUSINESS,        nome: "Executiva" }
+  primeira:  { google: FIRST,           nome: "Primeira Classe" }
+
+# Janela de datas pesquisada (as datas não importam: o radar olha todas).
+datas:
+  comecar_em_dias: 3      # ignora voos nos próximos N dias
+  horizonte_dias: 240     # olha até ~8 meses à frente (máximo do Google: ~300)
+
+# Quanto da lista é pesquisado a cada execução (o radar faz rodízio).
+varredura:
+  combinacoes_por_execucao: 50
+  pausa_entre_buscas_segundos: 3
+  parar_apos_falhas_seguidas: 5   # se o Google bloquear, para e tenta na próxima
+
+# Quando um preço vira "promoção" (basta UMA das regras):
+promocao:
+  # 1) preço abaixo do limite fixo da região/classe (tabela em "regioes")
+  usar_limite_fixo: true
+  # 2) preço X% abaixo da mediana das varreduras anteriores da mesma rota
+  queda_vs_historico_pct: 20
+  amostras_minimas_historico: 3
+  # 3) data mais barata X% abaixo da mediana do calendário inteiro da rota
+  #    (pega "tarifas erro" e promoções relâmpago já na primeira varredura)
+  desconto_vs_calendario_pct: 40
+  # Evita alertas repetidos
+  realertar_apos_dias: 7
+  realertar_se_cair_mais_pct: 5
+  maximo_alertas_por_execucao: 15
+
+# Regiões: classes pesquisadas, duração da viagem e limites fixos (R$ ida e volta).
+# Os limites são estimativas iniciais de "preço bom" — ajuste com o tempo.
+regioes:
+  brasil:
+    nome: "Brasil"
+    duracao_dias: 5
+    classes: { economica: 450 }
+  america_do_sul:
+    nome: "América do Sul"
+    duracao_dias: 6
+    classes: { economica: 1200, executiva: 4500 }
+  america_norte_central:
+    nome: "América do Norte, Central e Caribe"
+    duracao_dias: 10
+    classes: { economica: 2600, premium: 4500, executiva: 8000, primeira: 12000 }
+  europa:
+    nome: "Europa"
+    duracao_dias: 10
+    classes: { economica: 2800, premium: 5000, executiva: 9000, primeira: 15000 }
+  africa:
+    nome: "África"
+    duracao_dias: 10
+    classes: { economica: 3200, premium: 5500, executiva: 10000, primeira: 16000 }
+  oriente_medio:
+    nome: "Oriente Médio"
+    duracao_dias: 10
+    classes: { economica: 3800, premium: 6000, executiva: 10000, primeira: 18000 }
+  asia:
+    nome: "Ásia"
+    duracao_dias: 14
+    classes: { economica: 4500, premium: 7500, executiva: 13000, primeira: 22000 }
+  oceania:
+    nome: "Oceania"
+    duracao_dias: 14
+    classes: { economica: 5000, premium: 8000, executiva: 14000, primeira: 24000 }
+
+# Destinos por região (código IATA: nome da cidade).
+destinos:
+  brasil:
+    REC: Recife
+    SSA: Salvador
+    FOR: Fortaleza
+    NAT: Natal
+    MCZ: Maceió
+    JPA: João Pessoa
+    BPS: Porto Seguro
+    FEN: Fernando de Noronha
+    GIG: Rio de Janeiro
+    BSB: Brasília
+    CNF: Belo Horizonte
+    FLN: Florianópolis
+    POA: Porto Alegre
+    CWB: Curitiba
+    IGU: Foz do Iguaçu
+    MAO: Manaus
+    BEL: Belém
+  america_do_sul:
+    EZE: Buenos Aires
+    BRC: Bariloche
+    MDZ: Mendoza
+    SCL: Santiago
+    MVD: Montevidéu
+    PDP: Punta del Este
+    ASU: Assunção
+    LIM: Lima
+    CUZ: Cusco
+    BOG: Bogotá
+    CTG: Cartagena
+    UIO: Quito
+  america_norte_central:
+    MIA: Miami
+    MCO: Orlando
+    JFK: Nova York
+    BOS: Boston
+    ORD: Chicago
+    LAS: Las Vegas
+    LAX: Los Angeles
+    SFO: São Francisco
+    YYZ: Toronto
+    MEX: Cidade do México
+    CUN: Cancún
+    PTY: Cidade do Panamá
+    PUJ: Punta Cana
+    AUA: Aruba
+    CUR: Curaçao
+  europa:
+    LIS: Lisboa
+    OPO: Porto
+    MAD: Madri
+    BCN: Barcelona
+    CDG: Paris
+    LHR: Londres
+    DUB: Dublin
+    AMS: Amsterdã
+    FRA: Frankfurt
+    MUC: Munique
+    ZRH: Zurique
+    VIE: Viena
+    PRG: Praga
+    FCO: Roma
+    MXP: Milão
+    ATH: Atenas
+    IST: Istambul
+  africa:
+    JNB: Joanesburgo
+    CPT: Cidade do Cabo
+    CMN: Casablanca
+    CAI: Cairo
+    LAD: Luanda
+  oriente_medio:
+    DXB: Dubai
+    AUH: Abu Dhabi
+    DOH: Doha
+    TLV: Tel Aviv
+  asia:
+    NRT: Tóquio
+    ICN: Seul
+    PVG: Xangai
+    HKG: Hong Kong
+    BKK: Bangkok
+    SIN: Singapura
+    DPS: Bali
+    DEL: Nova Délhi
+    MLE: Maldivas
+  oceania:
+    SYD: Sydney
+    MEL: Melbourne
+    AKL: Auckland
+    PPT: Taiti

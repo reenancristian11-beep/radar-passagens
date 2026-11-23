@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Radar de Passagens</title>
+<meta name="description" content="Promoções de passagens aéreas saindo de SJP, GRU, VCP e CGH em econômica, premium, executiva e primeira classe.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✈️</text></svg>">
+<style>
+  :root {
+    --bg: #f6f7f9; --surface: #ffffff; --text: #16191d; --muted: #5d6670;
+    --line: #e2e5ea; --accent: #0b63ce; --accent-soft: #e7f0fc;
+    --deal: #0f7a3d; --deal-soft: #e5f5ec; --chip: #eef0f3;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1216; --surface: #171b21; --text: #e8ebef; --muted: #9aa4ae;
+      --line: #2a3038; --accent: #5aa2ff; --accent-soft: #172a44;
+      --deal: #4fd08a; --deal-soft: #12301f; --chip: #222831;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+    font: 15px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  header, main { max-width: 1100px; margin: 0 auto; padding: 0 16px; }
+  header { padding-top: 28px; padding-bottom: 8px; }
+  h1 { font-size: 26px; margin: 0 0 4px; letter-spacing: -0.01em; }
+  .sub { color: var(--muted); margin: 0; }
+  .filtros { display: grid; gap: 12px; background: var(--surface); border: 1px solid var(--line);
+    border-radius: 12px; padding: 14px; margin: 18px 0; }
+  .grupo { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+  .grupo > span { color: var(--muted); font-size: 13px; min-width: 64px; }
+  .chip { border: 1px solid var(--line); background: var(--chip); color: var(--text); border-radius: 999px;
+    padding: 5px 12px; font: inherit; font-size: 14px; cursor: pointer; }
+  .chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+  select, input[type=search] { font: inherit; font-size: 14px; padding: 6px 10px; border-radius: 8px;
+    border: 1px solid var(--line); background: var(--surface); color: var(--text); }
+  input[type=search] { flex: 1; min-width: 160px; }
+  .resumo { color: var(--muted); font-size: 14px; margin: 0 0 12px; }
+  .lista { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; padding-bottom: 40px; }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 14px;
+    display: flex; flex-direction: column; gap: 6px; }
+  .card.promo { border-color: var(--deal); box-shadow: inset 4px 0 0 var(--deal); }
+  .topo { display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
+  .rota { font-weight: 650; font-size: 16px; }
+  .rota small { color: var(--muted); font-weight: 400; }
+  .tag { font-size: 12px; padding: 2px 8px; border-radius: 6px; background: var(--accent-soft); color: var(--accent); white-space: nowrap; }
+  .tag.deal { background: var(--deal-soft); color: var(--deal); font-weight: 600; }
+  .preco { font-size: 24px; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .preco s { font-size: 14px; color: var(--muted); font-weight: 400; margin-left: 6px; }
+  .meta { color: var(--muted); font-size: 13px; }
+  .motivos { font-size: 13px; color: var(--deal); }
+  .links { display: flex; gap: 12px; margin-top: auto; padding-top: 6px; font-size: 14px; }
+  .links a { color: var(--accent); text-decoration: none; font-weight: 600; }
+  .links a:hover { text-decoration: underline; }
+  .vazio { grid-column: 1 / -1; text-align: center; color: var(--muted); padding: 40px 0; }
+  footer { max-width: 1100px; margin: 0 auto; padding: 0 16px 32px; color: var(--muted); font-size: 12px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>✈️ Radar de Passagens</h1>
+  <p class="sub" id="sub">Carregando…</p>
+</header>
+<main>
+  <section class="filtros" aria-label="Filtros">
+    <div class="grupo" id="f-origem"><span>Origem</span></div>
+    <div class="grupo" id="f-classe"><span>Classe</span></div>
+    <div class="grupo">
+      <span>Região</span>
+      <select id="f-regiao"><option value="">Todas</option></select>
+      <select id="f-ordem" aria-label="Ordenar">
+        <option value="desconto">Maior desconto</option>
+        <option value="preco">Menor preço</option>
+        <option value="ida">Data mais próxima</option>
+      </select>
+      <button class="chip" id="f-promo" aria-pressed="true">Só promoções</button>
+    </div>
+    <div class="grupo"><span>Buscar</span><input type="search" id="f-busca" placeholder="Cidade ou código (ex.: Lisboa, MIA)"></div>
+  </section>
+  <p class="resumo" id="resumo"></p>
+  <section class="lista" id="lista"></section>
+</main>
+<footer>
+  Preços ida e volta, por pessoa, consultados no Google Flights. Confira sempre o valor final no site da companhia ou agência antes de comprar — promoções podem acabar a qualquer momento.
+</footer>
+<script>
+const estado = { origens: new Set(), classes: new Set(), regiao: "", ordem: "desconto", promo: true, busca: "" };
+let dados = { rotas: [] };
+
+const reais = v => "R$ " + Math.round(v).toLocaleString("pt-BR");
+const dataBR = iso => iso.slice(8, 10) + "/" + iso.slice(5, 7) + "/" + iso.slice(2, 4);
+const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+function chips(alvo, itens, conjunto) {
+  const caixa = document.getElementById(alvo);
+  for (const [valor, rotulo] of itens) {
+    const b = document.createElement("button");
+    b.className = "chip"; b.textContent = rotulo; b.setAttribute("aria-pressed", "true");
+    conjunto.add(valor);
+    b.onclick = () => {
+      const ativo = b.getAttribute("aria-pressed") === "true";
+      b.setAttribute("aria-pressed", String(!ativo));
+      ativo ? conjunto.delete(valor) : conjunto.add(valor);
+      desenhar();
+    };
+    caixa.appendChild(b);
+  }
+}
+
+function desenhar() {
+  const termo = estado.busca.trim().toLowerCase();
+  let rotas = dados.rotas.filter(r =>
+    estado.origens.has(r.origem) && estado.classes.has(r.classe) &&
+    (!estado.regiao || r.regiao === estado.regiao) &&
+    (!estado.promo || r.promocao) &&
+    (!termo || (r.cidade + " " + r.destino).toLowerCase().includes(termo)));
+  const ord = { desconto: (a, b) => b.desconto - a.desconto, preco: (a, b) => a.preco - b.preco, ida: (a, b) => a.ida.localeCompare(b.ida) };
+  rotas.sort(ord[estado.ordem]);
+
+  document.getElementById("resumo").textContent =
+    `${rotas.length} resultado(s) · ${dados.rotas.filter(r => r.promocao).length} promoções ativas no total`;
+  const lista = document.getElementById("lista");
+  if (!rotas.length) {
+    lista.innerHTML = `<p class="vazio">${dados.rotas.length ? "Nenhum resultado com esses filtros." : "Ainda não há preços. O radar está fazendo as primeiras buscas — volte em algumas horas."}</p>`;
+    return;
+  }
+  lista.innerHTML = rotas.slice(0, 300).map(r => {
+    const desc = r.desconto > 0.02 ? `<s>${reais(r.referencia)}</s>` : "";
+    const tag = r.promocao ? `<span class="tag deal">−${Math.round(r.desconto * 100)}%</span>` : `<span class="tag">${esc(r.classe_nome)}</span>`;
+    return `<article class="card${r.promocao ? " promo" : ""}">
+      <div class="topo"><div class="rota">${esc(r.origem)} → ${esc(r.cidade)} <small>${esc(r.destino)}</small></div>${tag}</div>
+      <div class="meta">${esc(r.classe_nome)} · ${esc(r.regiao_nome)}</div>
+      <div class="preco">${reais(r.preco)}${desc}</div>
+      <div class="meta">📅 ${dataBR(r.ida)} → ${dataBR(r.volta)}</div>
+      ${r.motivos.length ? `<div class="motivos">${esc(r.motivos.join(" · "))}</div>` : ""}
+      <div class="links"><a href="${esc(r.google)}" target="_blank" rel="noopener">Google Flights</a><a href="${esc(r.skyscanner)}" target="_blank" rel="noopener">Skyscanner</a></div>
+    </article>`;
+  }).join("");
+}
+
+async function iniciar() {
+  try {
+    const resp = await fetch("data/site.json", { cache: "no-store" });
+    if (resp.ok) dados = await resp.json();
+  } catch (e) { /* sem dados ainda */ }
+  const origens = dados.origens || ["SJP", "GRU", "VCP", "CGH"];
+  const classes = dados.classes || { economica: "Econômica", premium: "Premium Economy", executiva: "Executiva", primeira: "Primeira Classe" };
+  chips("f-origem", origens.map(o => [o, o]), estado.origens);
+  chips("f-classe", Object.entries(classes), estado.classes);
+  const sel = document.getElementById("f-regiao");
+  for (const [k, v] of Object.entries(dados.regioes || {})) sel.add(new Option(v, k));
+  sel.onchange = () => { estado.regiao = sel.value; desenhar(); };
+  const ordem = document.getElementById("f-ordem");
+  ordem.onchange = () => { estado.ordem = ordem.value; desenhar(); };
+  const promo = document.getElementById("f-promo");
+  promo.onclick = () => { estado.promo = !estado.promo; promo.setAttribute("aria-pressed", String(estado.promo)); desenhar(); };
+  document.getElementById("f-busca").oninput = e => { estado.busca = e.target.value; desenhar(); };
+
+  const gerado = dados.gerado ? new Date(dados.gerado).toLocaleString("pt-BR") : "—";
+  document.getElementById("sub").textContent =
+    `Saindo de ${origens.join(", ")} · ${dados.rotas.length} de ${dados.total_rotas || "?"} rotas já pesquisadas · atualizado em ${gerado}`;
+  desenhar();
+}
+iniciar();
+</script>
+</body>
+</html>
