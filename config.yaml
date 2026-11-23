@@ -15,6 +15,26 @@ origens:
   - VCP   # Campinas / Viracopos
   - CGH   # Congonhas
 
+# ---------------------------------------------------------------------
+#  PRIORIDADES — os lugares que você mais quer ir.
+#  O radar pesquisa esses destinos (e os que ficam perto deles) com muito
+#  mais frequência e avisa com mais sensibilidade. Os outros destinos
+#  continuam sendo pesquisados e também geram alertas.
+# ---------------------------------------------------------------------
+prioridades:
+  # Use o código do aeroporto (ex.: LIS) ou o nome da cidade como está na
+  # lista de destinos lá embaixo (ex.: Lisboa). Pode ser um aeroporto que
+  # não está na lista (ex.: NAP = Nápoles): ele é adicionado sozinho.
+  # Exemplo: destinos: [Lisboa, Orlando, NAP]
+  destinos: []
+  # Destinos da lista a até essa distância de um prioritário também viram
+  # prioridade (ex.: Lisboa puxa Porto e Madri). 0 = desliga.
+  raio_proximos_km: 600
+  # Quanto de cada rodada vai para os prioritários (o resto vai para os outros).
+  parte_da_rodada_pct: 50
+  # Prioritários avisam mesmo com preço até X% acima do preço-alvo.
+  margem_preco_alvo_pct: 15
+
 # Nomes das classes usados no site e nos alertas.
 classes:
   economica: { google: ECONOMY,         nome: "Econômica" }

@@ -25,6 +25,7 @@ class Rota:
     classe_google: str   # nome no Google Flights: BUSINESS
     duracao_dias: int
     limite: float | None  # preço de referência fixo (R$ ida e volta)
+    prioridade: str = ""  # vazio = destino comum; senão, o motivo da prioridade
 
     @property
     def chave(self) -> str:
@@ -38,10 +39,17 @@ def carregar_config(caminho: Path = ARQUIVO_CONFIG) -> dict:
 
 def montar_rotas(cfg: dict) -> list[Rota]:
     """Gera todas as combinações origem × destino × classe definidas no config."""
+    from .prioridades import resolver
+
     classes = cfg["classes"]
+    motivos, extras = resolver(cfg)
+    todos = {regiao: dict(destinos) for regiao, destinos in cfg["destinos"].items()}
+    for cod, info in extras.items():
+        todos[info["regiao"]][cod] = info["cidade"]
+
     rotas: list[Rota] = []
     for origem in cfg["origens"]:
-        for regiao, destinos in cfg["destinos"].items():
+        for regiao, destinos in todos.items():
             reg = cfg["regioes"][regiao]
             for destino, cidade in destinos.items():
                 if destino == origem:
@@ -59,6 +67,7 @@ def montar_rotas(cfg: dict) -> list[Rota]:
                             classe_google=classes[classe]["google"],
                             duracao_dias=int(reg.get("duracao_dias", 7)),
                             limite=float(limite) if limite else None,
+                            prioridade=motivos.get(destino, ""),
                         )
                     )
     return rotas

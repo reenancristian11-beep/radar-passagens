@@ -67,15 +67,21 @@ def avaliar(rota: Rota, calendario: list[PrecoData], historico: list[list], cfg:
         else None
     )
 
+    # Destinos prioritários aceitam um preço um pouco acima do preço-alvo.
+    limite = rota.limite
+    if limite and rota.prioridade:
+        margem = float((cfg.get("prioridades") or {}).get("margem_preco_alvo_pct") or 0)
+        limite = limite * (1 + margem / 100)
+
     motivos: list[str] = []
-    if regras.get("usar_limite_fixo", True) and rota.limite and melhor.preco <= rota.limite:
-        motivos.append(f"abaixo do preço-alvo de R$ {rota.limite:,.0f}".replace(",", "."))
+    if regras.get("usar_limite_fixo", True) and limite and melhor.preco <= limite:
+        motivos.append(f"abaixo do preço-alvo de R$ {limite:,.0f}".replace(",", "."))
 
     # As regras de desconto só valem se o preço não estiver caro demais em
     # relação ao preço-alvo (ex.: R$ 1.445 para Fortaleza não é promoção,
     # mesmo sendo 40% mais barato que as outras datas).
     teto = float(regras.get("teto_vezes_preco_alvo", 0) or 0)
-    preco_aceitavel = not (teto and rota.limite) or melhor.preco <= rota.limite * teto
+    preco_aceitavel = not (teto and limite) or melhor.preco <= limite * teto
 
     desconto_hist = None
     if mediana_hist:
@@ -103,7 +109,8 @@ def avaliar(rota: Rota, calendario: list[PrecoData], historico: list[list], cfg:
         "volta": melhor.volta,
         "referencia": round(referencia, 2),
         "desconto": round(1 - melhor.preco / referencia, 4) if referencia else 0,
-        "limite": rota.limite,
+        "limite": limite,
+        "prioridade": rota.prioridade,
         "datas_baratas": [
             {"ida": p.ida, "volta": p.volta, "preco": round(p.preco, 2)}
             for p in sorted(calendario, key=lambda p: p.preco)[:5]

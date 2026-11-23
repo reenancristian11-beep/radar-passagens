@@ -191,3 +191,60 @@ def test_mensagem_de_teste(monkeypatch):
     promo = avaliar(rota("SJP-BSB-economica"), calendario([376, 700]), [], CFG)
     assert alertas.testar_alertas("https://site/", promo) == ["telegram"]
     assert "conectado" in enviadas[0] and "Brasília" in enviadas[0]
+
+
+def cfg_com_prioridades(destinos, raio=600):
+    import copy
+
+    cfg = copy.deepcopy(CFG)
+    cfg["prioridades"] = {"destinos": destinos, "raio_proximos_km": raio,
+                          "parte_da_rodada_pct": 50, "margem_preco_alvo_pct": 15}
+    return cfg
+
+
+def test_prioridades_por_nome_codigo_e_proximos():
+    pytest.importorskip("airportsdata")
+    cfg = cfg_com_prioridades(["Lisboa", "nap", "Atlantis"])
+    rotas = montar_rotas(cfg)
+    pri = {r.destino: r.prioridade for r in rotas if r.prioridade}
+    assert pri["LIS"] == "escolhido por você"
+    assert pri["NAP"] == "escolhido por você"          # fora da lista: adicionado
+    assert pri["OPO"].startswith("perto de Lisboa")    # ~275 km
+    assert pri["MAD"].startswith("perto de Lisboa")    # ~500 km
+    assert pri["FCO"].startswith("perto de")           # Roma, perto de Nápoles
+    assert "BCN" not in pri and "MIA" not in pri       # longe
+    nap = next(r for r in rotas if r.destino == "NAP" and r.classe == "executiva")
+    assert nap.regiao == "europa" and nap.limite == 9000
+    assert len(rotas) == len(ROTAS) + 4 * 4            # NAP: 4 origens × 4 classes
+
+
+def test_prioridade_aceita_preco_um_pouco_acima_do_alvo():
+    pytest.importorskip("airportsdata")
+    cfg = cfg_com_prioridades(["LIS"], raio=0)
+    lis = next(r for r in montar_rotas(cfg) if r.chave == "GRU-LIS-economica")
+    r = avaliar(lis, calendario([3100, 3600, 3700]), [], cfg)   # alvo 2800 + 15% = 3220
+    assert r["promocao"] and r["prioridade"]
+    comum = avaliar(rota("GRU-LIS-economica"), calendario([3100, 3600, 3700]), [], CFG)
+    assert not comum["promocao"]
+
+
+def test_rodada_reserva_metade_para_prioridades(tmp_path, monkeypatch):
+    pytest.importorskip("airportsdata")
+    cfg = cfg_com_prioridades(["Orlando"], raio=0)
+    monkeypatch.setattr(principal, "carregar_config", lambda: cfg)
+    monkeypatch.setattr(principal.time, "sleep", lambda s: None)
+    vistas = []
+
+    def busca(r, c):
+        vistas.append(r)
+        return calendario([2000, 2900])
+
+    args = argparse.Namespace(quantidade=20, rota=None, sem_alertas=True)
+    principal.executar(args, tmp_path, busca, lambda p, s: [])
+    assert [r.destino for r in vistas[:10]] == ["MCO"] * 10   # prioritárias primeiro
+    assert all(r.destino != "MCO" for r in vistas[10:])
+    estado = principal.ler_json(tmp_path / "estado.json", {})
+    assert estado["cursor_prioridade"] == 10 and estado["cursor"] == 10
+    site = principal.ler_json(tmp_path / "site.json", {})
+    assert site["prioridades"] == ["Orlando (MCO)"]
+    assert site["rotas"][0]["destino"] == "MCO"

@@ -28,7 +28,10 @@ def _data_br(iso: str) -> str:
 def texto_alerta(r: dict, site: str | None = None) -> str:
     """Mensagem em HTML simples (formato aceito pelo Telegram)."""
     e = html.escape
-    linhas = [
+    linhas = []
+    if r.get("prioridade"):
+        linhas.append(f"⭐ <b>DESTINO PRIORITÁRIO</b> ({e(r['prioridade'])})")
+    linhas += [
         f"✈️ <b>{e(r['origem'])} → {e(r['cidade'])} ({e(r['destino'])})</b>",
         f"💺 {e(r['classe_nome'])} · ida e volta",
         f"💰 <b>{_reais(r['preco'])}</b> (normal ≈ {_reais(r['referencia'])})",

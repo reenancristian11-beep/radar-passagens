@@ -59,10 +59,31 @@ Com Gmail: ative a verificação em duas etapas e crie uma **senha de app** em
 *Actions → Radar de passagens → Run workflow.* Depois disso ele roda sozinho a
 cada 30 minutos.
 
+## ⭐ Destinos prioritários
+
+No topo do `config.yaml` (dá para editar direto no GitHub, no ícone de lápis):
+
+```yaml
+prioridades:
+  destinos: [Lisboa, Orlando, NAP]
+```
+
+- Use o nome da cidade como está na lista de destinos (`Lisboa`) ou o código
+  do aeroporto (`LIS`). Um aeroporto fora da lista (ex.: `NAP`, Nápoles) é
+  adicionado automaticamente.
+- Destinos a até `raio_proximos_km` (padrão 600 km) também viram prioridade:
+  Lisboa puxa Porto e Madri; Orlando puxa Miami.
+- Metade de cada rodada vai para os prioritários, que são pesquisados primeiro.
+  Na prática eles são revisados a cada poucas horas, em vez de a cada ~2 dias.
+- Prioritários avisam com preço até 15% acima do preço-alvo, chegam com
+  ⭐ no Telegram e ficam no topo do site (com o filtro "⭐ Só prioridades").
+- Os outros destinos continuam sendo pesquisados e avisados normalmente.
+
 ## Personalizar (`config.yaml`)
 
 | O que | Onde |
 |---|---|
+| Destinos prioritários | `prioridades` |
 | Aeroportos de origem | `origens` |
 | Destinos (código IATA + cidade) | `destinos` |
 | Classes por região e **preço-alvo** de cada uma | `regioes` |

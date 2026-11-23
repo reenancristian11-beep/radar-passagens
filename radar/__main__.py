@@ -56,7 +56,11 @@ def gerar_site(cfg: dict, rotas, precos: dict, dados: Path) -> None:
         for k, v in precos.items()
         if k in validas and v.get("atual") and v["atual"]["ida"] >= hoje
     ]
-    atuais.sort(key=lambda r: (not r["promocao"], -r["desconto"]))
+    # Atualiza a marca de prioridade (o usuário pode ter mudado a lista).
+    prioridade = {r.chave: r.prioridade for r in rotas}
+    for r in atuais:
+        r["prioridade"] = prioridade.get(r["chave"], "")
+    atuais.sort(key=lambda r: (not r["promocao"], not r["prioridade"], -r["desconto"]))
     gravar_json(
         dados / "site.json",
         {
@@ -65,6 +69,8 @@ def gerar_site(cfg: dict, rotas, precos: dict, dados: Path) -> None:
             "classes": {k: v["nome"] for k, v in cfg["classes"].items()},
             "regioes": {k: v["nome"] for k, v in cfg["regioes"].items()},
             "total_rotas": len(rotas),
+            "prioridades": sorted({f"{r.cidade} ({r.destino})" for r in rotas
+                                   if r.prioridade == "escolhido por você"}),
             "rotas": atuais,
         },
     )
@@ -77,14 +83,29 @@ def executar(args, dados: Path = DADOS, buscar=buscar_calendario, alertar=enviar
     alertados = ler_json(dados / "alertas.json", {})
     estado = ler_json(dados / "estado.json", {"cursor": 0})
 
+    # Duas filas em rodízio: destinos prioritários e o resto. Os prioritários
+    # vêm primeiro em cada rodada, então são pesquisados mesmo se o Google
+    # limitar as consultas no meio da rodada.
+    filas = {
+        "prioridade": [r for r in rotas if r.prioridade],
+        "normal": [r for r in rotas if not r.prioridade],
+    }
+    cursores = {
+        "prioridade": estado.get("cursor_prioridade", 0),
+        "normal": estado.get("cursor", 0),
+    }
     if args.rota:
-        escolhidas = [r for r in rotas if r.chave.lower() == args.rota.lower()]
+        escolhidas = [(r, None) for r in rotas if r.chave.lower() == args.rota.lower()]
         if not escolhidas:
             raise SystemExit(f"Rota {args.rota} não existe no config.yaml")
-        novo_cursor = estado["cursor"]
     else:
         qtd = args.quantidade or int(cfg["varredura"]["combinacoes_por_execucao"])
-        escolhidas, novo_cursor = escolher_rotas(rotas, estado.get("cursor", 0), qtd)
+        pct = float((cfg.get("prioridades") or {}).get("parte_da_rodada_pct") or 0)
+        qtd_pri = min(len(filas["prioridade"]), round(qtd * pct / 100))
+        pri, _ = escolher_rotas(filas["prioridade"], cursores["prioridade"], qtd_pri)
+        nor, _ = escolher_rotas(filas["normal"], cursores["normal"], qtd - len(pri))
+        escolhidas = [(r, "prioridade") for r in pri] + [(r, "normal") for r in nor]
+    consumidas = [fila for _, fila in escolhidas]  # o que avança o rodízio
 
     pausa = float(cfg["varredura"]["pausa_entre_buscas_segundos"])
     limite_falhas = int(cfg["varredura"]["parar_apos_falhas_seguidas"])
@@ -92,8 +113,9 @@ def executar(args, dados: Path = DADOS, buscar=buscar_calendario, alertar=enviar
     pesquisadas = 0
     novas_promocoes: list[dict] = []
 
-    print(f"Radar: {len(rotas)} rotas no total; pesquisando {len(escolhidas)} nesta rodada.")
-    for i, rota in enumerate(escolhidas):
+    print(f"Radar: {len(rotas)} rotas no total ({len(filas['prioridade'])} prioritárias); "
+          f"pesquisando {len(escolhidas)} nesta rodada.")
+    for i, (rota, _fila) in enumerate(escolhidas):
         try:
             calendario = buscar(rota, cfg)
             erro = None if calendario else "resposta vazia"
@@ -109,12 +131,10 @@ def executar(args, dados: Path = DADOS, buscar=buscar_calendario, alertar=enviar
             if falhas_seguidas >= limite_falhas:
                 print("  ! Muitas buscas sem resultado seguidas (o Google deve ter limitado). "
                       "Parando; a próxima rodada continua a partir da primeira rota sem resultado.")
-                if not args.rota:
-                    primeira_vazia = i - falhas_seguidas + 1
-                    # Se a rodada já começou falhando, pula esse trecho para não
-                    # ficar preso em rotas que de fato não têm voos.
-                    retomar = primeira_vazia if primeira_vazia > 0 else i + 1
-                    novo_cursor = (estado.get("cursor", 0) + retomar) % len(rotas)
+                primeira_vazia = i - falhas_seguidas + 1
+                # Se a rodada já começou falhando, pula esse trecho para não
+                # ficar preso em rotas que de fato não têm voos.
+                consumidas = consumidas[: primeira_vazia if primeira_vazia > 0 else i + 1]
                 break
             continue
         falhas_seguidas = 0
@@ -128,7 +148,7 @@ def executar(args, dados: Path = DADOS, buscar=buscar_calendario, alertar=enviar
             registro["atual"] = resultado
             registro["historico"].append([resultado["atualizado"], resultado["preco"]])
             registro["historico"] = registro["historico"][-MAX_HISTORICO:]
-            marca = "PROMOÇÃO" if resultado["promocao"] else ""
+            marca = ("PROMOÇÃO" if resultado["promocao"] else "") + (" ⭐" if rota.prioridade else "")
             print(f"  · {rota.chave}: R$ {resultado['preco']:.0f} em {resultado['ida']} {marca}")
             if deve_alertar(resultado, alertados.get(rota.chave), cfg):
                 novas_promocoes.append(resultado)
@@ -136,7 +156,7 @@ def executar(args, dados: Path = DADOS, buscar=buscar_calendario, alertar=enviar
             time.sleep(pausa)
 
     # Alertas: os maiores descontos primeiro, com limite por rodada.
-    novas_promocoes.sort(key=lambda r: -r["desconto"])
+    novas_promocoes.sort(key=lambda r: (not r.get("prioridade"), -r["desconto"]))
     novas_promocoes = novas_promocoes[: int(cfg["promocao"]["maximo_alertas_por_execucao"])]
     canais: list[str] = []
     if novas_promocoes and not args.sem_alertas:
@@ -147,8 +167,13 @@ def executar(args, dados: Path = DADOS, buscar=buscar_calendario, alertar=enviar
             for r in novas_promocoes:
                 alertados[r["chave"]] = {"preco": r["preco"], "quando": agora}
 
+    if not args.rota:
+        for nome, fila in filas.items():
+            if fila:
+                cursores[nome] = (cursores[nome] + consumidas.count(nome)) % len(fila)
     estado.update(
-        cursor=novo_cursor,
+        cursor=cursores["normal"],
+        cursor_prioridade=cursores["prioridade"],
         ultima_execucao=datetime.now(timezone.utc).isoformat(timespec="minutes"),
         ultima_pesquisadas=pesquisadas,
     )

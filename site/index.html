@@ -11,12 +11,14 @@
     --bg: #f6f7f9; --surface: #ffffff; --text: #16191d; --muted: #5d6670;
     --line: #e2e5ea; --accent: #0b63ce; --accent-soft: #e7f0fc;
     --deal: #0f7a3d; --deal-soft: #e5f5ec; --chip: #eef0f3;
+    --pri: #9a6400; --pri-soft: #fdf3dc;
   }
   @media (prefers-color-scheme: dark) {
     :root {
       --bg: #0f1216; --surface: #171b21; --text: #e8ebef; --muted: #9aa4ae;
       --line: #2a3038; --accent: #5aa2ff; --accent-soft: #172a44;
       --deal: #4fd08a; --deal-soft: #12301f; --chip: #222831;
+      --pri: #f2c14e; --pri-soft: #2c2412;
     }
   }
   * { box-sizing: border-box; }
@@ -46,6 +48,8 @@
   .rota small { color: var(--muted); font-weight: 400; }
   .tag { font-size: 12px; padding: 2px 8px; border-radius: 6px; background: var(--accent-soft); color: var(--accent); white-space: nowrap; }
   .tag.deal { background: var(--deal-soft); color: var(--deal); font-weight: 600; }
+  .card.pri { background: linear-gradient(var(--pri-soft), var(--surface) 70px); }
+  .estrela { font-size: 12px; color: var(--pri); font-weight: 600; }
   .preco { font-size: 24px; font-weight: 700; font-variant-numeric: tabular-nums; }
   .preco s { font-size: 14px; color: var(--muted); font-weight: 400; margin-left: 6px; }
   .meta { color: var(--muted); font-size: 13px; }
@@ -75,6 +79,7 @@
         <option value="ida">Data mais próxima</option>
       </select>
       <button class="chip" id="f-promo" aria-pressed="true">Só promoções</button>
+      <button class="chip" id="f-pri" aria-pressed="false">⭐ Só prioridades</button>
     </div>
     <div class="grupo"><span>Buscar</span><input type="search" id="f-busca" placeholder="Cidade ou código (ex.: Lisboa, MIA)"></div>
   </section>
@@ -85,7 +90,7 @@
   Preços ida e volta, por pessoa, consultados no Google Flights. Confira sempre o valor final no site da companhia ou agência antes de comprar — promoções podem acabar a qualquer momento.
 </footer>
 <script>
-const estado = { origens: new Set(), classes: new Set(), regiao: "", ordem: "desconto", promo: true, busca: "" };
+const estado = { origens: new Set(), classes: new Set(), regiao: "", ordem: "desconto", promo: true, pri: false, busca: "" };
 let dados = { rotas: [] };
 
 const reais = v => "R$ " + Math.round(v).toLocaleString("pt-BR");
@@ -114,9 +119,11 @@ function desenhar() {
     estado.origens.has(r.origem) && estado.classes.has(r.classe) &&
     (!estado.regiao || r.regiao === estado.regiao) &&
     (!estado.promo || r.promocao) &&
+    (!estado.pri || r.prioridade) &&
     (!termo || (r.cidade + " " + r.destino).toLowerCase().includes(termo)));
   const ord = { desconto: (a, b) => b.desconto - a.desconto, preco: (a, b) => a.preco - b.preco, ida: (a, b) => a.ida.localeCompare(b.ida) };
-  rotas.sort(ord[estado.ordem]);
+  // Prioritários sempre no topo; dentro de cada grupo, a ordem escolhida.
+  rotas.sort((a, b) => (!a.prioridade - !b.prioridade) || ord[estado.ordem](a, b));
 
   document.getElementById("resumo").textContent =
     `${rotas.length} resultado(s) · ${dados.rotas.filter(r => r.promocao).length} promoções ativas no total`;
@@ -128,7 +135,9 @@ function desenhar() {
   lista.innerHTML = rotas.slice(0, 300).map(r => {
     const desc = r.desconto > 0.02 ? `<s>${reais(r.referencia)}</s>` : "";
     const tag = r.promocao ? `<span class="tag deal">−${Math.round(r.desconto * 100)}%</span>` : `<span class="tag">${esc(r.classe_nome)}</span>`;
-    return `<article class="card${r.promocao ? " promo" : ""}">
+    const estrela = r.prioridade ? `<div class="estrela">⭐ Prioridade · ${esc(r.prioridade)}</div>` : "";
+    return `<article class="card${r.promocao ? " promo" : ""}${r.prioridade ? " pri" : ""}">
+      ${estrela}
       <div class="topo"><div class="rota">${esc(r.origem)} → ${esc(r.cidade)} <small>${esc(r.destino)}</small></div>${tag}</div>
       <div class="meta">${esc(r.classe_nome)} · ${esc(r.regiao_nome)}</div>
       <div class="preco">${reais(r.preco)}${desc}</div>
@@ -155,11 +164,15 @@ async function iniciar() {
   ordem.onchange = () => { estado.ordem = ordem.value; desenhar(); };
   const promo = document.getElementById("f-promo");
   promo.onclick = () => { estado.promo = !estado.promo; promo.setAttribute("aria-pressed", String(estado.promo)); desenhar(); };
+  const pri = document.getElementById("f-pri");
+  if (!(dados.prioridades || []).length) pri.hidden = true;
+  pri.onclick = () => { estado.pri = !estado.pri; pri.setAttribute("aria-pressed", String(estado.pri)); desenhar(); };
   document.getElementById("f-busca").oninput = e => { estado.busca = e.target.value; desenhar(); };
 
   const gerado = dados.gerado ? new Date(dados.gerado).toLocaleString("pt-BR") : "—";
   document.getElementById("sub").textContent =
-    `Saindo de ${origens.join(", ")} · ${dados.rotas.length} de ${dados.total_rotas || "?"} rotas já pesquisadas · atualizado em ${gerado}`;
+    `Saindo de ${origens.join(", ")} · ${dados.rotas.length} de ${dados.total_rotas || "?"} rotas já pesquisadas · atualizado em ${gerado}` +
+    ((dados.prioridades || []).length ? ` · ⭐ Prioridades: ${dados.prioridades.join(", ")}` : "");
   desenhar();
 }
 iniciar();
