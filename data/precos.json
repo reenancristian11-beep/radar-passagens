@@ -163,10 +163,8 @@
      "preco": 1445.0
     }
    ],
-   "promocao": true,
-   "motivos": [
-    "42% abaixo da média das outras datas"
-   ],
+   "promocao": false,
+   "motivos": [],
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20FOR%20from%20SJP%20on%202027-05-28%20through%202027-06-02%20economy&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/for/270528/270602/?adultsv2=1&cabinclass=economy&rtn=1",
    "atualizado": "2026-11-23T21:41+00:00"
@@ -279,10 +277,8 @@
      "preco": 1123.0
     }
    ],
-   "promocao": true,
-   "motivos": [
-    "40% abaixo da média das outras datas"
-   ],
+   "promocao": false,
+   "motivos": [],
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20MCZ%20from%20SJP%20on%202027-05-21%20through%202027-05-26%20economy&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/mcz/270521/270526/?adultsv2=1&cabinclass=economy&rtn=1",
    "atualizado": "2026-11-23T21:41+00:00"
@@ -891,10 +887,8 @@
      "preco": 1897.0
     }
    ],
-   "promocao": true,
-   "motivos": [
-    "45% abaixo da média das outras datas"
-   ],
+   "promocao": false,
+   "motivos": [],
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20MAO%20from%20SJP%20on%202027-06-10%20through%202027-06-15%20economy&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/mao/270610/270615/?adultsv2=1&cabinclass=economy&rtn=1",
    "atualizado": "2026-11-23T21:43+00:00"

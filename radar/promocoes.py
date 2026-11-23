@@ -71,14 +71,20 @@ def avaliar(rota: Rota, calendario: list[PrecoData], historico: list[list], cfg:
     if regras.get("usar_limite_fixo", True) and rota.limite and melhor.preco <= rota.limite:
         motivos.append(f"abaixo do preço-alvo de R$ {rota.limite:,.0f}".replace(",", "."))
 
+    # As regras de desconto só valem se o preço não estiver caro demais em
+    # relação ao preço-alvo (ex.: R$ 1.445 para Fortaleza não é promoção,
+    # mesmo sendo 40% mais barato que as outras datas).
+    teto = float(regras.get("teto_vezes_preco_alvo", 0) or 0)
+    preco_aceitavel = not (teto and rota.limite) or melhor.preco <= rota.limite * teto
+
     desconto_hist = None
     if mediana_hist:
         desconto_hist = 1 - melhor.preco / mediana_hist
-        if desconto_hist * 100 >= float(regras["queda_vs_historico_pct"]):
+        if preco_aceitavel and desconto_hist * 100 >= float(regras["queda_vs_historico_pct"]):
             motivos.append(f"{desconto_hist:.0%} abaixo do preço habitual desta rota")
 
     desconto_cal = 1 - melhor.preco / mediana_calendario if mediana_calendario else 0
-    if desconto_cal * 100 >= float(regras["desconto_vs_calendario_pct"]):
+    if preco_aceitavel and desconto_cal * 100 >= float(regras["desconto_vs_calendario_pct"]):
         motivos.append(f"{desconto_cal:.0%} abaixo da média das outras datas")
 
     referencia = mediana_hist or mediana_calendario

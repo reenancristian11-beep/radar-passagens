@@ -96,24 +96,34 @@ def executar(args, dados: Path = DADOS, buscar=buscar_calendario, alertar=enviar
     for i, rota in enumerate(escolhidas):
         try:
             calendario = buscar(rota, cfg)
-            falhas_seguidas = 0
-        except Exception as erro:
+            erro = None if calendario else "resposta vazia"
+        except Exception as e:
+            calendario, erro = [], f"{type(e).__name__}: {e}"
+
+        if erro:
+            # Quando o Google limita as consultas, ele costuma devolver uma
+            # resposta vazia em vez de um erro. Por isso a rota vazia não apaga
+            # o último preço conhecido, e várias vazias seguidas encerram a rodada.
             falhas_seguidas += 1
-            print(f"  ! {rota.chave}: erro na busca ({type(erro).__name__}: {erro})")
+            print(f"  ! {rota.chave}: sem resultado ({erro})")
             if falhas_seguidas >= limite_falhas:
-                print("  ! Muitas falhas seguidas (possível bloqueio). Parando esta rodada.")
-                # Retoma desta rota na próxima execução.
+                print("  ! Muitas buscas sem resultado seguidas (o Google deve ter limitado). "
+                      "Parando; a próxima rodada continua a partir da primeira rota sem resultado.")
                 if not args.rota:
-                    novo_cursor = (estado.get("cursor", 0) + i - falhas_seguidas + 1) % len(rotas)
+                    primeira_vazia = i - falhas_seguidas + 1
+                    # Se a rodada já começou falhando, pula esse trecho para não
+                    # ficar preso em rotas que de fato não têm voos.
+                    retomar = primeira_vazia if primeira_vazia > 0 else i + 1
+                    novo_cursor = (estado.get("cursor", 0) + retomar) % len(rotas)
                 break
             continue
+        falhas_seguidas = 0
         pesquisadas += 1
 
         registro = precos.setdefault(rota.chave, {"historico": [], "atual": None})
         resultado = avaliar(rota, calendario, registro["historico"], cfg)
         if resultado is None:
             print(f"  - {rota.chave}: sem preços")
-            registro["atual"] = None
         else:
             registro["atual"] = resultado
             registro["historico"].append([resultado["atualizado"], resultado["preco"]])
@@ -131,9 +141,11 @@ def executar(args, dados: Path = DADOS, buscar=buscar_calendario, alertar=enviar
     canais: list[str] = []
     if novas_promocoes and not args.sem_alertas:
         canais = alertar(novas_promocoes, os.environ.get("SITE_URL"))
-        agora = datetime.now(timezone.utc).isoformat(timespec="minutes")
-        for r in novas_promocoes:
-            alertados[r["chave"]] = {"preco": r["preco"], "quando": agora}
+        # Só marca como avisada se algum canal (Telegram/e-mail) realmente enviou.
+        if canais:
+            agora = datetime.now(timezone.utc).isoformat(timespec="minutes")
+            for r in novas_promocoes:
+                alertados[r["chave"]] = {"preco": r["preco"], "quando": agora}
 
     estado.update(
         cursor=novo_cursor,

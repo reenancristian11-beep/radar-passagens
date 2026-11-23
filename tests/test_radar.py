@@ -138,4 +138,43 @@ def test_para_se_o_google_bloquear(tmp_path, monkeypatch):
     args = argparse.Namespace(quantidade=20, rota=None, sem_alertas=True)
     res = principal.executar(args, tmp_path, busca_bloqueada, lambda p, s: [])
     assert res["pesquisadas"] == 0
-    assert principal.ler_json(tmp_path / "estado.json", {})["cursor"] == 0
+    # Começou falhando: pula o trecho (4 rotas) para não ficar preso nele.
+    assert principal.ler_json(tmp_path / "estado.json", {})["cursor"] == 4
+
+
+def test_respostas_vazias_seguidas_param_e_retomam_dali(tmp_path, monkeypatch):
+    monkeypatch.setattr(principal.time, "sleep", lambda s: None)
+    chamadas = []
+
+    def busca(r, cfg):
+        chamadas.append(r.chave)
+        return calendario([900, 950]) if len(chamadas) <= 6 else []
+
+    args = argparse.Namespace(quantidade=20, rota=None, sem_alertas=True)
+    res = principal.executar(args, tmp_path, busca, lambda p, s: [])
+    assert res["pesquisadas"] == 6
+    assert len(chamadas) == 10  # 6 com preço + 4 vazias, depois parou
+    assert principal.ler_json(tmp_path / "estado.json", {})["cursor"] == 6
+
+
+def test_resposta_vazia_nao_apaga_ultimo_preco(tmp_path, monkeypatch):
+    monkeypatch.setattr(principal.time, "sleep", lambda s: None)
+    args = argparse.Namespace(quantidade=None, rota="GRU-LIS-economica", sem_alertas=True)
+    principal.executar(args, tmp_path, lambda r, c: calendario([3900, 4100]), lambda p, s: [])
+    principal.executar(args, tmp_path, lambda r, c: [], lambda p, s: [])
+    precos = principal.ler_json(tmp_path / "precos.json", {})
+    assert precos["GRU-LIS-economica"]["atual"]["preco"] == 3900
+
+
+def test_sem_canal_de_alerta_nao_marca_como_avisado(tmp_path, monkeypatch):
+    monkeypatch.setattr(principal.time, "sleep", lambda s: None)
+    args = argparse.Namespace(quantidade=None, rota="CGH-REC-economica", sem_alertas=False)
+    res = principal.executar(args, tmp_path, lambda r, c: calendario([300, 700]), lambda p, s: [])
+    assert res["promocoes"]
+    assert principal.ler_json(tmp_path / "alertas.json", {}) == {}
+
+
+def test_preco_caro_nao_vira_promocao_so_por_desconto():
+    # Caso real da 1ª execução: SJP→Fortaleza a R$ 1.445, 40% abaixo das outras datas.
+    r = avaliar(rota("SJP-FOR-economica"), calendario([1445] + [2500] * 20), [], CFG)
+    assert not r["promocao"]

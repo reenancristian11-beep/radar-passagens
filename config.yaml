@@ -29,9 +29,11 @@ datas:
 
 # Quanto da lista é pesquisado a cada execução (o radar faz rodízio).
 varredura:
-  combinacoes_por_execucao: 50
-  pausa_entre_buscas_segundos: 3
-  parar_apos_falhas_seguidas: 5   # se o Google bloquear, para e tenta na próxima
+  # Na 1ª execução o Google limitou após ~23 rotas; por isso rodadas menores
+  # e mais frequentes (a cada hora, ver .github/workflows/radar.yml).
+  combinacoes_por_execucao: 20
+  pausa_entre_buscas_segundos: 8
+  parar_apos_falhas_seguidas: 4   # buscas vazias seguidas = Google limitou; para e continua na próxima
 
 # Quando um preço vira "promoção" (basta UMA das regras):
 promocao:
@@ -43,6 +45,9 @@ promocao:
   # 3) data mais barata X% abaixo da mediana do calendário inteiro da rota
   #    (pega "tarifas erro" e promoções relâmpago já na primeira varredura)
   desconto_vs_calendario_pct: 40
+  # As regras 2 e 3 só valem se o preço for no máximo N vezes o preço-alvo
+  # (evita chamar de promoção algo que ainda está caro). 0 = desliga.
+  teto_vezes_preco_alvo: 1.5
   # Evita alertas repetidos
   realertar_apos_dias: 7
   realertar_se_cair_mais_pct: 5

@@ -13,8 +13,8 @@ as companhias aéreas e agências, através da biblioteca open source
 
 ## Como funciona
 
-1. A cada 2 horas o GitHub roda `python -m radar`.
-2. Cada rodada pesquisa 50 combinações origem × destino × classe (são 1.028 no
+1. A cada hora o GitHub roda `python -m radar`.
+2. Cada rodada pesquisa 20 combinações origem × destino × classe (são 1.028 no
    total, então a lista inteira é revisada a cada ~2 dias, em rodízio).
 3. Para cada combinação, o Google Flights devolve o preço mais barato de cada
    data de partida. O radar pega a data mais barata e decide se é promoção:
@@ -57,7 +57,7 @@ Com Gmail: ative a verificação em duas etapas e crie uma **senha de app** em
 
 ### 5. Rodar a primeira vez
 *Actions → Radar de passagens → Run workflow.* Depois disso ele roda sozinho a
-cada 2 horas.
+cada hora.
 
 ## Personalizar (`config.yaml`)
 
