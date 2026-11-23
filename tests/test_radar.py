@@ -12,7 +12,24 @@ from radar.config import carregar_config, montar_rotas
 from radar.promocoes import avaliar, deve_alertar
 
 CFG = carregar_config()
+CFG["prioridades"]["destinos"] = []  # testes gerais usam a config sem prioridades
 ROTAS = montar_rotas(CFG)
+
+
+@pytest.fixture(autouse=True)
+def config_sem_prioridades(monkeypatch):
+    monkeypatch.setattr(principal, "carregar_config", lambda: CFG)
+
+
+def test_prioridades_do_config_real_sao_todas_reconhecidas(capsys):
+    pytest.importorskip("airportsdata")
+    from radar.prioridades import resolver
+
+    real = carregar_config()
+    motivos, _ = resolver(real)
+    escolhidos = [c for c, m in motivos.items() if m == "escolhido por você"]
+    assert len(escolhidos) == len(real["prioridades"]["destinos"])
+    assert "Não reconheci" not in capsys.readouterr().out
 
 
 def rota(chave):

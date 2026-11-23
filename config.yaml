@@ -26,12 +26,12 @@ prioridades:
   # lista de destinos lá embaixo (ex.: Lisboa). Pode ser um aeroporto que
   # não está na lista (ex.: NAP = Nápoles): ele é adicionado sozinho.
   # Exemplo: destinos: [Lisboa, Orlando, NAP]
-  destinos: []
+  destinos: [Tóquio (Narita), Tóquio (Haneda), Dubai, Bangkok, Orlando, Austin, Roma, Zurique, San Andrés]
   # Destinos da lista a até essa distância de um prioritário também viram
   # prioridade (ex.: Lisboa puxa Porto e Madri). 0 = desliga.
-  raio_proximos_km: 600
+  raio_proximos_km: 350
   # Quanto de cada rodada vai para os prioritários (o resto vai para os outros).
-  parte_da_rodada_pct: 50
+  parte_da_rodada_pct: 60
   # Prioritários avisam mesmo com preço até X% acima do preço-alvo.
   margem_preco_alvo_pct: 15
 
@@ -158,6 +158,8 @@ destinos:
     PUJ: Punta Cana
     AUA: Aruba
     CUR: Curaçao
+    ADZ: San Andrés          # ilha colombiana no Caribe
+    AUS: Austin
   europa:
     LIS: Lisboa
     OPO: Porto
@@ -188,7 +190,8 @@ destinos:
     DOH: Doha
     TLV: Tel Aviv
   asia:
-    NRT: Tóquio
+    NRT: Tóquio (Narita)
+    HND: Tóquio (Haneda)
     ICN: Seul
     PVG: Xangai
     HKG: Hong Kong

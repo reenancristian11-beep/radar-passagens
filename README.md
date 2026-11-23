@@ -1,7 +1,7 @@
 # ✈️ Radar de Passagens
 
 Procura sozinho promoções de passagens aéreas **ida e volta** saindo de
-**SJP, GRU, VCP e CGH** para **83 destinos no mundo todo**, em **econômica,
+**SJP, GRU, VCP e CGH** para **86 destinos no mundo todo**, em **econômica,
 premium economy, executiva e primeira classe**, olhando **todas as datas dos
 próximos ~8 meses**. Quando acha uma promoção, manda alerta no **Telegram**
 e/ou **e-mail** e mostra tudo numa página online.
@@ -14,7 +14,7 @@ as companhias aéreas e agências, através da biblioteca open source
 ## Como funciona
 
 1. A cada 30 minutos o GitHub roda `python -m radar`.
-2. Cada rodada pesquisa 20 combinações origem × destino × classe (são 1.028 no
+2. Cada rodada pesquisa 20 combinações origem × destino × classe (são 1.076 no
    total, então a lista inteira é revisada a cada ~2 dias, em rodízio).
 3. Para cada combinação, o Google Flights devolve o preço mais barato de cada
    data de partida. O radar pega a data mais barata e decide se é promoção:
