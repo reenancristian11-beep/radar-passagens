@@ -51,6 +51,37 @@ def texto_alerta(r: dict, site: str | None = None) -> str:
     return "\n".join(linhas)
 
 
+def texto_upgrade(a: dict, site: str | None = None) -> str:
+    """Aviso sobre uma viagem já comprada (upgrade ou queda de preço)."""
+    e = html.escape
+    voos = " + ".join(a["voos_ida"] + a["voos_volta"])
+    mesmos = "nos mesmos voos" if a["mesmos_voos"] else "nas mesmas datas (voos podem ser outros)"
+    if a["tipo"] == "upgrade":
+        linhas = [
+            f"⬆️ <b>UPGRADE: {e(a['classe'])} por +{_reais(a['diferenca'])}</b>",
+            f"🧳 Sua viagem: <b>{e(a['viagem'])}</b> ({e(a['origem'])} → {e(a['destino'])})",
+            f"Você pagou {_reais(a['pago'])} em {e(a['classe_comprada'])}; "
+            f"{e(a['classe'])} hoje custa {_reais(a['preco'])} {mesmos}.",
+            "👉 Peça o upgrade pago à companhia ou, se sua tarifa permite remarcar, "
+            "troque de classe pagando a diferença.",
+        ]
+    else:
+        linhas = [
+            f"💸 <b>SUA PASSAGEM BAIXOU {_reais(-a['diferenca'])}</b>",
+            f"🧳 Sua viagem: <b>{e(a['viagem'])}</b> ({e(a['origem'])} → {e(a['destino'])})",
+            f"Você pagou {_reais(a['pago'])}; hoje a mesma classe ({e(a['classe'])}) "
+            f"custa {_reais(a['preco'])} {mesmos}.",
+            "👉 Se a sua tarifa permite remarcação ou crédito, vale consultar a companhia.",
+        ]
+    linhas.append(f"📅 {_data_br(a['ida'])}" + (f" → {_data_br(a['volta'])}" if a.get("volta") else ""))
+    if voos:
+        linhas.append(f"Voos: {e(voos)}")
+    linhas.append(f'<a href="{e(a["google"])}">Ver no Google Flights</a>')
+    if site:
+        linhas.append(f'<a href="{e(site)}">Abrir o radar</a>')
+    return "\n".join(linhas)
+
+
 def enviar_telegram(mensagem: str) -> bool:
     token = os.environ.get("TELEGRAM_BOT_TOKEN")
     chat = os.environ.get("TELEGRAM_CHAT_ID")
@@ -93,7 +124,7 @@ def enviar_alertas(resultados: list[dict], site: str | None = None) -> list[str]
     if not resultados:
         return []
     canais: list[str] = []
-    textos = [texto_alerta(r, site) for r in resultados]
+    textos = [texto_upgrade(r, site) if r.get("tipo") else texto_alerta(r, site) for r in resultados]
 
     try:
         if os.environ.get("TELEGRAM_BOT_TOKEN"):
@@ -104,11 +135,18 @@ def enviar_alertas(resultados: list[dict], site: str | None = None) -> list[str]
         print(f"[alerta] Falha no Telegram: {erro}")
 
     try:
-        melhor = min(resultados, key=lambda r: r["preco"])
-        assunto = (
-            f"✈️ {len(resultados)} promoção(ões) de passagem — a partir de "
-            f"{_reais(melhor['preco'])} ({melhor['origem']}→{melhor['cidade']})"
-        )
+        ups = [r for r in resultados if r.get("tipo")]
+        promos = [r for r in resultados if not r.get("tipo")]
+        if promos:
+            melhor = min(promos, key=lambda r: r["preco"])
+            assunto = (
+                f"✈️ {len(promos)} promoção(ões) de passagem — a partir de "
+                f"{_reais(melhor['preco'])} ({melhor['origem']}→{melhor['cidade']})"
+            )
+            if ups:
+                assunto = f"⬆️ {len(ups)} aviso(s) da sua viagem + " + assunto
+        else:
+            assunto = f"⬆️ {len(ups)} aviso(s) de upgrade/preço da sua viagem comprada"
         if enviar_email(assunto, "\n\n<hr>\n\n".join(textos)):
             canais.append("email")
     except Exception as erro:

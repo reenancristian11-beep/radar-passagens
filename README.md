@@ -79,11 +79,30 @@ prioridades:
   ⭐ no Telegram e ficam no topo do site (com o filtro "⭐ Só prioridades").
 - Os outros destinos continuam sendo pesquisados e avisados normalmente.
 
+## 🧳 Upgrade em passagens já compradas
+
+Cadastre suas viagens em `viagens_compradas` no `config.yaml` (há um exemplo
+comentado lá). A cada 6 horas o radar confere o preço **da mesma viagem**
+(mesmas datas e, se você informar, os mesmos números de voo) em todas as classes
+acima da sua e avisa no Telegram quando:
+
+- ⬆️ **Upgrade:** a classe de cima custa até `avisar_upgrade_ate` reais a mais do
+  que você pagou. Aí vale pedir o upgrade pago à companhia ou remarcar pagando
+  a diferença (depende das regras da sua tarifa).
+- 💸 **Sua passagem baixou:** a sua própria classe ficou 10% ou mais barata —
+  útil para remarcar ou pedir crédito, se a tarifa permitir.
+
+O site mostra uma tabela "Minhas viagens compradas" com o preço de hoje de cada
+classe. **Limitação:** o radar não acessa a sua reserva, então não vê ofertas
+exclusivas de upgrade por lance ou com milhas — essas só aparecem no app/site da
+companhia aérea.
+
 ## Personalizar (`config.yaml`)
 
 | O que | Onde |
 |---|---|
 | Destinos prioritários | `prioridades` |
+| Viagens já compradas (upgrades) | `viagens_compradas` |
 | Aeroportos de origem | `origens` |
 | Destinos (código IATA + cidade) | `destinos` |
 | Classes por região e **preço-alvo** de cada uma | `regioes` |

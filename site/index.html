@@ -58,6 +58,15 @@
   .links a { color: var(--accent); text-decoration: none; font-weight: 600; }
   .links a:hover { text-decoration: underline; }
   .vazio { grid-column: 1 / -1; text-align: center; color: var(--muted); padding: 40px 0; }
+  .viagens { display: grid; gap: 12px; margin: 18px 0 0; }
+  .viagens h2 { font-size: 17px; margin: 0; }
+  .viagem { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 14px; }
+  .viagem .rota { margin-bottom: 4px; }
+  .tabela { width: 100%; border-collapse: collapse; font-size: 14px; margin-top: 8px; font-variant-numeric: tabular-nums; }
+  .tabela td, .tabela th { padding: 6px 4px; border-top: 1px solid var(--line); text-align: left; }
+  .tabela th { color: var(--muted); font-weight: 500; font-size: 12px; }
+  .tabela .num { text-align: right; white-space: nowrap; }
+  .mais { color: var(--muted); } .menos { color: var(--deal); font-weight: 600; }
   footer { max-width: 1100px; margin: 0 auto; padding: 0 16px 32px; color: var(--muted); font-size: 12px; }
 </style>
 </head>
@@ -67,6 +76,7 @@
   <p class="sub" id="sub">Carregando…</p>
 </header>
 <main>
+  <section class="viagens" id="viagens" hidden></section>
   <section class="filtros" aria-label="Filtros">
     <div class="grupo" id="f-origem"><span>Origem</span></div>
     <div class="grupo" id="f-classe"><span>Classe</span></div>
@@ -148,6 +158,28 @@ function desenhar() {
   }).join("");
 }
 
+function desenharViagens() {
+  const lista = dados.viagens || [];
+  const caixa = document.getElementById("viagens");
+  if (!lista.length) return;
+  const nomes = { economica: "Econômica", premium: "Premium Economy", executiva: "Executiva", primeira: "Primeira Classe", ...(dados.classes || {}) };
+  caixa.hidden = false;
+  caixa.innerHTML = `<h2>🧳 Minhas viagens compradas</h2>` + lista.map(v => {
+    const linhas = Object.entries(v.classes || {}).map(([c, i]) => {
+      const minha = c === v.classe_comprada;
+      const dif = minha
+        ? (i.diferenca < 0 ? `<span class="menos">baixou ${reais(-i.diferenca)}</span>` : `<span class="mais">+${reais(i.diferenca)}</span>`)
+        : (i.diferenca <= 0 ? `<span class="menos">mais barata que a sua!</span>` : `<span class="mais">+${reais(i.diferenca)}</span>`);
+      return `<tr><td>${esc(nomes[c] || c)}${minha ? " (a sua)" : ""}</td><td class="num">${reais(i.preco)}</td><td class="num">${dif}</td>
+        <td class="num"><a href="${esc(i.google)}" target="_blank" rel="noopener">ver</a></td></tr>`;
+    }).join("");
+    const datas = dataBR(v.ida) + (v.volta ? " → " + dataBR(v.volta) : "");
+    return `<article class="viagem"><div class="rota">${esc(v.nome)} <small>${esc(v.origem)} → ${esc(v.destino)} · ${datas}</small></div>
+      <div class="meta">Você pagou ${reais(v.pago)} · conferido em ${new Date(v.verificado).toLocaleString("pt-BR")}</div>
+      <table class="tabela"><tr><th>Classe</th><th class="num">Preço hoje</th><th class="num">Diferença</th><th></th></tr>${linhas}</table></article>`;
+  }).join("");
+}
+
 async function iniciar() {
   try {
     const resp = await fetch("data/site.json", { cache: "no-store" });
@@ -173,6 +205,7 @@ async function iniciar() {
   document.getElementById("sub").textContent =
     `Saindo de ${origens.join(", ")} · ${dados.rotas.length} de ${dados.total_rotas || "?"} rotas já pesquisadas · atualizado em ${gerado}` +
     ((dados.prioridades || []).length ? ` · ⭐ Prioridades: ${dados.prioridades.join(", ")}` : "");
+  desenharViagens();
   desenhar();
 }
 iniciar();

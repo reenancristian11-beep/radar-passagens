@@ -170,7 +170,7 @@ def test_respostas_vazias_seguidas_param_e_retomam_dali(tmp_path, monkeypatch):
     args = argparse.Namespace(quantidade=20, rota=None, sem_alertas=True)
     res = principal.executar(args, tmp_path, busca, lambda p, s: [])
     assert res["pesquisadas"] == 6
-    assert len(chamadas) == 10  # 6 com preço + 4 vazias, depois parou
+    assert len(chamadas) == 11  # 6 com preço + 4 vazias + rota de teste (vazia) → parou
     assert principal.ler_json(tmp_path / "estado.json", {})["cursor"] == 6
 
 
@@ -265,3 +265,108 @@ def test_rodada_reserva_metade_para_prioridades(tmp_path, monkeypatch):
     site = principal.ler_json(tmp_path / "site.json", {})
     assert site["prioridades"] == ["Orlando (MCO)"]
     assert site["rotas"][0]["destino"] == "MCO"
+
+
+def test_rota_de_teste_distingue_sem_voos_de_bloqueio(tmp_path, monkeypatch):
+    monkeypatch.setattr(principal.time, "sleep", lambda s: None)
+    sem_voos = {"SJP-BPS-economica", "SJP-FEN-economica", "SJP-GIG-economica", "SJP-BSB-economica"}
+
+    def busca(r, cfg):  # Google respondendo; 4 rotas realmente sem voos
+        return [] if r.chave in sem_voos else calendario([900, 950])
+
+    args = argparse.Namespace(quantidade=20, rota=None, sem_alertas=True)
+    res = principal.executar(args, tmp_path, busca, lambda p, s: [])
+    assert res["pesquisadas"] == 16  # não parou
+    precos = principal.ler_json(tmp_path / "precos.json", {})
+    assert all(precos[c]["vazias"] == 1 for c in sem_voos)
+
+    # Na 2ª vez vazias, passam a ser puladas por uma semana.
+    (tmp_path / "estado.json").write_text('{"cursor": 0}')
+    principal.executar(args, tmp_path, busca, lambda p, s: [])
+    vistas = []
+    (tmp_path / "estado.json").write_text('{"cursor": 0}')
+    principal.executar(args, tmp_path, lambda r, c: vistas.append(r.chave) or busca(r, c), lambda p, s: [])
+    assert not (set(vistas) & sem_voos)
+    assert len(vistas) == 20  # as puladas não ocupam lugar na rodada
+
+
+def viagem_cfg(**extra):
+    import copy
+
+    cfg = copy.deepcopy(CFG)
+    v = {"nome": "Férias Orlando", "origem": "GRU", "destino": "MCO",
+         "ida": (date.today() + timedelta(days=60)).isoformat(),
+         "volta": (date.today() + timedelta(days=70)).isoformat(),
+         "voos_ida": ["LA 8190"], "classe_comprada": "economica", "preco_pago": 4000,
+         "avisar_upgrade_ate": 3000}
+    v.update(extra)
+    cfg["viagens_compradas"] = [v]
+    cfg["upgrades"] = {"verificar_a_cada_horas": 6, "avisar_se_minha_passagem_cair_pct": 10}
+    return cfg
+
+
+def busca_viagem_falsa(precos):
+    def busca(v, classe_google, cfg):
+        p = precos.get(classe_google)
+        return p and {"preco": p, "moeda": "BRL", "voos_ida": ["LA8190"], "voos_volta": ["LA8191"],
+                      "mesmos_voos": True}
+    return busca
+
+
+def test_upgrade_e_queda_de_preco_da_viagem_comprada():
+    from radar import upgrades
+
+    cfg = viagem_cfg()
+    situacao, alertados = {}, {}
+    busca = busca_viagem_falsa({"ECONOMY": 3500, "PREMIUM_ECONOMY": 5800,
+                                "BUSINESS": 6900, "FIRST": 15000})
+    avisos, consultas = upgrades.verificar(cfg, situacao, alertados, busca)
+    assert consultas == 4
+    tipos = {(a["tipo"], a["classe"]) for a in avisos}
+    # Queda de 12,5% na própria passagem; premium (+1.800) e executiva (+2.900) até R$ 3.000.
+    assert tipos == {("queda", "Econômica"), ("upgrade", "Premium Economy"), ("upgrade", "Executiva")}
+    assert situacao["Férias Orlando"]["classes"]["executiva"]["diferenca"] == 2900
+
+    # Logo em seguida não consulta de novo (intervalo de 6 h).
+    assert upgrades.verificar(cfg, situacao, alertados, busca) == ([], 0)
+
+
+def test_viagem_passada_ou_incompleta_e_ignorada():
+    from radar import upgrades
+
+    passada = viagem_cfg(ida="2020-01-01", volta="2020-01-10")
+    assert upgrades.viagens_validas(passada) == []
+    sem_preco = viagem_cfg(preco_pago=None)
+    assert upgrades.viagens_validas(sem_preco) == []
+
+
+def test_aviso_de_upgrade_chega_no_alerta(tmp_path, monkeypatch):
+    from radar.alertas import texto_upgrade
+
+    cfg = viagem_cfg()
+    monkeypatch.setattr(principal, "carregar_config", lambda: cfg)
+    monkeypatch.setattr(principal.time, "sleep", lambda s: None)
+    enviados = []
+    args = argparse.Namespace(quantidade=2, rota=None, sem_alertas=False)
+    res = principal.executar(args, tmp_path, lambda r, c: calendario([99999]),
+                             lambda p, s: enviados.extend(p) or ["telegram"],
+                             busca_viagem_falsa({"ECONOMY": 4100, "BUSINESS": 6500}))
+    assert [a["classe"] for a in res["avisos_viagens"]] == ["Executiva"]
+    texto = texto_upgrade(enviados[0])
+    assert "UPGRADE: Executiva por +R$ 2.500" in texto and "mesmos voos" in texto
+    site = principal.ler_json(tmp_path / "site.json", {})
+    assert site["viagens"][0]["nome"] == "Férias Orlando"
+
+
+def test_escolhe_o_voo_informado():
+    from types import SimpleNamespace as N
+
+    from radar.busca import _escolher
+
+    def op(preco, *numeros):
+        return N(price=preco, legs=[N(flight_number=n) for n in numeros])
+
+    opcoes = [op(3000, "3456"), op(4200, "8190", "0510"), op(3900, "8190")]
+    assert _escolher(opcoes, ["LA8190", "LA 510"]) == (opcoes[1], True)
+    assert _escolher(opcoes, ["G3 1111"]) == (opcoes[0], False)  # não achou: mais barato
+    assert _escolher(opcoes, []) == (opcoes[0], False)

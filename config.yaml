@@ -35,6 +35,33 @@ prioridades:
   # Prioritários avisam mesmo com preço até X% acima do preço-alvo.
   margem_preco_alvo_pct: 15
 
+# ---------------------------------------------------------------------
+#  VIAGENS JÁ COMPRADAS — avisos de upgrade e de queda de preço.
+#  O radar confere o preço da MESMA viagem nas classes acima da sua e avisa
+#  quando a diferença ficar pequena (vale pedir upgrade pago à companhia ou
+#  remarcar pagando a diferença). Também avisa se a sua própria passagem
+#  ficar mais barata (útil para remarcar ou pedir crédito).
+#  Viagens que já passaram são ignoradas sozinhas.
+# ---------------------------------------------------------------------
+upgrades:
+  verificar_a_cada_horas: 6
+  avisar_se_minha_passagem_cair_pct: 10
+  avisar_upgrade_ate_padrao: 2000    # R$ a mais que você aceitaria pagar (se a viagem não disser)
+
+viagens_compradas: []
+# Exemplo (apague o "[]" acima e descomente/ajuste as linhas abaixo):
+# viagens_compradas:
+#   - nome: Férias Orlando
+#     origem: GRU
+#     destino: MCO
+#     ida: 2027-02-10
+#     volta: 2027-02-20          # tire esta linha se for só ida
+#     voos_ida: [LA8190]         # opcional; com conexão: [LA3456, LA8190]
+#     voos_volta: [LA8191]       # opcional
+#     classe_comprada: economica # economica, premium, executiva ou primeira
+#     preco_pago: 3500           # R$ por pessoa (total ida e volta)
+#     avisar_upgrade_ate: 2500   # avisa se a classe de cima custar até R$ 2.500 a mais
+
 # Nomes das classes usados no site e nos alertas.
 classes:
   economica: { google: ECONOMY,         nome: "Econômica" }
