@@ -1220,60 +1220,538 @@
   }
  },
  "SJP-SCL-executiva": {
-  "historico": [],
-  "atual": null
+  "historico": [
+   [
+    "2026-11-23T21:50+00:00",
+    6343.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-SCL-executiva",
+   "origem": "SJP",
+   "destino": "SCL",
+   "cidade": "Santiago",
+   "regiao": "america_do_sul",
+   "regiao_nome": "América do Sul",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 6343.0,
+   "moeda": "BRL",
+   "ida": "2027-03-24",
+   "volta": "2027-03-30",
+   "referencia": 8958.0,
+   "desconto": 0.2919,
+   "limite": 4500.0,
+   "datas_baratas": [
+    {
+     "ida": "2027-03-24",
+     "volta": "2027-03-30",
+     "preco": 6343.0
+    },
+    {
+     "ida": "2027-01-26",
+     "volta": "2027-02-01",
+     "preco": 6369.0
+    },
+    {
+     "ida": "2027-01-29",
+     "volta": "2027-02-04",
+     "preco": 6369.0
+    },
+    {
+     "ida": "2027-02-13",
+     "volta": "2027-02-19",
+     "preco": 6577.0
+    },
+    {
+     "ida": "2027-01-30",
+     "volta": "2027-02-05",
+     "preco": 6602.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20SCL%20from%20SJP%20on%202027-03-24%20through%202027-03-30%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/scl/270324/270330/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-23T21:50+00:00"
+  }
  },
  "SJP-MVD-economica": {
-  "historico": [],
-  "atual": null
+  "historico": [
+   [
+    "2026-11-23T21:50+00:00",
+    2960.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-MVD-economica",
+   "origem": "SJP",
+   "destino": "MVD",
+   "cidade": "Montevidéu",
+   "regiao": "america_do_sul",
+   "regiao_nome": "América do Sul",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 2960.0,
+   "moeda": "BRL",
+   "ida": "2027-01-26",
+   "volta": "2027-02-01",
+   "referencia": 2960.0,
+   "desconto": 0.0,
+   "limite": 1200.0,
+   "datas_baratas": [
+    {
+     "ida": "2027-01-26",
+     "volta": "2027-02-01",
+     "preco": 2960.0
+    },
+    {
+     "ida": "2027-01-27",
+     "volta": "2027-02-02",
+     "preco": 2960.0
+    },
+    {
+     "ida": "2027-01-28",
+     "volta": "2027-02-03",
+     "preco": 2960.0
+    },
+    {
+     "ida": "2027-01-29",
+     "volta": "2027-02-04",
+     "preco": 2960.0
+    },
+    {
+     "ida": "2027-01-30",
+     "volta": "2027-02-05",
+     "preco": 2960.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MVD%20from%20SJP%20on%202027-01-26%20through%202027-02-01%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/mvd/270126/270201/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-23T21:50+00:00"
+  }
  },
  "SJP-MVD-executiva": {
-  "historico": [],
-  "atual": null
+  "historico": [
+   [
+    "2026-11-23T21:50+00:00",
+    28113.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-MVD-executiva",
+   "origem": "SJP",
+   "destino": "MVD",
+   "cidade": "Montevidéu",
+   "regiao": "america_do_sul",
+   "regiao_nome": "América do Sul",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 28113.0,
+   "moeda": "BRL",
+   "ida": "2027-02-16",
+   "volta": "2027-02-22",
+   "referencia": 28491.0,
+   "desconto": 0.0133,
+   "limite": 4500.0,
+   "datas_baratas": [
+    {
+     "ida": "2027-02-16",
+     "volta": "2027-02-22",
+     "preco": 28113.0
+    },
+    {
+     "ida": "2027-02-17",
+     "volta": "2027-02-23",
+     "preco": 28113.0
+    },
+    {
+     "ida": "2027-02-18",
+     "volta": "2027-02-24",
+     "preco": 28113.0
+    },
+    {
+     "ida": "2026-12-25",
+     "volta": "2026-12-31",
+     "preco": 28380.0
+    },
+    {
+     "ida": "2027-02-21",
+     "volta": "2027-02-27",
+     "preco": 28380.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MVD%20from%20SJP%20on%202027-02-16%20through%202027-02-22%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/mvd/270216/270222/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-23T21:50+00:00"
+  }
  },
  "SJP-PDP-economica": {
-  "historico": [],
-  "atual": null
+  "historico": [
+   [
+    "2026-11-23T21:51+00:00",
+    4150.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-PDP-economica",
+   "origem": "SJP",
+   "destino": "PDP",
+   "cidade": "Punta del Este",
+   "regiao": "america_do_sul",
+   "regiao_nome": "América do Sul",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 4150.0,
+   "moeda": "BRL",
+   "ida": "2027-04-23",
+   "volta": "2027-04-29",
+   "referencia": 4150.0,
+   "desconto": 0.0,
+   "limite": 1200.0,
+   "datas_baratas": [
+    {
+     "ida": "2027-04-23",
+     "volta": "2027-04-29",
+     "preco": 4150.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20PDP%20from%20SJP%20on%202027-04-23%20through%202027-04-29%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/pdp/270423/270429/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-23T21:51+00:00"
+  }
  },
  "SJP-PDP-executiva": {
   "historico": [],
   "atual": null
  },
  "SJP-ASU-economica": {
-  "historico": [],
-  "atual": null
+  "historico": [
+   [
+    "2026-11-23T21:51+00:00",
+    2867.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-ASU-economica",
+   "origem": "SJP",
+   "destino": "ASU",
+   "cidade": "Assunção",
+   "regiao": "america_do_sul",
+   "regiao_nome": "América do Sul",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 2867.0,
+   "moeda": "BRL",
+   "ida": "2027-04-10",
+   "volta": "2027-04-16",
+   "referencia": 2867.0,
+   "desconto": 0.0,
+   "limite": 1200.0,
+   "datas_baratas": [
+    {
+     "ida": "2027-04-10",
+     "volta": "2027-04-16",
+     "preco": 2867.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20ASU%20from%20SJP%20on%202027-04-10%20through%202027-04-16%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/asu/270410/270416/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-23T21:51+00:00"
+  }
  },
  "SJP-ASU-executiva": {
   "historico": [],
   "atual": null
  },
  "SJP-LIM-economica": {
-  "historico": [],
-  "atual": null
+  "historico": [
+   [
+    "2026-11-23T21:52+00:00",
+    3353.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-LIM-economica",
+   "origem": "SJP",
+   "destino": "LIM",
+   "cidade": "Lima",
+   "regiao": "america_do_sul",
+   "regiao_nome": "América do Sul",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 3353.0,
+   "moeda": "BRL",
+   "ida": "2027-01-29",
+   "volta": "2027-02-04",
+   "referencia": 3589.0,
+   "desconto": 0.0658,
+   "limite": 1200.0,
+   "datas_baratas": [
+    {
+     "ida": "2027-01-29",
+     "volta": "2027-02-04",
+     "preco": 3353.0
+    },
+    {
+     "ida": "2026-12-12",
+     "volta": "2026-12-18",
+     "preco": 3825.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20LIM%20from%20SJP%20on%202027-01-29%20through%202027-02-04%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/lim/270129/270204/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-23T21:52+00:00"
+  }
  },
  "SJP-LIM-executiva": {
-  "historico": [],
-  "atual": null
+  "historico": [
+   [
+    "2026-11-23T21:53+00:00",
+    29706.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-LIM-executiva",
+   "origem": "SJP",
+   "destino": "LIM",
+   "cidade": "Lima",
+   "regiao": "america_do_sul",
+   "regiao_nome": "América do Sul",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 29706.0,
+   "moeda": "BRL",
+   "ida": "2027-03-25",
+   "volta": "2027-03-31",
+   "referencia": 29706.0,
+   "desconto": 0.0,
+   "limite": 4500.0,
+   "datas_baratas": [
+    {
+     "ida": "2027-03-25",
+     "volta": "2027-03-31",
+     "preco": 29706.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20LIM%20from%20SJP%20on%202027-03-25%20through%202027-03-31%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/lim/270325/270331/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-23T21:53+00:00"
+  }
  },
  "SJP-CUZ-economica": {
-  "historico": [],
-  "atual": null
+  "historico": [
+   [
+    "2026-11-23T21:53+00:00",
+    3538.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-CUZ-economica",
+   "origem": "SJP",
+   "destino": "CUZ",
+   "cidade": "Cusco",
+   "regiao": "america_do_sul",
+   "regiao_nome": "América do Sul",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 3538.0,
+   "moeda": "BRL",
+   "ida": "2027-06-22",
+   "volta": "2027-06-28",
+   "referencia": 3876.0,
+   "desconto": 0.0872,
+   "limite": 1200.0,
+   "datas_baratas": [
+    {
+     "ida": "2027-06-22",
+     "volta": "2027-06-28",
+     "preco": 3538.0
+    },
+    {
+     "ida": "2027-04-14",
+     "volta": "2027-04-20",
+     "preco": 3876.0
+    },
+    {
+     "ida": "2027-02-08",
+     "volta": "2027-02-14",
+     "preco": 4056.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20CUZ%20from%20SJP%20on%202027-06-22%20through%202027-06-28%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/cuz/270622/270628/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-23T21:53+00:00"
+  }
  },
  "SJP-CUZ-executiva": {
-  "historico": [],
-  "atual": null
+  "historico": [
+   [
+    "2026-11-23T21:54+00:00",
+    9091.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-CUZ-executiva",
+   "origem": "SJP",
+   "destino": "CUZ",
+   "cidade": "Cusco",
+   "regiao": "america_do_sul",
+   "regiao_nome": "América do Sul",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 9091.0,
+   "moeda": "BRL",
+   "ida": "2026-12-14",
+   "volta": "2026-12-20",
+   "referencia": 12048.5,
+   "desconto": 0.2455,
+   "limite": 4500.0,
+   "datas_baratas": [
+    {
+     "ida": "2026-12-14",
+     "volta": "2026-12-20",
+     "preco": 9091.0
+    },
+    {
+     "ida": "2026-12-13",
+     "volta": "2026-12-19",
+     "preco": 9117.0
+    },
+    {
+     "ida": "2026-12-07",
+     "volta": "2026-12-13",
+     "preco": 9268.0
+    },
+    {
+     "ida": "2026-12-12",
+     "volta": "2026-12-18",
+     "preco": 9268.0
+    },
+    {
+     "ida": "2026-12-15",
+     "volta": "2026-12-21",
+     "preco": 9370.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20CUZ%20from%20SJP%20on%202026-12-14%20through%202026-12-20%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/cuz/261214/261220/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-23T21:54+00:00"
+  }
  },
  "SJP-BOG-economica": {
-  "historico": [],
-  "atual": null
+  "historico": [
+   [
+    "2026-11-23T21:54+00:00",
+    4288.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-BOG-economica",
+   "origem": "SJP",
+   "destino": "BOG",
+   "cidade": "Bogotá",
+   "regiao": "america_do_sul",
+   "regiao_nome": "América do Sul",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 4288.0,
+   "moeda": "BRL",
+   "ida": "2027-04-18",
+   "volta": "2027-04-24",
+   "referencia": 4288.0,
+   "desconto": 0.0,
+   "limite": 1200.0,
+   "datas_baratas": [
+    {
+     "ida": "2027-04-18",
+     "volta": "2027-04-24",
+     "preco": 4288.0
+    },
+    {
+     "ida": "2027-06-20",
+     "volta": "2027-06-26",
+     "preco": 4288.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20BOG%20from%20SJP%20on%202027-04-18%20through%202027-04-24%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/bog/270418/270424/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-23T21:54+00:00"
+  }
  },
  "SJP-BOG-executiva": {
   "historico": [],
   "atual": null
  },
  "SJP-CTG-economica": {
-  "historico": [],
-  "atual": null
+  "historico": [
+   [
+    "2026-11-23T21:55+00:00",
+    4760.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-CTG-economica",
+   "origem": "SJP",
+   "destino": "CTG",
+   "cidade": "Cartagena",
+   "regiao": "america_do_sul",
+   "regiao_nome": "América do Sul",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 4760.0,
+   "moeda": "BRL",
+   "ida": "2027-04-17",
+   "volta": "2027-04-23",
+   "referencia": 4773.0,
+   "desconto": 0.0027,
+   "limite": 1200.0,
+   "datas_baratas": [
+    {
+     "ida": "2027-04-17",
+     "volta": "2027-04-23",
+     "preco": 4760.0
+    },
+    {
+     "ida": "2027-06-05",
+     "volta": "2027-06-11",
+     "preco": 4760.0
+    },
+    {
+     "ida": "2027-02-06",
+     "volta": "2027-02-12",
+     "preco": 4786.0
+    },
+    {
+     "ida": "2026-11-29",
+     "volta": "2026-12-05",
+     "preco": 4896.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20CTG%20from%20SJP%20on%202027-04-17%20through%202027-04-23%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/ctg/270417/270423/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-23T21:55+00:00"
+  }
  },
  "SJP-CTG-executiva": {
   "historico": [],
