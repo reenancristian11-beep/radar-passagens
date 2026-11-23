@@ -2,7 +2,7 @@ name: Radar de passagens
 
 on:
   schedule:
-    - cron: "17 * * * *"   # a cada hora
+    - cron: "17,47 * * * *"   # a cada 30 minutos
   workflow_dispatch: {}       # botão "Run workflow" para rodar na hora
 
 permissions:

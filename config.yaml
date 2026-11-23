@@ -30,7 +30,7 @@ datas:
 # Quanto da lista é pesquisado a cada execução (o radar faz rodízio).
 varredura:
   # Na 1ª execução o Google limitou após ~23 rotas; por isso rodadas menores
-  # e mais frequentes (a cada hora, ver .github/workflows/radar.yml).
+  # e mais frequentes (a cada 30 min, ver .github/workflows/radar.yml).
   combinacoes_por_execucao: 20
   pausa_entre_buscas_segundos: 8
   parar_apos_falhas_seguidas: 4   # buscas vazias seguidas = Google limitou; para e continua na próxima
