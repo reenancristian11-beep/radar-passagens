@@ -2285,6 +2285,10 @@
    [
     "2026-11-23T22:31+00:00",
     7493.0
+   ],
+   [
+    "2026-11-24T22:39+00:00",
+    7593.0
    ]
   ],
   "atual": {
@@ -2296,60 +2300,64 @@
    "regiao_nome": "América do Norte, Central e Caribe",
    "classe": "premium",
    "classe_nome": "Premium Economy",
-   "preco": 7493.0,
+   "preco": 7593.0,
    "moeda": "BRL",
-   "ida": "2027-02-03",
-   "volta": "2027-02-13",
-   "referencia": 7493.0,
-   "desconto": 0.0,
+   "ida": "2027-02-16",
+   "volta": "2027-02-26",
+   "referencia": 7626.0,
+   "desconto": 0.0043,
    "limite": 5175.0,
    "prioridade": "escolhido por você",
    "datas_baratas": [
     {
-     "ida": "2027-02-03",
-     "volta": "2027-02-13",
-     "preco": 7493.0
+     "ida": "2027-02-16",
+     "volta": "2027-02-26",
+     "preco": 7593.0
     },
     {
-     "ida": "2027-04-21",
-     "volta": "2027-05-01",
-     "preco": 7493.0
+     "ida": "2027-06-11",
+     "volta": "2027-06-21",
+     "preco": 7593.0
     },
     {
-     "ida": "2027-06-10",
-     "volta": "2027-06-20",
-     "preco": 7493.0
+     "ida": "2027-04-17",
+     "volta": "2027-04-27",
+     "preco": 7659.0
     },
     {
-     "ida": "2026-12-13",
-     "volta": "2026-12-23",
-     "preco": 8107.0
+     "ida": "2026-12-05",
+     "volta": "2026-12-15",
+     "preco": 9766.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20ADZ%20from%20SJP%20on%202027-02-03%20through%202027-02-13%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/adz/270203/270213/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
-   "atualizado": "2026-11-23T22:31+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20ADZ%20from%20SJP%20on%202027-02-16%20through%202027-02-26%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/adz/270216/270226/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-24T22:39+00:00"
   }
  },
  "SJP-ADZ-executiva": {
   "historico": [],
   "atual": null,
-  "vazias": 1,
-  "ultima_vazia": "2026-11-23"
+  "vazias": 2,
+  "ultima_vazia": "2026-11-24"
  },
  "SJP-ADZ-primeira": {
   "historico": [],
   "atual": null,
-  "vazias": 1,
-  "ultima_vazia": "2026-11-23"
+  "vazias": 2,
+  "ultima_vazia": "2026-11-24"
  },
  "SJP-AUS-economica": {
   "historico": [
    [
     "2026-11-23T22:38+00:00",
     9035.0
+   ],
+   [
+    "2026-11-24T22:41+00:00",
+    7734.0
    ]
   ],
   "atual": {
@@ -2361,31 +2369,41 @@
    "regiao_nome": "América do Norte, Central e Caribe",
    "classe": "economica",
    "classe_nome": "Econômica",
-   "preco": 9035.0,
+   "preco": 7734.0,
    "moeda": "BRL",
-   "ida": "2027-01-31",
-   "volta": "2027-02-10",
-   "referencia": 13763.5,
-   "desconto": 0.3436,
+   "ida": "2026-12-13",
+   "volta": "2026-12-23",
+   "referencia": 9075.0,
+   "desconto": 0.1478,
    "limite": 2989.9999999999995,
    "prioridade": "escolhido por você",
    "datas_baratas": [
     {
-     "ida": "2027-01-31",
-     "volta": "2027-02-10",
-     "preco": 9035.0
+     "ida": "2026-12-13",
+     "volta": "2026-12-23",
+     "preco": 7734.0
     },
     {
-     "ida": "2026-11-28",
-     "volta": "2026-12-08",
-     "preco": 18492.0
+     "ida": "2027-04-09",
+     "volta": "2027-04-19",
+     "preco": 9075.0
+    },
+    {
+     "ida": "2027-06-07",
+     "volta": "2027-06-17",
+     "preco": 9075.0
+    },
+    {
+     "ida": "2027-02-05",
+     "volta": "2027-02-15",
+     "preco": 9949.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20AUS%20from%20SJP%20on%202027-01-31%20through%202027-02-10%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/aus/270131/270210/?adultsv2=1&cabinclass=economy&rtn=1",
-   "atualizado": "2026-11-23T22:38+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20AUS%20from%20SJP%20on%202026-12-13%20through%202026-12-23%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/aus/261213/261223/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-24T22:41+00:00"
   }
  },
  "SJP-AUS-premium": {
@@ -2393,6 +2411,10 @@
    [
     "2026-11-23T22:38+00:00",
     18583.0
+   ],
+   [
+    "2026-11-24T22:41+00:00",
+    25449.0
    ]
   ],
   "atual": {
@@ -2404,41 +2426,26 @@
    "regiao_nome": "América do Norte, Central e Caribe",
    "classe": "premium",
    "classe_nome": "Premium Economy",
-   "preco": 18583.0,
+   "preco": 25449.0,
    "moeda": "BRL",
-   "ida": "2027-04-13",
-   "volta": "2027-04-23",
-   "referencia": 19867.5,
-   "desconto": 0.0647,
+   "ida": "2026-12-16",
+   "volta": "2026-12-26",
+   "referencia": 25449.0,
+   "desconto": 0.0,
    "limite": 5175.0,
    "prioridade": "escolhido por você",
    "datas_baratas": [
     {
-     "ida": "2027-04-13",
-     "volta": "2027-04-23",
-     "preco": 18583.0
-    },
-    {
-     "ida": "2027-06-24",
-     "volta": "2027-07-04",
-     "preco": 19785.0
-    },
-    {
-     "ida": "2027-02-02",
-     "volta": "2027-02-12",
-     "preco": 19950.0
-    },
-    {
-     "ida": "2026-12-09",
-     "volta": "2026-12-19",
-     "preco": 61790.0
+     "ida": "2026-12-16",
+     "volta": "2026-12-26",
+     "preco": 25449.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20AUS%20from%20SJP%20on%202027-04-13%20through%202027-04-23%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/aus/270413/270423/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
-   "atualizado": "2026-11-23T22:38+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20AUS%20from%20SJP%20on%202026-12-16%20through%202026-12-26%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/aus/261216/261226/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-24T22:41+00:00"
   }
  },
  "SJP-AUS-executiva": {
@@ -2446,6 +2453,10 @@
    [
     "2026-11-23T22:39+00:00",
     31301.0
+   ],
+   [
+    "2026-11-24T22:42+00:00",
+    31734.0
    ]
   ],
   "atual": {
@@ -2457,54 +2468,58 @@
    "regiao_nome": "América do Norte, Central e Caribe",
    "classe": "executiva",
    "classe_nome": "Executiva",
-   "preco": 31301.0,
+   "preco": 31734.0,
    "moeda": "BRL",
-   "ida": "2027-02-12",
-   "volta": "2027-02-22",
-   "referencia": 32623.0,
-   "desconto": 0.0405,
+   "ida": "2027-02-16",
+   "volta": "2027-02-26",
+   "referencia": 32928.0,
+   "desconto": 0.0363,
    "limite": 9200.0,
    "prioridade": "escolhido por você",
    "datas_baratas": [
     {
-     "ida": "2027-02-12",
-     "volta": "2027-02-22",
-     "preco": 31301.0
+     "ida": "2027-02-16",
+     "volta": "2027-02-26",
+     "preco": 31734.0
     },
     {
-     "ida": "2027-04-19",
-     "volta": "2027-04-29",
-     "preco": 32623.0
+     "ida": "2027-04-07",
+     "volta": "2027-04-17",
+     "preco": 31734.0
     },
     {
-     "ida": "2027-05-31",
-     "volta": "2027-06-10",
-     "preco": 32623.0
+     "ida": "2027-06-23",
+     "volta": "2027-07-03",
+     "preco": 34122.0
     },
     {
-     "ida": "2026-12-22",
-     "volta": "2027-01-01",
-     "preco": 34834.0
+     "ida": "2026-12-18",
+     "volta": "2026-12-28",
+     "preco": 37167.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20AUS%20from%20SJP%20on%202027-02-12%20through%202027-02-22%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/aus/270212/270222/?adultsv2=1&cabinclass=business&rtn=1",
-   "atualizado": "2026-11-23T22:39+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20AUS%20from%20SJP%20on%202027-02-16%20through%202027-02-26%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/aus/270216/270226/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-24T22:42+00:00"
   }
  },
  "SJP-AUS-primeira": {
   "historico": [],
   "atual": null,
-  "vazias": 1,
-  "ultima_vazia": "2026-11-23"
+  "vazias": 2,
+  "ultima_vazia": "2026-11-24"
  },
  "SJP-FRA-economica": {
   "historico": [
    [
     "2026-11-23T22:39+00:00",
     5619.0
+   ],
+   [
+    "2026-11-24T22:43+00:00",
+    5887.0
    ]
   ],
   "atual": {
@@ -2516,41 +2531,36 @@
    "regiao_nome": "Europa",
    "classe": "economica",
    "classe_nome": "Econômica",
-   "preco": 5619.0,
+   "preco": 5887.0,
    "moeda": "BRL",
-   "ida": "2027-04-06",
-   "volta": "2027-04-16",
-   "referencia": 6328.5,
-   "desconto": 0.1121,
+   "ida": "2027-06-04",
+   "volta": "2027-06-14",
+   "referencia": 7211.0,
+   "desconto": 0.1836,
    "limite": 3219.9999999999995,
    "prioridade": "perto de Zurique (285 km)",
    "datas_baratas": [
     {
-     "ida": "2027-04-06",
-     "volta": "2027-04-16",
-     "preco": 5619.0
+     "ida": "2027-06-04",
+     "volta": "2027-06-14",
+     "preco": 5887.0
     },
     {
-     "ida": "2027-06-25",
-     "volta": "2027-07-05",
-     "preco": 5819.0
+     "ida": "2027-04-20",
+     "volta": "2027-04-30",
+     "preco": 7211.0
     },
     {
-     "ida": "2027-02-15",
-     "volta": "2027-02-25",
-     "preco": 6838.0
-    },
-    {
-     "ida": "2026-12-22",
-     "volta": "2027-01-01",
-     "preco": 9241.0
+     "ida": "2026-12-19",
+     "volta": "2026-12-29",
+     "preco": 9683.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FRA%20from%20SJP%20on%202027-04-06%20through%202027-04-16%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/fra/270406/270416/?adultsv2=1&cabinclass=economy&rtn=1",
-   "atualizado": "2026-11-23T22:39+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FRA%20from%20SJP%20on%202027-06-04%20through%202027-06-14%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/fra/270604/270614/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-24T22:43+00:00"
   }
  },
  "SJP-FRA-premium": {
@@ -2558,6 +2568,10 @@
    [
     "2026-11-23T22:40+00:00",
     15287.0
+   ],
+   [
+    "2026-11-24T22:43+00:00",
+    16467.0
    ]
   ],
   "atual": {
@@ -2569,41 +2583,41 @@
    "regiao_nome": "Europa",
    "classe": "premium",
    "classe_nome": "Premium Economy",
-   "preco": 15287.0,
+   "preco": 16467.0,
    "moeda": "BRL",
-   "ida": "2027-06-26",
-   "volta": "2027-07-06",
-   "referencia": 40616.5,
-   "desconto": 0.6236,
+   "ida": "2027-04-03",
+   "volta": "2027-04-13",
+   "referencia": 41356.0,
+   "desconto": 0.6018,
    "limite": 5750.0,
    "prioridade": "perto de Zurique (285 km)",
    "datas_baratas": [
     {
-     "ida": "2027-06-26",
-     "volta": "2027-07-06",
-     "preco": 15287.0
+     "ida": "2027-04-03",
+     "volta": "2027-04-13",
+     "preco": 16467.0
     },
     {
-     "ida": "2027-02-11",
-     "volta": "2027-02-21",
-     "preco": 32378.0
-    },
-    {
-     "ida": "2027-04-04",
-     "volta": "2027-04-14",
-     "preco": 48855.0
+     "ida": "2027-02-01",
+     "volta": "2027-02-11",
+     "preco": 32814.0
     },
     {
      "ida": "2026-12-02",
      "volta": "2026-12-12",
-     "preco": 49227.0
+     "preco": 49898.0
+    },
+    {
+     "ida": "2027-06-02",
+     "volta": "2027-06-12",
+     "preco": 50432.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FRA%20from%20SJP%20on%202027-06-26%20through%202027-07-06%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/fra/270626/270706/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
-   "atualizado": "2026-11-23T22:40+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FRA%20from%20SJP%20on%202027-04-03%20through%202027-04-13%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/fra/270403/270413/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-24T22:43+00:00"
   }
  },
  "SJP-FRA-executiva": {
@@ -2611,6 +2625,10 @@
    [
     "2026-11-23T22:40+00:00",
     24183.0
+   ],
+   [
+    "2026-11-24T22:44+00:00",
+    24502.0
    ]
   ],
   "atual": {
@@ -2622,36 +2640,36 @@
    "regiao_nome": "Europa",
    "classe": "executiva",
    "classe_nome": "Executiva",
-   "preco": 24183.0,
+   "preco": 24502.0,
    "moeda": "BRL",
-   "ida": "2027-04-18",
-   "volta": "2027-04-28",
-   "referencia": 28659.0,
-   "desconto": 0.1562,
+   "ida": "2027-04-25",
+   "volta": "2027-05-05",
+   "referencia": 26592.0,
+   "desconto": 0.0786,
    "limite": 10350.0,
    "prioridade": "perto de Zurique (285 km)",
    "datas_baratas": [
     {
-     "ida": "2027-04-18",
-     "volta": "2027-04-28",
-     "preco": 24183.0
+     "ida": "2027-04-25",
+     "volta": "2027-05-05",
+     "preco": 24502.0
     },
     {
-     "ida": "2027-06-18",
-     "volta": "2027-06-28",
-     "preco": 28659.0
+     "ida": "2027-06-16",
+     "volta": "2027-06-26",
+     "preco": 26592.0
     },
     {
-     "ida": "2026-12-08",
-     "volta": "2026-12-18",
-     "preco": 41495.0
+     "ida": "2027-02-20",
+     "volta": "2027-03-02",
+     "preco": 28187.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FRA%20from%20SJP%20on%202027-04-18%20through%202027-04-28%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/fra/270418/270428/?adultsv2=1&cabinclass=business&rtn=1",
-   "atualizado": "2026-11-23T22:40+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FRA%20from%20SJP%20on%202027-04-25%20through%202027-05-05%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/fra/270425/270505/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-24T22:44+00:00"
   }
  },
  "SJP-FRA-primeira": {
@@ -2659,6 +2677,10 @@
    [
     "2026-11-23T22:41+00:00",
     76092.0
+   ],
+   [
+    "2026-11-24T22:44+00:00",
+    77136.0
    ]
   ],
   "atual": {
@@ -2670,41 +2692,41 @@
    "regiao_nome": "Europa",
    "classe": "primeira",
    "classe_nome": "Primeira Classe",
-   "preco": 76092.0,
+   "preco": 77136.0,
    "moeda": "BRL",
-   "ida": "2027-02-10",
-   "volta": "2027-02-20",
-   "referencia": 117063.0,
+   "ida": "2027-02-08",
+   "volta": "2027-02-18",
+   "referencia": 118676.5,
    "desconto": 0.35,
    "limite": 17250.0,
    "prioridade": "perto de Zurique (285 km)",
    "datas_baratas": [
     {
-     "ida": "2027-02-10",
-     "volta": "2027-02-20",
-     "preco": 76092.0
+     "ida": "2027-02-08",
+     "volta": "2027-02-18",
+     "preco": 77136.0
     },
     {
-     "ida": "2026-12-18",
-     "volta": "2026-12-28",
-     "preco": 90302.0
+     "ida": "2026-12-02",
+     "volta": "2026-12-12",
+     "preco": 91544.0
     },
     {
-     "ida": "2027-04-15",
-     "volta": "2027-04-25",
-     "preco": 143824.0
+     "ida": "2027-04-26",
+     "volta": "2027-05-06",
+     "preco": 145809.0
     },
     {
-     "ida": "2027-06-24",
-     "volta": "2027-07-04",
-     "preco": 143824.0
+     "ida": "2027-06-16",
+     "volta": "2027-06-26",
+     "preco": 145809.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FRA%20from%20SJP%20on%202027-02-10%20through%202027-02-20%20first%20class&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/fra/270210/270220/?adultsv2=1&cabinclass=first&rtn=1",
-   "atualizado": "2026-11-23T22:41+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FRA%20from%20SJP%20on%202027-02-08%20through%202027-02-18%20first%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/fra/270208/270218/?adultsv2=1&cabinclass=first&rtn=1",
+   "atualizado": "2026-11-24T22:44+00:00"
   }
  },
  "SJP-MUC-economica": {
