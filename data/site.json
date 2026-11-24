@@ -1,5 +1,5 @@
 {
- "gerado": "2026-11-24T00:04+00:00",
+ "gerado": "2026-11-24T01:28+00:00",
  "origens": [
   "SJP",
   "GRU",
@@ -35,6 +35,162 @@
   "Zurique (ZRH)"
  ],
  "rotas": [
+  {
+   "chave": "GRU-MIA-economica",
+   "origem": "GRU",
+   "destino": "MIA",
+   "cidade": "Miami",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 2889.0,
+   "moeda": "BRL",
+   "ida": "2027-03-14",
+   "volta": "2027-03-24",
+   "referencia": 4489.0,
+   "desconto": 0.3564,
+   "limite": 2989.9999999999995,
+   "prioridade": "perto de Orlando (310 km)",
+   "datas_baratas": [
+    {
+     "ida": "2027-03-14",
+     "volta": "2027-03-24",
+     "preco": 2889.0
+    },
+    {
+     "ida": "2027-03-16",
+     "volta": "2027-03-26",
+     "preco": 2889.0
+    },
+    {
+     "ida": "2027-03-22",
+     "volta": "2027-04-01",
+     "preco": 2889.0
+    },
+    {
+     "ida": "2027-03-25",
+     "volta": "2027-04-04",
+     "preco": 2889.0
+    },
+    {
+     "ida": "2027-02-19",
+     "volta": "2027-03-01",
+     "preco": 2890.0
+    }
+   ],
+   "promocao": true,
+   "motivos": [
+    "abaixo do preço-alvo de R$ 2.990"
+   ],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MIA%20from%20GRU%20on%202027-03-14%20through%202027-03-24%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/mia/270314/270324/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-24T01:23+00:00"
+  },
+  {
+   "chave": "GRU-ADZ-premium",
+   "origem": "GRU",
+   "destino": "ADZ",
+   "cidade": "San Andrés",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "premium",
+   "classe_nome": "Premium Economy",
+   "preco": 4829.0,
+   "moeda": "BRL",
+   "ida": "2027-05-29",
+   "volta": "2027-06-08",
+   "referencia": 5607.0,
+   "desconto": 0.1388,
+   "limite": 5175.0,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-05-29",
+     "volta": "2027-06-08",
+     "preco": 4829.0
+    },
+    {
+     "ida": "2027-05-30",
+     "volta": "2027-06-09",
+     "preco": 4829.0
+    },
+    {
+     "ida": "2027-05-31",
+     "volta": "2027-06-10",
+     "preco": 4829.0
+    },
+    {
+     "ida": "2027-06-01",
+     "volta": "2027-06-11",
+     "preco": 4829.0
+    },
+    {
+     "ida": "2027-06-02",
+     "volta": "2027-06-12",
+     "preco": 4829.0
+    }
+   ],
+   "promocao": true,
+   "motivos": [
+    "abaixo do preço-alvo de R$ 5.175"
+   ],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20ADZ%20from%20GRU%20on%202027-05-29%20through%202027-06-08%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/adz/270529/270608/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-24T01:24+00:00"
+  },
+  {
+   "chave": "GRU-ADZ-executiva",
+   "origem": "GRU",
+   "destino": "ADZ",
+   "cidade": "San Andrés",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 9081.0,
+   "moeda": "BRL",
+   "ida": "2026-12-01",
+   "volta": "2026-12-11",
+   "referencia": 9081.0,
+   "desconto": 0.0,
+   "limite": 9200.0,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2026-12-01",
+     "volta": "2026-12-11",
+     "preco": 9081.0
+    },
+    {
+     "ida": "2026-12-02",
+     "volta": "2026-12-12",
+     "preco": 9081.0
+    },
+    {
+     "ida": "2026-12-03",
+     "volta": "2026-12-13",
+     "preco": 9081.0
+    },
+    {
+     "ida": "2026-12-04",
+     "volta": "2026-12-14",
+     "preco": 9081.0
+    },
+    {
+     "ida": "2026-12-05",
+     "volta": "2026-12-15",
+     "preco": 9081.0
+    }
+   ],
+   "promocao": true,
+   "motivos": [
+    "abaixo do preço-alvo de R$ 9.200"
+   ],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20ADZ%20from%20GRU%20on%202026-12-01%20through%202026-12-11%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/adz/261201/261211/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-24T01:24+00:00"
+  },
   {
    "chave": "SJP-BSB-economica",
    "origem": "SJP",
@@ -299,6 +455,106 @@
    "atualizado": "2026-11-23T23:21+00:00"
   },
   {
+   "chave": "GRU-MIA-premium",
+   "origem": "GRU",
+   "destino": "MIA",
+   "cidade": "Miami",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "premium",
+   "classe_nome": "Premium Economy",
+   "preco": 8907.0,
+   "moeda": "BRL",
+   "ida": "2027-01-18",
+   "volta": "2027-01-28",
+   "referencia": 12390.0,
+   "desconto": 0.2811,
+   "limite": 5175.0,
+   "prioridade": "perto de Orlando (310 km)",
+   "datas_baratas": [
+    {
+     "ida": "2027-01-18",
+     "volta": "2027-01-28",
+     "preco": 8907.0
+    },
+    {
+     "ida": "2026-12-07",
+     "volta": "2026-12-17",
+     "preco": 9867.0
+    },
+    {
+     "ida": "2027-06-10",
+     "volta": "2027-06-20",
+     "preco": 10865.0
+    },
+    {
+     "ida": "2026-12-14",
+     "volta": "2026-12-24",
+     "preco": 10907.0
+    },
+    {
+     "ida": "2027-05-30",
+     "volta": "2027-06-09",
+     "preco": 10924.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MIA%20from%20GRU%20on%202027-01-18%20through%202027-01-28%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/mia/270118/270128/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-24T01:23+00:00"
+  },
+  {
+   "chave": "GRU-MCO-premium",
+   "origem": "GRU",
+   "destino": "MCO",
+   "cidade": "Orlando",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "premium",
+   "classe_nome": "Premium Economy",
+   "preco": 9149.0,
+   "moeda": "BRL",
+   "ida": "2027-02-08",
+   "volta": "2027-02-18",
+   "referencia": 12513.0,
+   "desconto": 0.2688,
+   "limite": 5175.0,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-08",
+     "volta": "2027-02-18",
+     "preco": 9149.0
+    },
+    {
+     "ida": "2027-03-15",
+     "volta": "2027-03-25",
+     "preco": 9149.0
+    },
+    {
+     "ida": "2027-03-21",
+     "volta": "2027-03-31",
+     "preco": 9149.0
+    },
+    {
+     "ida": "2027-02-06",
+     "volta": "2027-02-16",
+     "preco": 9458.0
+    },
+    {
+     "ida": "2027-03-22",
+     "volta": "2027-04-01",
+     "preco": 9461.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MCO%20from%20GRU%20on%202027-02-08%20through%202027-02-18%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/mco/270208/270218/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-24T01:24+00:00"
+  },
+  {
    "chave": "SJP-MCO-executiva",
    "origem": "SJP",
    "destino": "MCO",
@@ -504,6 +760,56 @@
    "atualizado": "2026-11-23T23:22+00:00"
   },
   {
+   "chave": "GRU-MCO-economica",
+   "origem": "GRU",
+   "destino": "MCO",
+   "cidade": "Orlando",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 3832.0,
+   "moeda": "BRL",
+   "ida": "2027-02-21",
+   "volta": "2027-03-03",
+   "referencia": 4728.0,
+   "desconto": 0.1895,
+   "limite": 2989.9999999999995,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-21",
+     "volta": "2027-03-03",
+     "preco": 3832.0
+    },
+    {
+     "ida": "2027-02-22",
+     "volta": "2027-03-04",
+     "preco": 3832.0
+    },
+    {
+     "ida": "2027-02-23",
+     "volta": "2027-03-05",
+     "preco": 3832.0
+    },
+    {
+     "ida": "2027-02-26",
+     "volta": "2027-03-08",
+     "preco": 3832.0
+    },
+    {
+     "ida": "2027-02-27",
+     "volta": "2027-03-09",
+     "preco": 3832.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MCO%20from%20GRU%20on%202027-02-21%20through%202027-03-03%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/mco/270221/270303/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-24T01:24+00:00"
+  },
+  {
    "chave": "SJP-DXB-economica",
    "origem": "SJP",
    "destino": "DXB",
@@ -622,6 +928,56 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20MIA%20from%20SJP%20on%202027-02-05%20through%202027-02-15%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/mia/270205/270215/?adultsv2=1&cabinclass=business&rtn=1",
    "atualizado": "2026-11-23T22:28+00:00"
+  },
+  {
+   "chave": "GRU-MIA-executiva",
+   "origem": "GRU",
+   "destino": "MIA",
+   "cidade": "Miami",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 10560.0,
+   "moeda": "BRL",
+   "ida": "2027-06-16",
+   "volta": "2027-06-26",
+   "referencia": 12480.0,
+   "desconto": 0.1538,
+   "limite": 9200.0,
+   "prioridade": "perto de Orlando (310 km)",
+   "datas_baratas": [
+    {
+     "ida": "2027-06-16",
+     "volta": "2027-06-26",
+     "preco": 10560.0
+    },
+    {
+     "ida": "2027-06-18",
+     "volta": "2027-06-28",
+     "preco": 10796.0
+    },
+    {
+     "ida": "2027-06-19",
+     "volta": "2027-06-29",
+     "preco": 11031.0
+    },
+    {
+     "ida": "2027-06-14",
+     "volta": "2027-06-24",
+     "preco": 11708.0
+    },
+    {
+     "ida": "2027-06-23",
+     "volta": "2027-07-03",
+     "preco": 11708.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MIA%20from%20GRU%20on%202027-06-16%20through%202027-06-26%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/mia/270616/270626/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-24T01:24+00:00"
   },
   {
    "chave": "SJP-NRT-premium",
@@ -1237,6 +1593,56 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20MXP%20from%20SJP%20on%202027-04-02%20through%202027-04-12%20economy&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/mxp/270402/270412/?adultsv2=1&cabinclass=economy&rtn=1",
    "atualizado": "2026-11-23T23:12+00:00"
+  },
+  {
+   "chave": "GRU-ADZ-economica",
+   "origem": "GRU",
+   "destino": "ADZ",
+   "cidade": "San Andrés",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 3364.0,
+   "moeda": "BRL",
+   "ida": "2027-03-08",
+   "volta": "2027-03-18",
+   "referencia": 3416.0,
+   "desconto": 0.0152,
+   "limite": 2989.9999999999995,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-03-08",
+     "volta": "2027-03-18",
+     "preco": 3364.0
+    },
+    {
+     "ida": "2027-03-09",
+     "volta": "2027-03-19",
+     "preco": 3364.0
+    },
+    {
+     "ida": "2027-03-11",
+     "volta": "2027-03-21",
+     "preco": 3364.0
+    },
+    {
+     "ida": "2027-03-27",
+     "volta": "2027-04-06",
+     "preco": 3364.0
+    },
+    {
+     "ida": "2027-04-10",
+     "volta": "2027-04-20",
+     "preco": 3364.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20ADZ%20from%20GRU%20on%202027-03-08%20through%202027-03-18%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/adz/270308/270318/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-24T01:24+00:00"
   },
   {
    "chave": "SJP-MIA-economica",
@@ -2019,6 +2425,41 @@
    "prioridade": ""
   },
   {
+   "chave": "SJP-ORD-economica",
+   "origem": "SJP",
+   "destino": "ORD",
+   "cidade": "Chicago",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 13487.0,
+   "moeda": "BRL",
+   "ida": "2027-06-06",
+   "volta": "2027-06-16",
+   "referencia": 22498.5,
+   "desconto": 0.4005,
+   "limite": 2600.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-06-06",
+     "volta": "2027-06-16",
+     "preco": 13487.0
+    },
+    {
+     "ida": "2026-12-08",
+     "volta": "2026-12-18",
+     "preco": 31510.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20ORD%20from%20SJP%20on%202027-06-06%20through%202027-06-16%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/ord/270606/270616/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-24T01:28+00:00"
+  },
+  {
    "chave": "SJP-GIG-economica",
    "origem": "SJP",
    "destino": "GIG",
@@ -2354,6 +2795,41 @@
    "atualizado": "2026-11-24T00:04+00:00"
   },
   {
+   "chave": "SJP-JFK-executiva",
+   "origem": "SJP",
+   "destino": "JFK",
+   "cidade": "Nova York",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 30676.0,
+   "moeda": "BRL",
+   "ida": "2027-04-21",
+   "volta": "2027-05-01",
+   "referencia": 36139.5,
+   "desconto": 0.1512,
+   "limite": 8000.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-04-21",
+     "volta": "2027-05-01",
+     "preco": 30676.0
+    },
+    {
+     "ida": "2026-12-12",
+     "volta": "2026-12-22",
+     "preco": 41603.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20JFK%20from%20SJP%20on%202027-04-21%20through%202027-05-01%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/jfk/270421/270501/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-24T01:25+00:00"
+  },
+  {
    "chave": "SJP-SSA-economica",
    "origem": "SJP",
    "destino": "SSA",
@@ -2644,6 +3120,46 @@
    "prioridade": ""
   },
   {
+   "chave": "SJP-BOS-economica",
+   "origem": "SJP",
+   "destino": "BOS",
+   "cidade": "Boston",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 7303.0,
+   "moeda": "BRL",
+   "ida": "2027-02-22",
+   "volta": "2027-03-04",
+   "referencia": 7930.0,
+   "desconto": 0.0791,
+   "limite": 2600.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-22",
+     "volta": "2027-03-04",
+     "preco": 7303.0
+    },
+    {
+     "ida": "2027-04-11",
+     "volta": "2027-04-21",
+     "preco": 7930.0
+    },
+    {
+     "ida": "2026-12-11",
+     "volta": "2026-12-21",
+     "preco": 10271.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20BOS%20from%20SJP%20on%202027-02-22%20through%202027-03-04%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/bos/270222/270304/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-24T01:26+00:00"
+  },
+  {
    "chave": "SJP-EZE-executiva",
    "origem": "SJP",
    "destino": "EZE",
@@ -2777,6 +3293,46 @@
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/cwb/270221/270226/?adultsv2=1&cabinclass=economy&rtn=1",
    "atualizado": "2026-11-23T21:43+00:00",
    "prioridade": ""
+  },
+  {
+   "chave": "SJP-BOS-premium",
+   "origem": "SJP",
+   "destino": "BOS",
+   "cidade": "Boston",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "premium",
+   "classe_nome": "Premium Economy",
+   "preco": 16864.0,
+   "moeda": "BRL",
+   "ida": "2027-06-07",
+   "volta": "2027-06-17",
+   "referencia": 17629.0,
+   "desconto": 0.0434,
+   "limite": 4500.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-06-07",
+     "volta": "2027-06-17",
+     "preco": 16864.0
+    },
+    {
+     "ida": "2027-04-04",
+     "volta": "2027-04-14",
+     "preco": 17629.0
+    },
+    {
+     "ida": "2027-02-20",
+     "volta": "2027-03-02",
+     "preco": 34083.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20BOS%20from%20SJP%20on%202027-06-07%20through%202027-06-17%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/bos/270607/270617/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-24T01:26+00:00"
   },
   {
    "chave": "SJP-BRC-economica",
@@ -3417,6 +3973,66 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20JFK%20from%20SJP%20on%202026-12-14%20through%202026-12-24%20economy&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/jfk/261214/261224/?adultsv2=1&cabinclass=economy&rtn=1",
    "atualizado": "2026-11-24T00:04+00:00"
+  },
+  {
+   "chave": "SJP-JFK-premium",
+   "origem": "SJP",
+   "destino": "JFK",
+   "cidade": "Nova York",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "premium",
+   "classe_nome": "Premium Economy",
+   "preco": 17267.0,
+   "moeda": "BRL",
+   "ida": "2027-02-24",
+   "volta": "2027-03-06",
+   "referencia": 17267.0,
+   "desconto": 0.0,
+   "limite": 4500.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-24",
+     "volta": "2027-03-06",
+     "preco": 17267.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20JFK%20from%20SJP%20on%202027-02-24%20through%202027-03-06%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/jfk/270224/270306/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-24T01:25+00:00"
+  },
+  {
+   "chave": "SJP-BOS-executiva",
+   "origem": "SJP",
+   "destino": "BOS",
+   "cidade": "Boston",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 34242.0,
+   "moeda": "BRL",
+   "ida": "2027-06-27",
+   "volta": "2027-07-07",
+   "referencia": 34242.0,
+   "desconto": 0.0,
+   "limite": 8000.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-06-27",
+     "volta": "2027-07-07",
+     "preco": 34242.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20BOS%20from%20SJP%20on%202027-06-27%20through%202027-07-07%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/bos/270627/270707/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-24T01:27+00:00"
   }
  ],
  "viagens": [
