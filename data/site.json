@@ -1,5 +1,5 @@
 {
- "gerado": "2026-11-24T22:44+00:00",
+ "gerado": "2026-11-24T23:37+00:00",
  "origens": [
   "SJP",
   "GRU",
@@ -2110,6 +2110,46 @@
    "atualizado": "2026-11-24T02:40+00:00"
   },
   {
+   "chave": "SJP-ZRH-primeira",
+   "origem": "SJP",
+   "destino": "ZRH",
+   "cidade": "Zurique",
+   "regiao": "europa",
+   "regiao_nome": "Europa",
+   "classe": "primeira",
+   "classe_nome": "Primeira Classe",
+   "preco": 73772.0,
+   "moeda": "BRL",
+   "ida": "2027-02-20",
+   "volta": "2027-03-02",
+   "referencia": 105312.0,
+   "desconto": 0.2995,
+   "limite": 17250.0,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-20",
+     "volta": "2027-03-02",
+     "preco": 73772.0
+    },
+    {
+     "ida": "2027-06-20",
+     "volta": "2027-06-30",
+     "preco": 105312.0
+    },
+    {
+     "ida": "2026-12-08",
+     "volta": "2026-12-18",
+     "preco": 136943.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20ZRH%20from%20SJP%20on%202027-02-20%20through%202027-03-02%20first%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/zrh/270220/270302/?adultsv2=1&cabinclass=first&rtn=1",
+   "atualizado": "2026-11-24T23:35+00:00"
+  },
+  {
    "chave": "VCP-NRT-premium",
    "origem": "VCP",
    "destino": "NRT",
@@ -2860,6 +2900,46 @@
    "atualizado": "2026-11-24T19:46+00:00"
   },
   {
+   "chave": "SJP-ZRH-economica",
+   "origem": "SJP",
+   "destino": "ZRH",
+   "cidade": "Zurique",
+   "regiao": "europa",
+   "regiao_nome": "Europa",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 6273.0,
+   "moeda": "BRL",
+   "ida": "2027-04-08",
+   "volta": "2027-04-18",
+   "referencia": 8314.0,
+   "desconto": 0.2455,
+   "limite": 3219.9999999999995,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-04-08",
+     "volta": "2027-04-18",
+     "preco": 6273.0
+    },
+    {
+     "ida": "2027-02-02",
+     "volta": "2027-02-12",
+     "preco": 8314.0
+    },
+    {
+     "ida": "2026-12-11",
+     "volta": "2026-12-21",
+     "preco": 10279.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20ZRH%20from%20SJP%20on%202027-04-08%20through%202027-04-18%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/zrh/270408/270418/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-24T23:34+00:00"
+  },
+  {
    "chave": "VCP-HND-executiva",
    "origem": "VCP",
    "destino": "HND",
@@ -3098,51 +3178,6 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20MCO%20from%20CGH%20on%202027-02-20%20through%202027-03-02%20economy&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/cgh/mco/270220/270302/?adultsv2=1&cabinclass=economy&rtn=1",
    "atualizado": "2026-11-24T14:03+00:00"
-  },
-  {
-   "chave": "SJP-ZRH-primeira",
-   "origem": "SJP",
-   "destino": "ZRH",
-   "cidade": "Zurique",
-   "regiao": "europa",
-   "regiao_nome": "Europa",
-   "classe": "primeira",
-   "classe_nome": "Primeira Classe",
-   "preco": 72764.0,
-   "moeda": "BRL",
-   "ida": "2027-02-17",
-   "volta": "2027-02-27",
-   "referencia": 95429.0,
-   "desconto": 0.2375,
-   "limite": 17250.0,
-   "prioridade": "escolhido por você",
-   "datas_baratas": [
-    {
-     "ida": "2027-02-17",
-     "volta": "2027-02-27",
-     "preco": 72764.0
-    },
-    {
-     "ida": "2026-12-11",
-     "volta": "2026-12-21",
-     "preco": 86986.0
-    },
-    {
-     "ida": "2027-04-05",
-     "volta": "2027-04-15",
-     "preco": 103872.0
-    },
-    {
-     "ida": "2027-05-28",
-     "volta": "2027-06-07",
-     "preco": 134948.0
-    }
-   ],
-   "promocao": false,
-   "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20ZRH%20from%20SJP%20on%202027-02-17%20through%202027-02-27%20first%20class&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/zrh/270217/270227/?adultsv2=1&cabinclass=first&rtn=1",
-   "atualizado": "2026-11-23T23:11+00:00"
   },
   {
    "chave": "CGH-MCO-premium",
@@ -3545,41 +3580,6 @@
    "atualizado": "2026-11-24T04:45+00:00"
   },
   {
-   "chave": "SJP-MUC-primeira",
-   "origem": "SJP",
-   "destino": "MUC",
-   "cidade": "Munique",
-   "regiao": "europa",
-   "regiao_nome": "Europa",
-   "classe": "primeira",
-   "classe_nome": "Primeira Classe",
-   "preco": 60305.0,
-   "moeda": "BRL",
-   "ida": "2027-02-08",
-   "volta": "2027-02-18",
-   "referencia": 77299.5,
-   "desconto": 0.2199,
-   "limite": 17250.0,
-   "prioridade": "perto de Zurique (261 km)",
-   "datas_baratas": [
-    {
-     "ida": "2027-02-08",
-     "volta": "2027-02-18",
-     "preco": 60305.0
-    },
-    {
-     "ida": "2026-12-17",
-     "volta": "2026-12-27",
-     "preco": 94294.0
-    }
-   ],
-   "promocao": false,
-   "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MUC%20from%20SJP%20on%202027-02-08%20through%202027-02-18%20first%20class&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/muc/270208/270218/?adultsv2=1&cabinclass=first&rtn=1",
-   "atualizado": "2026-11-23T23:09+00:00"
-  },
-  {
    "chave": "GRU-ZRH-premium",
    "origem": "GRU",
    "destino": "ZRH",
@@ -3913,6 +3913,46 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20FCO%20from%20VCP%20on%202027-02-16%20through%202027-02-26%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/fco/270216/270226/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
    "atualizado": "2026-11-24T09:19+00:00"
+  },
+  {
+   "chave": "SJP-MUC-premium",
+   "origem": "SJP",
+   "destino": "MUC",
+   "cidade": "Munique",
+   "regiao": "europa",
+   "regiao_nome": "Europa",
+   "classe": "premium",
+   "classe_nome": "Premium Economy",
+   "preco": 11242.0,
+   "moeda": "BRL",
+   "ida": "2027-02-21",
+   "volta": "2027-03-03",
+   "referencia": 14179.0,
+   "desconto": 0.2071,
+   "limite": 5750.0,
+   "prioridade": "perto de Zurique (261 km)",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-21",
+     "volta": "2027-03-03",
+     "preco": 11242.0
+    },
+    {
+     "ida": "2027-06-21",
+     "volta": "2027-07-01",
+     "preco": 14179.0
+    },
+    {
+     "ida": "2026-12-25",
+     "volta": "2027-01-04",
+     "preco": 21165.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MUC%20from%20SJP%20on%202027-02-21%20through%202027-03-03%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/muc/270221/270303/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-24T23:32+00:00"
   },
   {
    "chave": "VCP-FRA-economica",
@@ -5400,6 +5440,41 @@
    "atualizado": "2026-11-24T08:07+00:00"
   },
   {
+   "chave": "SJP-FCO-economica",
+   "origem": "SJP",
+   "destino": "FCO",
+   "cidade": "Roma",
+   "regiao": "europa",
+   "regiao_nome": "Europa",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 6309.0,
+   "moeda": "BRL",
+   "ida": "2027-02-14",
+   "volta": "2027-02-24",
+   "referencia": 7278.5,
+   "desconto": 0.1332,
+   "limite": 3219.9999999999995,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-14",
+     "volta": "2027-02-24",
+     "preco": 6309.0
+    },
+    {
+     "ida": "2027-04-14",
+     "volta": "2027-04-24",
+     "preco": 8248.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FCO%20from%20SJP%20on%202027-02-14%20through%202027-02-24%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/fco/270214/270224/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-24T23:36+00:00"
+  },
+  {
    "chave": "VCP-AUS-premium",
    "origem": "VCP",
    "destino": "AUS",
@@ -5750,76 +5825,6 @@
    "atualizado": "2026-11-24T16:26+00:00"
   },
   {
-   "chave": "SJP-MUC-economica",
-   "origem": "SJP",
-   "destino": "MUC",
-   "cidade": "Munique",
-   "regiao": "europa",
-   "regiao_nome": "Europa",
-   "classe": "economica",
-   "classe_nome": "Econômica",
-   "preco": 7494.0,
-   "moeda": "BRL",
-   "ida": "2027-06-05",
-   "volta": "2027-06-15",
-   "referencia": 8477.0,
-   "desconto": 0.116,
-   "limite": 3219.9999999999995,
-   "prioridade": "perto de Zurique (261 km)",
-   "datas_baratas": [
-    {
-     "ida": "2027-06-05",
-     "volta": "2027-06-15",
-     "preco": 7494.0
-    },
-    {
-     "ida": "2027-03-28",
-     "volta": "2027-04-07",
-     "preco": 9460.0
-    }
-   ],
-   "promocao": false,
-   "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MUC%20from%20SJP%20on%202027-06-05%20through%202027-06-15%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/muc/270605/270615/?adultsv2=1&cabinclass=economy&rtn=1",
-   "atualizado": "2026-11-23T22:41+00:00"
-  },
-  {
-   "chave": "SJP-FCO-economica",
-   "origem": "SJP",
-   "destino": "FCO",
-   "cidade": "Roma",
-   "regiao": "europa",
-   "regiao_nome": "Europa",
-   "classe": "economica",
-   "classe_nome": "Econômica",
-   "preco": 6228.0,
-   "moeda": "BRL",
-   "ida": "2027-01-27",
-   "volta": "2027-02-06",
-   "referencia": 7025.0,
-   "desconto": 0.1135,
-   "limite": 3219.9999999999995,
-   "prioridade": "escolhido por você",
-   "datas_baratas": [
-    {
-     "ida": "2027-01-27",
-     "volta": "2027-02-06",
-     "preco": 6228.0
-    },
-    {
-     "ida": "2027-06-05",
-     "volta": "2027-06-15",
-     "preco": 7822.0
-    }
-   ],
-   "promocao": false,
-   "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FCO%20from%20SJP%20on%202027-01-27%20through%202027-02-06%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/fco/270127/270206/?adultsv2=1&cabinclass=economy&rtn=1",
-   "atualizado": "2026-11-23T23:11+00:00"
-  },
-  {
    "chave": "CGH-ZRH-economica",
    "origem": "CGH",
    "destino": "ZRH",
@@ -5970,6 +5975,51 @@
    "atualizado": "2026-11-24T06:41+00:00"
   },
   {
+   "chave": "SJP-ZRH-premium",
+   "origem": "SJP",
+   "destino": "ZRH",
+   "cidade": "Zurique",
+   "regiao": "europa",
+   "regiao_nome": "Europa",
+   "classe": "premium",
+   "classe_nome": "Premium Economy",
+   "preco": 12616.0,
+   "moeda": "BRL",
+   "ida": "2027-03-29",
+   "volta": "2027-04-08",
+   "referencia": 14091.0,
+   "desconto": 0.1047,
+   "limite": 5750.0,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-03-29",
+     "volta": "2027-04-08",
+     "preco": 12616.0
+    },
+    {
+     "ida": "2027-02-17",
+     "volta": "2027-02-27",
+     "preco": 13930.0
+    },
+    {
+     "ida": "2026-12-01",
+     "volta": "2026-12-11",
+     "preco": 14252.0
+    },
+    {
+     "ida": "2027-06-07",
+     "volta": "2027-06-17",
+     "preco": 53969.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20ZRH%20from%20SJP%20on%202027-03-29%20through%202027-04-08%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/zrh/270329/270408/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-24T23:34+00:00"
+  },
+  {
    "chave": "SJP-MIA-economica",
    "origem": "SJP",
    "destino": "MIA",
@@ -6003,6 +6053,46 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20MIA%20from%20SJP%20on%202027-04-01%20through%202027-04-11%20economy&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/mia/270401/270411/?adultsv2=1&cabinclass=economy&rtn=1",
    "atualizado": "2026-11-24T20:36+00:00"
+  },
+  {
+   "chave": "SJP-MUC-executiva",
+   "origem": "SJP",
+   "destino": "MUC",
+   "cidade": "Munique",
+   "regiao": "europa",
+   "regiao_nome": "Europa",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 22009.0,
+   "moeda": "BRL",
+   "ida": "2027-02-20",
+   "volta": "2027-03-02",
+   "referencia": 24458.0,
+   "desconto": 0.1001,
+   "limite": 10350.0,
+   "prioridade": "perto de Zurique (261 km)",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-20",
+     "volta": "2027-03-02",
+     "preco": 22009.0
+    },
+    {
+     "ida": "2027-06-05",
+     "volta": "2027-06-15",
+     "preco": 24458.0
+    },
+    {
+     "ida": "2026-11-28",
+     "volta": "2026-12-08",
+     "preco": 47372.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MUC%20from%20SJP%20on%202027-02-20%20through%202027-03-02%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/muc/270220/270302/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-24T23:33+00:00"
   },
   {
    "chave": "VCP-HND-primeira",
@@ -6055,49 +6145,39 @@
    "atualizado": "2026-11-24T12:49+00:00"
   },
   {
-   "chave": "SJP-MUC-executiva",
+   "chave": "SJP-MUC-primeira",
    "origem": "SJP",
    "destino": "MUC",
    "cidade": "Munique",
    "regiao": "europa",
    "regiao_nome": "Europa",
-   "classe": "executiva",
-   "classe_nome": "Executiva",
-   "preco": 21724.0,
+   "classe": "primeira",
+   "classe_nome": "Primeira Classe",
+   "preco": 61130.0,
    "moeda": "BRL",
-   "ida": "2027-01-30",
-   "volta": "2027-02-09",
-   "referencia": 24093.0,
-   "desconto": 0.0983,
-   "limite": 10350.0,
+   "ida": "2027-01-27",
+   "volta": "2027-02-06",
+   "referencia": 67399.5,
+   "desconto": 0.093,
+   "limite": 17250.0,
    "prioridade": "perto de Zurique (261 km)",
    "datas_baratas": [
     {
-     "ida": "2027-01-30",
-     "volta": "2027-02-09",
-     "preco": 21724.0
+     "ida": "2027-01-27",
+     "volta": "2027-02-06",
+     "preco": 61130.0
     },
     {
-     "ida": "2027-04-06",
-     "volta": "2027-04-16",
-     "preco": 24093.0
-    },
-    {
-     "ida": "2027-06-20",
-     "volta": "2027-06-30",
-     "preco": 24093.0
-    },
-    {
-     "ida": "2026-11-27",
-     "volta": "2026-12-07",
-     "preco": 25147.0
+     "ida": "2026-12-25",
+     "volta": "2027-01-04",
+     "preco": 73669.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MUC%20from%20SJP%20on%202027-01-30%20through%202027-02-09%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/muc/270130/270209/?adultsv2=1&cabinclass=business&rtn=1",
-   "atualizado": "2026-11-23T23:09+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MUC%20from%20SJP%20on%202027-01-27%20through%202027-02-06%20first%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/muc/270127/270206/?adultsv2=1&cabinclass=first&rtn=1",
+   "atualizado": "2026-11-24T23:33+00:00"
   },
   {
    "chave": "VCP-AUS-executiva",
@@ -6150,46 +6230,6 @@
    "atualizado": "2026-11-24T08:07+00:00"
   },
   {
-   "chave": "SJP-ZRH-premium",
-   "origem": "SJP",
-   "destino": "ZRH",
-   "cidade": "Zurique",
-   "regiao": "europa",
-   "regiao_nome": "Europa",
-   "classe": "premium",
-   "classe_nome": "Premium Economy",
-   "preco": 14442.0,
-   "moeda": "BRL",
-   "ida": "2027-01-27",
-   "volta": "2027-02-06",
-   "referencia": 15731.0,
-   "desconto": 0.0819,
-   "limite": 5750.0,
-   "prioridade": "escolhido por você",
-   "datas_baratas": [
-    {
-     "ida": "2027-01-27",
-     "volta": "2027-02-06",
-     "preco": 14442.0
-    },
-    {
-     "ida": "2027-04-16",
-     "volta": "2027-04-26",
-     "preco": 15731.0
-    },
-    {
-     "ida": "2026-11-27",
-     "volta": "2026-12-07",
-     "preco": 23752.0
-    }
-   ],
-   "promocao": false,
-   "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20ZRH%20from%20SJP%20on%202027-01-27%20through%202027-02-06%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/zrh/270127/270206/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
-   "atualizado": "2026-11-23T23:10+00:00"
-  },
-  {
    "chave": "CGH-MIA-premium",
    "origem": "CGH",
    "destino": "MIA",
@@ -6238,51 +6278,6 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20MIA%20from%20CGH%20on%202027-05-31%20through%202027-06-10%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/cgh/mia/270531/270610/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
    "atualizado": "2026-11-24T14:03+00:00"
-  },
-  {
-   "chave": "SJP-MUC-premium",
-   "origem": "SJP",
-   "destino": "MUC",
-   "cidade": "Munique",
-   "regiao": "europa",
-   "regiao_nome": "Europa",
-   "classe": "premium",
-   "classe_nome": "Premium Economy",
-   "preco": 14229.0,
-   "moeda": "BRL",
-   "ida": "2026-12-20",
-   "volta": "2026-12-30",
-   "referencia": 15475.5,
-   "desconto": 0.0805,
-   "limite": 5750.0,
-   "prioridade": "perto de Zurique (261 km)",
-   "datas_baratas": [
-    {
-     "ida": "2026-12-20",
-     "volta": "2026-12-30",
-     "preco": 14229.0
-    },
-    {
-     "ida": "2027-04-20",
-     "volta": "2027-04-30",
-     "preco": 15290.0
-    },
-    {
-     "ida": "2027-06-09",
-     "volta": "2027-06-19",
-     "preco": 15661.0
-    },
-    {
-     "ida": "2027-01-29",
-     "volta": "2027-02-08",
-     "preco": 19695.0
-    }
-   ],
-   "promocao": false,
-   "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MUC%20from%20SJP%20on%202026-12-20%20through%202026-12-30%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/muc/261220/261230/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
-   "atualizado": "2026-11-23T22:42+00:00"
   },
   {
    "chave": "CGH-ZRH-premium",
@@ -6655,6 +6650,51 @@
    "atualizado": "2026-11-24T20:37+00:00"
   },
   {
+   "chave": "SJP-FCO-premium",
+   "origem": "SJP",
+   "destino": "FCO",
+   "cidade": "Roma",
+   "regiao": "europa",
+   "regiao_nome": "Europa",
+   "classe": "premium",
+   "classe_nome": "Premium Economy",
+   "preco": 17420.0,
+   "moeda": "BRL",
+   "ida": "2027-05-31",
+   "volta": "2027-06-10",
+   "referencia": 18161.5,
+   "desconto": 0.0408,
+   "limite": 5750.0,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-05-31",
+     "volta": "2027-06-10",
+     "preco": 17420.0
+    },
+    {
+     "ida": "2026-12-01",
+     "volta": "2026-12-11",
+     "preco": 18156.0
+    },
+    {
+     "ida": "2027-04-14",
+     "volta": "2027-04-24",
+     "preco": 18167.0
+    },
+    {
+     "ida": "2027-01-29",
+     "volta": "2027-02-08",
+     "preco": 18193.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FCO%20from%20SJP%20on%202027-05-31%20through%202027-06-10%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/fco/270531/270610/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-24T23:37+00:00"
+  },
+  {
    "chave": "SJP-MXP-executiva",
    "origem": "SJP",
    "destino": "MXP",
@@ -6693,6 +6733,41 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20MXP%20from%20SJP%20on%202027-04-19%20through%202027-04-29%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/mxp/270419/270429/?adultsv2=1&cabinclass=business&rtn=1",
    "atualizado": "2026-11-23T23:18+00:00"
+  },
+  {
+   "chave": "SJP-MUC-economica",
+   "origem": "SJP",
+   "destino": "MUC",
+   "cidade": "Munique",
+   "regiao": "europa",
+   "regiao_nome": "Europa",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 7671.0,
+   "moeda": "BRL",
+   "ida": "2027-02-17",
+   "volta": "2027-02-27",
+   "referencia": 7962.0,
+   "desconto": 0.0365,
+   "limite": 3219.9999999999995,
+   "prioridade": "perto de Zurique (261 km)",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-17",
+     "volta": "2027-02-27",
+     "preco": 7671.0
+    },
+    {
+     "ida": "2027-06-16",
+     "volta": "2027-06-26",
+     "preco": 8253.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MUC%20from%20SJP%20on%202027-02-17%20through%202027-02-27%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/muc/270217/270227/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-24T23:32+00:00"
   },
   {
    "chave": "SJP-AUS-executiva",
@@ -6873,6 +6948,51 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20MXP%20from%20SJP%20on%202027-04-02%20through%202027-04-12%20economy&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/mxp/270402/270412/?adultsv2=1&cabinclass=economy&rtn=1",
    "atualizado": "2026-11-23T23:12+00:00"
+  },
+  {
+   "chave": "SJP-ZRH-executiva",
+   "origem": "SJP",
+   "destino": "ZRH",
+   "cidade": "Zurique",
+   "regiao": "europa",
+   "regiao_nome": "Europa",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 25217.0,
+   "moeda": "BRL",
+   "ida": "2027-02-19",
+   "volta": "2027-03-01",
+   "referencia": 25738.0,
+   "desconto": 0.0202,
+   "limite": 10350.0,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-19",
+     "volta": "2027-03-01",
+     "preco": 25217.0
+    },
+    {
+     "ida": "2027-06-26",
+     "volta": "2027-07-06",
+     "preco": 25217.0
+    },
+    {
+     "ida": "2026-11-30",
+     "volta": "2026-12-10",
+     "preco": 26259.0
+    },
+    {
+     "ida": "2027-04-20",
+     "volta": "2027-04-30",
+     "preco": 28710.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20ZRH%20from%20SJP%20on%202027-02-19%20through%202027-03-01%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/zrh/270219/270301/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-24T23:35+00:00"
   },
   {
    "chave": "GRU-ADZ-economica",
@@ -7120,41 +7240,6 @@
    "atualizado": "2026-11-24T22:39+00:00"
   },
   {
-   "chave": "SJP-FCO-premium",
-   "origem": "SJP",
-   "destino": "FCO",
-   "cidade": "Roma",
-   "regiao": "europa",
-   "regiao_nome": "Europa",
-   "classe": "premium",
-   "classe_nome": "Premium Economy",
-   "preco": 17923.0,
-   "moeda": "BRL",
-   "ida": "2027-04-22",
-   "volta": "2027-05-02",
-   "referencia": 17936.5,
-   "desconto": 0.0008,
-   "limite": 5750.0,
-   "prioridade": "escolhido por você",
-   "datas_baratas": [
-    {
-     "ida": "2027-04-22",
-     "volta": "2027-05-02",
-     "preco": 17923.0
-    },
-    {
-     "ida": "2027-06-26",
-     "volta": "2027-07-06",
-     "preco": 17950.0
-    }
-   ],
-   "promocao": false,
-   "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FCO%20from%20SJP%20on%202027-04-22%20through%202027-05-02%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/fco/270422/270502/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
-   "atualizado": "2026-11-23T23:11+00:00"
-  },
-  {
    "chave": "GRU-NRT-primeira",
    "origem": "GRU",
    "destino": "NRT",
@@ -7328,66 +7413,6 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20AUS%20from%20SJP%20on%202026-12-16%20through%202026-12-26%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/aus/261216/261226/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
    "atualizado": "2026-11-24T22:41+00:00"
-  },
-  {
-   "chave": "SJP-ZRH-economica",
-   "origem": "SJP",
-   "destino": "ZRH",
-   "cidade": "Zurique",
-   "regiao": "europa",
-   "regiao_nome": "Europa",
-   "classe": "economica",
-   "classe_nome": "Econômica",
-   "preco": 7144.0,
-   "moeda": "BRL",
-   "ida": "2027-04-02",
-   "volta": "2027-04-12",
-   "referencia": 7144.0,
-   "desconto": 0.0,
-   "limite": 3219.9999999999995,
-   "prioridade": "escolhido por você",
-   "datas_baratas": [
-    {
-     "ida": "2027-04-02",
-     "volta": "2027-04-12",
-     "preco": 7144.0
-    }
-   ],
-   "promocao": false,
-   "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20ZRH%20from%20SJP%20on%202027-04-02%20through%202027-04-12%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/zrh/270402/270412/?adultsv2=1&cabinclass=economy&rtn=1",
-   "atualizado": "2026-11-23T23:10+00:00"
-  },
-  {
-   "chave": "SJP-ZRH-executiva",
-   "origem": "SJP",
-   "destino": "ZRH",
-   "cidade": "Zurique",
-   "regiao": "europa",
-   "regiao_nome": "Europa",
-   "classe": "executiva",
-   "classe_nome": "Executiva",
-   "preco": 24880.0,
-   "moeda": "BRL",
-   "ida": "2027-01-29",
-   "volta": "2027-02-08",
-   "referencia": 24880.0,
-   "desconto": 0.0,
-   "limite": 10350.0,
-   "prioridade": "escolhido por você",
-   "datas_baratas": [
-    {
-     "ida": "2027-01-29",
-     "volta": "2027-02-08",
-     "preco": 24880.0
-    }
-   ],
-   "promocao": false,
-   "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20ZRH%20from%20SJP%20on%202027-01-29%20through%202027-02-08%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/zrh/270129/270208/?adultsv2=1&cabinclass=business&rtn=1",
-   "atualizado": "2026-11-23T23:10+00:00"
   },
   {
    "chave": "SJP-FCO-primeira",
