@@ -7474,5 +7474,766 @@
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/mex/261221/261231/?adultsv2=1&cabinclass=business&rtn=1",
    "atualizado": "2026-11-24T04:50+00:00"
   }
+ },
+ "GRU-BKK-economica": {
+  "historico": [
+   [
+    "2026-11-24T06:40+00:00",
+    7913.0
+   ]
+  ],
+  "atual": {
+   "chave": "GRU-BKK-economica",
+   "origem": "GRU",
+   "destino": "BKK",
+   "cidade": "Bangkok",
+   "regiao": "asia",
+   "regiao_nome": "Ásia",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 7913.0,
+   "moeda": "BRL",
+   "ida": "2027-02-09",
+   "volta": "2027-02-23",
+   "referencia": 9273.0,
+   "desconto": 0.1467,
+   "limite": 5175.0,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-09",
+     "volta": "2027-02-23",
+     "preco": 7913.0
+    },
+    {
+     "ida": "2027-02-02",
+     "volta": "2027-02-16",
+     "preco": 8026.0
+    },
+    {
+     "ida": "2027-02-23",
+     "volta": "2027-03-09",
+     "preco": 8026.0
+    },
+    {
+     "ida": "2027-02-14",
+     "volta": "2027-02-28",
+     "preco": 8139.0
+    },
+    {
+     "ida": "2027-03-08",
+     "volta": "2027-03-22",
+     "preco": 8240.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20BKK%20from%20GRU%20on%202027-02-09%20through%202027-02-23%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/bkk/270209/270223/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-24T06:40+00:00"
+  }
+ },
+ "GRU-BKK-premium": {
+  "historico": [
+   [
+    "2026-11-24T06:40+00:00",
+    13958.0
+   ]
+  ],
+  "atual": {
+   "chave": "GRU-BKK-premium",
+   "origem": "GRU",
+   "destino": "BKK",
+   "cidade": "Bangkok",
+   "regiao": "asia",
+   "regiao_nome": "Ásia",
+   "classe": "premium",
+   "classe_nome": "Premium Economy",
+   "preco": 13958.0,
+   "moeda": "BRL",
+   "ida": "2027-05-08",
+   "volta": "2027-05-22",
+   "referencia": 15662.0,
+   "desconto": 0.1088,
+   "limite": 8625.0,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-05-08",
+     "volta": "2027-05-22",
+     "preco": 13958.0
+    },
+    {
+     "ida": "2027-05-03",
+     "volta": "2027-05-17",
+     "preco": 14111.0
+    },
+    {
+     "ida": "2027-04-26",
+     "volta": "2027-05-10",
+     "preco": 14129.0
+    },
+    {
+     "ida": "2027-04-27",
+     "volta": "2027-05-11",
+     "preco": 14129.0
+    },
+    {
+     "ida": "2027-05-26",
+     "volta": "2027-06-09",
+     "preco": 14376.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20BKK%20from%20GRU%20on%202027-05-08%20through%202027-05-22%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/bkk/270508/270522/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-24T06:40+00:00"
+  }
+ },
+ "GRU-BKK-executiva": {
+  "historico": [
+   [
+    "2026-11-24T06:40+00:00",
+    31953.0
+   ]
+  ],
+  "atual": {
+   "chave": "GRU-BKK-executiva",
+   "origem": "GRU",
+   "destino": "BKK",
+   "cidade": "Bangkok",
+   "regiao": "asia",
+   "regiao_nome": "Ásia",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 31953.0,
+   "moeda": "BRL",
+   "ida": "2027-06-14",
+   "volta": "2027-06-28",
+   "referencia": 32826.0,
+   "desconto": 0.0266,
+   "limite": 14949.999999999998,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-06-14",
+     "volta": "2027-06-28",
+     "preco": 31953.0
+    },
+    {
+     "ida": "2027-07-04",
+     "volta": "2027-07-18",
+     "preco": 32823.0
+    },
+    {
+     "ida": "2027-07-07",
+     "volta": "2027-07-21",
+     "preco": 32823.0
+    },
+    {
+     "ida": "2027-05-30",
+     "volta": "2027-06-13",
+     "preco": 32826.0
+    },
+    {
+     "ida": "2027-05-31",
+     "volta": "2027-06-14",
+     "preco": 32826.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20BKK%20from%20GRU%20on%202027-06-14%20through%202027-06-28%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/bkk/270614/270628/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-24T06:40+00:00"
+  }
+ },
+ "GRU-BKK-primeira": {
+  "historico": [
+   [
+    "2026-11-24T06:40+00:00",
+    85385.0
+   ]
+  ],
+  "atual": {
+   "chave": "GRU-BKK-primeira",
+   "origem": "GRU",
+   "destino": "BKK",
+   "cidade": "Bangkok",
+   "regiao": "asia",
+   "regiao_nome": "Ásia",
+   "classe": "primeira",
+   "classe_nome": "Primeira Classe",
+   "preco": 85385.0,
+   "moeda": "BRL",
+   "ida": "2027-06-14",
+   "volta": "2027-06-28",
+   "referencia": 99743.0,
+   "desconto": 0.1439,
+   "limite": 25299.999999999996,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-06-14",
+     "volta": "2027-06-28",
+     "preco": 85385.0
+    },
+    {
+     "ida": "2027-03-27",
+     "volta": "2027-04-10",
+     "preco": 87429.0
+    },
+    {
+     "ida": "2027-07-03",
+     "volta": "2027-07-17",
+     "preco": 87429.0
+    },
+    {
+     "ida": "2027-07-07",
+     "volta": "2027-07-21",
+     "preco": 87711.0
+    },
+    {
+     "ida": "2027-07-15",
+     "volta": "2027-07-29",
+     "preco": 87723.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20BKK%20from%20GRU%20on%202027-06-14%20through%202027-06-28%20first%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/bkk/270614/270628/?adultsv2=1&cabinclass=first&rtn=1",
+   "atualizado": "2026-11-24T06:40+00:00"
+  }
+ },
+ "VCP-MIA-economica": {
+  "historico": [
+   [
+    "2026-11-24T06:40+00:00",
+    6077.0
+   ]
+  ],
+  "atual": {
+   "chave": "VCP-MIA-economica",
+   "origem": "VCP",
+   "destino": "MIA",
+   "cidade": "Miami",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 6077.0,
+   "moeda": "BRL",
+   "ida": "2027-04-05",
+   "volta": "2027-04-15",
+   "referencia": 6955.0,
+   "desconto": 0.1262,
+   "limite": 2989.9999999999995,
+   "prioridade": "perto de Orlando (310 km)",
+   "datas_baratas": [
+    {
+     "ida": "2027-04-05",
+     "volta": "2027-04-15",
+     "preco": 6077.0
+    },
+    {
+     "ida": "2027-05-24",
+     "volta": "2027-06-03",
+     "preco": 6077.0
+    },
+    {
+     "ida": "2027-05-31",
+     "volta": "2027-06-10",
+     "preco": 6077.0
+    },
+    {
+     "ida": "2027-06-07",
+     "volta": "2027-06-17",
+     "preco": 6077.0
+    },
+    {
+     "ida": "2027-04-06",
+     "volta": "2027-04-16",
+     "preco": 6244.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MIA%20from%20VCP%20on%202027-04-05%20through%202027-04-15%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/mia/270405/270415/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-24T06:40+00:00"
+  }
+ },
+ "VCP-MIA-premium": {
+  "historico": [
+   [
+    "2026-11-24T06:40+00:00",
+    10187.0
+   ]
+  ],
+  "atual": {
+   "chave": "VCP-MIA-premium",
+   "origem": "VCP",
+   "destino": "MIA",
+   "cidade": "Miami",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "premium",
+   "classe_nome": "Premium Economy",
+   "preco": 10187.0,
+   "moeda": "BRL",
+   "ida": "2027-02-07",
+   "volta": "2027-02-17",
+   "referencia": 14146.0,
+   "desconto": 0.2799,
+   "limite": 5175.0,
+   "prioridade": "perto de Orlando (310 km)",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-07",
+     "volta": "2027-02-17",
+     "preco": 10187.0
+    },
+    {
+     "ida": "2027-02-21",
+     "volta": "2027-03-03",
+     "preco": 10187.0
+    },
+    {
+     "ida": "2027-02-24",
+     "volta": "2027-03-06",
+     "preco": 10187.0
+    },
+    {
+     "ida": "2027-02-26",
+     "volta": "2027-03-08",
+     "preco": 10187.0
+    },
+    {
+     "ida": "2027-02-03",
+     "volta": "2027-02-13",
+     "preco": 11283.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MIA%20from%20VCP%20on%202027-02-07%20through%202027-02-17%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/mia/270207/270217/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-24T06:40+00:00"
+  }
+ },
+ "VCP-MIA-executiva": {
+  "historico": [
+   [
+    "2026-11-24T06:41+00:00",
+    23780.0
+   ]
+  ],
+  "atual": {
+   "chave": "VCP-MIA-executiva",
+   "origem": "VCP",
+   "destino": "MIA",
+   "cidade": "Miami",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 23780.0,
+   "moeda": "BRL",
+   "ida": "2026-12-12",
+   "volta": "2026-12-22",
+   "referencia": 26607.0,
+   "desconto": 0.1063,
+   "limite": 9200.0,
+   "prioridade": "perto de Orlando (310 km)",
+   "datas_baratas": [
+    {
+     "ida": "2026-12-12",
+     "volta": "2026-12-22",
+     "preco": 23780.0
+    },
+    {
+     "ida": "2026-12-14",
+     "volta": "2026-12-24",
+     "preco": 23780.0
+    },
+    {
+     "ida": "2026-12-30",
+     "volta": "2027-01-09",
+     "preco": 24181.0
+    },
+    {
+     "ida": "2026-12-31",
+     "volta": "2027-01-10",
+     "preco": 24181.0
+    },
+    {
+     "ida": "2027-01-26",
+     "volta": "2027-02-05",
+     "preco": 24181.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MIA%20from%20VCP%20on%202026-12-12%20through%202026-12-22%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/mia/261212/261222/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-24T06:41+00:00"
+  }
+ },
+ "VCP-MIA-primeira": {
+  "historico": [],
+  "atual": null,
+  "vazias": 1,
+  "ultima_vazia": "2026-11-24"
+ },
+ "VCP-MCO-economica": {
+  "historico": [
+   [
+    "2026-11-24T06:41+00:00",
+    5056.0
+   ]
+  ],
+  "atual": {
+   "chave": "VCP-MCO-economica",
+   "origem": "VCP",
+   "destino": "MCO",
+   "cidade": "Orlando",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 5056.0,
+   "moeda": "BRL",
+   "ida": "2027-04-05",
+   "volta": "2027-04-15",
+   "referencia": 5949.0,
+   "desconto": 0.1501,
+   "limite": 2989.9999999999995,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-04-05",
+     "volta": "2027-04-15",
+     "preco": 5056.0
+    },
+    {
+     "ida": "2027-04-06",
+     "volta": "2027-04-16",
+     "preco": 5056.0
+    },
+    {
+     "ida": "2027-04-10",
+     "volta": "2027-04-20",
+     "preco": 5056.0
+    },
+    {
+     "ida": "2027-04-26",
+     "volta": "2027-05-06",
+     "preco": 5570.0
+    },
+    {
+     "ida": "2027-04-27",
+     "volta": "2027-05-07",
+     "preco": 5600.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MCO%20from%20VCP%20on%202027-04-05%20through%202027-04-15%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/mco/270405/270415/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-24T06:41+00:00"
+  }
+ },
+ "VCP-MCO-premium": {
+  "historico": [
+   [
+    "2026-11-24T06:41+00:00",
+    9579.0
+   ]
+  ],
+  "atual": {
+   "chave": "VCP-MCO-premium",
+   "origem": "VCP",
+   "destino": "MCO",
+   "cidade": "Orlando",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "premium",
+   "classe_nome": "Premium Economy",
+   "preco": 9579.0,
+   "moeda": "BRL",
+   "ida": "2027-02-07",
+   "volta": "2027-02-17",
+   "referencia": 13873.0,
+   "desconto": 0.3095,
+   "limite": 5175.0,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-07",
+     "volta": "2027-02-17",
+     "preco": 9579.0
+    },
+    {
+     "ida": "2027-02-21",
+     "volta": "2027-03-03",
+     "preco": 9705.0
+    },
+    {
+     "ida": "2027-02-23",
+     "volta": "2027-03-05",
+     "preco": 9705.0
+    },
+    {
+     "ida": "2027-02-26",
+     "volta": "2027-03-08",
+     "preco": 9705.0
+    },
+    {
+     "ida": "2027-02-27",
+     "volta": "2027-03-09",
+     "preco": 10929.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MCO%20from%20VCP%20on%202027-02-07%20through%202027-02-17%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/mco/270207/270217/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-24T06:41+00:00"
+  }
+ },
+ "VCP-MCO-executiva": {
+  "historico": [
+   [
+    "2026-11-24T06:41+00:00",
+    19930.0
+   ]
+  ],
+  "atual": {
+   "chave": "VCP-MCO-executiva",
+   "origem": "VCP",
+   "destino": "MCO",
+   "cidade": "Orlando",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 19930.0,
+   "moeda": "BRL",
+   "ida": "2027-02-16",
+   "volta": "2027-02-26",
+   "referencia": 27582.0,
+   "desconto": 0.2774,
+   "limite": 9200.0,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-16",
+     "volta": "2027-02-26",
+     "preco": 19930.0
+    },
+    {
+     "ida": "2027-02-17",
+     "volta": "2027-02-27",
+     "preco": 19930.0
+    },
+    {
+     "ida": "2027-02-18",
+     "volta": "2027-02-28",
+     "preco": 19930.0
+    },
+    {
+     "ida": "2027-02-19",
+     "volta": "2027-03-01",
+     "preco": 19930.0
+    },
+    {
+     "ida": "2027-02-20",
+     "volta": "2027-03-02",
+     "preco": 19930.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MCO%20from%20VCP%20on%202027-02-16%20through%202027-02-26%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/mco/270216/270226/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-24T06:41+00:00"
+  }
+ },
+ "VCP-MCO-primeira": {
+  "historico": [],
+  "atual": null,
+  "vazias": 1,
+  "ultima_vazia": "2026-11-24"
+ },
+ "SJP-CUN-premium": {
+  "historico": [
+   [
+    "2026-11-24T06:41+00:00",
+    6568.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-CUN-premium",
+   "origem": "SJP",
+   "destino": "CUN",
+   "cidade": "Cancún",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "premium",
+   "classe_nome": "Premium Economy",
+   "preco": 6568.0,
+   "moeda": "BRL",
+   "ida": "2027-06-26",
+   "volta": "2027-07-06",
+   "referencia": 7281.5,
+   "desconto": 0.098,
+   "limite": 4500.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-06-26",
+     "volta": "2027-07-06",
+     "preco": 6568.0
+    },
+    {
+     "ida": "2027-02-23",
+     "volta": "2027-03-05",
+     "preco": 7995.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20CUN%20from%20SJP%20on%202027-06-26%20through%202027-07-06%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/cun/270626/270706/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-24T06:41+00:00"
+  }
+ },
+ "SJP-CUN-executiva": {
+  "historico": [
+   [
+    "2026-11-24T06:42+00:00",
+    16126.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-CUN-executiva",
+   "origem": "SJP",
+   "destino": "CUN",
+   "cidade": "Cancún",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 16126.0,
+   "moeda": "BRL",
+   "ida": "2027-04-08",
+   "volta": "2027-04-18",
+   "referencia": 18504.0,
+   "desconto": 0.1285,
+   "limite": 8000.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-04-08",
+     "volta": "2027-04-18",
+     "preco": 16126.0
+    },
+    {
+     "ida": "2026-12-16",
+     "volta": "2026-12-26",
+     "preco": 20882.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20CUN%20from%20SJP%20on%202027-04-08%20through%202027-04-18%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/cun/270408/270418/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-24T06:42+00:00"
+  }
+ },
+ "SJP-CUN-primeira": {
+  "historico": [],
+  "atual": null,
+  "vazias": 1,
+  "ultima_vazia": "2026-11-24"
+ },
+ "SJP-PTY-economica": {
+  "historico": [],
+  "atual": null,
+  "vazias": 1,
+  "ultima_vazia": "2026-11-24"
+ },
+ "SJP-PTY-premium": {
+  "historico": [],
+  "atual": null,
+  "vazias": 1,
+  "ultima_vazia": "2026-11-24"
+ },
+ "SJP-PTY-executiva": {
+  "historico": [],
+  "atual": null,
+  "vazias": 1,
+  "ultima_vazia": "2026-11-24"
+ },
+ "SJP-PTY-primeira": {
+  "historico": [],
+  "atual": null,
+  "vazias": 1,
+  "ultima_vazia": "2026-11-24"
+ },
+ "SJP-PUJ-economica": {
+  "historico": [
+   [
+    "2026-11-24T06:44+00:00",
+    4980.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-PUJ-economica",
+   "origem": "SJP",
+   "destino": "PUJ",
+   "cidade": "Punta Cana",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 4980.0,
+   "moeda": "BRL",
+   "ida": "2027-06-21",
+   "volta": "2027-07-01",
+   "referencia": 5510.0,
+   "desconto": 0.0962,
+   "limite": 2600.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-06-21",
+     "volta": "2027-07-01",
+     "preco": 4980.0
+    },
+    {
+     "ida": "2027-02-14",
+     "volta": "2027-02-24",
+     "preco": 5398.0
+    },
+    {
+     "ida": "2027-04-14",
+     "volta": "2027-04-24",
+     "preco": 5622.0
+    },
+    {
+     "ida": "2026-12-05",
+     "volta": "2026-12-15",
+     "preco": 5760.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20PUJ%20from%20SJP%20on%202027-06-21%20through%202027-07-01%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/puj/270621/270701/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-24T06:44+00:00"
+  }
  }
 }
