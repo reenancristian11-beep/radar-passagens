@@ -10628,5 +10628,527 @@
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/bcn/270420/270430/?adultsv2=1&cabinclass=economy&rtn=1",
    "atualizado": "2026-11-24T11:43+00:00"
   }
+ },
+ "VCP-HND-economica": {
+  "historico": [
+   [
+    "2026-11-24T12:48+00:00",
+    10223.0
+   ]
+  ],
+  "atual": {
+   "chave": "VCP-HND-economica",
+   "origem": "VCP",
+   "destino": "HND",
+   "cidade": "Tóquio (Haneda)",
+   "regiao": "asia",
+   "regiao_nome": "Ásia",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 10223.0,
+   "moeda": "BRL",
+   "ida": "2027-01-13",
+   "volta": "2027-01-27",
+   "referencia": 13331.0,
+   "desconto": 0.2331,
+   "limite": 5175.0,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-01-13",
+     "volta": "2027-01-27",
+     "preco": 10223.0
+    },
+    {
+     "ida": "2027-01-16",
+     "volta": "2027-01-30",
+     "preco": 10223.0
+    },
+    {
+     "ida": "2027-01-18",
+     "volta": "2027-02-01",
+     "preco": 10223.0
+    },
+    {
+     "ida": "2027-01-19",
+     "volta": "2027-02-02",
+     "preco": 10223.0
+    },
+    {
+     "ida": "2027-01-23",
+     "volta": "2027-02-06",
+     "preco": 10223.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20HND%20from%20VCP%20on%202027-01-13%20through%202027-01-27%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/hnd/270113/270127/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-24T12:48+00:00"
+  }
+ },
+ "VCP-HND-premium": {
+  "historico": [
+   [
+    "2026-11-24T12:48+00:00",
+    15316.0
+   ]
+  ],
+  "atual": {
+   "chave": "VCP-HND-premium",
+   "origem": "VCP",
+   "destino": "HND",
+   "cidade": "Tóquio (Haneda)",
+   "regiao": "asia",
+   "regiao_nome": "Ásia",
+   "classe": "premium",
+   "classe_nome": "Premium Economy",
+   "preco": 15316.0,
+   "moeda": "BRL",
+   "ida": "2027-06-22",
+   "volta": "2027-07-06",
+   "referencia": 27023.0,
+   "desconto": 0.4332,
+   "limite": 8625.0,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-06-22",
+     "volta": "2027-07-06",
+     "preco": 15316.0
+    },
+    {
+     "ida": "2027-02-16",
+     "volta": "2027-03-02",
+     "preco": 15425.0
+    },
+    {
+     "ida": "2026-12-15",
+     "volta": "2026-12-29",
+     "preco": 16261.0
+    },
+    {
+     "ida": "2027-04-20",
+     "volta": "2027-05-04",
+     "preco": 19903.0
+    },
+    {
+     "ida": "2027-06-08",
+     "volta": "2027-06-22",
+     "preco": 19903.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20HND%20from%20VCP%20on%202027-06-22%20through%202027-07-06%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/hnd/270622/270706/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-24T12:48+00:00"
+  }
+ },
+ "VCP-HND-executiva": {
+  "historico": [
+   [
+    "2026-11-24T12:48+00:00",
+    36691.0
+   ]
+  ],
+  "atual": {
+   "chave": "VCP-HND-executiva",
+   "origem": "VCP",
+   "destino": "HND",
+   "cidade": "Tóquio (Haneda)",
+   "regiao": "asia",
+   "regiao_nome": "Ásia",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 36691.0,
+   "moeda": "BRL",
+   "ida": "2027-06-14",
+   "volta": "2027-06-28",
+   "referencia": 48436.0,
+   "desconto": 0.2425,
+   "limite": 14949.999999999998,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-06-14",
+     "volta": "2027-06-28",
+     "preco": 36691.0
+    },
+    {
+     "ida": "2027-05-20",
+     "volta": "2027-06-03",
+     "preco": 37188.0
+    },
+    {
+     "ida": "2027-05-27",
+     "volta": "2027-06-10",
+     "preco": 37188.0
+    },
+    {
+     "ida": "2027-06-21",
+     "volta": "2027-07-05",
+     "preco": 39261.0
+    },
+    {
+     "ida": "2027-02-07",
+     "volta": "2027-02-21",
+     "preco": 39384.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20HND%20from%20VCP%20on%202027-06-14%20through%202027-06-28%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/hnd/270614/270628/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-24T12:48+00:00"
+  }
+ },
+ "VCP-HND-primeira": {
+  "historico": [
+   [
+    "2026-11-24T12:49+00:00",
+    130244.0
+   ]
+  ],
+  "atual": {
+   "chave": "VCP-HND-primeira",
+   "origem": "VCP",
+   "destino": "HND",
+   "cidade": "Tóquio (Haneda)",
+   "regiao": "asia",
+   "regiao_nome": "Ásia",
+   "classe": "primeira",
+   "classe_nome": "Primeira Classe",
+   "preco": 130244.0,
+   "moeda": "BRL",
+   "ida": "2027-05-06",
+   "volta": "2027-05-20",
+   "referencia": 144537.0,
+   "desconto": 0.0989,
+   "limite": 25299.999999999996,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-05-06",
+     "volta": "2027-05-20",
+     "preco": 130244.0
+    },
+    {
+     "ida": "2027-02-22",
+     "volta": "2027-03-08",
+     "preco": 131223.0
+    },
+    {
+     "ida": "2027-06-14",
+     "volta": "2027-06-28",
+     "preco": 133494.0
+    },
+    {
+     "ida": "2027-02-02",
+     "volta": "2027-02-16",
+     "preco": 134130.0
+    },
+    {
+     "ida": "2027-02-03",
+     "volta": "2027-02-17",
+     "preco": 134130.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20HND%20from%20VCP%20on%202027-05-06%20through%202027-05-20%20first%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/hnd/270506/270520/?adultsv2=1&cabinclass=first&rtn=1",
+   "atualizado": "2026-11-24T12:49+00:00"
+  }
+ },
+ "VCP-BKK-economica": {
+  "historico": [
+   [
+    "2026-11-24T12:49+00:00",
+    10353.0
+   ]
+  ],
+  "atual": {
+   "chave": "VCP-BKK-economica",
+   "origem": "VCP",
+   "destino": "BKK",
+   "cidade": "Bangkok",
+   "regiao": "asia",
+   "regiao_nome": "Ásia",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 10353.0,
+   "moeda": "BRL",
+   "ida": "2026-12-07",
+   "volta": "2026-12-21",
+   "referencia": 17885.0,
+   "desconto": 0.4211,
+   "limite": 5175.0,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2026-12-07",
+     "volta": "2026-12-21",
+     "preco": 10353.0
+    },
+    {
+     "ida": "2027-02-23",
+     "volta": "2027-03-09",
+     "preco": 12003.0
+    },
+    {
+     "ida": "2027-04-27",
+     "volta": "2027-05-11",
+     "preco": 12153.0
+    },
+    {
+     "ida": "2027-02-16",
+     "volta": "2027-03-02",
+     "preco": 12600.0
+    },
+    {
+     "ida": "2027-04-19",
+     "volta": "2027-05-03",
+     "preco": 12600.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20BKK%20from%20VCP%20on%202026-12-07%20through%202026-12-21%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/bkk/261207/261221/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-24T12:49+00:00"
+  }
+ },
+ "VCP-BKK-premium": {
+  "historico": [
+   [
+    "2026-11-24T12:49+00:00",
+    17880.0
+   ]
+  ],
+  "atual": {
+   "chave": "VCP-BKK-premium",
+   "origem": "VCP",
+   "destino": "BKK",
+   "cidade": "Bangkok",
+   "regiao": "asia",
+   "regiao_nome": "Ásia",
+   "classe": "premium",
+   "classe_nome": "Premium Economy",
+   "preco": 17880.0,
+   "moeda": "BRL",
+   "ida": "2027-02-23",
+   "volta": "2027-03-09",
+   "referencia": 38126.0,
+   "desconto": 0.531,
+   "limite": 8625.0,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-23",
+     "volta": "2027-03-09",
+     "preco": 17880.0
+    },
+    {
+     "ida": "2027-02-24",
+     "volta": "2027-03-10",
+     "preco": 17880.0
+    },
+    {
+     "ida": "2027-04-05",
+     "volta": "2027-04-19",
+     "preco": 17880.0
+    },
+    {
+     "ida": "2027-04-13",
+     "volta": "2027-04-27",
+     "preco": 17880.0
+    },
+    {
+     "ida": "2027-04-20",
+     "volta": "2027-05-04",
+     "preco": 17880.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20BKK%20from%20VCP%20on%202027-02-23%20through%202027-03-09%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/bkk/270223/270309/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-24T12:49+00:00"
+  }
+ },
+ "VCP-BKK-executiva": {
+  "historico": [
+   [
+    "2026-11-24T12:49+00:00",
+    43210.0
+   ]
+  ],
+  "atual": {
+   "chave": "VCP-BKK-executiva",
+   "origem": "VCP",
+   "destino": "BKK",
+   "cidade": "Bangkok",
+   "regiao": "asia",
+   "regiao_nome": "Ásia",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 43210.0,
+   "moeda": "BRL",
+   "ida": "2026-12-05",
+   "volta": "2026-12-19",
+   "referencia": 71647.0,
+   "desconto": 0.3969,
+   "limite": 14949.999999999998,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2026-12-05",
+     "volta": "2026-12-19",
+     "preco": 43210.0
+    },
+    {
+     "ida": "2026-12-07",
+     "volta": "2026-12-21",
+     "preco": 43210.0
+    },
+    {
+     "ida": "2027-02-20",
+     "volta": "2027-03-06",
+     "preco": 46205.0
+    },
+    {
+     "ida": "2027-02-21",
+     "volta": "2027-03-07",
+     "preco": 46205.0
+    },
+    {
+     "ida": "2027-02-22",
+     "volta": "2027-03-08",
+     "preco": 46205.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20BKK%20from%20VCP%20on%202026-12-05%20through%202026-12-19%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/bkk/261205/261219/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-24T12:49+00:00"
+  }
+ },
+ "VCP-BKK-primeira": {
+  "historico": [
+   [
+    "2026-11-24T12:49+00:00",
+    111001.0
+   ]
+  ],
+  "atual": {
+   "chave": "VCP-BKK-primeira",
+   "origem": "VCP",
+   "destino": "BKK",
+   "cidade": "Bangkok",
+   "regiao": "asia",
+   "regiao_nome": "Ásia",
+   "classe": "primeira",
+   "classe_nome": "Primeira Classe",
+   "preco": 111001.0,
+   "moeda": "BRL",
+   "ida": "2027-02-27",
+   "volta": "2027-03-13",
+   "referencia": 187026.0,
+   "desconto": 0.4065,
+   "limite": 25299.999999999996,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-27",
+     "volta": "2027-03-13",
+     "preco": 111001.0
+    },
+    {
+     "ida": "2027-02-20",
+     "volta": "2027-03-06",
+     "preco": 111990.0
+    },
+    {
+     "ida": "2027-02-21",
+     "volta": "2027-03-07",
+     "preco": 111990.0
+    },
+    {
+     "ida": "2027-02-22",
+     "volta": "2027-03-08",
+     "preco": 111990.0
+    },
+    {
+     "ida": "2027-02-23",
+     "volta": "2027-03-09",
+     "preco": 111990.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20BKK%20from%20VCP%20on%202027-02-27%20through%202027-03-13%20first%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/bkk/270227/270313/?adultsv2=1&cabinclass=first&rtn=1",
+   "atualizado": "2026-11-24T12:49+00:00"
+  }
+ },
+ "CGH-MIA-economica": {
+  "historico": [
+   [
+    "2026-11-24T12:49+00:00",
+    5833.0
+   ]
+  ],
+  "atual": {
+   "chave": "CGH-MIA-economica",
+   "origem": "CGH",
+   "destino": "MIA",
+   "cidade": "Miami",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 5833.0,
+   "moeda": "BRL",
+   "ida": "2027-03-12",
+   "volta": "2027-03-22",
+   "referencia": 7121.0,
+   "desconto": 0.1809,
+   "limite": 2989.9999999999995,
+   "prioridade": "perto de Orlando (310 km)",
+   "datas_baratas": [
+    {
+     "ida": "2027-03-12",
+     "volta": "2027-03-22",
+     "preco": 5833.0
+    },
+    {
+     "ida": "2027-03-14",
+     "volta": "2027-03-24",
+     "preco": 5833.0
+    },
+    {
+     "ida": "2027-03-13",
+     "volta": "2027-03-23",
+     "preco": 5841.0
+    },
+    {
+     "ida": "2027-03-15",
+     "volta": "2027-03-25",
+     "preco": 5851.0
+    },
+    {
+     "ida": "2027-02-08",
+     "volta": "2027-02-18",
+     "preco": 6106.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MIA%20from%20CGH%20on%202027-03-12%20through%202027-03-22%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/cgh/mia/270312/270322/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-24T12:49+00:00"
+  }
  }
 }
