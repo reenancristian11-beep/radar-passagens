@@ -46,5 +46,9 @@
  "GRU-FLN-economica": {
   "preco": 349.0,
   "quando": "2026-11-25T19:41+00:00"
+ },
+ "GRU-SCL-economica": {
+  "preco": 1153.0,
+  "quando": "2026-11-25T20:38+00:00"
  }
 }
