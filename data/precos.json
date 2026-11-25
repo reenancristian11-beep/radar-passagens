@@ -14108,6 +14108,10 @@
    [
     "2026-11-24T19:46+00:00",
     12791.0
+   ],
+   [
+    "2026-11-25T19:39+00:00",
+    12733.0
    ]
   ],
   "atual": {
@@ -14119,46 +14123,46 @@
    "regiao_nome": "Oriente Médio",
    "classe": "premium",
    "classe_nome": "Premium Economy",
-   "preco": 12791.0,
+   "preco": 12733.0,
    "moeda": "BRL",
-   "ida": "2027-05-29",
-   "volta": "2027-06-08",
-   "referencia": 16977.0,
-   "desconto": 0.2466,
+   "ida": "2027-06-05",
+   "volta": "2027-06-15",
+   "referencia": 17109.5,
+   "desconto": 0.2558,
    "limite": 6899.999999999999,
    "prioridade": "escolhido por você",
    "datas_baratas": [
     {
-     "ida": "2027-05-29",
-     "volta": "2027-06-08",
-     "preco": 12791.0
-    },
-    {
-     "ida": "2027-05-31",
-     "volta": "2027-06-10",
-     "preco": 12791.0
-    },
-    {
      "ida": "2027-06-05",
      "volta": "2027-06-15",
-     "preco": 12791.0
+     "preco": 12733.0
     },
     {
      "ida": "2027-06-07",
      "volta": "2027-06-17",
-     "preco": 12791.0
+     "preco": 12733.0
     },
     {
      "ida": "2027-06-16",
      "volta": "2027-06-26",
-     "preco": 12791.0
+     "preco": 12733.0
+    },
+    {
+     "ida": "2027-02-15",
+     "volta": "2027-02-25",
+     "preco": 12754.0
+    },
+    {
+     "ida": "2027-05-21",
+     "volta": "2027-05-31",
+     "preco": 12757.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20DXB%20from%20CGH%20on%202027-05-29%20through%202027-06-08%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/cgh/dxb/270529/270608/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
-   "atualizado": "2026-11-24T19:46+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20DXB%20from%20CGH%20on%202027-06-05%20through%202027-06-15%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/cgh/dxb/270605/270615/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-25T19:39+00:00"
   }
  },
  "CGH-DXB-executiva": {
@@ -14166,6 +14170,10 @@
    [
     "2026-11-24T19:46+00:00",
     31276.0
+   ],
+   [
+    "2026-11-25T19:39+00:00",
+    30707.0
    ]
   ],
   "atual": {
@@ -14177,46 +14185,46 @@
    "regiao_nome": "Oriente Médio",
    "classe": "executiva",
    "classe_nome": "Executiva",
-   "preco": 31276.0,
+   "preco": 30707.0,
    "moeda": "BRL",
-   "ida": "2026-11-27",
-   "volta": "2026-12-07",
-   "referencia": 38896.0,
-   "desconto": 0.1959,
+   "ida": "2026-12-14",
+   "volta": "2026-12-24",
+   "referencia": 38301.0,
+   "desconto": 0.1983,
    "limite": 11500.0,
    "prioridade": "escolhido por você",
    "datas_baratas": [
     {
-     "ida": "2026-11-27",
-     "volta": "2026-12-07",
-     "preco": 31276.0
+     "ida": "2026-12-14",
+     "volta": "2026-12-24",
+     "preco": 30707.0
     },
     {
      "ida": "2027-02-08",
      "volta": "2027-02-18",
-     "preco": 31280.0
+     "preco": 30710.0
     },
     {
      "ida": "2027-02-10",
      "volta": "2027-02-20",
-     "preco": 31280.0
+     "preco": 30710.0
     },
     {
      "ida": "2027-01-24",
      "volta": "2027-02-03",
-     "preco": 31320.0
+     "preco": 30751.0
     },
     {
-     "ida": "2026-12-14",
-     "volta": "2026-12-24",
-     "preco": 31342.0
+     "ida": "2026-12-15",
+     "volta": "2026-12-25",
+     "preco": 30812.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20DXB%20from%20CGH%20on%202026-11-27%20through%202026-12-07%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/cgh/dxb/261127/261207/?adultsv2=1&cabinclass=business&rtn=1",
-   "atualizado": "2026-11-24T19:46+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20DXB%20from%20CGH%20on%202026-12-14%20through%202026-12-24%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/cgh/dxb/261214/261224/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-25T19:39+00:00"
   }
  },
  "CGH-DXB-primeira": {
@@ -14224,6 +14232,10 @@
    [
     "2026-11-24T19:47+00:00",
     111199.0
+   ],
+   [
+    "2026-11-25T19:39+00:00",
+    113067.0
    ]
   ],
   "atual": {
@@ -14235,46 +14247,46 @@
    "regiao_nome": "Oriente Médio",
    "classe": "primeira",
    "classe_nome": "Primeira Classe",
-   "preco": 111199.0,
+   "preco": 113067.0,
    "moeda": "BRL",
-   "ida": "2027-06-11",
-   "volta": "2027-06-21",
-   "referencia": 159580.0,
-   "desconto": 0.3032,
+   "ida": "2027-06-25",
+   "volta": "2027-07-05",
+   "referencia": 166024.0,
+   "desconto": 0.319,
    "limite": 20700.0,
    "prioridade": "escolhido por você",
    "datas_baratas": [
     {
-     "ida": "2027-06-11",
-     "volta": "2027-06-21",
-     "preco": 111199.0
+     "ida": "2027-06-25",
+     "volta": "2027-07-05",
+     "preco": 113067.0
     },
     {
-     "ida": "2026-12-22",
-     "volta": "2027-01-01",
-     "preco": 121319.0
+     "ida": "2026-12-12",
+     "volta": "2026-12-22",
+     "preco": 114057.0
     },
     {
-     "ida": "2027-01-30",
-     "volta": "2027-02-09",
-     "preco": 132956.0
+     "ida": "2027-01-03",
+     "volta": "2027-01-13",
+     "preco": 151548.0
     },
     {
-     "ida": "2027-01-31",
-     "volta": "2027-02-10",
-     "preco": 132956.0
+     "ida": "2027-01-07",
+     "volta": "2027-01-17",
+     "preco": 151548.0
     },
     {
-     "ida": "2027-01-06",
-     "volta": "2027-01-16",
-     "preco": 152366.0
+     "ida": "2027-01-08",
+     "volta": "2027-01-18",
+     "preco": 151548.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20DXB%20from%20CGH%20on%202027-06-11%20through%202027-06-21%20first%20class&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/cgh/dxb/270611/270621/?adultsv2=1&cabinclass=first&rtn=1",
-   "atualizado": "2026-11-24T19:47+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20DXB%20from%20CGH%20on%202027-06-25%20through%202027-07-05%20first%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/cgh/dxb/270625/270705/?adultsv2=1&cabinclass=first&rtn=1",
+   "atualizado": "2026-11-25T19:39+00:00"
   }
  },
  "CGH-AUH-economica": {
@@ -14282,6 +14294,10 @@
    [
     "2026-11-24T19:47+00:00",
     15516.0
+   ],
+   [
+    "2026-11-25T19:39+00:00",
+    15578.0
    ]
   ],
   "atual": {
@@ -14293,46 +14309,46 @@
    "regiao_nome": "Oriente Médio",
    "classe": "economica",
    "classe_nome": "Econômica",
-   "preco": 15516.0,
+   "preco": 15578.0,
    "moeda": "BRL",
-   "ida": "2027-06-18",
-   "volta": "2027-06-28",
-   "referencia": 72001.0,
-   "desconto": 0.7845,
+   "ida": "2027-06-21",
+   "volta": "2027-07-01",
+   "referencia": 70642.0,
+   "desconto": 0.7795,
    "limite": 4370.0,
    "prioridade": "perto de Dubai (116 km)",
    "datas_baratas": [
     {
-     "ida": "2027-06-18",
-     "volta": "2027-06-28",
-     "preco": 15516.0
-    },
-    {
-     "ida": "2026-11-28",
-     "volta": "2026-12-08",
-     "preco": 15685.0
+     "ida": "2027-06-21",
+     "volta": "2027-07-01",
+     "preco": 15578.0
     },
     {
      "ida": "2027-06-19",
      "volta": "2027-06-29",
-     "preco": 17750.0
+     "preco": 17185.0
     },
     {
-     "ida": "2027-03-14",
-     "volta": "2027-03-24",
-     "preco": 19448.0
+     "ida": "2027-07-24",
+     "volta": "2027-08-03",
+     "preco": 22322.0
     },
     {
-     "ida": "2027-05-01",
-     "volta": "2027-05-11",
-     "preco": 19646.0
+     "ida": "2027-07-03",
+     "volta": "2027-07-13",
+     "preco": 22694.0
+    },
+    {
+     "ida": "2027-04-02",
+     "volta": "2027-04-12",
+     "preco": 22966.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20AUH%20from%20CGH%20on%202027-06-18%20through%202027-06-28%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/cgh/auh/270618/270628/?adultsv2=1&cabinclass=economy&rtn=1",
-   "atualizado": "2026-11-24T19:47+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20AUH%20from%20CGH%20on%202027-06-21%20through%202027-07-01%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/cgh/auh/270621/270701/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-25T19:39+00:00"
   }
  },
  "CGH-AUH-premium": {
@@ -14340,6 +14356,10 @@
    [
     "2026-11-24T19:47+00:00",
     26745.0
+   ],
+   [
+    "2026-11-25T19:39+00:00",
+    26615.0
    ]
   ],
   "atual": {
@@ -14351,19 +14371,24 @@
    "regiao_nome": "Oriente Médio",
    "classe": "premium",
    "classe_nome": "Premium Economy",
-   "preco": 26745.0,
+   "preco": 26615.0,
    "moeda": "BRL",
-   "ida": "2026-12-09",
-   "volta": "2026-12-19",
-   "referencia": 70528.0,
-   "desconto": 0.6208,
+   "ida": "2026-12-07",
+   "volta": "2026-12-17",
+   "referencia": 72126.0,
+   "desconto": 0.631,
    "limite": 6899.999999999999,
    "prioridade": "perto de Dubai (116 km)",
    "datas_baratas": [
     {
-     "ida": "2026-12-09",
-     "volta": "2026-12-19",
-     "preco": 26745.0
+     "ida": "2026-12-07",
+     "volta": "2026-12-17",
+     "preco": 26615.0
+    },
+    {
+     "ida": "2026-12-12",
+     "volta": "2026-12-22",
+     "preco": 26615.0
     },
     {
      "ida": "2027-05-23",
@@ -14371,26 +14396,21 @@
      "preco": 27090.0
     },
     {
-     "ida": "2026-11-28",
-     "volta": "2026-12-08",
-     "preco": 27999.0
-    },
-    {
-     "ida": "2027-03-15",
-     "volta": "2027-03-25",
-     "preco": 34918.0
+     "ida": "2026-12-11",
+     "volta": "2026-12-21",
+     "preco": 35401.0
     },
     {
      "ida": "2026-12-08",
      "volta": "2026-12-18",
-     "preco": 35578.0
+     "preco": 35600.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20AUH%20from%20CGH%20on%202026-12-09%20through%202026-12-19%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/cgh/auh/261209/261219/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
-   "atualizado": "2026-11-24T19:47+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20AUH%20from%20CGH%20on%202026-12-07%20through%202026-12-17%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/cgh/auh/261207/261217/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-25T19:39+00:00"
   }
  },
  "CGH-AUH-executiva": {
@@ -14398,6 +14418,10 @@
    [
     "2026-11-24T19:47+00:00",
     42374.0
+   ],
+   [
+    "2026-11-25T19:40+00:00",
+    43991.0
    ]
   ],
   "atual": {
@@ -14409,59 +14433,63 @@
    "regiao_nome": "Oriente Médio",
    "classe": "executiva",
    "classe_nome": "Executiva",
-   "preco": 42374.0,
+   "preco": 43991.0,
    "moeda": "BRL",
-   "ida": "2026-12-09",
-   "volta": "2026-12-19",
-   "referencia": 81940.0,
-   "desconto": 0.4829,
+   "ida": "2027-05-18",
+   "volta": "2027-05-28",
+   "referencia": 81371.0,
+   "desconto": 0.4594,
    "limite": 11500.0,
    "prioridade": "perto de Dubai (116 km)",
    "datas_baratas": [
-    {
-     "ida": "2026-12-09",
-     "volta": "2026-12-19",
-     "preco": 42374.0
-    },
-    {
-     "ida": "2026-12-10",
-     "volta": "2026-12-20",
-     "preco": 42950.0
-    },
     {
      "ida": "2027-05-18",
      "volta": "2027-05-28",
      "preco": 43991.0
     },
     {
-     "ida": "2026-12-06",
-     "volta": "2026-12-16",
-     "preco": 47428.0
+     "ida": "2027-06-19",
+     "volta": "2027-06-29",
+     "preco": 50547.0
     },
     {
-     "ida": "2027-06-18",
-     "volta": "2027-06-28",
-     "preco": 50828.0
+     "ida": "2026-12-05",
+     "volta": "2026-12-15",
+     "preco": 50946.0
+    },
+    {
+     "ida": "2026-12-06",
+     "volta": "2026-12-16",
+     "preco": 50946.0
+    },
+    {
+     "ida": "2026-12-07",
+     "volta": "2026-12-17",
+     "preco": 50946.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20AUH%20from%20CGH%20on%202026-12-09%20through%202026-12-19%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/cgh/auh/261209/261219/?adultsv2=1&cabinclass=business&rtn=1",
-   "atualizado": "2026-11-24T19:47+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20AUH%20from%20CGH%20on%202027-05-18%20through%202027-05-28%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/cgh/auh/270518/270528/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-25T19:40+00:00"
   }
  },
  "CGH-AUH-primeira": {
   "historico": [],
   "atual": null,
-  "vazias": 1,
-  "ultima_vazia": "2026-11-24"
+  "vazias": 2,
+  "ultima_vazia": "2026-11-25"
  },
  "CGH-NRT-economica": {
   "historico": [
    [
     "2026-11-24T19:47+00:00",
     9417.0
+   ],
+   [
+    "2026-11-25T19:40+00:00",
+    9291.0
    ]
   ],
   "atual": {
@@ -14473,46 +14501,46 @@
    "regiao_nome": "Ásia",
    "classe": "economica",
    "classe_nome": "Econômica",
-   "preco": 9417.0,
+   "preco": 9291.0,
    "moeda": "BRL",
-   "ida": "2027-02-25",
-   "volta": "2027-03-11",
-   "referencia": 25396.0,
-   "desconto": 0.6292,
+   "ida": "2027-02-23",
+   "volta": "2027-03-09",
+   "referencia": 25012.0,
+   "desconto": 0.6285,
    "limite": 5175.0,
    "prioridade": "escolhido por você",
    "datas_baratas": [
     {
-     "ida": "2027-02-25",
-     "volta": "2027-03-11",
-     "preco": 9417.0
+     "ida": "2027-02-23",
+     "volta": "2027-03-09",
+     "preco": 9291.0
     },
     {
-     "ida": "2027-02-24",
-     "volta": "2027-03-10",
-     "preco": 9839.0
+     "ida": "2027-02-02",
+     "volta": "2027-02-16",
+     "preco": 9613.0
+    },
+    {
+     "ida": "2027-02-01",
+     "volta": "2027-02-15",
+     "preco": 9960.0
     },
     {
      "ida": "2027-01-23",
      "volta": "2027-02-06",
-     "preco": 10260.0
+     "preco": 10075.0
     },
     {
      "ida": "2027-01-24",
      "volta": "2027-02-07",
-     "preco": 10260.0
-    },
-    {
-     "ida": "2027-02-10",
-     "volta": "2027-02-24",
-     "preco": 10260.0
+     "preco": 10075.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20NRT%20from%20CGH%20on%202027-02-25%20through%202027-03-11%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/cgh/nrt/270225/270311/?adultsv2=1&cabinclass=economy&rtn=1",
-   "atualizado": "2026-11-24T19:47+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20NRT%20from%20CGH%20on%202027-02-23%20through%202027-03-09%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/cgh/nrt/270223/270309/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-25T19:40+00:00"
   }
  },
  "CGH-NRT-premium": {
@@ -14520,6 +14548,10 @@
    [
     "2026-11-24T19:47+00:00",
     22490.0
+   ],
+   [
+    "2026-11-25T19:40+00:00",
+    22375.0
    ]
   ],
   "atual": {
@@ -14531,23 +14563,23 @@
    "regiao_nome": "Ásia",
    "classe": "premium",
    "classe_nome": "Premium Economy",
-   "preco": 22490.0,
+   "preco": 22375.0,
    "moeda": "BRL",
-   "ida": "2027-04-14",
-   "volta": "2027-04-28",
-   "referencia": 37708.0,
-   "desconto": 0.4036,
+   "ida": "2026-12-05",
+   "volta": "2026-12-19",
+   "referencia": 37684.0,
+   "desconto": 0.4062,
    "limite": 8625.0,
    "prioridade": "escolhido por você",
    "datas_baratas": [
     {
-     "ida": "2027-04-14",
-     "volta": "2027-04-28",
-     "preco": 22490.0
-    },
-    {
      "ida": "2026-12-05",
      "volta": "2026-12-19",
+     "preco": 22375.0
+    },
+    {
+     "ida": "2027-02-09",
+     "volta": "2027-02-23",
      "preco": 22799.0
     },
     {
@@ -14556,21 +14588,21 @@
      "preco": 22799.0
     },
     {
-     "ida": "2027-05-19",
-     "volta": "2027-06-02",
+     "ida": "2027-02-13",
+     "volta": "2027-02-27",
      "preco": 22799.0
     },
     {
-     "ida": "2027-01-19",
-     "volta": "2027-02-02",
-     "preco": 27277.0
+     "ida": "2027-02-21",
+     "volta": "2027-03-07",
+     "preco": 22799.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20NRT%20from%20CGH%20on%202027-04-14%20through%202027-04-28%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/cgh/nrt/270414/270428/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
-   "atualizado": "2026-11-24T19:47+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20NRT%20from%20CGH%20on%202026-12-05%20through%202026-12-19%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/cgh/nrt/261205/261219/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-25T19:40+00:00"
   }
  },
  "CGH-NRT-executiva": {
@@ -19635,6 +19667,596 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20CNF%20from%20GRU%20on%202027-02-23%20through%202027-02-28%20economy&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/cnf/270223/270228/?adultsv2=1&cabinclass=economy&rtn=1",
    "atualizado": "2026-11-25T18:32+00:00"
+  }
+ },
+ "CGH-MXP-executiva": {
+  "historico": [
+   [
+    "2026-11-25T19:39+00:00",
+    14958.0
+   ]
+  ],
+  "atual": {
+   "chave": "CGH-MXP-executiva",
+   "origem": "CGH",
+   "destino": "MXP",
+   "cidade": "Milão",
+   "regiao": "europa",
+   "regiao_nome": "Europa",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 14958.0,
+   "moeda": "BRL",
+   "ida": "2026-12-18",
+   "volta": "2026-12-28",
+   "referencia": 22183.0,
+   "desconto": 0.3257,
+   "limite": 10350.0,
+   "prioridade": "perto de Zurique (204 km)",
+   "datas_baratas": [
+    {
+     "ida": "2026-12-18",
+     "volta": "2026-12-28",
+     "preco": 14958.0
+    },
+    {
+     "ida": "2026-12-17",
+     "volta": "2026-12-27",
+     "preco": 14962.0
+    },
+    {
+     "ida": "2026-12-19",
+     "volta": "2026-12-29",
+     "preco": 14962.0
+    },
+    {
+     "ida": "2026-12-25",
+     "volta": "2027-01-04",
+     "preco": 14962.0
+    },
+    {
+     "ida": "2026-12-26",
+     "volta": "2027-01-05",
+     "preco": 14966.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MXP%20from%20CGH%20on%202026-12-18%20through%202026-12-28%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/cgh/mxp/261218/261228/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-25T19:39+00:00"
+  }
+ },
+ "CGH-MXP-primeira": {
+  "historico": [],
+  "atual": null,
+  "vazias": 1,
+  "ultima_vazia": "2026-11-25"
+ },
+ "CGH-DXB-economica": {
+  "historico": [
+   [
+    "2026-11-25T19:39+00:00",
+    7711.0
+   ]
+  ],
+  "atual": {
+   "chave": "CGH-DXB-economica",
+   "origem": "CGH",
+   "destino": "DXB",
+   "cidade": "Dubai",
+   "regiao": "oriente_medio",
+   "regiao_nome": "Oriente Médio",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 7711.0,
+   "moeda": "BRL",
+   "ida": "2027-02-26",
+   "volta": "2027-03-08",
+   "referencia": 10766.5,
+   "desconto": 0.2838,
+   "limite": 4370.0,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-26",
+     "volta": "2027-03-08",
+     "preco": 7711.0
+    },
+    {
+     "ida": "2027-02-07",
+     "volta": "2027-02-17",
+     "preco": 7720.0
+    },
+    {
+     "ida": "2027-02-28",
+     "volta": "2027-03-10",
+     "preco": 7720.0
+    },
+    {
+     "ida": "2027-02-21",
+     "volta": "2027-03-03",
+     "preco": 7737.0
+    },
+    {
+     "ida": "2027-03-07",
+     "volta": "2027-03-17",
+     "preco": 7737.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20DXB%20from%20CGH%20on%202027-02-26%20through%202027-03-08%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/cgh/dxb/270226/270308/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-25T19:39+00:00"
+  }
+ },
+ "GRU-FLN-economica": {
+  "historico": [
+   [
+    "2026-11-25T19:40+00:00",
+    349.0
+   ]
+  ],
+  "atual": {
+   "chave": "GRU-FLN-economica",
+   "origem": "GRU",
+   "destino": "FLN",
+   "cidade": "Florianópolis",
+   "regiao": "brasil",
+   "regiao_nome": "Brasil",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 349.0,
+   "moeda": "BRL",
+   "ida": "2027-01-28",
+   "volta": "2027-02-02",
+   "referencia": 349.0,
+   "desconto": 0.0,
+   "limite": 450.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-01-28",
+     "volta": "2027-02-02",
+     "preco": 349.0
+    },
+    {
+     "ida": "2027-02-02",
+     "volta": "2027-02-07",
+     "preco": 349.0
+    },
+    {
+     "ida": "2027-02-08",
+     "volta": "2027-02-13",
+     "preco": 349.0
+    },
+    {
+     "ida": "2027-02-11",
+     "volta": "2027-02-16",
+     "preco": 349.0
+    },
+    {
+     "ida": "2027-02-12",
+     "volta": "2027-02-17",
+     "preco": 349.0
+    }
+   ],
+   "promocao": true,
+   "motivos": [
+    "abaixo do preço-alvo de R$ 450"
+   ],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FLN%20from%20GRU%20on%202027-01-28%20through%202027-02-02%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/fln/270128/270202/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-25T19:40+00:00"
+  }
+ },
+ "GRU-POA-economica": {
+  "historico": [
+   [
+    "2026-11-25T19:40+00:00",
+    505.0
+   ]
+  ],
+  "atual": {
+   "chave": "GRU-POA-economica",
+   "origem": "GRU",
+   "destino": "POA",
+   "cidade": "Porto Alegre",
+   "regiao": "brasil",
+   "regiao_nome": "Brasil",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 505.0,
+   "moeda": "BRL",
+   "ida": "2027-04-19",
+   "volta": "2027-04-24",
+   "referencia": 568.0,
+   "desconto": 0.1109,
+   "limite": 450.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-04-19",
+     "volta": "2027-04-24",
+     "preco": 505.0
+    },
+    {
+     "ida": "2027-05-03",
+     "volta": "2027-05-08",
+     "preco": 505.0
+    },
+    {
+     "ida": "2027-05-08",
+     "volta": "2027-05-13",
+     "preco": 505.0
+    },
+    {
+     "ida": "2027-06-05",
+     "volta": "2027-06-10",
+     "preco": 505.0
+    },
+    {
+     "ida": "2027-06-07",
+     "volta": "2027-06-12",
+     "preco": 505.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20POA%20from%20GRU%20on%202027-04-19%20through%202027-04-24%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/poa/270419/270424/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-25T19:40+00:00"
+  }
+ },
+ "GRU-CWB-economica": {
+  "historico": [
+   [
+    "2026-11-25T19:40+00:00",
+    398.0
+   ]
+  ],
+  "atual": {
+   "chave": "GRU-CWB-economica",
+   "origem": "GRU",
+   "destino": "CWB",
+   "cidade": "Curitiba",
+   "regiao": "brasil",
+   "regiao_nome": "Brasil",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 398.0,
+   "moeda": "BRL",
+   "ida": "2027-03-05",
+   "volta": "2027-03-10",
+   "referencia": 435.0,
+   "desconto": 0.0851,
+   "limite": 450.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-03-05",
+     "volta": "2027-03-10",
+     "preco": 398.0
+    },
+    {
+     "ida": "2027-03-08",
+     "volta": "2027-03-13",
+     "preco": 398.0
+    },
+    {
+     "ida": "2027-03-16",
+     "volta": "2027-03-21",
+     "preco": 398.0
+    },
+    {
+     "ida": "2027-03-17",
+     "volta": "2027-03-22",
+     "preco": 398.0
+    },
+    {
+     "ida": "2027-04-04",
+     "volta": "2027-04-09",
+     "preco": 398.0
+    }
+   ],
+   "promocao": true,
+   "motivos": [
+    "abaixo do preço-alvo de R$ 450"
+   ],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20CWB%20from%20GRU%20on%202027-03-05%20through%202027-03-10%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/cwb/270305/270310/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-25T19:40+00:00"
+  }
+ },
+ "GRU-IGU-economica": {
+  "historico": [
+   [
+    "2026-11-25T19:40+00:00",
+    1181.0
+   ]
+  ],
+  "atual": {
+   "chave": "GRU-IGU-economica",
+   "origem": "GRU",
+   "destino": "IGU",
+   "cidade": "Foz do Iguaçu",
+   "regiao": "brasil",
+   "regiao_nome": "Brasil",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 1181.0,
+   "moeda": "BRL",
+   "ida": "2027-01-24",
+   "volta": "2027-01-29",
+   "referencia": 1261.0,
+   "desconto": 0.0634,
+   "limite": 450.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-01-24",
+     "volta": "2027-01-29",
+     "preco": 1181.0
+    },
+    {
+     "ida": "2026-12-24",
+     "volta": "2026-12-29",
+     "preco": 1211.0
+    },
+    {
+     "ida": "2027-01-26",
+     "volta": "2027-01-31",
+     "preco": 1261.0
+    },
+    {
+     "ida": "2027-01-27",
+     "volta": "2027-02-01",
+     "preco": 1261.0
+    },
+    {
+     "ida": "2027-01-28",
+     "volta": "2027-02-02",
+     "preco": 1261.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20IGU%20from%20GRU%20on%202027-01-24%20through%202027-01-29%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/igu/270124/270129/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-25T19:40+00:00"
+  }
+ },
+ "GRU-MAO-economica": {
+  "historico": [
+   [
+    "2026-11-25T19:40+00:00",
+    1143.0
+   ]
+  ],
+  "atual": {
+   "chave": "GRU-MAO-economica",
+   "origem": "GRU",
+   "destino": "MAO",
+   "cidade": "Manaus",
+   "regiao": "brasil",
+   "regiao_nome": "Brasil",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 1143.0,
+   "moeda": "BRL",
+   "ida": "2027-04-07",
+   "volta": "2027-04-12",
+   "referencia": 1431.0,
+   "desconto": 0.2013,
+   "limite": 450.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-04-07",
+     "volta": "2027-04-12",
+     "preco": 1143.0
+    },
+    {
+     "ida": "2027-04-08",
+     "volta": "2027-04-13",
+     "preco": 1143.0
+    },
+    {
+     "ida": "2027-04-01",
+     "volta": "2027-04-06",
+     "preco": 1201.0
+    },
+    {
+     "ida": "2027-04-05",
+     "volta": "2027-04-10",
+     "preco": 1201.0
+    },
+    {
+     "ida": "2027-04-09",
+     "volta": "2027-04-14",
+     "preco": 1201.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MAO%20from%20GRU%20on%202027-04-07%20through%202027-04-12%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/mao/270407/270412/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-25T19:40+00:00"
+  }
+ },
+ "GRU-BEL-economica": {
+  "historico": [
+   [
+    "2026-11-25T19:41+00:00",
+    704.0
+   ]
+  ],
+  "atual": {
+   "chave": "GRU-BEL-economica",
+   "origem": "GRU",
+   "destino": "BEL",
+   "cidade": "Belém",
+   "regiao": "brasil",
+   "regiao_nome": "Brasil",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 704.0,
+   "moeda": "BRL",
+   "ida": "2027-02-07",
+   "volta": "2027-02-12",
+   "referencia": 794.0,
+   "desconto": 0.1134,
+   "limite": 450.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-07",
+     "volta": "2027-02-12",
+     "preco": 704.0
+    },
+    {
+     "ida": "2027-02-08",
+     "volta": "2027-02-13",
+     "preco": 704.0
+    },
+    {
+     "ida": "2027-02-09",
+     "volta": "2027-02-14",
+     "preco": 704.0
+    },
+    {
+     "ida": "2027-02-10",
+     "volta": "2027-02-15",
+     "preco": 704.0
+    },
+    {
+     "ida": "2027-02-11",
+     "volta": "2027-02-16",
+     "preco": 704.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20BEL%20from%20GRU%20on%202027-02-07%20through%202027-02-12%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/bel/270207/270212/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-25T19:41+00:00"
+  }
+ },
+ "GRU-EZE-economica": {
+  "historico": [
+   [
+    "2026-11-25T19:41+00:00",
+    1688.0
+   ]
+  ],
+  "atual": {
+   "chave": "GRU-EZE-economica",
+   "origem": "GRU",
+   "destino": "EZE",
+   "cidade": "Buenos Aires",
+   "regiao": "america_do_sul",
+   "regiao_nome": "América do Sul",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 1688.0,
+   "moeda": "BRL",
+   "ida": "2026-12-06",
+   "volta": "2026-12-12",
+   "referencia": 2192.0,
+   "desconto": 0.2299,
+   "limite": 1200.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2026-12-06",
+     "volta": "2026-12-12",
+     "preco": 1688.0
+    },
+    {
+     "ida": "2026-12-07",
+     "volta": "2026-12-13",
+     "preco": 1688.0
+    },
+    {
+     "ida": "2026-12-12",
+     "volta": "2026-12-18",
+     "preco": 1688.0
+    },
+    {
+     "ida": "2027-01-11",
+     "volta": "2027-01-17",
+     "preco": 1688.0
+    },
+    {
+     "ida": "2027-01-13",
+     "volta": "2027-01-19",
+     "preco": 1688.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20EZE%20from%20GRU%20on%202026-12-06%20through%202026-12-12%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/eze/261206/261212/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-25T19:41+00:00"
+  }
+ },
+ "GRU-EZE-executiva": {
+  "historico": [
+   [
+    "2026-11-25T19:41+00:00",
+    6245.0
+   ]
+  ],
+  "atual": {
+   "chave": "GRU-EZE-executiva",
+   "origem": "GRU",
+   "destino": "EZE",
+   "cidade": "Buenos Aires",
+   "regiao": "america_do_sul",
+   "regiao_nome": "América do Sul",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 6245.0,
+   "moeda": "BRL",
+   "ida": "2026-11-28",
+   "volta": "2026-12-04",
+   "referencia": 6245.0,
+   "desconto": 0.0,
+   "limite": 4500.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2026-11-28",
+     "volta": "2026-12-04",
+     "preco": 6245.0
+    },
+    {
+     "ida": "2026-11-29",
+     "volta": "2026-12-05",
+     "preco": 6245.0
+    },
+    {
+     "ida": "2026-11-30",
+     "volta": "2026-12-06",
+     "preco": 6245.0
+    },
+    {
+     "ida": "2026-12-01",
+     "volta": "2026-12-07",
+     "preco": 6245.0
+    },
+    {
+     "ida": "2026-12-04",
+     "volta": "2026-12-10",
+     "preco": 6245.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20EZE%20from%20GRU%20on%202026-11-28%20through%202026-12-04%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/eze/261128/261204/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-25T19:41+00:00"
   }
  }
 }

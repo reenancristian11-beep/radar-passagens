@@ -38,5 +38,13 @@
  "GRU-CNF-economica": {
   "preco": 385.0,
   "quando": "2026-11-25T18:32+00:00"
+ },
+ "GRU-CWB-economica": {
+  "preco": 398.0,
+  "quando": "2026-11-25T19:41+00:00"
+ },
+ "GRU-FLN-economica": {
+  "preco": 349.0,
+  "quando": "2026-11-25T19:41+00:00"
  }
 }
