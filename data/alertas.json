@@ -34,5 +34,9 @@
  "VCP-ADZ-economica": {
   "preco": 3462.0,
   "quando": "2026-11-25T11:44+00:00"
+ },
+ "GRU-CNF-economica": {
+  "preco": 385.0,
+  "quando": "2026-11-25T18:32+00:00"
  }
 }
