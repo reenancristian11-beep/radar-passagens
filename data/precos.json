@@ -9546,6 +9546,10 @@
    [
     "2026-11-24T08:07+00:00",
     19020.0
+   ],
+   [
+    "2026-11-25T12:46+00:00",
+    13917.0
    ]
   ],
   "atual": {
@@ -9557,53 +9561,53 @@
    "regiao_nome": "Europa",
    "classe": "executiva",
    "classe_nome": "Executiva",
-   "preco": 19020.0,
+   "preco": 13917.0,
    "moeda": "BRL",
-   "ida": "2027-02-12",
-   "volta": "2027-02-22",
-   "referencia": 22168.0,
-   "desconto": 0.142,
+   "ida": "2026-12-21",
+   "volta": "2026-12-31",
+   "referencia": 22194.0,
+   "desconto": 0.3729,
    "limite": 10350.0,
    "prioridade": "perto de Zurique (285 km)",
    "datas_baratas": [
     {
-     "ida": "2027-02-12",
-     "volta": "2027-02-22",
-     "preco": 19020.0
+     "ida": "2026-12-21",
+     "volta": "2026-12-31",
+     "preco": 13917.0
     },
     {
-     "ida": "2027-02-16",
-     "volta": "2027-02-26",
-     "preco": 19020.0
+     "ida": "2026-12-31",
+     "volta": "2027-01-10",
+     "preco": 13921.0
     },
     {
-     "ida": "2027-02-17",
-     "volta": "2027-02-27",
-     "preco": 19020.0
+     "ida": "2026-12-22",
+     "volta": "2027-01-01",
+     "preco": 18290.0
     },
     {
-     "ida": "2027-02-27",
-     "volta": "2027-03-09",
-     "preco": 19020.0
+     "ida": "2027-07-03",
+     "volta": "2027-07-13",
+     "preco": 18934.0
     },
     {
-     "ida": "2027-03-01",
-     "volta": "2027-03-11",
-     "preco": 19020.0
+     "ida": "2027-06-07",
+     "volta": "2027-06-17",
+     "preco": 19019.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FRA%20from%20VCP%20on%202027-02-12%20through%202027-02-22%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/fra/270212/270222/?adultsv2=1&cabinclass=business&rtn=1",
-   "atualizado": "2026-11-24T08:07+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FRA%20from%20VCP%20on%202026-12-21%20through%202026-12-31%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/fra/261221/261231/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-25T12:46+00:00"
   }
  },
  "VCP-FRA-primeira": {
   "historico": [],
   "atual": null,
-  "vazias": 1,
-  "ultima_vazia": "2026-11-24"
+  "vazias": 2,
+  "ultima_vazia": "2026-11-25"
  },
  "SJP-PUJ-premium": {
   "historico": [
@@ -9833,6 +9837,10 @@
    [
     "2026-11-24T09:19+00:00",
     6381.0
+   ],
+   [
+    "2026-11-25T12:47+00:00",
+    5994.0
    ]
   ],
   "atual": {
@@ -9844,46 +9852,46 @@
    "regiao_nome": "Europa",
    "classe": "economica",
    "classe_nome": "Econômica",
-   "preco": 6381.0,
+   "preco": 5994.0,
    "moeda": "BRL",
    "ida": "2027-03-20",
    "volta": "2027-03-30",
-   "referencia": 8093.0,
-   "desconto": 0.2115,
+   "referencia": 7714.0,
+   "desconto": 0.223,
    "limite": 3219.9999999999995,
    "prioridade": "perto de Zurique (261 km)",
    "datas_baratas": [
     {
      "ida": "2027-03-20",
      "volta": "2027-03-30",
-     "preco": 6381.0
+     "preco": 5994.0
     },
     {
      "ida": "2027-03-27",
      "volta": "2027-04-06",
-     "preco": 6381.0
+     "preco": 5994.0
     },
     {
-     "ida": "2027-03-25",
-     "volta": "2027-04-04",
-     "preco": 6535.0
+     "ida": "2027-03-23",
+     "volta": "2027-04-02",
+     "preco": 6057.0
+    },
+    {
+     "ida": "2027-03-30",
+     "volta": "2027-04-09",
+     "preco": 6057.0
     },
     {
      "ida": "2027-02-27",
      "volta": "2027-03-09",
-     "preco": 6793.0
-    },
-    {
-     "ida": "2027-04-13",
-     "volta": "2027-04-23",
-     "preco": 6851.0
+     "preco": 6398.0
     }
    ],
    "promocao": false,
    "motivos": [],
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20MUC%20from%20VCP%20on%202027-03-20%20through%202027-03-30%20economy&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/muc/270320/270330/?adultsv2=1&cabinclass=economy&rtn=1",
-   "atualizado": "2026-11-24T09:19+00:00"
+   "atualizado": "2026-11-25T12:47+00:00"
   }
  },
  "VCP-MUC-premium": {
@@ -9891,6 +9899,10 @@
    [
     "2026-11-24T09:19+00:00",
     9843.0
+   ],
+   [
+    "2026-11-25T12:47+00:00",
+    10422.0
    ]
   ],
   "atual": {
@@ -9902,52 +9914,56 @@
    "regiao_nome": "Europa",
    "classe": "premium",
    "classe_nome": "Premium Economy",
-   "preco": 9843.0,
+   "preco": 10422.0,
    "moeda": "BRL",
-   "ida": "2027-05-31",
-   "volta": "2027-06-10",
-   "referencia": 11237.0,
-   "desconto": 0.1241,
+   "ida": "2027-03-29",
+   "volta": "2027-04-08",
+   "referencia": 11342.0,
+   "desconto": 0.0811,
    "limite": 5750.0,
    "prioridade": "perto de Zurique (261 km)",
    "datas_baratas": [
     {
-     "ida": "2027-05-31",
-     "volta": "2027-06-10",
-     "preco": 9843.0
+     "ida": "2027-03-29",
+     "volta": "2027-04-08",
+     "preco": 10422.0
     },
     {
-     "ida": "2027-06-01",
-     "volta": "2027-06-11",
-     "preco": 10349.0
-    },
-    {
-     "ida": "2027-06-17",
-     "volta": "2027-06-27",
-     "preco": 10349.0
+     "ida": "2027-03-30",
+     "volta": "2027-04-09",
+     "preco": 10422.0
     },
     {
      "ida": "2027-02-16",
      "volta": "2027-02-26",
-     "preco": 10413.0
+     "preco": 10542.0
     },
     {
      "ida": "2027-03-05",
      "volta": "2027-03-15",
-     "preco": 10507.0
+     "preco": 10694.0
+    },
+    {
+     "ida": "2027-05-19",
+     "volta": "2027-05-29",
+     "preco": 10773.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MUC%20from%20VCP%20on%202027-05-31%20through%202027-06-10%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/muc/270531/270610/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
-   "atualizado": "2026-11-24T09:19+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MUC%20from%20VCP%20on%202027-03-29%20through%202027-04-08%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/muc/270329/270408/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-25T12:47+00:00"
   }
  },
  "VCP-MUC-executiva": {
   "historico": [
    [
     "2026-11-24T09:19+00:00",
+    18739.0
+   ],
+   [
+    "2026-11-25T12:47+00:00",
     18739.0
    ]
   ],
@@ -9964,8 +9980,8 @@
    "moeda": "BRL",
    "ida": "2027-06-05",
    "volta": "2027-06-15",
-   "referencia": 22150.0,
-   "desconto": 0.154,
+   "referencia": 22161.0,
+   "desconto": 0.1544,
    "limite": 10350.0,
    "prioridade": "perto de Zurique (261 km)",
    "datas_baratas": [
@@ -9985,13 +10001,13 @@
      "preco": 18739.0
     },
     {
-     "ida": "2027-02-11",
-     "volta": "2027-02-21",
+     "ida": "2027-06-21",
+     "volta": "2027-07-01",
      "preco": 18740.0
     },
     {
-     "ida": "2027-02-16",
-     "volta": "2027-02-26",
+     "ida": "2027-07-03",
+     "volta": "2027-07-13",
      "preco": 18740.0
     }
    ],
@@ -9999,20 +10015,24 @@
    "motivos": [],
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20MUC%20from%20VCP%20on%202027-06-05%20through%202027-06-15%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/muc/270605/270615/?adultsv2=1&cabinclass=business&rtn=1",
-   "atualizado": "2026-11-24T09:19+00:00"
+   "atualizado": "2026-11-25T12:47+00:00"
   }
  },
  "VCP-MUC-primeira": {
   "historico": [],
   "atual": null,
-  "vazias": 1,
-  "ultima_vazia": "2026-11-24"
+  "vazias": 2,
+  "ultima_vazia": "2026-11-25"
  },
  "VCP-ZRH-economica": {
   "historico": [
    [
     "2026-11-24T09:19+00:00",
     6204.0
+   ],
+   [
+    "2026-11-25T12:47+00:00",
+    6784.0
    ]
   ],
   "atual": {
@@ -10024,46 +10044,46 @@
    "regiao_nome": "Europa",
    "classe": "economica",
    "classe_nome": "Econômica",
-   "preco": 6204.0,
+   "preco": 6784.0,
    "moeda": "BRL",
-   "ida": "2027-04-26",
-   "volta": "2027-05-06",
-   "referencia": 7886.0,
-   "desconto": 0.2133,
+   "ida": "2027-06-05",
+   "volta": "2027-06-15",
+   "referencia": 8669.0,
+   "desconto": 0.2174,
    "limite": 3219.9999999999995,
    "prioridade": "escolhido por você",
    "datas_baratas": [
     {
-     "ida": "2027-04-26",
-     "volta": "2027-05-06",
-     "preco": 6204.0
+     "ida": "2027-06-05",
+     "volta": "2027-06-15",
+     "preco": 6784.0
     },
     {
-     "ida": "2027-03-06",
-     "volta": "2027-03-16",
-     "preco": 6310.0
+     "ida": "2027-06-12",
+     "volta": "2027-06-22",
+     "preco": 6784.0
     },
     {
-     "ida": "2027-04-05",
-     "volta": "2027-04-15",
-     "preco": 6319.0
+     "ida": "2027-05-31",
+     "volta": "2027-06-10",
+     "preco": 7355.0
     },
     {
-     "ida": "2027-04-12",
-     "volta": "2027-04-22",
-     "preco": 6319.0
+     "ida": "2027-06-02",
+     "volta": "2027-06-12",
+     "preco": 7355.0
     },
     {
-     "ida": "2027-04-19",
-     "volta": "2027-04-29",
-     "preco": 6321.0
+     "ida": "2027-06-07",
+     "volta": "2027-06-17",
+     "preco": 7560.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20ZRH%20from%20VCP%20on%202027-04-26%20through%202027-05-06%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/zrh/270426/270506/?adultsv2=1&cabinclass=economy&rtn=1",
-   "atualizado": "2026-11-24T09:19+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20ZRH%20from%20VCP%20on%202027-06-05%20through%202027-06-15%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/zrh/270605/270615/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-25T12:47+00:00"
   }
  },
  "VCP-ZRH-premium": {
@@ -10071,6 +10091,10 @@
    [
     "2026-11-24T09:19+00:00",
     10970.0
+   ],
+   [
+    "2026-11-25T12:47+00:00",
+    10293.0
    ]
   ],
   "atual": {
@@ -10082,15 +10106,25 @@
    "regiao_nome": "Europa",
    "classe": "premium",
    "classe_nome": "Premium Economy",
-   "preco": 10970.0,
+   "preco": 10293.0,
    "moeda": "BRL",
-   "ida": "2027-06-01",
-   "volta": "2027-06-11",
-   "referencia": 11263.5,
-   "desconto": 0.0261,
+   "ida": "2027-06-22",
+   "volta": "2027-07-02",
+   "referencia": 11297.0,
+   "desconto": 0.0889,
    "limite": 5750.0,
    "prioridade": "escolhido por você",
    "datas_baratas": [
+    {
+     "ida": "2027-06-22",
+     "volta": "2027-07-02",
+     "preco": 10293.0
+    },
+    {
+     "ida": "2027-06-02",
+     "volta": "2027-06-12",
+     "preco": 10758.0
+    },
     {
      "ida": "2027-06-01",
      "volta": "2027-06-11",
@@ -10102,26 +10136,16 @@
      "preco": 11050.0
     },
     {
-     "ida": "2027-06-07",
-     "volta": "2027-06-17",
-     "preco": 11065.0
-    },
-    {
-     "ida": "2027-02-16",
-     "volta": "2027-02-26",
-     "preco": 11066.0
-    },
-    {
-     "ida": "2027-01-31",
-     "volta": "2027-02-10",
-     "preco": 11107.0
+     "ida": "2027-03-31",
+     "volta": "2027-04-10",
+     "preco": 11068.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20ZRH%20from%20VCP%20on%202027-06-01%20through%202027-06-11%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/zrh/270601/270611/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
-   "atualizado": "2026-11-24T09:19+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20ZRH%20from%20VCP%20on%202027-06-22%20through%202027-07-02%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/zrh/270622/270702/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-25T12:47+00:00"
   }
  },
  "VCP-ZRH-executiva": {
@@ -10129,6 +10153,10 @@
    [
     "2026-11-24T09:19+00:00",
     21329.0
+   ],
+   [
+    "2026-11-25T12:47+00:00",
+    21225.0
    ]
   ],
   "atual": {
@@ -10140,65 +10168,121 @@
    "regiao_nome": "Europa",
    "classe": "executiva",
    "classe_nome": "Executiva",
-   "preco": 21329.0,
+   "preco": 21225.0,
    "moeda": "BRL",
    "ida": "2027-06-07",
    "volta": "2027-06-17",
-   "referencia": 22903.0,
-   "desconto": 0.0687,
+   "referencia": 22811.0,
+   "desconto": 0.0695,
    "limite": 10350.0,
    "prioridade": "escolhido por você",
    "datas_baratas": [
     {
      "ida": "2027-06-07",
      "volta": "2027-06-17",
-     "preco": 21329.0
+     "preco": 21225.0
     },
     {
      "ida": "2027-06-28",
      "volta": "2027-07-08",
-     "preco": 21329.0
+     "preco": 21225.0
     },
     {
-     "ida": "2026-12-12",
-     "volta": "2026-12-22",
-     "preco": 21330.0
+     "ida": "2026-12-14",
+     "volta": "2026-12-24",
+     "preco": 21226.0
     },
     {
-     "ida": "2026-12-31",
-     "volta": "2027-01-10",
-     "preco": 21330.0
+     "ida": "2026-12-15",
+     "volta": "2026-12-25",
+     "preco": 21226.0
     },
     {
-     "ida": "2027-02-16",
-     "volta": "2027-02-26",
-     "preco": 21330.0
+     "ida": "2026-12-19",
+     "volta": "2026-12-29",
+     "preco": 21226.0
     }
    ],
    "promocao": false,
    "motivos": [],
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20ZRH%20from%20VCP%20on%202027-06-07%20through%202027-06-17%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/zrh/270607/270617/?adultsv2=1&cabinclass=business&rtn=1",
-   "atualizado": "2026-11-24T09:19+00:00"
+   "atualizado": "2026-11-25T12:47+00:00"
   }
  },
  "VCP-ZRH-primeira": {
   "historico": [],
   "atual": null,
-  "vazias": 1,
-  "ultima_vazia": "2026-11-24"
+  "vazias": 2,
+  "ultima_vazia": "2026-11-25"
  },
  "VCP-FCO-economica": {
-  "historico": [],
-  "atual": null,
-  "vazias": 1,
-  "ultima_vazia": "2026-11-24"
+  "historico": [
+   [
+    "2026-11-25T12:47+00:00",
+    5617.0
+   ]
+  ],
+  "atual": {
+   "chave": "VCP-FCO-economica",
+   "origem": "VCP",
+   "destino": "FCO",
+   "cidade": "Roma",
+   "regiao": "europa",
+   "regiao_nome": "Europa",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 5617.0,
+   "moeda": "BRL",
+   "ida": "2027-03-30",
+   "volta": "2027-04-09",
+   "referencia": 7580.0,
+   "desconto": 0.259,
+   "limite": 3219.9999999999995,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-03-30",
+     "volta": "2027-04-09",
+     "preco": 5617.0
+    },
+    {
+     "ida": "2026-12-02",
+     "volta": "2026-12-12",
+     "preco": 5720.0
+    },
+    {
+     "ida": "2026-12-03",
+     "volta": "2026-12-13",
+     "preco": 5813.0
+    },
+    {
+     "ida": "2026-12-04",
+     "volta": "2026-12-14",
+     "preco": 6065.0
+    },
+    {
+     "ida": "2027-04-17",
+     "volta": "2027-04-27",
+     "preco": 6140.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FCO%20from%20VCP%20on%202027-03-30%20through%202027-04-09%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/fco/270330/270409/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-25T12:47+00:00"
+  }
  },
  "VCP-FCO-premium": {
   "historico": [
    [
     "2026-11-24T09:19+00:00",
     8918.0
+   ],
+   [
+    "2026-11-25T12:48+00:00",
+    8879.0
    ]
   ],
   "atual": {
@@ -10210,46 +10294,46 @@
    "regiao_nome": "Europa",
    "classe": "premium",
    "classe_nome": "Premium Economy",
-   "preco": 8918.0,
+   "preco": 8879.0,
    "moeda": "BRL",
    "ida": "2027-02-16",
    "volta": "2027-02-26",
-   "referencia": 11285.0,
-   "desconto": 0.2097,
+   "referencia": 11101.0,
+   "desconto": 0.2002,
    "limite": 5750.0,
    "prioridade": "escolhido por você",
    "datas_baratas": [
     {
      "ida": "2027-02-16",
      "volta": "2027-02-26",
-     "preco": 8918.0
+     "preco": 8879.0
+    },
+    {
+     "ida": "2026-12-02",
+     "volta": "2026-12-12",
+     "preco": 9199.0
     },
     {
      "ida": "2027-02-23",
      "volta": "2027-03-05",
-     "preco": 9617.0
+     "preco": 9553.0
     },
     {
      "ida": "2027-02-25",
      "volta": "2027-03-07",
-     "preco": 9857.0
+     "preco": 9793.0
     },
     {
-     "ida": "2027-06-08",
-     "volta": "2027-06-18",
-     "preco": 10154.0
-    },
-    {
-     "ida": "2027-05-31",
-     "volta": "2027-06-10",
-     "preco": 10213.0
+     "ida": "2026-12-21",
+     "volta": "2026-12-31",
+     "preco": 10030.0
     }
    ],
    "promocao": false,
    "motivos": [],
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20FCO%20from%20VCP%20on%202027-02-16%20through%202027-02-26%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/fco/270216/270226/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
-   "atualizado": "2026-11-24T09:19+00:00"
+   "atualizado": "2026-11-25T12:48+00:00"
   }
  },
  "VCP-FCO-executiva": {
@@ -16870,6 +16954,319 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20PVG%20from%20SJP%20on%202027-04-06%20through%202027-04-20%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/pvg/270406/270420/?adultsv2=1&cabinclass=business&rtn=1",
    "atualizado": "2026-11-25T11:44+00:00"
+  }
+ },
+ "SJP-PVG-primeira": {
+  "historico": [
+   [
+    "2026-11-25T12:48+00:00",
+    114885.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-PVG-primeira",
+   "origem": "SJP",
+   "destino": "PVG",
+   "cidade": "Xangai",
+   "regiao": "asia",
+   "regiao_nome": "Ásia",
+   "classe": "primeira",
+   "classe_nome": "Primeira Classe",
+   "preco": 114885.0,
+   "moeda": "BRL",
+   "ida": "2027-02-14",
+   "volta": "2027-02-28",
+   "referencia": 115931.0,
+   "desconto": 0.009,
+   "limite": 22000.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-14",
+     "volta": "2027-02-28",
+     "preco": 114885.0
+    },
+    {
+     "ida": "2027-04-27",
+     "volta": "2027-05-11",
+     "preco": 115931.0
+    },
+    {
+     "ida": "2027-06-23",
+     "volta": "2027-07-07",
+     "preco": 115931.0
+    },
+    {
+     "ida": "2026-11-29",
+     "volta": "2026-12-13",
+     "preco": 184657.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20PVG%20from%20SJP%20on%202027-02-14%20through%202027-02-28%20first%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/pvg/270214/270228/?adultsv2=1&cabinclass=first&rtn=1",
+   "atualizado": "2026-11-25T12:48+00:00"
+  }
+ },
+ "SJP-HKG-economica": {
+  "historico": [
+   [
+    "2026-11-25T12:49+00:00",
+    12138.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-HKG-economica",
+   "origem": "SJP",
+   "destino": "HKG",
+   "cidade": "Hong Kong",
+   "regiao": "asia",
+   "regiao_nome": "Ásia",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 12138.0,
+   "moeda": "BRL",
+   "ida": "2027-04-21",
+   "volta": "2027-05-05",
+   "referencia": 12720.0,
+   "desconto": 0.0458,
+   "limite": 4500.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-04-21",
+     "volta": "2027-05-05",
+     "preco": 12138.0
+    },
+    {
+     "ida": "2027-02-19",
+     "volta": "2027-03-05",
+     "preco": 12467.0
+    },
+    {
+     "ida": "2027-06-21",
+     "volta": "2027-07-05",
+     "preco": 12973.0
+    },
+    {
+     "ida": "2026-12-03",
+     "volta": "2026-12-17",
+     "preco": 19390.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20HKG%20from%20SJP%20on%202027-04-21%20through%202027-05-05%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/hkg/270421/270505/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-25T12:49+00:00"
+  }
+ },
+ "SJP-HKG-premium": {
+  "historico": [
+   [
+    "2026-11-25T12:50+00:00",
+    27237.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-HKG-premium",
+   "origem": "SJP",
+   "destino": "HKG",
+   "cidade": "Hong Kong",
+   "regiao": "asia",
+   "regiao_nome": "Ásia",
+   "classe": "premium",
+   "classe_nome": "Premium Economy",
+   "preco": 27237.0,
+   "moeda": "BRL",
+   "ida": "2027-02-20",
+   "volta": "2027-03-06",
+   "referencia": 27237.0,
+   "desconto": 0.0,
+   "limite": 7500.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-20",
+     "volta": "2027-03-06",
+     "preco": 27237.0
+    },
+    {
+     "ida": "2027-06-18",
+     "volta": "2027-07-02",
+     "preco": 27237.0
+    },
+    {
+     "ida": "2026-12-05",
+     "volta": "2026-12-19",
+     "preco": 35463.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20HKG%20from%20SJP%20on%202027-02-20%20through%202027-03-06%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/hkg/270220/270306/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-25T12:50+00:00"
+  }
+ },
+ "SJP-HKG-executiva": {
+  "historico": [
+   [
+    "2026-11-25T12:51+00:00",
+    38734.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-HKG-executiva",
+   "origem": "SJP",
+   "destino": "HKG",
+   "cidade": "Hong Kong",
+   "regiao": "asia",
+   "regiao_nome": "Ásia",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 38734.0,
+   "moeda": "BRL",
+   "ida": "2027-04-05",
+   "volta": "2027-04-19",
+   "referencia": 43577.5,
+   "desconto": 0.1111,
+   "limite": 13000.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-04-05",
+     "volta": "2027-04-19",
+     "preco": 38734.0
+    },
+    {
+     "ida": "2027-06-28",
+     "volta": "2027-07-12",
+     "preco": 38734.0
+    },
+    {
+     "ida": "2027-02-05",
+     "volta": "2027-02-19",
+     "preco": 48421.0
+    },
+    {
+     "ida": "2026-12-05",
+     "volta": "2026-12-19",
+     "preco": 49300.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20HKG%20from%20SJP%20on%202027-04-05%20through%202027-04-19%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/hkg/270405/270419/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-25T12:51+00:00"
+  }
+ },
+ "SJP-HKG-primeira": {
+  "historico": [
+   [
+    "2026-11-25T12:51+00:00",
+    87924.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-HKG-primeira",
+   "origem": "SJP",
+   "destino": "HKG",
+   "cidade": "Hong Kong",
+   "regiao": "asia",
+   "regiao_nome": "Ásia",
+   "classe": "primeira",
+   "classe_nome": "Primeira Classe",
+   "preco": 87924.0,
+   "moeda": "BRL",
+   "ida": "2027-02-10",
+   "volta": "2027-02-24",
+   "referencia": 123355.5,
+   "desconto": 0.2872,
+   "limite": 22000.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-10",
+     "volta": "2027-02-24",
+     "preco": 87924.0
+    },
+    {
+     "ida": "2027-04-15",
+     "volta": "2027-04-29",
+     "preco": 121226.0
+    },
+    {
+     "ida": "2027-06-26",
+     "volta": "2027-07-10",
+     "preco": 125485.0
+    },
+    {
+     "ida": "2026-12-01",
+     "volta": "2026-12-15",
+     "preco": 140702.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20HKG%20from%20SJP%20on%202027-02-10%20through%202027-02-24%20first%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/hkg/270210/270224/?adultsv2=1&cabinclass=first&rtn=1",
+   "atualizado": "2026-11-25T12:51+00:00"
+  }
+ },
+ "SJP-SIN-economica": {
+  "historico": [
+   [
+    "2026-11-25T12:52+00:00",
+    10699.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-SIN-economica",
+   "origem": "SJP",
+   "destino": "SIN",
+   "cidade": "Singapura",
+   "regiao": "asia",
+   "regiao_nome": "Ásia",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 10699.0,
+   "moeda": "BRL",
+   "ida": "2027-02-24",
+   "volta": "2027-03-10",
+   "referencia": 14109.5,
+   "desconto": 0.2417,
+   "limite": 4500.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-24",
+     "volta": "2027-03-10",
+     "preco": 10699.0
+    },
+    {
+     "ida": "2027-03-31",
+     "volta": "2027-04-14",
+     "preco": 11530.0
+    },
+    {
+     "ida": "2027-06-26",
+     "volta": "2027-07-10",
+     "preco": 16689.0
+    },
+    {
+     "ida": "2026-12-23",
+     "volta": "2027-01-06",
+     "preco": 19375.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20SIN%20from%20SJP%20on%202027-02-24%20through%202027-03-10%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/sin/270224/270310/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-25T12:52+00:00"
   }
  }
 }
