@@ -11105,20 +11105,24 @@
  "VCP-AUH-executiva": {
   "historico": [],
   "atual": null,
-  "vazias": 1,
-  "ultima_vazia": "2026-11-24"
+  "vazias": 2,
+  "ultima_vazia": "2026-11-25"
  },
  "VCP-AUH-primeira": {
   "historico": [],
   "atual": null,
-  "vazias": 1,
-  "ultima_vazia": "2026-11-24"
+  "vazias": 2,
+  "ultima_vazia": "2026-11-25"
  },
  "VCP-NRT-economica": {
   "historico": [
    [
     "2026-11-24T11:39+00:00",
     10231.0
+   ],
+   [
+    "2026-11-25T15:21+00:00",
+    10046.0
    ]
   ],
   "atual": {
@@ -11130,46 +11134,46 @@
    "regiao_nome": "Ásia",
    "classe": "economica",
    "classe_nome": "Econômica",
-   "preco": 10231.0,
+   "preco": 10046.0,
    "moeda": "BRL",
-   "ida": "2027-01-16",
-   "volta": "2027-01-30",
-   "referencia": 13330.0,
-   "desconto": 0.2325,
+   "ida": "2027-01-23",
+   "volta": "2027-02-06",
+   "referencia": 13818.0,
+   "desconto": 0.273,
    "limite": 5175.0,
    "prioridade": "escolhido por você",
    "datas_baratas": [
     {
-     "ida": "2027-01-16",
-     "volta": "2027-01-30",
-     "preco": 10231.0
-    },
-    {
      "ida": "2027-01-23",
      "volta": "2027-02-06",
-     "preco": 10231.0
+     "preco": 10046.0
     },
     {
-     "ida": "2027-02-17",
-     "volta": "2027-03-03",
-     "preco": 10494.0
+     "ida": "2026-12-02",
+     "volta": "2026-12-16",
+     "preco": 10889.0
     },
     {
-     "ida": "2027-02-23",
-     "volta": "2027-03-09",
-     "preco": 10494.0
+     "ida": "2026-12-07",
+     "volta": "2026-12-21",
+     "preco": 10889.0
     },
     {
-     "ida": "2027-03-02",
-     "volta": "2027-03-16",
-     "preco": 10494.0
+     "ida": "2026-12-08",
+     "volta": "2026-12-22",
+     "preco": 10889.0
+    },
+    {
+     "ida": "2026-12-09",
+     "volta": "2026-12-23",
+     "preco": 10889.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20NRT%20from%20VCP%20on%202027-01-16%20through%202027-01-30%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/nrt/270116/270130/?adultsv2=1&cabinclass=economy&rtn=1",
-   "atualizado": "2026-11-24T11:39+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20NRT%20from%20VCP%20on%202027-01-23%20through%202027-02-06%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/nrt/270123/270206/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-25T15:21+00:00"
   }
  },
  "VCP-NRT-premium": {
@@ -11177,6 +11181,10 @@
    [
     "2026-11-24T11:39+00:00",
     20772.0
+   ],
+   [
+    "2026-11-25T15:21+00:00",
+    20676.0
    ]
   ],
   "atual": {
@@ -11188,46 +11196,46 @@
    "regiao_nome": "Ásia",
    "classe": "premium",
    "classe_nome": "Premium Economy",
-   "preco": 20772.0,
+   "preco": 20676.0,
    "moeda": "BRL",
-   "ida": "2027-04-12",
-   "volta": "2027-04-26",
-   "referencia": 29605.0,
-   "desconto": 0.2984,
+   "ida": "2027-04-21",
+   "volta": "2027-05-05",
+   "referencia": 29564.0,
+   "desconto": 0.3006,
    "limite": 8625.0,
    "prioridade": "escolhido por você",
    "datas_baratas": [
     {
-     "ida": "2027-04-12",
-     "volta": "2027-04-26",
-     "preco": 20772.0
+     "ida": "2027-04-21",
+     "volta": "2027-05-05",
+     "preco": 20676.0
+    },
+    {
+     "ida": "2027-04-26",
+     "volta": "2027-05-10",
+     "preco": 20737.0
+    },
+    {
+     "ida": "2027-04-07",
+     "volta": "2027-04-21",
+     "preco": 20798.0
     },
     {
      "ida": "2027-04-13",
      "volta": "2027-04-27",
-     "preco": 20772.0
-    },
-    {
-     "ida": "2027-05-03",
-     "volta": "2027-05-17",
-     "preco": 20772.0
-    },
-    {
-     "ida": "2027-03-23",
-     "volta": "2027-04-06",
-     "preco": 20832.0
-    },
-    {
-     "ida": "2027-04-05",
-     "volta": "2027-04-19",
      "preco": 21049.0
+    },
+    {
+     "ida": "2027-04-12",
+     "volta": "2027-04-26",
+     "preco": 21109.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20NRT%20from%20VCP%20on%202027-04-12%20through%202027-04-26%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/nrt/270412/270426/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
-   "atualizado": "2026-11-24T11:39+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20NRT%20from%20VCP%20on%202027-04-21%20through%202027-05-05%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/nrt/270421/270505/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-25T15:21+00:00"
   }
  },
  "VCP-NRT-executiva": {
@@ -11235,6 +11243,10 @@
    [
     "2026-11-24T11:39+00:00",
     34171.0
+   ],
+   [
+    "2026-11-25T15:21+00:00",
+    34420.0
    ]
   ],
   "atual": {
@@ -11246,24 +11258,24 @@
    "regiao_nome": "Ásia",
    "classe": "executiva",
    "classe_nome": "Executiva",
-   "preco": 34171.0,
+   "preco": 34420.0,
    "moeda": "BRL",
    "ida": "2027-06-12",
    "volta": "2027-06-26",
    "referencia": 48444.0,
-   "desconto": 0.2946,
+   "desconto": 0.2895,
    "limite": 14949.999999999998,
    "prioridade": "escolhido por você",
    "datas_baratas": [
     {
      "ida": "2027-06-12",
      "volta": "2027-06-26",
-     "preco": 34171.0
+     "preco": 34420.0
     },
     {
      "ida": "2027-06-22",
      "volta": "2027-07-06",
-     "preco": 36485.0
+     "preco": 36984.0
     },
     {
      "ida": "2027-06-01",
@@ -11271,21 +11283,21 @@
      "preco": 39135.0
     },
     {
-     "ida": "2027-06-08",
-     "volta": "2027-06-22",
-     "preco": 39135.0
-    },
-    {
      "ida": "2027-06-11",
      "volta": "2027-06-25",
      "preco": 39197.0
+    },
+    {
+     "ida": "2027-07-20",
+     "volta": "2027-08-03",
+     "preco": 39258.0
     }
    ],
    "promocao": false,
    "motivos": [],
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20NRT%20from%20VCP%20on%202027-06-12%20through%202027-06-26%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/nrt/270612/270626/?adultsv2=1&cabinclass=business&rtn=1",
-   "atualizado": "2026-11-24T11:39+00:00"
+   "atualizado": "2026-11-25T15:21+00:00"
   }
  },
  "VCP-NRT-primeira": {
@@ -11293,6 +11305,10 @@
    [
     "2026-11-24T11:39+00:00",
     138007.0
+   ],
+   [
+    "2026-11-25T15:21+00:00",
+    137272.0
    ]
   ],
   "atual": {
@@ -11304,46 +11320,46 @@
    "regiao_nome": "Ásia",
    "classe": "primeira",
    "classe_nome": "Primeira Classe",
-   "preco": 138007.0,
+   "preco": 137272.0,
    "moeda": "BRL",
-   "ida": "2027-03-04",
-   "volta": "2027-03-18",
-   "referencia": 215913.0,
-   "desconto": 0.3608,
+   "ida": "2027-03-03",
+   "volta": "2027-03-17",
+   "referencia": 194777.5,
+   "desconto": 0.2952,
    "limite": 25299.999999999996,
    "prioridade": "escolhido por você",
    "datas_baratas": [
     {
+     "ida": "2027-03-03",
+     "volta": "2027-03-17",
+     "preco": 137272.0
+    },
+    {
      "ida": "2027-03-04",
      "volta": "2027-03-18",
-     "preco": 138007.0
+     "preco": 137272.0
     },
     {
      "ida": "2027-03-08",
      "volta": "2027-03-22",
-     "preco": 138007.0
+     "preco": 137272.0
     },
     {
-     "ida": "2027-05-03",
-     "volta": "2027-05-17",
-     "preco": 138567.0
+     "ida": "2027-03-09",
+     "volta": "2027-03-23",
+     "preco": 137272.0
     },
     {
-     "ida": "2027-01-28",
-     "volta": "2027-02-11",
-     "preco": 139923.0
-    },
-    {
-     "ida": "2027-03-03",
-     "volta": "2027-03-17",
-     "preco": 139923.0
+     "ida": "2027-03-10",
+     "volta": "2027-03-24",
+     "preco": 137272.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20NRT%20from%20VCP%20on%202027-03-04%20through%202027-03-18%20first%20class&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/nrt/270304/270318/?adultsv2=1&cabinclass=first&rtn=1",
-   "atualizado": "2026-11-24T11:39+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20NRT%20from%20VCP%20on%202027-03-03%20through%202027-03-17%20first%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/nrt/270303/270317/?adultsv2=1&cabinclass=first&rtn=1",
+   "atualizado": "2026-11-25T15:21+00:00"
   }
  },
  "SJP-OPO-premium": {
@@ -11684,13 +11700,19 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20HND%20from%20VCP%20on%202027-01-13%20through%202027-01-27%20economy&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/hnd/270113/270127/?adultsv2=1&cabinclass=economy&rtn=1",
    "atualizado": "2026-11-24T12:48+00:00"
-  }
+  },
+  "vazias": 1,
+  "ultima_vazia": "2026-11-25"
  },
  "VCP-HND-premium": {
   "historico": [
    [
     "2026-11-24T12:48+00:00",
     15316.0
+   ],
+   [
+    "2026-11-25T15:21+00:00",
+    15224.0
    ]
   ],
   "atual": {
@@ -11702,46 +11724,46 @@
    "regiao_nome": "Ásia",
    "classe": "premium",
    "classe_nome": "Premium Economy",
-   "preco": 15316.0,
+   "preco": 15224.0,
    "moeda": "BRL",
-   "ida": "2027-06-22",
-   "volta": "2027-07-06",
-   "referencia": 27023.0,
-   "desconto": 0.4332,
+   "ida": "2027-02-08",
+   "volta": "2027-02-22",
+   "referencia": 26680.0,
+   "desconto": 0.4294,
    "limite": 8625.0,
    "prioridade": "escolhido por você",
    "datas_baratas": [
     {
-     "ida": "2027-06-22",
-     "volta": "2027-07-06",
-     "preco": 15316.0
+     "ida": "2027-02-08",
+     "volta": "2027-02-22",
+     "preco": 15224.0
     },
     {
      "ida": "2027-02-16",
      "volta": "2027-03-02",
-     "preco": 15425.0
+     "preco": 15434.0
     },
     {
-     "ida": "2026-12-15",
-     "volta": "2026-12-29",
-     "preco": 16261.0
+     "ida": "2027-06-22",
+     "volta": "2027-07-06",
+     "preco": 15521.0
     },
     {
-     "ida": "2027-04-20",
-     "volta": "2027-05-04",
-     "preco": 19903.0
+     "ida": "2027-01-19",
+     "volta": "2027-02-02",
+     "preco": 19715.0
     },
     {
-     "ida": "2027-06-08",
-     "volta": "2027-06-22",
-     "preco": 19903.0
+     "ida": "2027-02-09",
+     "volta": "2027-02-23",
+     "preco": 19715.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20HND%20from%20VCP%20on%202027-06-22%20through%202027-07-06%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/hnd/270622/270706/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
-   "atualizado": "2026-11-24T12:48+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20HND%20from%20VCP%20on%202027-02-08%20through%202027-02-22%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/hnd/270208/270222/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-25T15:21+00:00"
   }
  },
  "VCP-HND-executiva": {
@@ -11749,6 +11771,10 @@
    [
     "2026-11-24T12:48+00:00",
     36691.0
+   ],
+   [
+    "2026-11-25T15:21+00:00",
+    39062.0
    ]
   ],
   "atual": {
@@ -11760,46 +11786,46 @@
    "regiao_nome": "Ásia",
    "classe": "executiva",
    "classe_nome": "Executiva",
-   "preco": 36691.0,
+   "preco": 39062.0,
    "moeda": "BRL",
-   "ida": "2027-06-14",
-   "volta": "2027-06-28",
-   "referencia": 48436.0,
-   "desconto": 0.2425,
+   "ida": "2026-12-10",
+   "volta": "2026-12-24",
+   "referencia": 50253.0,
+   "desconto": 0.2227,
    "limite": 14949.999999999998,
    "prioridade": "escolhido por você",
    "datas_baratas": [
     {
-     "ida": "2027-06-14",
-     "volta": "2027-06-28",
-     "preco": 36691.0
+     "ida": "2026-12-10",
+     "volta": "2026-12-24",
+     "preco": 39062.0
     },
     {
-     "ida": "2027-05-20",
-     "volta": "2027-06-03",
-     "preco": 37188.0
+     "ida": "2026-12-15",
+     "volta": "2026-12-29",
+     "preco": 39062.0
     },
     {
-     "ida": "2027-05-27",
-     "volta": "2027-06-10",
-     "preco": 37188.0
+     "ida": "2026-12-14",
+     "volta": "2026-12-28",
+     "preco": 39134.0
     },
     {
-     "ida": "2027-06-21",
-     "volta": "2027-07-05",
-     "preco": 39261.0
+     "ida": "2026-12-23",
+     "volta": "2027-01-06",
+     "preco": 39134.0
     },
     {
-     "ida": "2027-02-07",
-     "volta": "2027-02-21",
-     "preco": 39384.0
+     "ida": "2026-12-12",
+     "volta": "2026-12-26",
+     "preco": 41118.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20HND%20from%20VCP%20on%202027-06-14%20through%202027-06-28%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/hnd/270614/270628/?adultsv2=1&cabinclass=business&rtn=1",
-   "atualizado": "2026-11-24T12:48+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20HND%20from%20VCP%20on%202026-12-10%20through%202026-12-24%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/hnd/261210/261224/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-25T15:21+00:00"
   }
  },
  "VCP-HND-primeira": {
@@ -11858,13 +11884,19 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20HND%20from%20VCP%20on%202027-05-06%20through%202027-05-20%20first%20class&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/hnd/270506/270520/?adultsv2=1&cabinclass=first&rtn=1",
    "atualizado": "2026-11-24T12:49+00:00"
-  }
+  },
+  "vazias": 1,
+  "ultima_vazia": "2026-11-25"
  },
  "VCP-BKK-economica": {
   "historico": [
    [
     "2026-11-24T12:49+00:00",
     10353.0
+   ],
+   [
+    "2026-11-25T15:21+00:00",
+    10528.0
    ]
   ],
   "atual": {
@@ -11876,46 +11908,46 @@
    "regiao_nome": "Ásia",
    "classe": "economica",
    "classe_nome": "Econômica",
-   "preco": 10353.0,
+   "preco": 10528.0,
    "moeda": "BRL",
    "ida": "2026-12-07",
    "volta": "2026-12-21",
-   "referencia": 17885.0,
-   "desconto": 0.4211,
+   "referencia": 17742.0,
+   "desconto": 0.4066,
    "limite": 5175.0,
    "prioridade": "escolhido por você",
    "datas_baratas": [
     {
      "ida": "2026-12-07",
      "volta": "2026-12-21",
-     "preco": 10353.0
-    },
-    {
-     "ida": "2027-02-23",
-     "volta": "2027-03-09",
-     "preco": 12003.0
+     "preco": 10528.0
     },
     {
      "ida": "2027-04-27",
      "volta": "2027-05-11",
-     "preco": 12153.0
-    },
-    {
-     "ida": "2027-02-16",
-     "volta": "2027-03-02",
-     "preco": 12600.0
+     "preco": 11935.0
     },
     {
      "ida": "2027-04-19",
      "volta": "2027-05-03",
-     "preco": 12600.0
+     "preco": 12374.0
+    },
+    {
+     "ida": "2027-04-26",
+     "volta": "2027-05-10",
+     "preco": 12374.0
+    },
+    {
+     "ida": "2027-04-20",
+     "volta": "2027-05-04",
+     "preco": 13546.0
     }
    ],
    "promocao": false,
    "motivos": [],
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20BKK%20from%20VCP%20on%202026-12-07%20through%202026-12-21%20economy&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/bkk/261207/261221/?adultsv2=1&cabinclass=economy&rtn=1",
-   "atualizado": "2026-11-24T12:49+00:00"
+   "atualizado": "2026-11-25T15:21+00:00"
   }
  },
  "VCP-BKK-premium": {
@@ -11923,6 +11955,10 @@
    [
     "2026-11-24T12:49+00:00",
     17880.0
+   ],
+   [
+    "2026-11-25T15:22+00:00",
+    17792.0
    ]
   ],
   "atual": {
@@ -11934,46 +11970,46 @@
    "regiao_nome": "Ásia",
    "classe": "premium",
    "classe_nome": "Premium Economy",
-   "preco": 17880.0,
+   "preco": 17792.0,
    "moeda": "BRL",
-   "ida": "2027-02-23",
-   "volta": "2027-03-09",
-   "referencia": 38126.0,
-   "desconto": 0.531,
+   "ida": "2027-04-13",
+   "volta": "2027-04-27",
+   "referencia": 37608.0,
+   "desconto": 0.5269,
    "limite": 8625.0,
    "prioridade": "escolhido por você",
    "datas_baratas": [
     {
-     "ida": "2027-02-23",
-     "volta": "2027-03-09",
-     "preco": 17880.0
-    },
-    {
-     "ida": "2027-02-24",
-     "volta": "2027-03-10",
-     "preco": 17880.0
-    },
-    {
-     "ida": "2027-04-05",
-     "volta": "2027-04-19",
-     "preco": 17880.0
-    },
-    {
      "ida": "2027-04-13",
      "volta": "2027-04-27",
-     "preco": 17880.0
+     "preco": 17792.0
     },
     {
      "ida": "2027-04-20",
      "volta": "2027-05-04",
      "preco": 17880.0
+    },
+    {
+     "ida": "2027-04-21",
+     "volta": "2027-05-05",
+     "preco": 17880.0
+    },
+    {
+     "ida": "2027-04-05",
+     "volta": "2027-04-19",
+     "preco": 18123.0
+    },
+    {
+     "ida": "2027-04-26",
+     "volta": "2027-05-10",
+     "preco": 18123.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20BKK%20from%20VCP%20on%202027-02-23%20through%202027-03-09%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/bkk/270223/270309/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
-   "atualizado": "2026-11-24T12:49+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20BKK%20from%20VCP%20on%202027-04-13%20through%202027-04-27%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/bkk/270413/270427/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-25T15:22+00:00"
   }
  },
  "VCP-BKK-executiva": {
@@ -17754,6 +17790,303 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20DEL%20from%20SJP%20on%202027-04-03%20through%202027-04-17%20economy&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/del/270403/270417/?adultsv2=1&cabinclass=economy&rtn=1",
    "atualizado": "2026-11-25T14:06+00:00"
+  }
+ },
+ "SJP-DEL-primeira": {
+  "historico": [
+   [
+    "2026-11-25T15:22+00:00",
+    82344.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-DEL-primeira",
+   "origem": "SJP",
+   "destino": "DEL",
+   "cidade": "Nova Délhi",
+   "regiao": "asia",
+   "regiao_nome": "Ásia",
+   "classe": "primeira",
+   "classe_nome": "Primeira Classe",
+   "preco": 82344.0,
+   "moeda": "BRL",
+   "ida": "2027-02-17",
+   "volta": "2027-03-03",
+   "referencia": 108627.5,
+   "desconto": 0.242,
+   "limite": 22000.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-17",
+     "volta": "2027-03-03",
+     "preco": 82344.0
+    },
+    {
+     "ida": "2027-04-19",
+     "volta": "2027-05-03",
+     "preco": 134911.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20DEL%20from%20SJP%20on%202027-02-17%20through%202027-03-03%20first%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/del/270217/270303/?adultsv2=1&cabinclass=first&rtn=1",
+   "atualizado": "2026-11-25T15:22+00:00"
+  }
+ },
+ "SJP-MLE-economica": {
+  "historico": [
+   [
+    "2026-11-25T15:23+00:00",
+    11937.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-MLE-economica",
+   "origem": "SJP",
+   "destino": "MLE",
+   "cidade": "Maldivas",
+   "regiao": "asia",
+   "regiao_nome": "Ásia",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 11937.0,
+   "moeda": "BRL",
+   "ida": "2027-02-10",
+   "volta": "2027-02-24",
+   "referencia": 11937.0,
+   "desconto": 0.0,
+   "limite": 4500.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-10",
+     "volta": "2027-02-24",
+     "preco": 11937.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MLE%20from%20SJP%20on%202027-02-10%20through%202027-02-24%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/mle/270210/270224/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-25T15:23+00:00"
+  }
+ },
+ "SJP-MLE-premium": {
+  "historico": [
+   [
+    "2026-11-25T15:23+00:00",
+    25724.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-MLE-premium",
+   "origem": "SJP",
+   "destino": "MLE",
+   "cidade": "Maldivas",
+   "regiao": "asia",
+   "regiao_nome": "Ásia",
+   "classe": "premium",
+   "classe_nome": "Premium Economy",
+   "preco": 25724.0,
+   "moeda": "BRL",
+   "ida": "2027-04-22",
+   "volta": "2027-05-06",
+   "referencia": 25724.0,
+   "desconto": 0.0,
+   "limite": 7500.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-04-22",
+     "volta": "2027-05-06",
+     "preco": 25724.0
+    },
+    {
+     "ida": "2027-06-16",
+     "volta": "2027-06-30",
+     "preco": 25724.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MLE%20from%20SJP%20on%202027-04-22%20through%202027-05-06%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/mle/270422/270506/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-25T15:23+00:00"
+  }
+ },
+ "SJP-MLE-executiva": {
+  "historico": [
+   [
+    "2026-11-25T15:24+00:00",
+    48692.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-MLE-executiva",
+   "origem": "SJP",
+   "destino": "MLE",
+   "cidade": "Maldivas",
+   "regiao": "asia",
+   "regiao_nome": "Ásia",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 48692.0,
+   "moeda": "BRL",
+   "ida": "2027-06-03",
+   "volta": "2027-06-17",
+   "referencia": 48692.0,
+   "desconto": 0.0,
+   "limite": 13000.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-06-03",
+     "volta": "2027-06-17",
+     "preco": 48692.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MLE%20from%20SJP%20on%202027-06-03%20through%202027-06-17%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/mle/270603/270617/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-25T15:24+00:00"
+  }
+ },
+ "SJP-MLE-primeira": {
+  "historico": [],
+  "atual": null,
+  "vazias": 1,
+  "ultima_vazia": "2026-11-25"
+ },
+ "SJP-SYD-economica": {
+  "historico": [
+   [
+    "2026-11-25T15:24+00:00",
+    11758.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-SYD-economica",
+   "origem": "SJP",
+   "destino": "SYD",
+   "cidade": "Sydney",
+   "regiao": "oceania",
+   "regiao_nome": "Oceania",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 11758.0,
+   "moeda": "BRL",
+   "ida": "2027-04-12",
+   "volta": "2027-04-26",
+   "referencia": 11758.0,
+   "desconto": 0.0,
+   "limite": 5000.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-04-12",
+     "volta": "2027-04-26",
+     "preco": 11758.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20SYD%20from%20SJP%20on%202027-04-12%20through%202027-04-26%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/syd/270412/270426/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-25T15:24+00:00"
+  }
+ },
+ "SJP-SYD-premium": {
+  "historico": [
+   [
+    "2026-11-25T15:24+00:00",
+    20074.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-SYD-premium",
+   "origem": "SJP",
+   "destino": "SYD",
+   "cidade": "Sydney",
+   "regiao": "oceania",
+   "regiao_nome": "Oceania",
+   "classe": "premium",
+   "classe_nome": "Premium Economy",
+   "preco": 20074.0,
+   "moeda": "BRL",
+   "ida": "2027-06-24",
+   "volta": "2027-07-08",
+   "referencia": 26473.5,
+   "desconto": 0.2417,
+   "limite": 8000.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-06-24",
+     "volta": "2027-07-08",
+     "preco": 20074.0
+    },
+    {
+     "ida": "2027-02-04",
+     "volta": "2027-02-18",
+     "preco": 23794.0
+    },
+    {
+     "ida": "2027-04-01",
+     "volta": "2027-04-15",
+     "preco": 29153.0
+    },
+    {
+     "ida": "2026-11-30",
+     "volta": "2026-12-14",
+     "preco": 41635.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20SYD%20from%20SJP%20on%202027-06-24%20through%202027-07-08%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/syd/270624/270708/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-25T15:24+00:00"
+  }
+ },
+ "SJP-SYD-executiva": {
+  "historico": [
+   [
+    "2026-11-25T15:25+00:00",
+    38642.0
+   ]
+  ],
+  "atual": {
+   "chave": "SJP-SYD-executiva",
+   "origem": "SJP",
+   "destino": "SYD",
+   "cidade": "Sydney",
+   "regiao": "oceania",
+   "regiao_nome": "Oceania",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 38642.0,
+   "moeda": "BRL",
+   "ida": "2027-06-03",
+   "volta": "2027-06-17",
+   "referencia": 38642.0,
+   "desconto": 0.0,
+   "limite": 14000.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-06-03",
+     "volta": "2027-06-17",
+     "preco": 38642.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20SYD%20from%20SJP%20on%202027-06-03%20through%202027-06-17%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/syd/270603/270617/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-25T15:25+00:00"
   }
  }
 }
