@@ -50,5 +50,9 @@
  "GRU-SCL-economica": {
   "preco": 1153.0,
   "quando": "2026-11-25T20:38+00:00"
+ },
+ "GRU-CUN-economica": {
+  "preco": 2258.0,
+  "quando": "2026-11-26T10:42+00:00"
  }
 }
