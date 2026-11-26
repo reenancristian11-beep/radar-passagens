@@ -1,5 +1,5 @@
 {
- "gerado": "2026-11-26T04:17+00:00",
+ "gerado": "2026-11-26T05:27+00:00",
  "origens": [
   "SJP",
   "GRU",
@@ -2466,56 +2466,6 @@
    "atualizado": "2026-11-25T15:21+00:00"
   },
   {
-   "chave": "GRU-FCO-executiva",
-   "origem": "GRU",
-   "destino": "FCO",
-   "cidade": "Roma",
-   "regiao": "europa",
-   "regiao_nome": "Europa",
-   "classe": "executiva",
-   "classe_nome": "Executiva",
-   "preco": 12337.0,
-   "moeda": "BRL",
-   "ida": "2026-12-02",
-   "volta": "2026-12-12",
-   "referencia": 17279.0,
-   "desconto": 0.286,
-   "limite": 10350.0,
-   "prioridade": "escolhido por você",
-   "datas_baratas": [
-    {
-     "ida": "2026-12-02",
-     "volta": "2026-12-12",
-     "preco": 12337.0
-    },
-    {
-     "ida": "2026-12-11",
-     "volta": "2026-12-21",
-     "preco": 12337.0
-    },
-    {
-     "ida": "2027-02-14",
-     "volta": "2027-02-24",
-     "preco": 12347.0
-    },
-    {
-     "ida": "2027-02-15",
-     "volta": "2027-02-25",
-     "preco": 12347.0
-    },
-    {
-     "ida": "2027-02-16",
-     "volta": "2027-02-26",
-     "preco": 12347.0
-    }
-   ],
-   "promocao": false,
-   "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FCO%20from%20GRU%20on%202026-12-02%20through%202026-12-12%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/fco/261202/261212/?adultsv2=1&cabinclass=business&rtn=1",
-   "atualizado": "2026-11-25T08:12+00:00"
-  },
-  {
    "chave": "GRU-MUC-premium",
    "origem": "GRU",
    "destino": "MUC",
@@ -2714,6 +2664,56 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20MIA%20from%20VCP%20on%202027-02-07%20through%202027-02-17%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/mia/270207/270217/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
    "atualizado": "2026-11-25T10:41+00:00"
+  },
+  {
+   "chave": "GRU-FCO-executiva",
+   "origem": "GRU",
+   "destino": "FCO",
+   "cidade": "Roma",
+   "regiao": "europa",
+   "regiao_nome": "Europa",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 12383.0,
+   "moeda": "BRL",
+   "ida": "2026-12-07",
+   "volta": "2026-12-17",
+   "referencia": 17172.0,
+   "desconto": 0.2789,
+   "limite": 10350.0,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2026-12-07",
+     "volta": "2026-12-17",
+     "preco": 12383.0
+    },
+    {
+     "ida": "2027-01-27",
+     "volta": "2027-02-06",
+     "preco": 12396.0
+    },
+    {
+     "ida": "2026-12-06",
+     "volta": "2026-12-16",
+     "preco": 12434.0
+    },
+    {
+     "ida": "2027-01-24",
+     "volta": "2027-02-03",
+     "preco": 12621.0
+    },
+    {
+     "ida": "2026-12-13",
+     "volta": "2026-12-23",
+     "preco": 12786.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FCO%20from%20GRU%20on%202026-12-07%20through%202026-12-17%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/fco/261207/261217/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-26T05:25+00:00"
   },
   {
    "chave": "GRU-FRA-executiva",
@@ -3054,96 +3054,46 @@
    "regiao_nome": "Oriente Médio",
    "classe": "economica",
    "classe_nome": "Econômica",
-   "preco": 5151.0,
+   "preco": 5158.0,
    "moeda": "BRL",
    "ida": "2027-04-05",
    "volta": "2027-04-15",
-   "referencia": 7026.0,
-   "desconto": 0.2669,
+   "referencia": 7022.0,
+   "desconto": 0.2655,
    "limite": 4370.0,
    "prioridade": "escolhido por você",
    "datas_baratas": [
     {
      "ida": "2027-04-05",
      "volta": "2027-04-15",
-     "preco": 5151.0
+     "preco": 5158.0
     },
     {
      "ida": "2027-04-12",
      "volta": "2027-04-22",
-     "preco": 5151.0
+     "preco": 5158.0
     },
     {
      "ida": "2027-04-19",
      "volta": "2027-04-29",
-     "preco": 5151.0
+     "preco": 5158.0
     },
     {
      "ida": "2027-04-26",
      "volta": "2027-05-06",
-     "preco": 5151.0
+     "preco": 5158.0
     },
     {
      "ida": "2027-05-03",
      "volta": "2027-05-13",
-     "preco": 5151.0
+     "preco": 5158.0
     }
    ],
    "promocao": false,
    "motivos": [],
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20DXB%20from%20GRU%20on%202027-04-05%20through%202027-04-15%20economy&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/dxb/270405/270415/?adultsv2=1&cabinclass=economy&rtn=1",
-   "atualizado": "2026-11-25T08:13+00:00"
-  },
-  {
-   "chave": "GRU-MXP-executiva",
-   "origem": "GRU",
-   "destino": "MXP",
-   "cidade": "Milão",
-   "regiao": "europa",
-   "regiao_nome": "Europa",
-   "classe": "executiva",
-   "classe_nome": "Executiva",
-   "preco": 13042.0,
-   "moeda": "BRL",
-   "ida": "2027-02-21",
-   "volta": "2027-03-03",
-   "referencia": 17773.0,
-   "desconto": 0.2662,
-   "limite": 10350.0,
-   "prioridade": "perto de Zurique (204 km)",
-   "datas_baratas": [
-    {
-     "ida": "2027-02-21",
-     "volta": "2027-03-03",
-     "preco": 13042.0
-    },
-    {
-     "ida": "2027-03-26",
-     "volta": "2027-04-05",
-     "preco": 13042.0
-    },
-    {
-     "ida": "2027-03-28",
-     "volta": "2027-04-07",
-     "preco": 13042.0
-    },
-    {
-     "ida": "2027-03-29",
-     "volta": "2027-04-08",
-     "preco": 13042.0
-    },
-    {
-     "ida": "2027-02-20",
-     "volta": "2027-03-02",
-     "preco": 13123.0
-    }
-   ],
-   "promocao": false,
-   "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MXP%20from%20GRU%20on%202027-02-21%20through%202027-03-03%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/mxp/270221/270303/?adultsv2=1&cabinclass=business&rtn=1",
-   "atualizado": "2026-11-25T08:13+00:00"
+   "atualizado": "2026-11-26T05:26+00:00"
   },
   {
    "chave": "GRU-HND-executiva",
@@ -4341,56 +4291,6 @@
    "atualizado": "2026-11-25T12:47+00:00"
   },
   {
-   "chave": "GRU-DXB-premium",
-   "origem": "GRU",
-   "destino": "DXB",
-   "cidade": "Dubai",
-   "regiao": "oriente_medio",
-   "regiao_nome": "Oriente Médio",
-   "classe": "premium",
-   "classe_nome": "Premium Economy",
-   "preco": 10293.0,
-   "moeda": "BRL",
-   "ida": "2026-12-03",
-   "volta": "2026-12-13",
-   "referencia": 13145.0,
-   "desconto": 0.217,
-   "limite": 6899.999999999999,
-   "prioridade": "escolhido por você",
-   "datas_baratas": [
-    {
-     "ida": "2026-12-03",
-     "volta": "2026-12-13",
-     "preco": 10293.0
-    },
-    {
-     "ida": "2027-02-22",
-     "volta": "2027-03-04",
-     "preco": 11295.0
-    },
-    {
-     "ida": "2027-01-28",
-     "volta": "2027-02-07",
-     "preco": 11546.0
-    },
-    {
-     "ida": "2027-02-11",
-     "volta": "2027-02-21",
-     "preco": 11546.0
-    },
-    {
-     "ida": "2026-12-14",
-     "volta": "2026-12-24",
-     "preco": 11564.0
-    }
-   ],
-   "promocao": false,
-   "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20DXB%20from%20GRU%20on%202026-12-03%20through%202026-12-13%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/dxb/261203/261213/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
-   "atualizado": "2026-11-25T08:13+00:00"
-  },
-  {
    "chave": "VCP-DXB-executiva",
    "origem": "VCP",
    "destino": "DXB",
@@ -4484,6 +4384,56 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20FRA%20from%20SJP%20on%202026-12-20%20through%202026-12-30%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/fra/261220/261230/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
    "atualizado": "2026-11-25T22:37+00:00"
+  },
+  {
+   "chave": "GRU-DXB-premium",
+   "origem": "GRU",
+   "destino": "DXB",
+   "cidade": "Dubai",
+   "regiao": "oriente_medio",
+   "regiao_nome": "Oriente Médio",
+   "classe": "premium",
+   "classe_nome": "Premium Economy",
+   "preco": 10293.0,
+   "moeda": "BRL",
+   "ida": "2026-12-03",
+   "volta": "2026-12-13",
+   "referencia": 12999.0,
+   "desconto": 0.2082,
+   "limite": 6899.999999999999,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2026-12-03",
+     "volta": "2026-12-13",
+     "preco": 10293.0
+    },
+    {
+     "ida": "2027-02-22",
+     "volta": "2027-03-04",
+     "preco": 11295.0
+    },
+    {
+     "ida": "2027-03-15",
+     "volta": "2027-03-25",
+     "preco": 11295.0
+    },
+    {
+     "ida": "2027-01-28",
+     "volta": "2027-02-07",
+     "preco": 11546.0
+    },
+    {
+     "ida": "2027-02-11",
+     "volta": "2027-02-21",
+     "preco": 11546.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20DXB%20from%20GRU%20on%202026-12-03%20through%202026-12-13%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/dxb/261203/261213/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-26T05:26+00:00"
   },
   {
    "chave": "SJP-BKK-executiva",
@@ -4731,6 +4681,56 @@
    "atualizado": "2026-11-25T09:25+00:00"
   },
   {
+   "chave": "GRU-ZRH-executiva",
+   "origem": "GRU",
+   "destino": "ZRH",
+   "cidade": "Zurique",
+   "regiao": "europa",
+   "regiao_nome": "Europa",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 14976.0,
+   "moeda": "BRL",
+   "ida": "2027-03-15",
+   "volta": "2027-03-25",
+   "referencia": 18778.0,
+   "desconto": 0.2025,
+   "limite": 10350.0,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-03-15",
+     "volta": "2027-03-25",
+     "preco": 14976.0
+    },
+    {
+     "ida": "2027-06-01",
+     "volta": "2027-06-11",
+     "preco": 14976.0
+    },
+    {
+     "ida": "2027-02-14",
+     "volta": "2027-02-24",
+     "preco": 15020.0
+    },
+    {
+     "ida": "2027-02-20",
+     "volta": "2027-03-02",
+     "preco": 15020.0
+    },
+    {
+     "ida": "2027-03-04",
+     "volta": "2027-03-14",
+     "preco": 15020.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20ZRH%20from%20GRU%20on%202027-03-15%20through%202027-03-25%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/zrh/270315/270325/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-26T05:25+00:00"
+  },
+  {
    "chave": "CGH-AUS-economica",
    "origem": "CGH",
    "destino": "AUS",
@@ -4976,6 +4976,56 @@
    "atualizado": "2026-11-25T19:39+00:00"
   },
   {
+   "chave": "GRU-MXP-executiva",
+   "origem": "GRU",
+   "destino": "MXP",
+   "cidade": "Milão",
+   "regiao": "europa",
+   "regiao_nome": "Europa",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 13920.0,
+   "moeda": "BRL",
+   "ida": "2027-05-31",
+   "volta": "2027-06-10",
+   "referencia": 17220.0,
+   "desconto": 0.1916,
+   "limite": 10350.0,
+   "prioridade": "perto de Zurique (204 km)",
+   "datas_baratas": [
+    {
+     "ida": "2027-05-31",
+     "volta": "2027-06-10",
+     "preco": 13920.0
+    },
+    {
+     "ida": "2027-06-03",
+     "volta": "2027-06-13",
+     "preco": 14342.0
+    },
+    {
+     "ida": "2027-06-08",
+     "volta": "2027-06-18",
+     "preco": 15234.0
+    },
+    {
+     "ida": "2027-06-09",
+     "volta": "2027-06-19",
+     "preco": 15234.0
+    },
+    {
+     "ida": "2027-07-24",
+     "volta": "2027-08-03",
+     "preco": 15395.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MXP%20from%20GRU%20on%202027-05-31%20through%202027-06-10%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/mxp/270531/270610/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-26T05:26+00:00"
+  },
+  {
    "chave": "VCP-ADZ-executiva",
    "origem": "VCP",
    "destino": "ADZ",
@@ -5026,56 +5076,6 @@
    "atualizado": "2026-11-25T11:40+00:00"
   },
   {
-   "chave": "GRU-ZRH-primeira",
-   "origem": "GRU",
-   "destino": "ZRH",
-   "cidade": "Zurique",
-   "regiao": "europa",
-   "regiao_nome": "Europa",
-   "classe": "primeira",
-   "classe_nome": "Primeira Classe",
-   "preco": 58685.0,
-   "moeda": "BRL",
-   "ida": "2026-11-29",
-   "volta": "2026-12-09",
-   "referencia": 72474.0,
-   "desconto": 0.1903,
-   "limite": 17250.0,
-   "prioridade": "escolhido por você",
-   "datas_baratas": [
-    {
-     "ida": "2026-11-29",
-     "volta": "2026-12-09",
-     "preco": 58685.0
-    },
-    {
-     "ida": "2026-11-30",
-     "volta": "2026-12-10",
-     "preco": 58726.0
-    },
-    {
-     "ida": "2026-11-28",
-     "volta": "2026-12-08",
-     "preco": 58748.0
-    },
-    {
-     "ida": "2027-02-07",
-     "volta": "2027-02-17",
-     "preco": 71118.0
-    },
-    {
-     "ida": "2027-02-08",
-     "volta": "2027-02-18",
-     "preco": 71118.0
-    }
-   ],
-   "promocao": false,
-   "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20ZRH%20from%20GRU%20on%202026-11-29%20through%202026-12-09%20first%20class&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/zrh/261129/261209/?adultsv2=1&cabinclass=first&rtn=1",
-   "atualizado": "2026-11-25T08:12+00:00"
-  },
-  {
    "chave": "SJP-MUC-premium",
    "origem": "SJP",
    "destino": "MUC",
@@ -5119,56 +5119,6 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20MUC%20from%20SJP%20on%202027-04-12%20through%202027-04-22%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/muc/270412/270422/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
    "atualizado": "2026-11-25T22:40+00:00"
-  },
-  {
-   "chave": "GRU-MXP-economica",
-   "origem": "GRU",
-   "destino": "MXP",
-   "cidade": "Milão",
-   "regiao": "europa",
-   "regiao_nome": "Europa",
-   "classe": "economica",
-   "classe_nome": "Econômica",
-   "preco": 4235.0,
-   "moeda": "BRL",
-   "ida": "2027-02-12",
-   "volta": "2027-02-22",
-   "referencia": 5202.0,
-   "desconto": 0.1859,
-   "limite": 3219.9999999999995,
-   "prioridade": "perto de Zurique (204 km)",
-   "datas_baratas": [
-    {
-     "ida": "2027-02-12",
-     "volta": "2027-02-22",
-     "preco": 4235.0
-    },
-    {
-     "ida": "2027-02-16",
-     "volta": "2027-02-26",
-     "preco": 4235.0
-    },
-    {
-     "ida": "2027-02-17",
-     "volta": "2027-02-27",
-     "preco": 4235.0
-    },
-    {
-     "ida": "2027-02-18",
-     "volta": "2027-02-28",
-     "preco": 4235.0
-    },
-    {
-     "ida": "2027-02-19",
-     "volta": "2027-03-01",
-     "preco": 4235.0
-    }
-   ],
-   "promocao": false,
-   "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MXP%20from%20GRU%20on%202027-02-12%20through%202027-02-22%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/mxp/270212/270222/?adultsv2=1&cabinclass=economy&rtn=1",
-   "atualizado": "2026-11-25T08:13+00:00"
   },
   {
    "chave": "VCP-FRA-premium",
@@ -5271,6 +5221,56 @@
    "atualizado": "2026-11-26T04:15+00:00"
   },
   {
+   "chave": "GRU-MXP-economica",
+   "origem": "GRU",
+   "destino": "MXP",
+   "cidade": "Milão",
+   "regiao": "europa",
+   "regiao_nome": "Europa",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 4218.0,
+   "moeda": "BRL",
+   "ida": "2027-02-12",
+   "volta": "2027-02-22",
+   "referencia": 5141.0,
+   "desconto": 0.1795,
+   "limite": 3219.9999999999995,
+   "prioridade": "perto de Zurique (204 km)",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-12",
+     "volta": "2027-02-22",
+     "preco": 4218.0
+    },
+    {
+     "ida": "2027-02-13",
+     "volta": "2027-02-23",
+     "preco": 4218.0
+    },
+    {
+     "ida": "2027-02-15",
+     "volta": "2027-02-25",
+     "preco": 4218.0
+    },
+    {
+     "ida": "2027-02-16",
+     "volta": "2027-02-26",
+     "preco": 4218.0
+    },
+    {
+     "ida": "2027-02-17",
+     "volta": "2027-02-27",
+     "preco": 4218.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MXP%20from%20GRU%20on%202027-02-12%20through%202027-02-22%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/mxp/270212/270222/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-26T05:26+00:00"
+  },
+  {
    "chave": "GRU-MUC-economica",
    "origem": "GRU",
    "destino": "MUC",
@@ -5321,6 +5321,56 @@
    "atualizado": "2026-11-26T04:16+00:00"
   },
   {
+   "chave": "GRU-ZRH-primeira",
+   "origem": "GRU",
+   "destino": "ZRH",
+   "cidade": "Zurique",
+   "regiao": "europa",
+   "regiao_nome": "Europa",
+   "classe": "primeira",
+   "classe_nome": "Primeira Classe",
+   "preco": 58685.0,
+   "moeda": "BRL",
+   "ida": "2026-11-29",
+   "volta": "2026-12-09",
+   "referencia": 71409.0,
+   "desconto": 0.1782,
+   "limite": 17250.0,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2026-11-29",
+     "volta": "2026-12-09",
+     "preco": 58685.0
+    },
+    {
+     "ida": "2026-11-30",
+     "volta": "2026-12-10",
+     "preco": 58726.0
+    },
+    {
+     "ida": "2027-02-28",
+     "volta": "2027-03-10",
+     "preco": 71065.0
+    },
+    {
+     "ida": "2027-03-07",
+     "volta": "2027-03-17",
+     "preco": 71065.0
+    },
+    {
+     "ida": "2027-01-25",
+     "volta": "2027-02-04",
+     "preco": 71118.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20ZRH%20from%20GRU%20on%202026-11-29%20through%202026-12-09%20first%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/zrh/261129/261209/?adultsv2=1&cabinclass=first&rtn=1",
+   "atualizado": "2026-11-26T05:25+00:00"
+  },
+  {
    "chave": "GRU-FCO-economica",
    "origem": "GRU",
    "destino": "FCO",
@@ -5329,46 +5379,46 @@
    "regiao_nome": "Europa",
    "classe": "economica",
    "classe_nome": "Econômica",
-   "preco": 4303.0,
+   "preco": 4285.0,
    "moeda": "BRL",
    "ida": "2027-02-11",
    "volta": "2027-02-21",
-   "referencia": 5232.0,
-   "desconto": 0.1776,
+   "referencia": 5211.0,
+   "desconto": 0.1777,
    "limite": 3219.9999999999995,
    "prioridade": "escolhido por você",
    "datas_baratas": [
     {
      "ida": "2027-02-11",
      "volta": "2027-02-21",
-     "preco": 4303.0
+     "preco": 4285.0
     },
     {
      "ida": "2027-02-12",
      "volta": "2027-02-22",
-     "preco": 4303.0
+     "preco": 4285.0
+    },
+    {
+     "ida": "2027-02-15",
+     "volta": "2027-02-25",
+     "preco": 4285.0
     },
     {
      "ida": "2027-02-16",
      "volta": "2027-02-26",
-     "preco": 4303.0
+     "preco": 4285.0
     },
     {
      "ida": "2027-02-17",
      "volta": "2027-02-27",
-     "preco": 4303.0
-    },
-    {
-     "ida": "2027-02-18",
-     "volta": "2027-02-28",
-     "preco": 4303.0
+     "preco": 4285.0
     }
    ],
    "promocao": false,
    "motivos": [],
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20FCO%20from%20GRU%20on%202027-02-11%20through%202027-02-21%20economy&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/fco/270211/270221/?adultsv2=1&cabinclass=economy&rtn=1",
-   "atualizado": "2026-11-25T08:12+00:00"
+   "atualizado": "2026-11-26T05:25+00:00"
   },
   {
    "chave": "GRU-FRA-primeira",
@@ -5769,56 +5819,6 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20MCO%20from%20VCP%20on%202027-04-22%20through%202027-05-02%20economy&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/mco/270422/270502/?adultsv2=1&cabinclass=economy&rtn=1",
    "atualizado": "2026-11-25T10:41+00:00"
-  },
-  {
-   "chave": "GRU-ZRH-executiva",
-   "origem": "GRU",
-   "destino": "ZRH",
-   "cidade": "Zurique",
-   "regiao": "europa",
-   "regiao_nome": "Europa",
-   "classe": "executiva",
-   "classe_nome": "Executiva",
-   "preco": 15238.0,
-   "moeda": "BRL",
-   "ida": "2027-03-09",
-   "volta": "2027-03-19",
-   "referencia": 18272.5,
-   "desconto": 0.1661,
-   "limite": 10350.0,
-   "prioridade": "escolhido por você",
-   "datas_baratas": [
-    {
-     "ida": "2027-03-09",
-     "volta": "2027-03-19",
-     "preco": 15238.0
-    },
-    {
-     "ida": "2027-03-07",
-     "volta": "2027-03-17",
-     "preco": 15258.0
-    },
-    {
-     "ida": "2027-03-08",
-     "volta": "2027-03-18",
-     "preco": 15258.0
-    },
-    {
-     "ida": "2027-03-31",
-     "volta": "2027-04-10",
-     "preco": 15258.0
-    },
-    {
-     "ida": "2027-05-31",
-     "volta": "2027-06-10",
-     "preco": 15271.0
-    }
-   ],
-   "promocao": false,
-   "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20ZRH%20from%20GRU%20on%202027-03-09%20through%202027-03-19%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/zrh/270309/270319/?adultsv2=1&cabinclass=business&rtn=1",
-   "atualizado": "2026-11-25T08:12+00:00"
   },
   {
    "chave": "VCP-MIA-economica",
@@ -6401,6 +6401,56 @@
    "atualizado": "2026-11-26T04:16+00:00"
   },
   {
+   "chave": "GRU-MXP-primeira",
+   "origem": "GRU",
+   "destino": "MXP",
+   "cidade": "Milão",
+   "regiao": "europa",
+   "regiao_nome": "Europa",
+   "classe": "primeira",
+   "classe_nome": "Primeira Classe",
+   "preco": 57728.0,
+   "moeda": "BRL",
+   "ida": "2026-11-29",
+   "volta": "2026-12-09",
+   "referencia": 66999.0,
+   "desconto": 0.1384,
+   "limite": 17250.0,
+   "prioridade": "perto de Zurique (204 km)",
+   "datas_baratas": [
+    {
+     "ida": "2026-11-29",
+     "volta": "2026-12-09",
+     "preco": 57728.0
+    },
+    {
+     "ida": "2026-11-30",
+     "volta": "2026-12-10",
+     "preco": 57760.0
+    },
+    {
+     "ida": "2027-02-07",
+     "volta": "2027-02-17",
+     "preco": 60731.0
+    },
+    {
+     "ida": "2027-02-08",
+     "volta": "2027-02-18",
+     "preco": 60731.0
+    },
+    {
+     "ida": "2027-02-22",
+     "volta": "2027-03-04",
+     "preco": 60731.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MXP%20from%20GRU%20on%202026-11-29%20through%202026-12-09%20first%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/mxp/261129/261209/?adultsv2=1&cabinclass=first&rtn=1",
+   "atualizado": "2026-11-26T05:26+00:00"
+  },
+  {
    "chave": "CGH-ADZ-premium",
    "origem": "CGH",
    "destino": "ADZ",
@@ -6734,56 +6784,6 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20FCO%20from%20VCP%20on%202027-06-15%20through%202027-06-25%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/fco/270615/270625/?adultsv2=1&cabinclass=business&rtn=1",
    "atualizado": "2026-11-25T14:02+00:00"
-  },
-  {
-   "chave": "GRU-FCO-premium",
-   "origem": "GRU",
-   "destino": "FCO",
-   "cidade": "Roma",
-   "regiao": "europa",
-   "regiao_nome": "Europa",
-   "classe": "premium",
-   "classe_nome": "Premium Economy",
-   "preco": 7718.0,
-   "moeda": "BRL",
-   "ida": "2027-01-24",
-   "volta": "2027-02-03",
-   "referencia": 8738.0,
-   "desconto": 0.1167,
-   "limite": 5750.0,
-   "prioridade": "escolhido por você",
-   "datas_baratas": [
-    {
-     "ida": "2027-01-24",
-     "volta": "2027-02-03",
-     "preco": 7718.0
-    },
-    {
-     "ida": "2027-01-25",
-     "volta": "2027-02-04",
-     "preco": 7718.0
-    },
-    {
-     "ida": "2027-02-01",
-     "volta": "2027-02-11",
-     "preco": 7718.0
-    },
-    {
-     "ida": "2027-02-02",
-     "volta": "2027-02-12",
-     "preco": 7718.0
-    },
-    {
-     "ida": "2027-02-05",
-     "volta": "2027-02-15",
-     "preco": 7718.0
-    }
-   ],
-   "promocao": false,
-   "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FCO%20from%20GRU%20on%202027-01-24%20through%202027-02-03%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/fco/270124/270203/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
-   "atualizado": "2026-11-25T08:12+00:00"
   },
   {
    "chave": "CGH-MXP-premium",
@@ -7591,106 +7591,6 @@
    "atualizado": "2026-11-25T18:30+00:00"
   },
   {
-   "chave": "GRU-FCO-primeira",
-   "origem": "GRU",
-   "destino": "FCO",
-   "cidade": "Roma",
-   "regiao": "europa",
-   "regiao_nome": "Europa",
-   "classe": "primeira",
-   "classe_nome": "Primeira Classe",
-   "preco": 57511.0,
-   "moeda": "BRL",
-   "ida": "2026-11-29",
-   "volta": "2026-12-09",
-   "referencia": 61936.0,
-   "desconto": 0.0714,
-   "limite": 17250.0,
-   "prioridade": "escolhido por você",
-   "datas_baratas": [
-    {
-     "ida": "2026-11-29",
-     "volta": "2026-12-09",
-     "preco": 57511.0
-    },
-    {
-     "ida": "2026-11-30",
-     "volta": "2026-12-10",
-     "preco": 57529.0
-    },
-    {
-     "ida": "2026-11-28",
-     "volta": "2026-12-08",
-     "preco": 57574.0
-    },
-    {
-     "ida": "2027-01-24",
-     "volta": "2027-02-03",
-     "preco": 60736.0
-    },
-    {
-     "ida": "2027-01-25",
-     "volta": "2027-02-04",
-     "preco": 60736.0
-    }
-   ],
-   "promocao": false,
-   "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FCO%20from%20GRU%20on%202026-11-29%20through%202026-12-09%20first%20class&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/fco/261129/261209/?adultsv2=1&cabinclass=first&rtn=1",
-   "atualizado": "2026-11-25T08:12+00:00"
-  },
-  {
-   "chave": "GRU-MXP-primeira",
-   "origem": "GRU",
-   "destino": "MXP",
-   "cidade": "Milão",
-   "regiao": "europa",
-   "regiao_nome": "Europa",
-   "classe": "primeira",
-   "classe_nome": "Primeira Classe",
-   "preco": 57493.0,
-   "moeda": "BRL",
-   "ida": "2026-11-29",
-   "volta": "2026-12-09",
-   "referencia": 61893.0,
-   "desconto": 0.0711,
-   "limite": 17250.0,
-   "prioridade": "perto de Zurique (204 km)",
-   "datas_baratas": [
-    {
-     "ida": "2026-11-29",
-     "volta": "2026-12-09",
-     "preco": 57493.0
-    },
-    {
-     "ida": "2026-11-30",
-     "volta": "2026-12-10",
-     "preco": 57523.0
-    },
-    {
-     "ida": "2026-11-28",
-     "volta": "2026-12-08",
-     "preco": 58652.0
-    },
-    {
-     "ida": "2027-01-24",
-     "volta": "2027-02-03",
-     "preco": 60731.0
-    },
-    {
-     "ida": "2027-01-25",
-     "volta": "2027-02-04",
-     "preco": 60731.0
-    }
-   ],
-   "promocao": false,
-   "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MXP%20from%20GRU%20on%202026-11-29%20through%202026-12-09%20first%20class&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/mxp/261129/261209/?adultsv2=1&cabinclass=first&rtn=1",
-   "atualizado": "2026-11-25T08:13+00:00"
-  },
-  {
    "chave": "GRU-MCO-economica",
    "origem": "GRU",
    "destino": "MCO",
@@ -7739,6 +7639,56 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20MCO%20from%20GRU%20on%202027-02-17%20through%202027-02-27%20economy&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/mco/270217/270227/?adultsv2=1&cabinclass=economy&rtn=1",
    "atualizado": "2026-11-26T03:07+00:00"
+  },
+  {
+   "chave": "GRU-MXP-premium",
+   "origem": "GRU",
+   "destino": "MXP",
+   "cidade": "Milão",
+   "regiao": "europa",
+   "regiao_nome": "Europa",
+   "classe": "premium",
+   "classe_nome": "Premium Economy",
+   "preco": 7890.0,
+   "moeda": "BRL",
+   "ida": "2027-02-02",
+   "volta": "2027-02-12",
+   "referencia": 8490.0,
+   "desconto": 0.0707,
+   "limite": 5750.0,
+   "prioridade": "perto de Zurique (204 km)",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-02",
+     "volta": "2027-02-12",
+     "preco": 7890.0
+    },
+    {
+     "ida": "2027-02-04",
+     "volta": "2027-02-14",
+     "preco": 7890.0
+    },
+    {
+     "ida": "2027-02-05",
+     "volta": "2027-02-15",
+     "preco": 7890.0
+    },
+    {
+     "ida": "2027-02-07",
+     "volta": "2027-02-17",
+     "preco": 7890.0
+    },
+    {
+     "ida": "2027-02-08",
+     "volta": "2027-02-18",
+     "preco": 7890.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MXP%20from%20GRU%20on%202027-02-02%20through%202027-02-12%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/mxp/270202/270212/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-26T05:26+00:00"
   },
   {
    "chave": "GRU-MUC-primeira",
@@ -7934,56 +7884,6 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20MCO%20from%20GRU%20on%202027-04-04%20through%202027-04-14%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/mco/270404/270414/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
    "atualizado": "2026-11-26T03:07+00:00"
-  },
-  {
-   "chave": "GRU-MXP-premium",
-   "origem": "GRU",
-   "destino": "MXP",
-   "cidade": "Milão",
-   "regiao": "europa",
-   "regiao_nome": "Europa",
-   "classe": "premium",
-   "classe_nome": "Premium Economy",
-   "preco": 7801.0,
-   "moeda": "BRL",
-   "ida": "2027-06-07",
-   "volta": "2027-06-17",
-   "referencia": 8285.0,
-   "desconto": 0.0584,
-   "limite": 5750.0,
-   "prioridade": "perto de Zurique (204 km)",
-   "datas_baratas": [
-    {
-     "ida": "2027-06-07",
-     "volta": "2027-06-17",
-     "preco": 7801.0
-    },
-    {
-     "ida": "2027-01-29",
-     "volta": "2027-02-08",
-     "preco": 7890.0
-    },
-    {
-     "ida": "2027-02-01",
-     "volta": "2027-02-11",
-     "preco": 7890.0
-    },
-    {
-     "ida": "2027-02-02",
-     "volta": "2027-02-12",
-     "preco": 7890.0
-    },
-    {
-     "ida": "2027-02-03",
-     "volta": "2027-02-13",
-     "preco": 7890.0
-    }
-   ],
-   "promocao": false,
-   "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MXP%20from%20GRU%20on%202027-06-07%20through%202027-06-17%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/mxp/270607/270617/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
-   "atualizado": "2026-11-25T08:13+00:00"
   },
   {
    "chave": "SJP-HND-economica",
@@ -8204,6 +8104,56 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20ZRH%20from%20CGH%20on%202027-05-18%20through%202027-05-28%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/cgh/zrh/270518/270528/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
    "atualizado": "2026-11-25T18:30+00:00"
+  },
+  {
+   "chave": "GRU-FCO-primeira",
+   "origem": "GRU",
+   "destino": "FCO",
+   "cidade": "Roma",
+   "regiao": "europa",
+   "regiao_nome": "Europa",
+   "classe": "primeira",
+   "classe_nome": "Primeira Classe",
+   "preco": 57744.0,
+   "moeda": "BRL",
+   "ida": "2026-11-29",
+   "volta": "2026-12-09",
+   "referencia": 60781.0,
+   "desconto": 0.05,
+   "limite": 17250.0,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2026-11-29",
+     "volta": "2026-12-09",
+     "preco": 57744.0
+    },
+    {
+     "ida": "2026-11-30",
+     "volta": "2026-12-10",
+     "preco": 57765.0
+    },
+    {
+     "ida": "2027-01-25",
+     "volta": "2027-02-04",
+     "preco": 60736.0
+    },
+    {
+     "ida": "2027-01-28",
+     "volta": "2027-02-07",
+     "preco": 60736.0
+    },
+    {
+     "ida": "2027-02-07",
+     "volta": "2027-02-17",
+     "preco": 60736.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FCO%20from%20GRU%20on%202026-11-29%20through%202026-12-09%20first%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/fco/261129/261209/?adultsv2=1&cabinclass=first&rtn=1",
+   "atualizado": "2026-11-26T05:26+00:00"
   },
   {
    "chave": "CGH-AUS-executiva",
@@ -8574,6 +8524,56 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20NRT%20from%20SJP%20on%202027-04-06%20through%202027-04-20%20economy&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/nrt/270406/270420/?adultsv2=1&cabinclass=economy&rtn=1",
    "atualizado": "2026-11-26T02:02+00:00"
+  },
+  {
+   "chave": "GRU-FCO-premium",
+   "origem": "GRU",
+   "destino": "FCO",
+   "cidade": "Roma",
+   "regiao": "europa",
+   "regiao_nome": "Europa",
+   "classe": "premium",
+   "classe_nome": "Premium Economy",
+   "preco": 7718.0,
+   "moeda": "BRL",
+   "ida": "2027-02-02",
+   "volta": "2027-02-12",
+   "referencia": 7912.5,
+   "desconto": 0.0246,
+   "limite": 5750.0,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-02",
+     "volta": "2027-02-12",
+     "preco": 7718.0
+    },
+    {
+     "ida": "2027-02-04",
+     "volta": "2027-02-14",
+     "preco": 7718.0
+    },
+    {
+     "ida": "2027-02-05",
+     "volta": "2027-02-15",
+     "preco": 7718.0
+    },
+    {
+     "ida": "2027-02-07",
+     "volta": "2027-02-17",
+     "preco": 7718.0
+    },
+    {
+     "ida": "2027-02-08",
+     "volta": "2027-02-18",
+     "preco": 7718.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FCO%20from%20GRU%20on%202027-02-02%20through%202027-02-12%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/fco/270202/270212/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-26T05:25+00:00"
   },
   {
    "chave": "SJP-ADZ-economica",
@@ -9781,6 +9781,56 @@
    "prioridade": ""
   },
   {
+   "chave": "GRU-BOS-premium",
+   "origem": "GRU",
+   "destino": "BOS",
+   "cidade": "Boston",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "premium",
+   "classe_nome": "Premium Economy",
+   "preco": 9367.0,
+   "moeda": "BRL",
+   "ida": "2027-01-27",
+   "volta": "2027-02-06",
+   "referencia": 16382.0,
+   "desconto": 0.4282,
+   "limite": 4500.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-01-27",
+     "volta": "2027-02-06",
+     "preco": 9367.0
+    },
+    {
+     "ida": "2027-01-28",
+     "volta": "2027-02-07",
+     "preco": 9544.0
+    },
+    {
+     "ida": "2027-01-25",
+     "volta": "2027-02-04",
+     "preco": 9661.0
+    },
+    {
+     "ida": "2027-01-26",
+     "volta": "2027-02-05",
+     "preco": 9932.0
+    },
+    {
+     "ida": "2027-01-21",
+     "volta": "2027-01-31",
+     "preco": 10238.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20BOS%20from%20GRU%20on%202027-01-27%20through%202027-02-06%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/bos/270127/270206/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-26T05:27+00:00"
+  },
+  {
    "chave": "SJP-FOR-economica",
    "origem": "SJP",
    "destino": "FOR",
@@ -10114,6 +10164,56 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20MDZ%20from%20GRU%20on%202027-03-24%20through%202027-03-30%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/mdz/270324/270330/?adultsv2=1&cabinclass=business&rtn=1",
    "atualizado": "2026-11-25T20:38+00:00"
+  },
+  {
+   "chave": "GRU-BOS-executiva",
+   "origem": "GRU",
+   "destino": "BOS",
+   "cidade": "Boston",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 12984.0,
+   "moeda": "BRL",
+   "ida": "2027-01-25",
+   "volta": "2027-02-04",
+   "referencia": 20487.0,
+   "desconto": 0.3662,
+   "limite": 8000.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-01-25",
+     "volta": "2027-02-04",
+     "preco": 12984.0
+    },
+    {
+     "ida": "2027-01-27",
+     "volta": "2027-02-06",
+     "preco": 12984.0
+    },
+    {
+     "ida": "2027-03-31",
+     "volta": "2027-04-10",
+     "preco": 12984.0
+    },
+    {
+     "ida": "2027-01-28",
+     "volta": "2027-02-07",
+     "preco": 13102.0
+    },
+    {
+     "ida": "2026-12-23",
+     "volta": "2027-01-02",
+     "preco": 13514.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20BOS%20from%20GRU%20on%202027-01-25%20through%202027-02-04%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/bos/270125/270204/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-26T05:27+00:00"
   },
   {
    "chave": "GRU-MCZ-economica",
@@ -10621,6 +10721,56 @@
    "prioridade": ""
   },
   {
+   "chave": "GRU-ORD-premium",
+   "origem": "GRU",
+   "destino": "ORD",
+   "cidade": "Chicago",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "premium",
+   "classe_nome": "Premium Economy",
+   "preco": 9047.0,
+   "moeda": "BRL",
+   "ida": "2027-04-05",
+   "volta": "2027-04-15",
+   "referencia": 12715.5,
+   "desconto": 0.2885,
+   "limite": 4500.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-04-05",
+     "volta": "2027-04-15",
+     "preco": 9047.0
+    },
+    {
+     "ida": "2027-04-19",
+     "volta": "2027-04-29",
+     "preco": 9047.0
+    },
+    {
+     "ida": "2027-01-25",
+     "volta": "2027-02-04",
+     "preco": 9620.0
+    },
+    {
+     "ida": "2027-01-28",
+     "volta": "2027-02-07",
+     "preco": 9620.0
+    },
+    {
+     "ida": "2027-05-11",
+     "volta": "2027-05-21",
+     "preco": 9890.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20ORD%20from%20GRU%20on%202027-04-05%20through%202027-04-15%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/ord/270405/270415/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-26T05:27+00:00"
+  },
+  {
    "chave": "SJP-HKG-primeira",
    "origem": "SJP",
    "destino": "HKG",
@@ -10799,6 +10949,56 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20BRC%20from%20GRU%20on%202027-04-22%20through%202027-04-28%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/brc/270422/270428/?adultsv2=1&cabinclass=business&rtn=1",
    "atualizado": "2026-11-25T20:38+00:00"
+  },
+  {
+   "chave": "GRU-ORD-economica",
+   "origem": "GRU",
+   "destino": "ORD",
+   "cidade": "Chicago",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 3245.0,
+   "moeda": "BRL",
+   "ida": "2027-03-05",
+   "volta": "2027-03-15",
+   "referencia": 4416.0,
+   "desconto": 0.2652,
+   "limite": 2600.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-03-05",
+     "volta": "2027-03-15",
+     "preco": 3245.0
+    },
+    {
+     "ida": "2027-02-09",
+     "volta": "2027-02-19",
+     "preco": 3401.0
+    },
+    {
+     "ida": "2027-02-18",
+     "volta": "2027-02-28",
+     "preco": 3401.0
+    },
+    {
+     "ida": "2027-02-22",
+     "volta": "2027-03-04",
+     "preco": 3401.0
+    },
+    {
+     "ida": "2027-02-24",
+     "volta": "2027-03-06",
+     "preco": 3401.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20ORD%20from%20GRU%20on%202027-03-05%20through%202027-03-15%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/ord/270305/270315/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-26T05:27+00:00"
   },
   {
    "chave": "GRU-MVD-executiva",
@@ -12389,6 +12589,56 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20BOG%20from%20GRU%20on%202027-01-28%20through%202027-02-03%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/bog/270128/270203/?adultsv2=1&cabinclass=business&rtn=1",
    "atualizado": "2026-11-26T04:17+00:00"
+  },
+  {
+   "chave": "GRU-BOS-economica",
+   "origem": "GRU",
+   "destino": "BOS",
+   "cidade": "Boston",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 3660.0,
+   "moeda": "BRL",
+   "ida": "2027-02-22",
+   "volta": "2027-03-04",
+   "referencia": 4252.0,
+   "desconto": 0.1392,
+   "limite": 2600.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-22",
+     "volta": "2027-03-04",
+     "preco": 3660.0
+    },
+    {
+     "ida": "2027-02-24",
+     "volta": "2027-03-06",
+     "preco": 3660.0
+    },
+    {
+     "ida": "2027-03-01",
+     "volta": "2027-03-11",
+     "preco": 3660.0
+    },
+    {
+     "ida": "2027-04-21",
+     "volta": "2027-05-01",
+     "preco": 3660.0
+    },
+    {
+     "ida": "2027-04-28",
+     "volta": "2027-05-08",
+     "preco": 3660.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20BOS%20from%20GRU%20on%202027-02-22%20through%202027-03-04%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/bos/270222/270304/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-26T05:27+00:00"
   },
   {
    "chave": "SJP-CAI-premium",
@@ -15569,6 +15819,56 @@
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/mvd/270216/270222/?adultsv2=1&cabinclass=business&rtn=1",
    "atualizado": "2026-11-23T21:50+00:00",
    "prioridade": ""
+  },
+  {
+   "chave": "GRU-JFK-executiva",
+   "origem": "GRU",
+   "destino": "JFK",
+   "cidade": "Nova York",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 15213.0,
+   "moeda": "BRL",
+   "ida": "2027-01-24",
+   "volta": "2027-02-03",
+   "referencia": 15418.0,
+   "desconto": 0.0133,
+   "limite": 8000.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-01-24",
+     "volta": "2027-02-03",
+     "preco": 15213.0
+    },
+    {
+     "ida": "2027-01-27",
+     "volta": "2027-02-06",
+     "preco": 15213.0
+    },
+    {
+     "ida": "2027-01-28",
+     "volta": "2027-02-07",
+     "preco": 15213.0
+    },
+    {
+     "ida": "2027-01-29",
+     "volta": "2027-02-08",
+     "preco": 15213.0
+    },
+    {
+     "ida": "2027-01-31",
+     "volta": "2027-02-10",
+     "preco": 15213.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20JFK%20from%20GRU%20on%202027-01-24%20through%202027-02-03%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/jfk/270124/270203/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-26T05:26+00:00"
   },
   {
    "chave": "SJP-PVG-primeira",
