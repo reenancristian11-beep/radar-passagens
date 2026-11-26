@@ -1,5 +1,5 @@
 {
- "gerado": "2026-11-26T22:10+00:00",
+ "gerado": "2026-11-26T23:14+00:00",
  "origens": [
   "SJP",
   "GRU",
@@ -35,58 +35,6 @@
   "Zurique (ZRH)"
  ],
  "rotas": [
-  {
-   "chave": "GRU-MIA-economica",
-   "origem": "GRU",
-   "destino": "MIA",
-   "cidade": "Miami",
-   "regiao": "america_norte_central",
-   "regiao_nome": "América do Norte, Central e Caribe",
-   "classe": "economica",
-   "classe_nome": "Econômica",
-   "preco": 2832.0,
-   "moeda": "BRL",
-   "ida": "2027-05-07",
-   "volta": "2027-05-17",
-   "referencia": 4570.0,
-   "desconto": 0.3803,
-   "limite": 2989.9999999999995,
-   "prioridade": "perto de Orlando (310 km)",
-   "datas_baratas": [
-    {
-     "ida": "2027-05-07",
-     "volta": "2027-05-17",
-     "preco": 2832.0
-    },
-    {
-     "ida": "2027-03-01",
-     "volta": "2027-03-11",
-     "preco": 2834.0
-    },
-    {
-     "ida": "2027-03-15",
-     "volta": "2027-03-25",
-     "preco": 2836.0
-    },
-    {
-     "ida": "2027-03-22",
-     "volta": "2027-04-01",
-     "preco": 2836.0
-    },
-    {
-     "ida": "2027-03-21",
-     "volta": "2027-03-31",
-     "preco": 2837.0
-    }
-   ],
-   "promocao": true,
-   "motivos": [
-    "abaixo do preço-alvo de R$ 2.990"
-   ],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MIA%20from%20GRU%20on%202027-05-07%20through%202027-05-17%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/mia/270507/270517/?adultsv2=1&cabinclass=economy&rtn=1",
-   "atualizado": "2026-11-26T03:06+00:00"
-  },
   {
    "chave": "GRU-ADZ-premium",
    "origem": "GRU",
@@ -138,6 +86,58 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20ADZ%20from%20GRU%20on%202027-05-14%20through%202027-05-24%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/adz/270514/270524/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
    "atualizado": "2026-11-26T03:07+00:00"
+  },
+  {
+   "chave": "GRU-MIA-economica",
+   "origem": "GRU",
+   "destino": "MIA",
+   "cidade": "Miami",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 2753.0,
+   "moeda": "BRL",
+   "ida": "2027-03-15",
+   "volta": "2027-03-25",
+   "referencia": 2889.0,
+   "desconto": 0.0471,
+   "limite": 2989.9999999999995,
+   "prioridade": "perto de Orlando (310 km)",
+   "datas_baratas": [
+    {
+     "ida": "2027-03-15",
+     "volta": "2027-03-25",
+     "preco": 2753.0
+    },
+    {
+     "ida": "2027-03-21",
+     "volta": "2027-03-31",
+     "preco": 2753.0
+    },
+    {
+     "ida": "2027-03-22",
+     "volta": "2027-04-01",
+     "preco": 2753.0
+    },
+    {
+     "ida": "2027-03-07",
+     "volta": "2027-03-17",
+     "preco": 2991.0
+    },
+    {
+     "ida": "2027-03-25",
+     "volta": "2027-04-04",
+     "preco": 3043.0
+    }
+   ],
+   "promocao": true,
+   "motivos": [
+    "abaixo do preço-alvo de R$ 2.990"
+   ],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MIA%20from%20GRU%20on%202027-03-15%20through%202027-03-25%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/mia/270315/270325/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-26T23:13+00:00"
   },
   {
    "chave": "GRU-ADZ-executiva",
@@ -1062,51 +1062,6 @@
    "atualizado": "2026-11-26T12:48+00:00"
   },
   {
-   "chave": "SJP-NRT-premium",
-   "origem": "SJP",
-   "destino": "NRT",
-   "cidade": "Tóquio (Narita)",
-   "regiao": "asia",
-   "regiao_nome": "Ásia",
-   "classe": "premium",
-   "classe_nome": "Premium Economy",
-   "preco": 22957.0,
-   "moeda": "BRL",
-   "ida": "2027-04-13",
-   "volta": "2027-04-27",
-   "referencia": 41403.0,
-   "desconto": 0.4455,
-   "limite": 8625.0,
-   "prioridade": "escolhido por você",
-   "datas_baratas": [
-    {
-     "ida": "2027-04-13",
-     "volta": "2027-04-27",
-     "preco": 22957.0
-    },
-    {
-     "ida": "2027-06-05",
-     "volta": "2027-06-19",
-     "preco": 34397.0
-    },
-    {
-     "ida": "2027-02-11",
-     "volta": "2027-02-25",
-     "preco": 48409.0
-    },
-    {
-     "ida": "2026-12-21",
-     "volta": "2027-01-04",
-     "preco": 48525.0
-    }
-   ],
-   "promocao": false,
-   "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20NRT%20from%20SJP%20on%202027-04-13%20through%202027-04-27%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/nrt/270413/270427/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
-   "atualizado": "2026-11-26T02:02+00:00"
-  },
-  {
    "chave": "CGH-AUH-executiva",
    "origem": "CGH",
    "destino": "AUH",
@@ -1607,6 +1562,41 @@
    "atualizado": "2026-11-26T17:36+00:00"
   },
   {
+   "chave": "SJP-HND-economica",
+   "origem": "SJP",
+   "destino": "HND",
+   "cidade": "Tóquio (Haneda)",
+   "regiao": "asia",
+   "regiao_nome": "Ásia",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 12798.0,
+   "moeda": "BRL",
+   "ida": "2027-04-20",
+   "volta": "2027-05-04",
+   "referencia": 20303.0,
+   "desconto": 0.3696,
+   "limite": 5175.0,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-04-20",
+     "volta": "2027-05-04",
+     "preco": 12798.0
+    },
+    {
+     "ida": "2026-12-26",
+     "volta": "2027-01-09",
+     "preco": 23927.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20HND%20from%20SJP%20on%202027-04-20%20through%202027-05-04%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/hnd/270420/270504/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-26T23:11+00:00"
+  },
+  {
    "chave": "CGH-FCO-executiva",
    "origem": "CGH",
    "destino": "FCO",
@@ -1705,51 +1695,6 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20FCO%20from%20VCP%20on%202026-12-19%20through%202026-12-29%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/fco/261219/261229/?adultsv2=1&cabinclass=business&rtn=1",
    "atualizado": "2026-11-26T11:38+00:00"
-  },
-  {
-   "chave": "SJP-HND-premium",
-   "origem": "SJP",
-   "destino": "HND",
-   "cidade": "Tóquio (Haneda)",
-   "regiao": "asia",
-   "regiao_nome": "Ásia",
-   "classe": "premium",
-   "classe_nome": "Premium Economy",
-   "preco": 45811.0,
-   "moeda": "BRL",
-   "ida": "2027-06-05",
-   "volta": "2027-06-19",
-   "referencia": 71498.5,
-   "desconto": 0.3593,
-   "limite": 8625.0,
-   "prioridade": "escolhido por você",
-   "datas_baratas": [
-    {
-     "ida": "2027-06-05",
-     "volta": "2027-06-19",
-     "preco": 45811.0
-    },
-    {
-     "ida": "2027-05-22",
-     "volta": "2027-06-05",
-     "preco": 61368.0
-    },
-    {
-     "ida": "2027-01-15",
-     "volta": "2027-01-29",
-     "preco": 81629.0
-    },
-    {
-     "ida": "2027-01-29",
-     "volta": "2027-02-12",
-     "preco": 81629.0
-    }
-   ],
-   "promocao": false,
-   "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20HND%20from%20SJP%20on%202027-06-05%20through%202027-06-19%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/hnd/270605/270619/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
-   "atualizado": "2026-11-26T02:05+00:00"
   },
   {
    "chave": "CGH-DXB-primeira",
@@ -4352,51 +4297,6 @@
    "atualizado": "2026-11-26T04:15+00:00"
   },
   {
-   "chave": "SJP-HND-executiva",
-   "origem": "SJP",
-   "destino": "HND",
-   "cidade": "Tóquio (Haneda)",
-   "regiao": "asia",
-   "regiao_nome": "Ásia",
-   "classe": "executiva",
-   "classe_nome": "Executiva",
-   "preco": 36603.0,
-   "moeda": "BRL",
-   "ida": "2027-06-16",
-   "volta": "2027-06-30",
-   "referencia": 46833.0,
-   "desconto": 0.2184,
-   "limite": 14949.999999999998,
-   "prioridade": "escolhido por você",
-   "datas_baratas": [
-    {
-     "ida": "2027-06-16",
-     "volta": "2027-06-30",
-     "preco": 36603.0
-    },
-    {
-     "ida": "2026-12-01",
-     "volta": "2026-12-15",
-     "preco": 41547.0
-    },
-    {
-     "ida": "2027-03-31",
-     "volta": "2027-04-14",
-     "preco": 52119.0
-    },
-    {
-     "ida": "2027-02-26",
-     "volta": "2027-03-12",
-     "preco": 53013.0
-    }
-   ],
-   "promocao": false,
-   "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20HND%20from%20SJP%20on%202027-06-16%20through%202027-06-30%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/hnd/270616/270630/?adultsv2=1&cabinclass=business&rtn=1",
-   "atualizado": "2026-11-26T02:05+00:00"
-  },
-  {
    "chave": "CGH-FCO-premium",
    "origem": "CGH",
    "destino": "FCO",
@@ -4545,51 +4445,6 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20DXB%20from%20GRU%20on%202026-12-03%20through%202026-12-13%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/dxb/261203/261213/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
    "atualizado": "2026-11-26T05:26+00:00"
-  },
-  {
-   "chave": "SJP-BKK-executiva",
-   "origem": "SJP",
-   "destino": "BKK",
-   "cidade": "Bangkok",
-   "regiao": "asia",
-   "regiao_nome": "Ásia",
-   "classe": "executiva",
-   "classe_nome": "Executiva",
-   "preco": 35804.0,
-   "moeda": "BRL",
-   "ida": "2027-06-10",
-   "volta": "2027-06-24",
-   "referencia": 45211.0,
-   "desconto": 0.2081,
-   "limite": 14949.999999999998,
-   "prioridade": "escolhido por você",
-   "datas_baratas": [
-    {
-     "ida": "2027-06-10",
-     "volta": "2027-06-24",
-     "preco": 35804.0
-    },
-    {
-     "ida": "2027-02-11",
-     "volta": "2027-02-25",
-     "preco": 45211.0
-    },
-    {
-     "ida": "2027-04-21",
-     "volta": "2027-05-05",
-     "preco": 45211.0
-    },
-    {
-     "ida": "2026-12-17",
-     "volta": "2026-12-31",
-     "preco": 60959.0
-    }
-   ],
-   "promocao": false,
-   "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20BKK%20from%20SJP%20on%202027-06-10%20through%202027-06-24%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/bkk/270610/270624/?adultsv2=1&cabinclass=business&rtn=1",
-   "atualizado": "2026-11-26T03:06+00:00"
   },
   {
    "chave": "CGH-MCO-economica",
@@ -5642,6 +5497,41 @@
    "atualizado": "2026-11-25T10:40+00:00"
   },
   {
+   "chave": "SJP-BKK-premium",
+   "origem": "SJP",
+   "destino": "BKK",
+   "cidade": "Bangkok",
+   "regiao": "asia",
+   "regiao_nome": "Ásia",
+   "classe": "premium",
+   "classe_nome": "Premium Economy",
+   "preco": 25003.0,
+   "moeda": "BRL",
+   "ida": "2027-04-23",
+   "volta": "2027-05-07",
+   "referencia": 30189.5,
+   "desconto": 0.1718,
+   "limite": 8625.0,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-04-23",
+     "volta": "2027-05-07",
+     "preco": 25003.0
+    },
+    {
+     "ida": "2026-11-29",
+     "volta": "2026-12-13",
+     "preco": 35376.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20BKK%20from%20SJP%20on%202027-04-23%20through%202027-05-07%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/bkk/270423/270507/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-26T23:13+00:00"
+  },
+  {
    "chave": "GRU-FRA-economica",
    "origem": "GRU",
    "destino": "FRA",
@@ -6170,46 +6060,6 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20FRA%20from%20VCP%20on%202027-06-07%20through%202027-06-17%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/fra/270607/270617/?adultsv2=1&cabinclass=business&rtn=1",
    "atualizado": "2026-11-26T10:41+00:00"
-  },
-  {
-   "chave": "SJP-BKK-economica",
-   "origem": "SJP",
-   "destino": "BKK",
-   "cidade": "Bangkok",
-   "regiao": "asia",
-   "regiao_nome": "Ásia",
-   "classe": "economica",
-   "classe_nome": "Econômica",
-   "preco": 12388.0,
-   "moeda": "BRL",
-   "ida": "2027-06-25",
-   "volta": "2027-07-09",
-   "referencia": 14411.0,
-   "desconto": 0.1404,
-   "limite": 5175.0,
-   "prioridade": "escolhido por você",
-   "datas_baratas": [
-    {
-     "ida": "2027-06-25",
-     "volta": "2027-07-09",
-     "preco": 12388.0
-    },
-    {
-     "ida": "2026-11-29",
-     "volta": "2026-12-13",
-     "preco": 14411.0
-    },
-    {
-     "ida": "2027-04-25",
-     "volta": "2027-05-09",
-     "preco": 17465.0
-    }
-   ],
-   "promocao": false,
-   "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20BKK%20from%20SJP%20on%202027-06-25%20through%202027-07-09%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/bkk/270625/270709/?adultsv2=1&cabinclass=economy&rtn=1",
-   "atualizado": "2026-11-26T02:06+00:00"
   },
   {
    "chave": "GRU-ZRH-economica",
@@ -7027,51 +6877,6 @@
    "atualizado": "2026-11-26T22:08+00:00"
   },
   {
-   "chave": "SJP-BKK-premium",
-   "origem": "SJP",
-   "destino": "BKK",
-   "cidade": "Bangkok",
-   "regiao": "asia",
-   "regiao_nome": "Ásia",
-   "classe": "premium",
-   "classe_nome": "Premium Economy",
-   "preco": 24905.0,
-   "moeda": "BRL",
-   "ida": "2027-04-19",
-   "volta": "2027-05-03",
-   "referencia": 27397.0,
-   "desconto": 0.091,
-   "limite": 8625.0,
-   "prioridade": "escolhido por você",
-   "datas_baratas": [
-    {
-     "ida": "2027-04-19",
-     "volta": "2027-05-03",
-     "preco": 24905.0
-    },
-    {
-     "ida": "2027-06-19",
-     "volta": "2027-07-03",
-     "preco": 24905.0
-    },
-    {
-     "ida": "2027-02-12",
-     "volta": "2027-02-26",
-     "preco": 29889.0
-    },
-    {
-     "ida": "2026-11-30",
-     "volta": "2026-12-14",
-     "preco": 35234.0
-    }
-   ],
-   "promocao": false,
-   "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20BKK%20from%20SJP%20on%202027-04-19%20through%202027-05-03%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/bkk/270419/270503/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
-   "atualizado": "2026-11-26T02:06+00:00"
-  },
-  {
    "chave": "SJP-MCO-economica",
    "origem": "SJP",
    "destino": "MCO",
@@ -7222,6 +7027,41 @@
    "atualizado": "2026-11-25T12:47+00:00"
   },
   {
+   "chave": "SJP-HND-premium",
+   "origem": "SJP",
+   "destino": "HND",
+   "cidade": "Tóquio (Haneda)",
+   "regiao": "asia",
+   "regiao_nome": "Ásia",
+   "classe": "premium",
+   "classe_nome": "Premium Economy",
+   "preco": 42178.0,
+   "moeda": "BRL",
+   "ida": "2027-06-29",
+   "volta": "2027-07-13",
+   "referencia": 45811.0,
+   "desconto": 0.0793,
+   "limite": 8625.0,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-06-29",
+     "volta": "2027-07-13",
+     "preco": 42178.0
+    },
+    {
+     "ida": "2027-01-15",
+     "volta": "2027-01-29",
+     "preco": 81968.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20HND%20from%20SJP%20on%202027-06-29%20through%202027-07-13%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/hnd/270629/270713/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-26T23:11+00:00"
+  },
+  {
    "chave": "SJP-MUC-premium",
    "origem": "SJP",
    "destino": "MUC",
@@ -7260,51 +7100,6 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20MUC%20from%20SJP%20on%202026-12-21%20through%202026-12-31%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/muc/261221/261231/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
    "atualizado": "2026-11-26T19:52+00:00"
-  },
-  {
-   "chave": "SJP-NRT-executiva",
-   "origem": "SJP",
-   "destino": "NRT",
-   "cidade": "Tóquio (Narita)",
-   "regiao": "asia",
-   "regiao_nome": "Ásia",
-   "classe": "executiva",
-   "classe_nome": "Executiva",
-   "preco": 38462.0,
-   "moeda": "BRL",
-   "ida": "2027-06-20",
-   "volta": "2027-07-04",
-   "referencia": 41677.5,
-   "desconto": 0.0772,
-   "limite": 14949.999999999998,
-   "prioridade": "escolhido por você",
-   "datas_baratas": [
-    {
-     "ida": "2027-06-20",
-     "volta": "2027-07-04",
-     "preco": 38462.0
-    },
-    {
-     "ida": "2027-02-19",
-     "volta": "2027-03-05",
-     "preco": 41613.0
-    },
-    {
-     "ida": "2027-04-27",
-     "volta": "2027-05-11",
-     "preco": 41742.0
-    },
-    {
-     "ida": "2026-12-10",
-     "volta": "2026-12-24",
-     "preco": 56539.0
-    }
-   ],
-   "promocao": false,
-   "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20NRT%20from%20SJP%20on%202027-06-20%20through%202027-07-04%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/nrt/270620/270704/?adultsv2=1&cabinclass=business&rtn=1",
-   "atualizado": "2026-11-26T02:03+00:00"
   },
   {
    "chave": "CGH-ZRH-executiva",
@@ -7605,51 +7400,6 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20MCO%20from%20GRU%20on%202027-04-04%20through%202027-04-14%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/mco/270404/270414/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
    "atualizado": "2026-11-26T03:07+00:00"
-  },
-  {
-   "chave": "SJP-HND-economica",
-   "origem": "SJP",
-   "destino": "HND",
-   "cidade": "Tóquio (Haneda)",
-   "regiao": "asia",
-   "regiao_nome": "Ásia",
-   "classe": "economica",
-   "classe_nome": "Econômica",
-   "preco": 12670.0,
-   "moeda": "BRL",
-   "ida": "2027-04-07",
-   "volta": "2027-04-21",
-   "referencia": 13449.0,
-   "desconto": 0.0579,
-   "limite": 5175.0,
-   "prioridade": "escolhido por você",
-   "datas_baratas": [
-    {
-     "ida": "2027-04-07",
-     "volta": "2027-04-21",
-     "preco": 12670.0
-    },
-    {
-     "ida": "2027-06-03",
-     "volta": "2027-06-17",
-     "preco": 13379.0
-    },
-    {
-     "ida": "2027-02-20",
-     "volta": "2027-03-06",
-     "preco": 13519.0
-    },
-    {
-     "ida": "2026-12-15",
-     "volta": "2026-12-29",
-     "preco": 25679.0
-    }
-   ],
-   "promocao": false,
-   "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20HND%20from%20SJP%20on%202027-04-07%20through%202027-04-21%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/hnd/270407/270421/?adultsv2=1&cabinclass=economy&rtn=1",
-   "atualizado": "2026-11-26T02:04+00:00"
   },
   {
    "chave": "VCP-AUS-executiva",
@@ -7972,51 +7722,6 @@
    "atualizado": "2026-11-26T21:05+00:00"
   },
   {
-   "chave": "SJP-NRT-economica",
-   "origem": "SJP",
-   "destino": "NRT",
-   "cidade": "Tóquio (Narita)",
-   "regiao": "asia",
-   "regiao_nome": "Ásia",
-   "classe": "economica",
-   "classe_nome": "Econômica",
-   "preco": 10640.0,
-   "moeda": "BRL",
-   "ida": "2027-04-06",
-   "volta": "2027-04-20",
-   "referencia": 10938.5,
-   "desconto": 0.0273,
-   "limite": 5175.0,
-   "prioridade": "escolhido por você",
-   "datas_baratas": [
-    {
-     "ida": "2027-04-06",
-     "volta": "2027-04-20",
-     "preco": 10640.0
-    },
-    {
-     "ida": "2027-06-02",
-     "volta": "2027-06-16",
-     "preco": 10640.0
-    },
-    {
-     "ida": "2027-02-19",
-     "volta": "2027-03-05",
-     "preco": 11237.0
-    },
-    {
-     "ida": "2026-12-01",
-     "volta": "2026-12-15",
-     "preco": 17993.0
-    }
-   ],
-   "promocao": false,
-   "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20NRT%20from%20SJP%20on%202027-04-06%20through%202027-04-20%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/nrt/270406/270420/?adultsv2=1&cabinclass=economy&rtn=1",
-   "atualizado": "2026-11-26T02:02+00:00"
-  },
-  {
    "chave": "CGH-AUS-executiva",
    "origem": "CGH",
    "destino": "AUS",
@@ -8215,6 +7920,46 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20BKK%20from%20GRU%20on%202027-04-03%20through%202027-04-17%20first%20class&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/bkk/270403/270417/?adultsv2=1&cabinclass=first&rtn=1",
    "atualizado": "2026-11-26T09:22+00:00"
+  },
+  {
+   "chave": "SJP-NRT-economica",
+   "origem": "SJP",
+   "destino": "NRT",
+   "cidade": "Tóquio (Narita)",
+   "regiao": "asia",
+   "regiao_nome": "Ásia",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 10679.0,
+   "moeda": "BRL",
+   "ida": "2027-04-22",
+   "volta": "2027-05-06",
+   "referencia": 10914.0,
+   "desconto": 0.0215,
+   "limite": 5175.0,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-04-22",
+     "volta": "2027-05-06",
+     "preco": 10679.0
+    },
+    {
+     "ida": "2027-06-13",
+     "volta": "2027-06-27",
+     "preco": 10679.0
+    },
+    {
+     "ida": "2027-02-15",
+     "volta": "2027-03-01",
+     "preco": 12556.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20NRT%20from%20SJP%20on%202027-04-22%20through%202027-05-06%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/nrt/270422/270506/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-26T23:09+00:00"
   },
   {
    "chave": "SJP-AUH-economica",
@@ -8732,6 +8477,81 @@
    "atualizado": "2026-11-26T18:38+00:00"
   },
   {
+   "chave": "SJP-NRT-premium",
+   "origem": "SJP",
+   "destino": "NRT",
+   "cidade": "Tóquio (Narita)",
+   "regiao": "asia",
+   "regiao_nome": "Ásia",
+   "classe": "premium",
+   "classe_nome": "Premium Economy",
+   "preco": 22747.0,
+   "moeda": "BRL",
+   "ida": "2027-02-03",
+   "volta": "2027-02-17",
+   "referencia": 22957.0,
+   "desconto": 0.0091,
+   "limite": 8625.0,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-03",
+     "volta": "2027-02-17",
+     "preco": 22747.0
+    },
+    {
+     "ida": "2027-04-24",
+     "volta": "2027-05-08",
+     "preco": 23049.0
+    },
+    {
+     "ida": "2027-06-19",
+     "volta": "2027-07-03",
+     "preco": 25174.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20NRT%20from%20SJP%20on%202027-02-03%20through%202027-02-17%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/nrt/270203/270217/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-26T23:10+00:00"
+  },
+  {
+   "chave": "SJP-HND-executiva",
+   "origem": "SJP",
+   "destino": "HND",
+   "cidade": "Tóquio (Haneda)",
+   "regiao": "asia",
+   "regiao_nome": "Ásia",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 41162.0,
+   "moeda": "BRL",
+   "ida": "2027-05-31",
+   "volta": "2027-06-14",
+   "referencia": 41497.0,
+   "desconto": 0.0081,
+   "limite": 14949.999999999998,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-05-31",
+     "volta": "2027-06-14",
+     "preco": 41162.0
+    },
+    {
+     "ida": "2027-04-01",
+     "volta": "2027-04-15",
+     "preco": 47368.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20HND%20from%20SJP%20on%202027-05-31%20through%202027-06-14%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/hnd/270531/270614/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-26T23:12+00:00"
+  },
+  {
    "chave": "SJP-ZRH-economica",
    "origem": "SJP",
    "destino": "ZRH",
@@ -9192,6 +9012,66 @@
    "atualizado": "2026-11-26T18:37+00:00"
   },
   {
+   "chave": "SJP-NRT-executiva",
+   "origem": "SJP",
+   "destino": "NRT",
+   "cidade": "Tóquio (Narita)",
+   "regiao": "asia",
+   "regiao_nome": "Ásia",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 41170.0,
+   "moeda": "BRL",
+   "ida": "2027-02-02",
+   "volta": "2027-02-16",
+   "referencia": 41170.0,
+   "desconto": 0.0,
+   "limite": 14949.999999999998,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-02",
+     "volta": "2027-02-16",
+     "preco": 41170.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20NRT%20from%20SJP%20on%202027-02-02%20through%202027-02-16%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/nrt/270202/270216/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-26T23:10+00:00"
+  },
+  {
+   "chave": "SJP-BKK-executiva",
+   "origem": "SJP",
+   "destino": "BKK",
+   "cidade": "Bangkok",
+   "regiao": "asia",
+   "regiao_nome": "Ásia",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 45510.0,
+   "moeda": "BRL",
+   "ida": "2027-04-15",
+   "volta": "2027-04-29",
+   "referencia": 45510.0,
+   "desconto": 0.0,
+   "limite": 14949.999999999998,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2027-04-15",
+     "volta": "2027-04-29",
+     "preco": 45510.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20BKK%20from%20SJP%20on%202027-04-15%20through%202027-04-29%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/bkk/270415/270429/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-26T23:13+00:00"
+  },
+  {
    "chave": "SJP-BKK-primeira",
    "origem": "SJP",
    "destino": "BKK",
@@ -9535,6 +9415,36 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20AUS%20from%20SJP%20on%202027-04-19%20through%202027-04-29%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/aus/270419/270429/?adultsv2=1&cabinclass=business&rtn=1",
    "atualizado": "2026-11-26T19:49+00:00"
+  },
+  {
+   "chave": "SJP-BKK-economica",
+   "origem": "SJP",
+   "destino": "BKK",
+   "cidade": "Bangkok",
+   "regiao": "asia",
+   "regiao_nome": "Ásia",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 13645.0,
+   "moeda": "BRL",
+   "ida": "2026-12-09",
+   "volta": "2026-12-23",
+   "referencia": 11919.0,
+   "desconto": -0.1448,
+   "limite": 5175.0,
+   "prioridade": "escolhido por você",
+   "datas_baratas": [
+    {
+     "ida": "2026-12-09",
+     "volta": "2026-12-23",
+     "preco": 13645.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20BKK%20from%20SJP%20on%202026-12-09%20through%202026-12-23%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/bkk/261209/261223/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-26T23:12+00:00"
   },
   {
    "chave": "SJP-MXP-economica",
@@ -16557,6 +16467,56 @@
    "atualizado": "2026-11-24T16:29+00:00"
   },
   {
+   "chave": "GRU-PRG-executiva",
+   "origem": "GRU",
+   "destino": "PRG",
+   "cidade": "Praga",
+   "regiao": "europa",
+   "regiao_nome": "Europa",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 14915.0,
+   "moeda": "BRL",
+   "ida": "2027-02-27",
+   "volta": "2027-03-09",
+   "referencia": 16236.0,
+   "desconto": 0.0814,
+   "limite": 9000.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-27",
+     "volta": "2027-03-09",
+     "preco": 14915.0
+    },
+    {
+     "ida": "2027-02-14",
+     "volta": "2027-02-24",
+     "preco": 14927.0
+    },
+    {
+     "ida": "2027-02-15",
+     "volta": "2027-02-25",
+     "preco": 14927.0
+    },
+    {
+     "ida": "2027-03-01",
+     "volta": "2027-03-11",
+     "preco": 14927.0
+    },
+    {
+     "ida": "2027-02-13",
+     "volta": "2027-02-23",
+     "preco": 14931.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20PRG%20from%20GRU%20on%202027-02-27%20through%202027-03-09%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/prg/270227/270309/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-26T23:14+00:00"
+  },
+  {
    "chave": "GRU-LIS-economica",
    "origem": "GRU",
    "destino": "LIS",
@@ -21210,13 +21170,13 @@
    "destino": "DXB",
    "ida": "2026-12-11",
    "volta": null,
-   "verificado": "2026-11-26T16:19+00:00"
+   "verificado": "2026-11-26T23:07+00:00"
   },
   {
    "nome": "Emirates 2/4: Dubai → Bangkok",
    "classes": {
     "economica": {
-     "preco": 4913.0,
+     "preco": 4840.0,
      "diferenca": 0.0,
      "mesmos_voos": true,
      "voos_ida": [
@@ -21226,8 +21186,8 @@
      "google": "https://www.google.com/travel/flights?q=Flights%20to%20BKK%20from%20DXB%20on%202026-12-17%20economy&curr=BRL&hl=pt-BR&gl=BR"
     },
     "premium": {
-     "preco": 7803.0,
-     "diferenca": 2890.0,
+     "preco": 7687.0,
+     "diferenca": 2847.0,
      "mesmos_voos": true,
      "voos_ida": [
       "EK374"
@@ -21236,8 +21196,8 @@
      "google": "https://www.google.com/travel/flights?q=Flights%20to%20BKK%20from%20DXB%20on%202026-12-17%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR"
     },
     "executiva": {
-     "preco": 13817.0,
-     "diferenca": 8904.0,
+     "preco": 13612.0,
+     "diferenca": 8772.0,
      "mesmos_voos": true,
      "voos_ida": [
       "EK374"
@@ -21246,8 +21206,8 @@
      "google": "https://www.google.com/travel/flights?q=Flights%20to%20BKK%20from%20DXB%20on%202026-12-17%20business%20class&curr=BRL&hl=pt-BR&gl=BR"
     },
     "primeira": {
-     "preco": 29343.0,
-     "diferenca": 24430.0,
+     "preco": 28909.0,
+     "diferenca": 24069.0,
      "mesmos_voos": true,
      "voos_ida": [
       "EK374"
@@ -21257,19 +21217,19 @@
     }
    },
    "menor_diferenca": {
-    "premium": 2890.0,
-    "primeira": 24430.0,
-    "executiva": 8904.0
+    "premium": 2847.0,
+    "primeira": 24069.0,
+    "executiva": 8772.0
    },
    "pago": null,
-   "referencia": 4913.0,
+   "referencia": 4840.0,
    "tarifa": "Economy Flex",
    "classe_comprada": "economica",
    "origem": "DXB",
    "destino": "BKK",
    "ida": "2026-12-17",
    "volta": null,
-   "verificado": "2026-11-26T16:19+00:00"
+   "verificado": "2026-11-26T23:07+00:00"
   },
   {
    "nome": "Emirates 3/4: Tóquio → Dubai",
