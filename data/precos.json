@@ -10864,6 +10864,10 @@
    [
     "2026-11-25T12:48+00:00",
     8879.0
+   ],
+   [
+    "2026-11-26T11:38+00:00",
+    9187.0
    ]
   ],
   "atual": {
@@ -10875,46 +10879,46 @@
    "regiao_nome": "Europa",
    "classe": "premium",
    "classe_nome": "Premium Economy",
-   "preco": 8879.0,
+   "preco": 9187.0,
    "moeda": "BRL",
    "ida": "2027-02-16",
    "volta": "2027-02-26",
-   "referencia": 11101.0,
-   "desconto": 0.2002,
+   "referencia": 11126.0,
+   "desconto": 0.1743,
    "limite": 5750.0,
    "prioridade": "escolhido por você",
    "datas_baratas": [
     {
      "ida": "2027-02-16",
      "volta": "2027-02-26",
-     "preco": 8879.0
+     "preco": 9187.0
     },
     {
      "ida": "2026-12-02",
      "volta": "2026-12-12",
-     "preco": 9199.0
+     "preco": 9274.0
+    },
+    {
+     "ida": "2027-02-17",
+     "volta": "2027-02-27",
+     "preco": 9281.0
     },
     {
      "ida": "2027-02-23",
      "volta": "2027-03-05",
-     "preco": 9553.0
+     "preco": 9281.0
     },
     {
-     "ida": "2027-02-25",
-     "volta": "2027-03-07",
-     "preco": 9793.0
-    },
-    {
-     "ida": "2026-12-21",
-     "volta": "2026-12-31",
-     "preco": 10030.0
+     "ida": "2026-12-03",
+     "volta": "2026-12-13",
+     "preco": 9367.0
     }
    ],
    "promocao": false,
    "motivos": [],
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20FCO%20from%20VCP%20on%202027-02-16%20through%202027-02-26%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/fco/270216/270226/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
-   "atualizado": "2026-11-25T12:48+00:00"
+   "atualizado": "2026-11-26T11:38+00:00"
   }
  },
  "VCP-FCO-executiva": {
@@ -10926,6 +10930,10 @@
    [
     "2026-11-25T14:02+00:00",
     18876.0
+   ],
+   [
+    "2026-11-26T11:38+00:00",
+    13979.0
    ]
   ],
   "atual": {
@@ -10937,46 +10945,46 @@
    "regiao_nome": "Europa",
    "classe": "executiva",
    "classe_nome": "Executiva",
-   "preco": 18876.0,
+   "preco": 13979.0,
    "moeda": "BRL",
-   "ida": "2027-06-15",
-   "volta": "2027-06-25",
-   "referencia": 21692.0,
-   "desconto": 0.1298,
+   "ida": "2026-12-19",
+   "volta": "2026-12-29",
+   "referencia": 21931.0,
+   "desconto": 0.3626,
    "limite": 10350.0,
    "prioridade": "escolhido por você",
    "datas_baratas": [
     {
-     "ida": "2027-06-15",
-     "volta": "2027-06-25",
-     "preco": 18876.0
+     "ida": "2026-12-19",
+     "volta": "2026-12-29",
+     "preco": 13979.0
     },
     {
-     "ida": "2027-06-22",
-     "volta": "2027-07-02",
-     "preco": 18877.0
+     "ida": "2026-12-22",
+     "volta": "2027-01-01",
+     "preco": 14110.0
     },
     {
-     "ida": "2027-07-17",
-     "volta": "2027-07-27",
-     "preco": 19089.0
+     "ida": "2026-12-31",
+     "volta": "2027-01-10",
+     "preco": 14110.0
     },
     {
-     "ida": "2027-06-07",
-     "volta": "2027-06-17",
-     "preco": 19098.0
+     "ida": "2026-12-21",
+     "volta": "2026-12-31",
+     "preco": 18267.0
     },
     {
-     "ida": "2027-06-28",
-     "volta": "2027-07-08",
-     "preco": 19098.0
+     "ida": "2027-05-29",
+     "volta": "2027-06-08",
+     "preco": 18754.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FCO%20from%20VCP%20on%202027-06-15%20through%202027-06-25%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/fco/270615/270625/?adultsv2=1&cabinclass=business&rtn=1",
-   "atualizado": "2026-11-25T14:02+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FCO%20from%20VCP%20on%202026-12-19%20through%202026-12-29%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/fco/261219/261229/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-26T11:38+00:00"
   }
  },
  "VCP-FCO-primeira": {
@@ -11324,6 +11332,10 @@
    [
     "2026-11-25T14:03+00:00",
     9876.0
+   ],
+   [
+    "2026-11-26T11:39+00:00",
+    7839.0
    ]
   ],
   "atual": {
@@ -11335,46 +11347,46 @@
    "regiao_nome": "Oriente Médio",
    "classe": "economica",
    "classe_nome": "Econômica",
-   "preco": 9876.0,
+   "preco": 7839.0,
    "moeda": "BRL",
-   "ida": "2027-01-15",
-   "volta": "2027-01-25",
-   "referencia": 13399.0,
-   "desconto": 0.2629,
+   "ida": "2027-05-29",
+   "volta": "2027-06-08",
+   "referencia": 13680.0,
+   "desconto": 0.427,
    "limite": 4370.0,
    "prioridade": "escolhido por você",
    "datas_baratas": [
     {
-     "ida": "2027-01-15",
-     "volta": "2027-01-25",
-     "preco": 9876.0
+     "ida": "2027-05-29",
+     "volta": "2027-06-08",
+     "preco": 7839.0
     },
     {
-     "ida": "2027-01-12",
-     "volta": "2027-01-22",
-     "preco": 9985.0
+     "ida": "2027-06-02",
+     "volta": "2027-06-12",
+     "preco": 7839.0
     },
     {
-     "ida": "2027-01-18",
-     "volta": "2027-01-28",
-     "preco": 9985.0
+     "ida": "2027-02-06",
+     "volta": "2027-02-16",
+     "preco": 7840.0
     },
     {
-     "ida": "2027-01-11",
-     "volta": "2027-01-21",
-     "preco": 10198.0
+     "ida": "2027-02-11",
+     "volta": "2027-02-21",
+     "preco": 7840.0
     },
     {
-     "ida": "2027-01-20",
-     "volta": "2027-01-30",
-     "preco": 10342.0
+     "ida": "2027-02-12",
+     "volta": "2027-02-22",
+     "preco": 7840.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20DXB%20from%20VCP%20on%202027-01-15%20through%202027-01-25%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/dxb/270115/270125/?adultsv2=1&cabinclass=economy&rtn=1",
-   "atualizado": "2026-11-25T14:03+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20DXB%20from%20VCP%20on%202027-05-29%20through%202027-06-08%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/dxb/270529/270608/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-26T11:39+00:00"
   }
  },
  "VCP-DXB-premium": {
@@ -11386,6 +11398,10 @@
    [
     "2026-11-25T14:03+00:00",
     13025.0
+   ],
+   [
+    "2026-11-26T11:39+00:00",
+    12929.0
    ]
   ],
   "atual": {
@@ -11397,46 +11413,46 @@
    "regiao_nome": "Oriente Médio",
    "classe": "premium",
    "classe_nome": "Premium Economy",
-   "preco": 13025.0,
+   "preco": 12929.0,
    "moeda": "BRL",
-   "ida": "2027-03-22",
-   "volta": "2027-04-01",
-   "referencia": 21843.0,
-   "desconto": 0.4037,
+   "ida": "2027-06-12",
+   "volta": "2027-06-22",
+   "referencia": 21410.0,
+   "desconto": 0.3961,
    "limite": 6899.999999999999,
    "prioridade": "escolhido por você",
    "datas_baratas": [
     {
+     "ida": "2027-06-12",
+     "volta": "2027-06-22",
+     "preco": 12929.0
+    },
+    {
+     "ida": "2027-05-29",
+     "volta": "2027-06-08",
+     "preco": 12986.0
+    },
+    {
+     "ida": "2027-06-16",
+     "volta": "2027-06-26",
+     "preco": 12986.0
+    },
+    {
+     "ida": "2027-06-05",
+     "volta": "2027-06-15",
+     "preco": 13027.0
+    },
+    {
      "ida": "2027-03-22",
      "volta": "2027-04-01",
-     "preco": 13025.0
-    },
-    {
-     "ida": "2027-02-16",
-     "volta": "2027-02-26",
-     "preco": 13050.0
-    },
-    {
-     "ida": "2027-02-17",
-     "volta": "2027-02-27",
-     "preco": 13050.0
-    },
-    {
-     "ida": "2027-02-25",
-     "volta": "2027-03-07",
-     "preco": 13050.0
-    },
-    {
-     "ida": "2027-03-01",
-     "volta": "2027-03-11",
-     "preco": 13050.0
+     "preco": 13079.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20DXB%20from%20VCP%20on%202027-03-22%20through%202027-04-01%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/dxb/270322/270401/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
-   "atualizado": "2026-11-25T14:03+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20DXB%20from%20VCP%20on%202027-06-12%20through%202027-06-22%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/dxb/270612/270622/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-26T11:39+00:00"
   }
  },
  "VCP-DXB-executiva": {
@@ -11444,6 +11460,10 @@
    [
     "2026-11-25T14:03+00:00",
     30807.0
+   ],
+   [
+    "2026-11-26T11:39+00:00",
+    30926.0
    ]
   ],
   "atual": {
@@ -11455,46 +11475,46 @@
    "regiao_nome": "Oriente Médio",
    "classe": "executiva",
    "classe_nome": "Executiva",
-   "preco": 30807.0,
+   "preco": 30926.0,
    "moeda": "BRL",
    "ida": "2026-11-29",
    "volta": "2026-12-09",
-   "referencia": 39118.0,
-   "desconto": 0.2125,
+   "referencia": 41715.0,
+   "desconto": 0.2586,
    "limite": 11500.0,
    "prioridade": "escolhido por você",
    "datas_baratas": [
     {
      "ida": "2026-11-29",
      "volta": "2026-12-09",
-     "preco": 30807.0
+     "preco": 30926.0
     },
     {
-     "ida": "2027-01-09",
-     "volta": "2027-01-19",
-     "preco": 30810.0
-    },
-    {
-     "ida": "2027-01-11",
-     "volta": "2027-01-21",
-     "preco": 30810.0
+     "ida": "2026-12-14",
+     "volta": "2026-12-24",
+     "preco": 30926.0
     },
     {
      "ida": "2027-01-15",
      "volta": "2027-01-25",
-     "preco": 30810.0
+     "preco": 30929.0
     },
     {
-     "ida": "2027-01-16",
-     "volta": "2027-01-26",
-     "preco": 30810.0
+     "ida": "2027-01-20",
+     "volta": "2027-01-30",
+     "preco": 30929.0
+    },
+    {
+     "ida": "2027-01-22",
+     "volta": "2027-02-01",
+     "preco": 30929.0
     }
    ],
    "promocao": false,
    "motivos": [],
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20DXB%20from%20VCP%20on%202026-11-29%20through%202026-12-09%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/dxb/261129/261209/?adultsv2=1&cabinclass=business&rtn=1",
-   "atualizado": "2026-11-25T14:03+00:00"
+   "atualizado": "2026-11-26T11:39+00:00"
   }
  },
  "VCP-DXB-primeira": {
@@ -11505,6 +11525,10 @@
    ],
    [
     "2026-11-25T14:03+00:00",
+    107099.0
+   ],
+   [
+    "2026-11-26T11:39+00:00",
     107099.0
    ]
   ],
@@ -11519,44 +11543,44 @@
    "classe_nome": "Primeira Classe",
    "preco": 107099.0,
    "moeda": "BRL",
-   "ida": "2026-12-02",
-   "volta": "2026-12-12",
-   "referencia": 183942.0,
-   "desconto": 0.4178,
+   "ida": "2027-01-27",
+   "volta": "2027-02-06",
+   "referencia": 180455.0,
+   "desconto": 0.4065,
    "limite": 20700.0,
    "prioridade": "escolhido por você",
    "datas_baratas": [
     {
-     "ida": "2026-12-02",
-     "volta": "2026-12-12",
+     "ida": "2027-01-27",
+     "volta": "2027-02-06",
+     "preco": 107099.0
+    },
+    {
+     "ida": "2027-05-29",
+     "volta": "2027-06-08",
      "preco": 107099.0
     },
     {
      "ida": "2027-01-11",
      "volta": "2027-01-21",
-     "preco": 107099.0
+     "preco": 107554.0
     },
     {
      "ida": "2027-01-13",
      "volta": "2027-01-23",
-     "preco": 107099.0
+     "preco": 107554.0
     },
     {
      "ida": "2027-01-14",
      "volta": "2027-01-24",
-     "preco": 107099.0
-    },
-    {
-     "ida": "2027-01-15",
-     "volta": "2027-01-25",
-     "preco": 107099.0
+     "preco": 107554.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20DXB%20from%20VCP%20on%202026-12-02%20through%202026-12-12%20first%20class&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/dxb/261202/261212/?adultsv2=1&cabinclass=first&rtn=1",
-   "atualizado": "2026-11-25T14:03+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20DXB%20from%20VCP%20on%202027-01-27%20through%202027-02-06%20first%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/dxb/270127/270206/?adultsv2=1&cabinclass=first&rtn=1",
+   "atualizado": "2026-11-26T11:39+00:00"
   }
  },
  "VCP-AUH-economica": {
@@ -11568,6 +11592,10 @@
    [
     "2026-11-25T14:03+00:00",
     50916.0
+   ],
+   [
+    "2026-11-26T11:39+00:00",
+    51115.0
    ]
   ],
   "atual": {
@@ -11579,46 +11607,46 @@
    "regiao_nome": "Oriente Médio",
    "classe": "economica",
    "classe_nome": "Econômica",
-   "preco": 50916.0,
+   "preco": 51115.0,
    "moeda": "BRL",
-   "ida": "2027-02-21",
-   "volta": "2027-03-03",
-   "referencia": 50916.0,
+   "ida": "2026-12-03",
+   "volta": "2026-12-13",
+   "referencia": 51115.0,
    "desconto": 0.0,
    "limite": 4370.0,
    "prioridade": "perto de Dubai (116 km)",
    "datas_baratas": [
     {
-     "ida": "2027-02-21",
-     "volta": "2027-03-03",
-     "preco": 50916.0
+     "ida": "2026-12-03",
+     "volta": "2026-12-13",
+     "preco": 51115.0
     },
     {
-     "ida": "2027-02-22",
-     "volta": "2027-03-04",
-     "preco": 50916.0
+     "ida": "2026-12-10",
+     "volta": "2026-12-20",
+     "preco": 51115.0
     },
     {
-     "ida": "2027-02-25",
-     "volta": "2027-03-07",
-     "preco": 50916.0
+     "ida": "2026-12-14",
+     "volta": "2026-12-24",
+     "preco": 51115.0
     },
     {
-     "ida": "2027-02-28",
-     "volta": "2027-03-10",
-     "preco": 50916.0
+     "ida": "2026-12-17",
+     "volta": "2026-12-27",
+     "preco": 51115.0
     },
     {
-     "ida": "2027-03-01",
-     "volta": "2027-03-11",
-     "preco": 50916.0
+     "ida": "2026-12-24",
+     "volta": "2027-01-03",
+     "preco": 51115.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20AUH%20from%20VCP%20on%202027-02-21%20through%202027-03-03%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/auh/270221/270303/?adultsv2=1&cabinclass=economy&rtn=1",
-   "atualizado": "2026-11-25T14:03+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20AUH%20from%20VCP%20on%202026-12-03%20through%202026-12-13%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/auh/261203/261213/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-26T11:39+00:00"
   }
  },
  "VCP-AUH-premium": {
@@ -11630,6 +11658,10 @@
    [
     "2026-11-25T14:03+00:00",
     45698.0
+   ],
+   [
+    "2026-11-26T11:39+00:00",
+    27426.0
    ]
   ],
   "atual": {
@@ -11641,46 +11673,46 @@
    "regiao_nome": "Oriente Médio",
    "classe": "premium",
    "classe_nome": "Premium Economy",
-   "preco": 45698.0,
+   "preco": 27426.0,
    "moeda": "BRL",
-   "ida": "2027-06-05",
-   "volta": "2027-06-15",
-   "referencia": 73264.0,
-   "desconto": 0.3763,
+   "ida": "2027-03-21",
+   "volta": "2027-03-31",
+   "referencia": 54541.0,
+   "desconto": 0.4971,
    "limite": 6899.999999999999,
    "prioridade": "perto de Dubai (116 km)",
    "datas_baratas": [
     {
-     "ida": "2027-06-05",
-     "volta": "2027-06-15",
-     "preco": 45698.0
+     "ida": "2027-03-21",
+     "volta": "2027-03-31",
+     "preco": 27426.0
     },
     {
-     "ida": "2027-06-18",
-     "volta": "2027-06-28",
-     "preco": 54265.0
+     "ida": "2026-12-11",
+     "volta": "2026-12-21",
+     "preco": 32622.0
     },
     {
-     "ida": "2027-07-17",
-     "volta": "2027-07-27",
-     "preco": 54265.0
+     "ida": "2026-12-18",
+     "volta": "2026-12-28",
+     "preco": 35372.0
     },
     {
-     "ida": "2027-05-12",
-     "volta": "2027-05-22",
-     "preco": 73087.0
+     "ida": "2026-12-08",
+     "volta": "2026-12-18",
+     "preco": 38901.0
     },
     {
-     "ida": "2027-05-19",
-     "volta": "2027-05-29",
-     "preco": 73087.0
+     "ida": "2027-01-15",
+     "volta": "2027-01-25",
+     "preco": 39041.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20AUH%20from%20VCP%20on%202027-06-05%20through%202027-06-15%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/auh/270605/270615/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
-   "atualizado": "2026-11-25T14:03+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20AUH%20from%20VCP%20on%202027-03-21%20through%202027-03-31%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/auh/270321/270331/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-26T11:39+00:00"
   }
  },
  "VCP-AUH-executiva": {
@@ -18183,6 +18215,10 @@
    [
     "2026-11-25T14:02+00:00",
     5255.0
+   ],
+   [
+    "2026-11-26T11:38+00:00",
+    5208.0
    ]
   ],
   "atual": {
@@ -18194,46 +18230,46 @@
    "regiao_nome": "Europa",
    "classe": "economica",
    "classe_nome": "Econômica",
-   "preco": 5255.0,
+   "preco": 5208.0,
    "moeda": "BRL",
-   "ida": "2027-03-23",
-   "volta": "2027-04-02",
-   "referencia": 8010.5,
-   "desconto": 0.344,
+   "ida": "2027-03-27",
+   "volta": "2027-04-06",
+   "referencia": 7392.0,
+   "desconto": 0.2955,
    "limite": 3219.9999999999995,
    "prioridade": "perto de Zurique (204 km)",
    "datas_baratas": [
     {
+     "ida": "2027-03-27",
+     "volta": "2027-04-06",
+     "preco": 5208.0
+    },
+    {
      "ida": "2027-03-23",
      "volta": "2027-04-02",
-     "preco": 5255.0
+     "preco": 5269.0
     },
     {
      "ida": "2027-03-20",
      "volta": "2027-03-30",
-     "preco": 5486.0
+     "preco": 5502.0
     },
     {
-     "ida": "2027-03-27",
-     "volta": "2027-04-06",
-     "preco": 5486.0
-    },
-    {
-     "ida": "2027-02-27",
-     "volta": "2027-03-09",
-     "preco": 5896.0
+     "ida": "2027-03-30",
+     "volta": "2027-04-09",
+     "preco": 5563.0
     },
     {
      "ida": "2027-03-02",
      "volta": "2027-03-12",
-     "preco": 5900.0
+     "preco": 5681.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MXP%20from%20VCP%20on%202027-03-23%20through%202027-04-02%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/mxp/270323/270402/?adultsv2=1&cabinclass=economy&rtn=1",
-   "atualizado": "2026-11-25T14:02+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MXP%20from%20VCP%20on%202027-03-27%20through%202027-04-06%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/mxp/270327/270406/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-26T11:38+00:00"
   }
  },
  "VCP-MXP-premium": {
@@ -18241,6 +18277,10 @@
    [
     "2026-11-25T14:02+00:00",
     10040.0
+   ],
+   [
+    "2026-11-26T11:39+00:00",
+    9973.0
    ]
   ],
   "atual": {
@@ -18252,46 +18292,46 @@
    "regiao_nome": "Europa",
    "classe": "premium",
    "classe_nome": "Premium Economy",
-   "preco": 10040.0,
+   "preco": 9973.0,
    "moeda": "BRL",
    "ida": "2027-02-16",
    "volta": "2027-02-26",
-   "referencia": 11069.0,
-   "desconto": 0.093,
+   "referencia": 10913.0,
+   "desconto": 0.0861,
    "limite": 5750.0,
    "prioridade": "perto de Zurique (204 km)",
    "datas_baratas": [
     {
      "ida": "2027-02-16",
      "volta": "2027-02-26",
-     "preco": 10040.0
+     "preco": 9973.0
     },
     {
-     "ida": "2027-02-25",
-     "volta": "2027-03-07",
-     "preco": 10040.0
+     "ida": "2027-06-22",
+     "volta": "2027-07-02",
+     "preco": 9991.0
+    },
+    {
+     "ida": "2026-12-04",
+     "volta": "2026-12-14",
+     "preco": 10050.0
     },
     {
      "ida": "2027-02-17",
      "volta": "2027-02-27",
-     "preco": 10133.0
+     "preco": 10066.0
     },
     {
-     "ida": "2027-05-28",
-     "volta": "2027-06-07",
-     "preco": 10618.0
-    },
-    {
-     "ida": "2026-11-29",
-     "volta": "2026-12-09",
-     "preco": 10871.0
+     "ida": "2027-02-25",
+     "volta": "2027-03-07",
+     "preco": 10355.0
     }
    ],
    "promocao": false,
    "motivos": [],
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20MXP%20from%20VCP%20on%202027-02-16%20through%202027-02-26%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/mxp/270216/270226/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
-   "atualizado": "2026-11-25T14:02+00:00"
+   "atualizado": "2026-11-26T11:39+00:00"
   }
  },
  "VCP-MXP-executiva": {
@@ -18299,6 +18339,10 @@
    [
     "2026-11-25T14:02+00:00",
     20091.0
+   ],
+   [
+    "2026-11-26T11:39+00:00",
+    15114.0
    ]
   ],
   "atual": {
@@ -18310,53 +18354,53 @@
    "regiao_nome": "Europa",
    "classe": "executiva",
    "classe_nome": "Executiva",
-   "preco": 20091.0,
+   "preco": 15114.0,
    "moeda": "BRL",
-   "ida": "2027-02-12",
-   "volta": "2027-02-22",
-   "referencia": 22154.0,
-   "desconto": 0.0931,
+   "ida": "2026-12-31",
+   "volta": "2027-01-10",
+   "referencia": 22233.0,
+   "desconto": 0.3202,
    "limite": 10350.0,
    "prioridade": "perto de Zurique (204 km)",
    "datas_baratas": [
     {
-     "ida": "2027-02-12",
-     "volta": "2027-02-22",
-     "preco": 20091.0
+     "ida": "2026-12-31",
+     "volta": "2027-01-10",
+     "preco": 15114.0
     },
     {
-     "ida": "2027-02-16",
-     "volta": "2027-02-26",
-     "preco": 20091.0
+     "ida": "2026-12-21",
+     "volta": "2026-12-31",
+     "preco": 15233.0
     },
     {
-     "ida": "2027-02-17",
-     "volta": "2027-02-27",
-     "preco": 20091.0
+     "ida": "2026-12-22",
+     "volta": "2027-01-01",
+     "preco": 15237.0
     },
     {
-     "ida": "2027-02-25",
-     "volta": "2027-03-07",
-     "preco": 20091.0
+     "ida": "2026-12-19",
+     "volta": "2026-12-29",
+     "preco": 19428.0
     },
     {
-     "ida": "2027-02-27",
-     "volta": "2027-03-09",
-     "preco": 20091.0
+     "ida": "2026-12-25",
+     "volta": "2027-01-04",
+     "preco": 19555.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MXP%20from%20VCP%20on%202027-02-12%20through%202027-02-22%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/mxp/270212/270222/?adultsv2=1&cabinclass=business&rtn=1",
-   "atualizado": "2026-11-25T14:02+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MXP%20from%20VCP%20on%202026-12-31%20through%202027-01-10%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/mxp/261231/270110/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-26T11:39+00:00"
   }
  },
  "VCP-MXP-primeira": {
   "historico": [],
   "atual": null,
-  "vazias": 1,
-  "ultima_vazia": "2026-11-25"
+  "vazias": 2,
+  "ultima_vazia": "2026-11-26"
  },
  "SJP-SIN-primeira": {
   "historico": [
@@ -23749,6 +23793,368 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20CUN%20from%20GRU%20on%202027-06-01%20through%202027-06-11%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/cun/270601/270611/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
    "atualizado": "2026-11-26T10:42+00:00"
+  }
+ },
+ "GRU-CUN-executiva": {
+  "historico": [
+   [
+    "2026-11-26T11:40+00:00",
+    13683.0
+   ]
+  ],
+  "atual": {
+   "chave": "GRU-CUN-executiva",
+   "origem": "GRU",
+   "destino": "CUN",
+   "cidade": "Cancún",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 13683.0,
+   "moeda": "BRL",
+   "ida": "2027-03-06",
+   "volta": "2027-03-16",
+   "referencia": 13918.0,
+   "desconto": 0.0169,
+   "limite": 8000.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-03-06",
+     "volta": "2027-03-16",
+     "preco": 13683.0
+    },
+    {
+     "ida": "2027-03-08",
+     "volta": "2027-03-18",
+     "preco": 13683.0
+    },
+    {
+     "ida": "2027-03-09",
+     "volta": "2027-03-19",
+     "preco": 13683.0
+    },
+    {
+     "ida": "2027-04-05",
+     "volta": "2027-04-15",
+     "preco": 13683.0
+    },
+    {
+     "ida": "2027-04-06",
+     "volta": "2027-04-16",
+     "preco": 13683.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20CUN%20from%20GRU%20on%202027-03-06%20through%202027-03-16%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/cun/270306/270316/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-26T11:40+00:00"
+  }
+ },
+ "GRU-CUN-primeira": {
+  "historico": [],
+  "atual": null,
+  "vazias": 1,
+  "ultima_vazia": "2026-11-26"
+ },
+ "GRU-PTY-economica": {
+  "historico": [
+   [
+    "2026-11-26T11:40+00:00",
+    2825.0
+   ]
+  ],
+  "atual": {
+   "chave": "GRU-PTY-economica",
+   "origem": "GRU",
+   "destino": "PTY",
+   "cidade": "Cidade do Panamá",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 2825.0,
+   "moeda": "BRL",
+   "ida": "2027-02-19",
+   "volta": "2027-03-01",
+   "referencia": 2872.0,
+   "desconto": 0.0164,
+   "limite": 2600.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-19",
+     "volta": "2027-03-01",
+     "preco": 2825.0
+    },
+    {
+     "ida": "2027-02-20",
+     "volta": "2027-03-02",
+     "preco": 2825.0
+    },
+    {
+     "ida": "2027-02-21",
+     "volta": "2027-03-03",
+     "preco": 2825.0
+    },
+    {
+     "ida": "2027-02-22",
+     "volta": "2027-03-04",
+     "preco": 2825.0
+    },
+    {
+     "ida": "2027-02-23",
+     "volta": "2027-03-05",
+     "preco": 2825.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20PTY%20from%20GRU%20on%202027-02-19%20through%202027-03-01%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/pty/270219/270301/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-26T11:40+00:00"
+  }
+ },
+ "GRU-PTY-premium": {
+  "historico": [
+   [
+    "2026-11-26T11:40+00:00",
+    8656.0
+   ]
+  ],
+  "atual": {
+   "chave": "GRU-PTY-premium",
+   "origem": "GRU",
+   "destino": "PTY",
+   "cidade": "Cidade do Panamá",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "premium",
+   "classe_nome": "Premium Economy",
+   "preco": 8656.0,
+   "moeda": "BRL",
+   "ida": "2027-02-08",
+   "volta": "2027-02-18",
+   "referencia": 12178.0,
+   "desconto": 0.2892,
+   "limite": 4500.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-08",
+     "volta": "2027-02-18",
+     "preco": 8656.0
+    },
+    {
+     "ida": "2027-02-26",
+     "volta": "2027-03-08",
+     "preco": 8697.0
+    },
+    {
+     "ida": "2027-02-12",
+     "volta": "2027-02-22",
+     "preco": 8891.0
+    },
+    {
+     "ida": "2027-02-06",
+     "volta": "2027-02-16",
+     "preco": 8950.0
+    },
+    {
+     "ida": "2027-02-13",
+     "volta": "2027-02-23",
+     "preco": 8950.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20PTY%20from%20GRU%20on%202027-02-08%20through%202027-02-18%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/pty/270208/270218/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-26T11:40+00:00"
+  }
+ },
+ "GRU-PTY-executiva": {
+  "historico": [
+   [
+    "2026-11-26T11:40+00:00",
+    11781.0
+   ]
+  ],
+  "atual": {
+   "chave": "GRU-PTY-executiva",
+   "origem": "GRU",
+   "destino": "PTY",
+   "cidade": "Cidade do Panamá",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 11781.0,
+   "moeda": "BRL",
+   "ida": "2027-02-02",
+   "volta": "2027-02-12",
+   "referencia": 11831.0,
+   "desconto": 0.0042,
+   "limite": 8000.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-02",
+     "volta": "2027-02-12",
+     "preco": 11781.0
+    },
+    {
+     "ida": "2027-02-03",
+     "volta": "2027-02-13",
+     "preco": 11781.0
+    },
+    {
+     "ida": "2027-02-04",
+     "volta": "2027-02-14",
+     "preco": 11781.0
+    },
+    {
+     "ida": "2027-02-05",
+     "volta": "2027-02-15",
+     "preco": 11781.0
+    },
+    {
+     "ida": "2027-02-10",
+     "volta": "2027-02-20",
+     "preco": 11781.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20PTY%20from%20GRU%20on%202027-02-02%20through%202027-02-12%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/pty/270202/270212/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-26T11:40+00:00"
+  }
+ },
+ "GRU-PTY-primeira": {
+  "historico": [],
+  "atual": null,
+  "vazias": 1,
+  "ultima_vazia": "2026-11-26"
+ },
+ "GRU-PUJ-economica": {
+  "historico": [
+   [
+    "2026-11-26T11:41+00:00",
+    2139.0
+   ]
+  ],
+  "atual": {
+   "chave": "GRU-PUJ-economica",
+   "origem": "GRU",
+   "destino": "PUJ",
+   "cidade": "Punta Cana",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 2139.0,
+   "moeda": "BRL",
+   "ida": "2027-03-08",
+   "volta": "2027-03-18",
+   "referencia": 3009.0,
+   "desconto": 0.2891,
+   "limite": 2600.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-03-08",
+     "volta": "2027-03-18",
+     "preco": 2139.0
+    },
+    {
+     "ida": "2027-02-16",
+     "volta": "2027-02-26",
+     "preco": 2186.0
+    },
+    {
+     "ida": "2027-03-02",
+     "volta": "2027-03-12",
+     "preco": 2186.0
+    },
+    {
+     "ida": "2027-04-26",
+     "volta": "2027-05-06",
+     "preco": 2221.0
+    },
+    {
+     "ida": "2027-03-16",
+     "volta": "2027-03-26",
+     "preco": 2244.0
+    }
+   ],
+   "promocao": true,
+   "motivos": [
+    "abaixo do preço-alvo de R$ 2.600"
+   ],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20PUJ%20from%20GRU%20on%202027-03-08%20through%202027-03-18%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/puj/270308/270318/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-26T11:41+00:00"
+  }
+ },
+ "GRU-PUJ-premium": {
+  "historico": [
+   [
+    "2026-11-26T11:41+00:00",
+    4598.0
+   ]
+  ],
+  "atual": {
+   "chave": "GRU-PUJ-premium",
+   "origem": "GRU",
+   "destino": "PUJ",
+   "cidade": "Punta Cana",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "premium",
+   "classe_nome": "Premium Economy",
+   "preco": 4598.0,
+   "moeda": "BRL",
+   "ida": "2027-02-26",
+   "volta": "2027-03-08",
+   "referencia": 6053.5,
+   "desconto": 0.2404,
+   "limite": 4500.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-26",
+     "volta": "2027-03-08",
+     "preco": 4598.0
+    },
+    {
+     "ida": "2027-02-27",
+     "volta": "2027-03-09",
+     "preco": 4598.0
+    },
+    {
+     "ida": "2027-03-28",
+     "volta": "2027-04-07",
+     "preco": 4598.0
+    },
+    {
+     "ida": "2027-03-29",
+     "volta": "2027-04-08",
+     "preco": 4598.0
+    },
+    {
+     "ida": "2027-03-26",
+     "volta": "2027-04-05",
+     "preco": 4804.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20PUJ%20from%20GRU%20on%202027-02-26%20through%202027-03-08%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/puj/270226/270308/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-26T11:41+00:00"
   }
  }
 }

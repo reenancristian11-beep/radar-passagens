@@ -88,7 +88,7 @@
  "Emirates 3/4: Tóquio → Dubai": {
   "classes": {
    "economica": {
-    "preco": 5131.0,
+    "preco": 5133.0,
     "diferenca": 0.0,
     "mesmos_voos": true,
     "voos_ida": [
@@ -98,8 +98,8 @@
     "google": "https://www.google.com/travel/flights?q=Flights%20to%20DXB%20from%20HND%20on%202027-01-04%20economy&curr=BRL&hl=pt-BR&gl=BR"
    },
    "premium": {
-    "preco": 12210.0,
-    "diferenca": 7079.0,
+    "preco": 12214.0,
+    "diferenca": 7081.0,
     "mesmos_voos": true,
     "voos_ida": [
      "EK313"
@@ -108,8 +108,8 @@
     "google": "https://www.google.com/travel/flights?q=Flights%20to%20DXB%20from%20HND%20on%202027-01-04%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR"
    },
    "executiva": {
-    "preco": 26350.0,
-    "diferenca": 21219.0,
+    "preco": 26360.0,
+    "diferenca": 21227.0,
     "mesmos_voos": true,
     "voos_ida": [
      "EK313"
@@ -118,8 +118,8 @@
     "google": "https://www.google.com/travel/flights?q=Flights%20to%20DXB%20from%20HND%20on%202027-01-04%20business%20class&curr=BRL&hl=pt-BR&gl=BR"
    },
    "primeira": {
-    "preco": 55822.0,
-    "diferenca": 50691.0,
+    "preco": 55843.0,
+    "diferenca": 50710.0,
     "mesmos_voos": true,
     "voos_ida": [
      "EK313"
@@ -133,9 +133,9 @@
    "primeira": 50689.0,
    "premium": 7078.0
   },
-  "verificado": "2026-11-26T04:14+00:00",
+  "verificado": "2026-11-26T11:38+00:00",
   "pago": null,
-  "referencia": 5131.0,
+  "referencia": 5133.0,
   "tarifa": "Economy Flex",
   "classe_comprada": "economica",
   "origem": "HND",

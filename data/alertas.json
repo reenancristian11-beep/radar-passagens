@@ -54,5 +54,9 @@
  "GRU-CUN-economica": {
   "preco": 2258.0,
   "quando": "2026-11-26T10:42+00:00"
+ },
+ "GRU-PUJ-economica": {
+  "preco": 2139.0,
+  "quando": "2026-11-26T11:41+00:00"
  }
 }
