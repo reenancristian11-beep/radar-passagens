@@ -62,5 +62,9 @@
  "GRU-AUA-economica": {
   "preco": 2215.0,
   "quando": "2026-11-26T12:49+00:00"
+ },
+ "GRU-LHR-premium": {
+  "preco": 6034.0,
+  "quando": "2026-11-26T16:22+00:00"
  }
 }
