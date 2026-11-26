@@ -5728,6 +5728,10 @@
    [
     "2026-11-24T02:40+00:00",
     10272.0
+   ],
+   [
+    "2026-11-26T04:15+00:00",
+    9503.0
    ]
   ],
   "atual": {
@@ -5739,49 +5743,47 @@
    "regiao_nome": "América do Norte, Central e Caribe",
    "classe": "premium",
    "classe_nome": "Premium Economy",
-   "preco": 10272.0,
+   "preco": 9503.0,
    "moeda": "BRL",
-   "ida": "2027-01-22",
-   "volta": "2027-02-01",
-   "referencia": 14032.0,
-   "desconto": 0.268,
+   "ida": "2027-01-28",
+   "volta": "2027-02-07",
+   "referencia": 12214.0,
+   "desconto": 0.222,
    "limite": 5175.0,
    "prioridade": "escolhido por você",
    "datas_baratas": [
     {
-     "ida": "2027-01-22",
-     "volta": "2027-02-01",
-     "preco": 10272.0
+     "ida": "2027-01-28",
+     "volta": "2027-02-07",
+     "preco": 9503.0
     },
     {
-     "ida": "2026-11-27",
-     "volta": "2026-12-07",
-     "preco": 11912.0
+     "ida": "2027-01-29",
+     "volta": "2027-02-08",
+     "preco": 9503.0
     },
     {
-     "ida": "2026-11-29",
-     "volta": "2026-12-09",
-     "preco": 11912.0
+     "ida": "2027-02-08",
+     "volta": "2027-02-18",
+     "preco": 9503.0
     },
     {
-     "ida": "2026-12-15",
-     "volta": "2026-12-25",
-     "preco": 12077.0
+     "ida": "2027-02-09",
+     "volta": "2027-02-19",
+     "preco": 9503.0
     },
     {
-     "ida": "2026-11-30",
-     "volta": "2026-12-10",
-     "preco": 12089.0
+     "ida": "2027-02-11",
+     "volta": "2027-02-21",
+     "preco": 9503.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20AUS%20from%20GRU%20on%202027-01-22%20through%202027-02-01%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/aus/270122/270201/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
-   "atualizado": "2026-11-24T02:40+00:00"
-  },
-  "vazias": 1,
-  "ultima_vazia": "2026-11-25"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20AUS%20from%20GRU%20on%202027-01-28%20through%202027-02-07%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/aus/270128/270207/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-26T04:15+00:00"
+  }
  },
  "GRU-AUS-executiva": {
   "historico": [
@@ -5792,6 +5794,10 @@
    [
     "2026-11-25T05:39+00:00",
     25220.0
+   ],
+   [
+    "2026-11-26T04:15+00:00",
+    21940.0
    ]
   ],
   "atual": {
@@ -5803,46 +5809,46 @@
    "regiao_nome": "América do Norte, Central e Caribe",
    "classe": "executiva",
    "classe_nome": "Executiva",
-   "preco": 25220.0,
+   "preco": 21940.0,
    "moeda": "BRL",
-   "ida": "2027-05-30",
-   "volta": "2027-06-09",
+   "ida": "2027-01-27",
+   "volta": "2027-02-06",
    "referencia": 27459.0,
-   "desconto": 0.0815,
+   "desconto": 0.201,
    "limite": 9200.0,
    "prioridade": "escolhido por você",
    "datas_baratas": [
     {
-     "ida": "2027-05-30",
-     "volta": "2027-06-09",
+     "ida": "2027-01-27",
+     "volta": "2027-02-06",
+     "preco": 21940.0
+    },
+    {
+     "ida": "2027-04-02",
+     "volta": "2027-04-12",
      "preco": 25220.0
     },
     {
-     "ida": "2027-07-25",
-     "volta": "2027-08-04",
+     "ida": "2027-04-16",
+     "volta": "2027-04-26",
      "preco": 25220.0
     },
     {
-     "ida": "2027-06-04",
-     "volta": "2027-06-14",
-     "preco": 25356.0
+     "ida": "2027-04-18",
+     "volta": "2027-04-28",
+     "preco": 25220.0
     },
     {
-     "ida": "2027-06-06",
-     "volta": "2027-06-16",
-     "preco": 25356.0
-    },
-    {
-     "ida": "2027-06-11",
-     "volta": "2027-06-21",
-     "preco": 25356.0
+     "ida": "2027-04-23",
+     "volta": "2027-05-03",
+     "preco": 25220.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20AUS%20from%20GRU%20on%202027-05-30%20through%202027-06-09%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/aus/270530/270609/?adultsv2=1&cabinclass=business&rtn=1",
-   "atualizado": "2026-11-25T05:39+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20AUS%20from%20GRU%20on%202027-01-27%20through%202027-02-06%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/aus/270127/270206/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-26T04:15+00:00"
   }
  },
  "GRU-AUS-primeira": {
@@ -5860,6 +5866,10 @@
    [
     "2026-11-25T05:39+00:00",
     4482.0
+   ],
+   [
+    "2026-11-26T04:15+00:00",
+    4456.0
    ]
   ],
   "atual": {
@@ -5871,46 +5881,46 @@
    "regiao_nome": "Europa",
    "classe": "economica",
    "classe_nome": "Econômica",
-   "preco": 4482.0,
+   "preco": 4456.0,
    "moeda": "BRL",
    "ida": "2027-02-11",
    "volta": "2027-02-21",
-   "referencia": 5261.0,
-   "desconto": 0.1481,
+   "referencia": 5351.0,
+   "desconto": 0.1673,
    "limite": 3219.9999999999995,
    "prioridade": "perto de Zurique (285 km)",
    "datas_baratas": [
     {
      "ida": "2027-02-11",
      "volta": "2027-02-21",
-     "preco": 4482.0
+     "preco": 4456.0
     },
     {
      "ida": "2027-02-12",
      "volta": "2027-02-22",
-     "preco": 4482.0
+     "preco": 4456.0
+    },
+    {
+     "ida": "2027-02-15",
+     "volta": "2027-02-25",
+     "preco": 4456.0
     },
     {
      "ida": "2027-02-16",
      "volta": "2027-02-26",
-     "preco": 4482.0
+     "preco": 4456.0
     },
     {
-     "ida": "2027-02-18",
-     "volta": "2027-02-28",
-     "preco": 4482.0
-    },
-    {
-     "ida": "2027-02-22",
-     "volta": "2027-03-04",
-     "preco": 4482.0
+     "ida": "2027-02-17",
+     "volta": "2027-02-27",
+     "preco": 4456.0
     }
    ],
    "promocao": false,
    "motivos": [],
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20FRA%20from%20GRU%20on%202027-02-11%20through%202027-02-21%20economy&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/fra/270211/270221/?adultsv2=1&cabinclass=economy&rtn=1",
-   "atualizado": "2026-11-25T05:39+00:00"
+   "atualizado": "2026-11-26T04:15+00:00"
   }
  },
  "GRU-FRA-premium": {
@@ -5921,6 +5931,10 @@
    ],
    [
     "2026-11-25T05:40+00:00",
+    7721.0
+   ],
+   [
+    "2026-11-26T04:15+00:00",
     7721.0
    ]
   ],
@@ -5935,44 +5949,44 @@
    "classe_nome": "Premium Economy",
    "preco": 7721.0,
    "moeda": "BRL",
-   "ida": "2027-01-29",
-   "volta": "2027-02-08",
-   "referencia": 9014.0,
-   "desconto": 0.1434,
+   "ida": "2027-01-24",
+   "volta": "2027-02-03",
+   "referencia": 9447.0,
+   "desconto": 0.1827,
    "limite": 5750.0,
    "prioridade": "perto de Zurique (285 km)",
    "datas_baratas": [
     {
-     "ida": "2027-01-29",
-     "volta": "2027-02-08",
+     "ida": "2027-01-24",
+     "volta": "2027-02-03",
      "preco": 7721.0
     },
     {
-     "ida": "2027-03-29",
-     "volta": "2027-04-08",
+     "ida": "2027-01-25",
+     "volta": "2027-02-04",
      "preco": 7721.0
     },
     {
-     "ida": "2027-03-30",
-     "volta": "2027-04-09",
+     "ida": "2027-02-01",
+     "volta": "2027-02-11",
      "preco": 7721.0
     },
     {
-     "ida": "2027-03-31",
-     "volta": "2027-04-10",
+     "ida": "2027-02-02",
+     "volta": "2027-02-12",
      "preco": 7721.0
     },
     {
-     "ida": "2027-04-01",
-     "volta": "2027-04-11",
+     "ida": "2027-02-05",
+     "volta": "2027-02-15",
      "preco": 7721.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FRA%20from%20GRU%20on%202027-01-29%20through%202027-02-08%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/fra/270129/270208/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
-   "atualizado": "2026-11-25T05:40+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FRA%20from%20GRU%20on%202027-01-24%20through%202027-02-03%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/fra/270124/270203/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-26T04:15+00:00"
   }
  },
  "GRU-FRA-executiva": {
@@ -5980,6 +5994,10 @@
    [
     "2026-11-24T02:40+00:00",
     13150.0
+   ],
+   [
+    "2026-11-26T04:15+00:00",
+    13114.0
    ]
   ],
   "atual": {
@@ -5991,54 +6009,56 @@
    "regiao_nome": "Europa",
    "classe": "executiva",
    "classe_nome": "Executiva",
-   "preco": 13150.0,
+   "preco": 13114.0,
    "moeda": "BRL",
-   "ida": "2026-12-14",
-   "volta": "2026-12-24",
-   "referencia": 19940.0,
-   "desconto": 0.3405,
+   "ida": "2027-02-16",
+   "volta": "2027-02-26",
+   "referencia": 18182.0,
+   "desconto": 0.2787,
    "limite": 10350.0,
    "prioridade": "perto de Zurique (285 km)",
    "datas_baratas": [
     {
-     "ida": "2026-12-14",
-     "volta": "2026-12-24",
-     "preco": 13150.0
+     "ida": "2027-02-16",
+     "volta": "2027-02-26",
+     "preco": 13114.0
     },
     {
-     "ida": "2026-12-21",
-     "volta": "2026-12-31",
-     "preco": 13150.0
+     "ida": "2027-03-08",
+     "volta": "2027-03-18",
+     "preco": 13114.0
     },
     {
-     "ida": "2026-12-20",
-     "volta": "2026-12-30",
-     "preco": 13151.0
+     "ida": "2027-03-29",
+     "volta": "2027-04-08",
+     "preco": 13114.0
     },
     {
-     "ida": "2026-12-24",
-     "volta": "2027-01-03",
-     "preco": 13154.0
+     "ida": "2027-03-31",
+     "volta": "2027-04-10",
+     "preco": 13114.0
     },
     {
-     "ida": "2026-12-17",
-     "volta": "2026-12-27",
-     "preco": 14881.0
+     "ida": "2027-04-01",
+     "volta": "2027-04-11",
+     "preco": 13114.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FRA%20from%20GRU%20on%202026-12-14%20through%202026-12-24%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/fra/261214/261224/?adultsv2=1&cabinclass=business&rtn=1",
-   "atualizado": "2026-11-24T02:40+00:00"
-  },
-  "vazias": 1,
-  "ultima_vazia": "2026-11-25"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FRA%20from%20GRU%20on%202027-02-16%20through%202027-02-26%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/fra/270216/270226/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-26T04:15+00:00"
+  }
  },
  "GRU-FRA-primeira": {
   "historico": [
    [
     "2026-11-25T05:40+00:00",
+    61635.0
+   ],
+   [
+    "2026-11-26T04:16+00:00",
     61635.0
    ]
   ],
@@ -6053,18 +6073,13 @@
    "classe_nome": "Primeira Classe",
    "preco": 61635.0,
    "moeda": "BRL",
-   "ida": "2026-11-28",
-   "volta": "2026-12-08",
-   "referencia": 88703.0,
-   "desconto": 0.3052,
+   "ida": "2026-11-29",
+   "volta": "2026-12-09",
+   "referencia": 74860.0,
+   "desconto": 0.1767,
    "limite": 17250.0,
    "prioridade": "perto de Zurique (285 km)",
    "datas_baratas": [
-    {
-     "ida": "2026-11-28",
-     "volta": "2026-12-08",
-     "preco": 61635.0
-    },
     {
      "ida": "2026-11-29",
      "volta": "2026-12-09",
@@ -6074,6 +6089,11 @@
      "ida": "2026-11-30",
      "volta": "2026-12-10",
      "preco": 61635.0
+    },
+    {
+     "ida": "2027-01-25",
+     "volta": "2027-02-04",
+     "preco": 74561.0
     },
     {
      "ida": "2027-01-26",
@@ -6088,9 +6108,9 @@
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FRA%20from%20GRU%20on%202026-11-28%20through%202026-12-08%20first%20class&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/fra/261128/261208/?adultsv2=1&cabinclass=first&rtn=1",
-   "atualizado": "2026-11-25T05:40+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FRA%20from%20GRU%20on%202026-11-29%20through%202026-12-09%20first%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/fra/261129/261209/?adultsv2=1&cabinclass=first&rtn=1",
+   "atualizado": "2026-11-26T04:16+00:00"
   }
  },
  "GRU-MUC-economica": {
@@ -6098,6 +6118,10 @@
    [
     "2026-11-25T05:40+00:00",
     4920.0
+   ],
+   [
+    "2026-11-26T04:16+00:00",
+    4728.0
    ]
   ],
   "atual": {
@@ -6109,46 +6133,46 @@
    "regiao_nome": "Europa",
    "classe": "economica",
    "classe_nome": "Econômica",
-   "preco": 4920.0,
+   "preco": 4728.0,
    "moeda": "BRL",
-   "ida": "2027-02-11",
-   "volta": "2027-02-21",
-   "referencia": 5051.0,
-   "desconto": 0.0259,
+   "ida": "2027-03-14",
+   "volta": "2027-03-24",
+   "referencia": 5754.0,
+   "desconto": 0.1783,
    "limite": 3219.9999999999995,
    "prioridade": "perto de Zurique (261 km)",
    "datas_baratas": [
     {
+     "ida": "2027-03-14",
+     "volta": "2027-03-24",
+     "preco": 4728.0
+    },
+    {
+     "ida": "2027-03-28",
+     "volta": "2027-04-07",
+     "preco": 4728.0
+    },
+    {
+     "ida": "2027-03-29",
+     "volta": "2027-04-08",
+     "preco": 4728.0
+    },
+    {
      "ida": "2027-02-11",
      "volta": "2027-02-21",
-     "preco": 4920.0
+     "preco": 4897.0
     },
     {
      "ida": "2027-02-12",
      "volta": "2027-02-22",
-     "preco": 4920.0
-    },
-    {
-     "ida": "2027-02-17",
-     "volta": "2027-02-27",
-     "preco": 4920.0
-    },
-    {
-     "ida": "2027-02-18",
-     "volta": "2027-02-28",
-     "preco": 4920.0
-    },
-    {
-     "ida": "2027-02-24",
-     "volta": "2027-03-06",
-     "preco": 4920.0
+     "preco": 4897.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MUC%20from%20GRU%20on%202027-02-11%20through%202027-02-21%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/muc/270211/270221/?adultsv2=1&cabinclass=economy&rtn=1",
-   "atualizado": "2026-11-25T05:40+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MUC%20from%20GRU%20on%202027-03-14%20through%202027-03-24%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/muc/270314/270324/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-26T04:16+00:00"
   }
  },
  "GRU-MUC-premium": {
@@ -6156,6 +6180,10 @@
    [
     "2026-11-25T05:40+00:00",
     8190.0
+   ],
+   [
+    "2026-11-26T04:16+00:00",
+    8160.0
    ]
   ],
   "atual": {
@@ -6167,46 +6195,46 @@
    "regiao_nome": "Europa",
    "classe": "premium",
    "classe_nome": "Premium Economy",
-   "preco": 8190.0,
+   "preco": 8160.0,
    "moeda": "BRL",
-   "ida": "2027-02-22",
-   "volta": "2027-03-04",
-   "referencia": 10239.0,
-   "desconto": 0.2001,
+   "ida": "2027-06-07",
+   "volta": "2027-06-17",
+   "referencia": 11394.0,
+   "desconto": 0.2838,
    "limite": 5750.0,
    "prioridade": "perto de Zurique (261 km)",
    "datas_baratas": [
     {
-     "ida": "2027-02-22",
-     "volta": "2027-03-04",
-     "preco": 8190.0
-    },
-    {
-     "ida": "2027-02-23",
-     "volta": "2027-03-05",
-     "preco": 8190.0
-    },
-    {
      "ida": "2027-06-07",
      "volta": "2027-06-17",
-     "preco": 8190.0
+     "preco": 8160.0
     },
     {
-     "ida": "2027-03-08",
-     "volta": "2027-03-18",
-     "preco": 8291.0
+     "ida": "2027-01-24",
+     "volta": "2027-02-03",
+     "preco": 8171.0
+    },
+    {
+     "ida": "2027-01-25",
+     "volta": "2027-02-04",
+     "preco": 8171.0
     },
     {
      "ida": "2027-06-14",
      "volta": "2027-06-24",
      "preco": 8291.0
+    },
+    {
+     "ida": "2026-12-14",
+     "volta": "2026-12-24",
+     "preco": 8305.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MUC%20from%20GRU%20on%202027-02-22%20through%202027-03-04%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/muc/270222/270304/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
-   "atualizado": "2026-11-25T05:40+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MUC%20from%20GRU%20on%202027-06-07%20through%202027-06-17%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/muc/270607/270617/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-26T04:16+00:00"
   }
  },
  "GRU-MUC-executiva": {
@@ -6214,6 +6242,10 @@
    [
     "2026-11-24T02:40+00:00",
     13522.0
+   ],
+   [
+    "2026-11-26T04:16+00:00",
+    13791.0
    ]
   ],
   "atual": {
@@ -6225,46 +6257,46 @@
    "regiao_nome": "Europa",
    "classe": "executiva",
    "classe_nome": "Executiva",
-   "preco": 13522.0,
+   "preco": 13791.0,
    "moeda": "BRL",
-   "ida": "2027-03-29",
-   "volta": "2027-04-08",
-   "referencia": 19353.0,
-   "desconto": 0.3013,
+   "ida": "2027-03-28",
+   "volta": "2027-04-07",
+   "referencia": 17969.0,
+   "desconto": 0.2325,
    "limite": 10350.0,
    "prioridade": "perto de Zurique (261 km)",
    "datas_baratas": [
     {
+     "ida": "2027-03-28",
+     "volta": "2027-04-07",
+     "preco": 13791.0
+    },
+    {
      "ida": "2027-03-29",
      "volta": "2027-04-08",
-     "preco": 13522.0
+     "preco": 13791.0
     },
     {
-     "ida": "2027-03-31",
-     "volta": "2027-04-10",
-     "preco": 13522.0
+     "ida": "2027-04-07",
+     "volta": "2027-04-17",
+     "preco": 13791.0
     },
     {
-     "ida": "2026-12-14",
-     "volta": "2026-12-24",
-     "preco": 14480.0
+     "ida": "2027-04-08",
+     "volta": "2027-04-18",
+     "preco": 13791.0
     },
     {
-     "ida": "2026-12-20",
-     "volta": "2026-12-30",
-     "preco": 14480.0
-    },
-    {
-     "ida": "2026-12-21",
-     "volta": "2026-12-31",
-     "preco": 14480.0
+     "ida": "2027-04-09",
+     "volta": "2027-04-19",
+     "preco": 13791.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MUC%20from%20GRU%20on%202027-03-29%20through%202027-04-08%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/muc/270329/270408/?adultsv2=1&cabinclass=business&rtn=1",
-   "atualizado": "2026-11-24T02:40+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MUC%20from%20GRU%20on%202027-03-28%20through%202027-04-07%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/muc/270328/270407/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-26T04:16+00:00"
   }
  },
  "GRU-MUC-primeira": {
@@ -6272,6 +6304,10 @@
    [
     "2026-11-24T02:40+00:00",
     58416.0
+   ],
+   [
+    "2026-11-26T04:16+00:00",
+    55793.0
    ]
   ],
   "atual": {
@@ -6283,24 +6319,24 @@
    "regiao_nome": "Europa",
    "classe": "primeira",
    "classe_nome": "Primeira Classe",
-   "preco": 58416.0,
+   "preco": 55793.0,
    "moeda": "BRL",
-   "ida": "2027-07-13",
-   "volta": "2027-07-23",
-   "referencia": 59207.0,
-   "desconto": 0.0134,
+   "ida": "2026-11-30",
+   "volta": "2026-12-10",
+   "referencia": 60018.0,
+   "desconto": 0.0704,
    "limite": 17250.0,
    "prioridade": "perto de Zurique (261 km)",
    "datas_baratas": [
     {
-     "ida": "2027-07-13",
-     "volta": "2027-07-23",
-     "preco": 58416.0
+     "ida": "2026-11-30",
+     "volta": "2026-12-10",
+     "preco": 55793.0
     },
     {
-     "ida": "2027-07-14",
-     "volta": "2027-07-24",
-     "preco": 58621.0
+     "ida": "2026-11-29",
+     "volta": "2026-12-09",
+     "preco": 55811.0
     },
     {
      "ida": "2027-07-15",
@@ -6308,21 +6344,21 @@
      "preco": 58621.0
     },
     {
-     "ida": "2027-06-20",
-     "volta": "2027-06-30",
-     "preco": 59196.0
+     "ida": "2027-01-27",
+     "volta": "2027-02-06",
+     "preco": 58905.0
     },
     {
-     "ida": "2027-06-21",
-     "volta": "2027-07-01",
-     "preco": 59196.0
+     "ida": "2027-01-31",
+     "volta": "2027-02-10",
+     "preco": 58905.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MUC%20from%20GRU%20on%202027-07-13%20through%202027-07-23%20first%20class&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/muc/270713/270723/?adultsv2=1&cabinclass=first&rtn=1",
-   "atualizado": "2026-11-24T02:40+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MUC%20from%20GRU%20on%202026-11-30%20through%202026-12-10%20first%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/muc/261130/261210/?adultsv2=1&cabinclass=first&rtn=1",
+   "atualizado": "2026-11-26T04:16+00:00"
   }
  },
  "SJP-ORD-premium": {
@@ -6585,6 +6621,10 @@
    [
     "2026-11-24T03:38+00:00",
     5204.0
+   ],
+   [
+    "2026-11-26T04:16+00:00",
+    4684.0
    ]
   ],
   "atual": {
@@ -6596,46 +6636,46 @@
    "regiao_nome": "Europa",
    "classe": "economica",
    "classe_nome": "Econômica",
-   "preco": 5204.0,
+   "preco": 4684.0,
    "moeda": "BRL",
-   "ida": "2027-02-09",
-   "volta": "2027-02-19",
-   "referencia": 5944.0,
-   "desconto": 0.1245,
+   "ida": "2027-02-11",
+   "volta": "2027-02-21",
+   "referencia": 5437.0,
+   "desconto": 0.1385,
    "limite": 3219.9999999999995,
    "prioridade": "escolhido por você",
    "datas_baratas": [
     {
-     "ida": "2027-02-09",
-     "volta": "2027-02-19",
-     "preco": 5204.0
-    },
-    {
-     "ida": "2027-02-14",
-     "volta": "2027-02-24",
-     "preco": 5204.0
+     "ida": "2027-02-11",
+     "volta": "2027-02-21",
+     "preco": 4684.0
     },
     {
      "ida": "2027-02-17",
      "volta": "2027-02-27",
-     "preco": 5204.0
+     "preco": 4684.0
     },
     {
      "ida": "2027-02-18",
      "volta": "2027-02-28",
-     "preco": 5204.0
+     "preco": 4684.0
     },
     {
-     "ida": "2027-02-21",
-     "volta": "2027-03-03",
-     "preco": 5204.0
+     "ida": "2027-02-24",
+     "volta": "2027-03-06",
+     "preco": 4684.0
+    },
+    {
+     "ida": "2027-02-25",
+     "volta": "2027-03-07",
+     "preco": 4684.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20ZRH%20from%20GRU%20on%202027-02-09%20through%202027-02-19%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/zrh/270209/270219/?adultsv2=1&cabinclass=economy&rtn=1",
-   "atualizado": "2026-11-24T03:38+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20ZRH%20from%20GRU%20on%202027-02-11%20through%202027-02-21%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/zrh/270211/270221/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-26T04:16+00:00"
   }
  },
  "GRU-ZRH-premium": {
@@ -6643,6 +6683,10 @@
    [
     "2026-11-24T03:38+00:00",
     7707.0
+   ],
+   [
+    "2026-11-26T04:16+00:00",
+    7674.0
    ]
   ],
   "atual": {
@@ -6654,46 +6698,46 @@
    "regiao_nome": "Europa",
    "classe": "premium",
    "classe_nome": "Premium Economy",
-   "preco": 7707.0,
+   "preco": 7674.0,
    "moeda": "BRL",
    "ida": "2027-02-14",
    "volta": "2027-02-24",
-   "referencia": 9833.0,
-   "desconto": 0.2162,
+   "referencia": 9655.0,
+   "desconto": 0.2052,
    "limite": 5750.0,
    "prioridade": "escolhido por você",
    "datas_baratas": [
     {
      "ida": "2027-02-14",
      "volta": "2027-02-24",
-     "preco": 7707.0
+     "preco": 7674.0
     },
     {
      "ida": "2027-02-17",
      "volta": "2027-02-27",
-     "preco": 7707.0
+     "preco": 7674.0
     },
     {
      "ida": "2027-02-18",
      "volta": "2027-02-28",
-     "preco": 7707.0
-    },
-    {
-     "ida": "2027-02-22",
-     "volta": "2027-03-04",
-     "preco": 7707.0
+     "preco": 7674.0
     },
     {
      "ida": "2027-02-23",
      "volta": "2027-03-05",
-     "preco": 7707.0
+     "preco": 7674.0
+    },
+    {
+     "ida": "2027-03-02",
+     "volta": "2027-03-12",
+     "preco": 7674.0
     }
    ],
    "promocao": false,
    "motivos": [],
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20ZRH%20from%20GRU%20on%202027-02-14%20through%202027-02-24%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/zrh/270214/270224/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
-   "atualizado": "2026-11-24T03:38+00:00"
+   "atualizado": "2026-11-26T04:16+00:00"
   }
  },
  "GRU-ZRH-executiva": {
@@ -21487,6 +21531,470 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20CUZ%20from%20GRU%20on%202026-12-08%20through%202026-12-14%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/cuz/261208/261214/?adultsv2=1&cabinclass=business&rtn=1",
    "atualizado": "2026-11-26T03:08+00:00"
+  }
+ },
+ "GRU-BOG-economica": {
+  "historico": [
+   [
+    "2026-11-26T04:16+00:00",
+    2095.0
+   ]
+  ],
+  "atual": {
+   "chave": "GRU-BOG-economica",
+   "origem": "GRU",
+   "destino": "BOG",
+   "cidade": "Bogotá",
+   "regiao": "america_do_sul",
+   "regiao_nome": "América do Sul",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 2095.0,
+   "moeda": "BRL",
+   "ida": "2027-03-18",
+   "volta": "2027-03-24",
+   "referencia": 3545.0,
+   "desconto": 0.409,
+   "limite": 1200.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-03-18",
+     "volta": "2027-03-24",
+     "preco": 2095.0
+    },
+    {
+     "ida": "2027-03-15",
+     "volta": "2027-03-21",
+     "preco": 2106.0
+    },
+    {
+     "ida": "2027-03-19",
+     "volta": "2027-03-25",
+     "preco": 2108.0
+    },
+    {
+     "ida": "2027-03-01",
+     "volta": "2027-03-07",
+     "preco": 2121.0
+    },
+    {
+     "ida": "2027-04-12",
+     "volta": "2027-04-18",
+     "preco": 2126.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20BOG%20from%20GRU%20on%202027-03-18%20through%202027-03-24%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/bog/270318/270324/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-26T04:16+00:00"
+  }
+ },
+ "GRU-BOG-executiva": {
+  "historico": [
+   [
+    "2026-11-26T04:17+00:00",
+    7479.0
+   ]
+  ],
+  "atual": {
+   "chave": "GRU-BOG-executiva",
+   "origem": "GRU",
+   "destino": "BOG",
+   "cidade": "Bogotá",
+   "regiao": "america_do_sul",
+   "regiao_nome": "América do Sul",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 7479.0,
+   "moeda": "BRL",
+   "ida": "2027-01-28",
+   "volta": "2027-02-03",
+   "referencia": 8693.0,
+   "desconto": 0.1397,
+   "limite": 4500.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-01-28",
+     "volta": "2027-02-03",
+     "preco": 7479.0
+    },
+    {
+     "ida": "2027-02-01",
+     "volta": "2027-02-07",
+     "preco": 7479.0
+    },
+    {
+     "ida": "2027-02-11",
+     "volta": "2027-02-17",
+     "preco": 7479.0
+    },
+    {
+     "ida": "2027-02-13",
+     "volta": "2027-02-19",
+     "preco": 7479.0
+    },
+    {
+     "ida": "2027-02-15",
+     "volta": "2027-02-21",
+     "preco": 7479.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20BOG%20from%20GRU%20on%202027-01-28%20through%202027-02-03%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/bog/270128/270203/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-26T04:17+00:00"
+  }
+ },
+ "GRU-CTG-economica": {
+  "historico": [
+   [
+    "2026-11-26T04:17+00:00",
+    2636.0
+   ]
+  ],
+  "atual": {
+   "chave": "GRU-CTG-economica",
+   "origem": "GRU",
+   "destino": "CTG",
+   "cidade": "Cartagena",
+   "regiao": "america_do_sul",
+   "regiao_nome": "América do Sul",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 2636.0,
+   "moeda": "BRL",
+   "ida": "2026-12-01",
+   "volta": "2026-12-07",
+   "referencia": 3163.0,
+   "desconto": 0.1666,
+   "limite": 1200.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2026-12-01",
+     "volta": "2026-12-07",
+     "preco": 2636.0
+    },
+    {
+     "ida": "2026-12-09",
+     "volta": "2026-12-15",
+     "preco": 2695.0
+    },
+    {
+     "ida": "2027-03-04",
+     "volta": "2027-03-10",
+     "preco": 2881.0
+    },
+    {
+     "ida": "2027-03-09",
+     "volta": "2027-03-15",
+     "preco": 2881.0
+    },
+    {
+     "ida": "2027-03-11",
+     "volta": "2027-03-17",
+     "preco": 2881.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20CTG%20from%20GRU%20on%202026-12-01%20through%202026-12-07%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/ctg/261201/261207/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-26T04:17+00:00"
+  }
+ },
+ "GRU-CTG-executiva": {
+  "historico": [
+   [
+    "2026-11-26T04:17+00:00",
+    9031.0
+   ]
+  ],
+  "atual": {
+   "chave": "GRU-CTG-executiva",
+   "origem": "GRU",
+   "destino": "CTG",
+   "cidade": "Cartagena",
+   "regiao": "america_do_sul",
+   "regiao_nome": "América do Sul",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 9031.0,
+   "moeda": "BRL",
+   "ida": "2026-12-09",
+   "volta": "2026-12-15",
+   "referencia": 10285.0,
+   "desconto": 0.1219,
+   "limite": 4500.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2026-12-09",
+     "volta": "2026-12-15",
+     "preco": 9031.0
+    },
+    {
+     "ida": "2026-12-03",
+     "volta": "2026-12-09",
+     "preco": 9049.0
+    },
+    {
+     "ida": "2026-12-07",
+     "volta": "2026-12-13",
+     "preco": 9049.0
+    },
+    {
+     "ida": "2026-12-01",
+     "volta": "2026-12-07",
+     "preco": 9066.0
+    },
+    {
+     "ida": "2026-12-02",
+     "volta": "2026-12-08",
+     "preco": 9066.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20CTG%20from%20GRU%20on%202026-12-09%20through%202026-12-15%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/ctg/261209/261215/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-26T04:17+00:00"
+  }
+ },
+ "GRU-UIO-economica": {
+  "historico": [
+   [
+    "2026-11-26T04:17+00:00",
+    2706.0
+   ]
+  ],
+  "atual": {
+   "chave": "GRU-UIO-economica",
+   "origem": "GRU",
+   "destino": "UIO",
+   "cidade": "Quito",
+   "regiao": "america_do_sul",
+   "regiao_nome": "América do Sul",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 2706.0,
+   "moeda": "BRL",
+   "ida": "2027-02-17",
+   "volta": "2027-02-23",
+   "referencia": 2706.0,
+   "desconto": 0.0,
+   "limite": 1200.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-17",
+     "volta": "2027-02-23",
+     "preco": 2706.0
+    },
+    {
+     "ida": "2027-02-18",
+     "volta": "2027-02-24",
+     "preco": 2706.0
+    },
+    {
+     "ida": "2027-02-19",
+     "volta": "2027-02-25",
+     "preco": 2706.0
+    },
+    {
+     "ida": "2027-02-23",
+     "volta": "2027-03-01",
+     "preco": 2706.0
+    },
+    {
+     "ida": "2027-02-24",
+     "volta": "2027-03-02",
+     "preco": 2706.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20UIO%20from%20GRU%20on%202027-02-17%20through%202027-02-23%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/uio/270217/270223/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-26T04:17+00:00"
+  }
+ },
+ "GRU-UIO-executiva": {
+  "historico": [
+   [
+    "2026-11-26T04:17+00:00",
+    7550.0
+   ]
+  ],
+  "atual": {
+   "chave": "GRU-UIO-executiva",
+   "origem": "GRU",
+   "destino": "UIO",
+   "cidade": "Quito",
+   "regiao": "america_do_sul",
+   "regiao_nome": "América do Sul",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 7550.0,
+   "moeda": "BRL",
+   "ida": "2027-02-10",
+   "volta": "2027-02-16",
+   "referencia": 7784.0,
+   "desconto": 0.0301,
+   "limite": 4500.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-10",
+     "volta": "2027-02-16",
+     "preco": 7550.0
+    },
+    {
+     "ida": "2027-02-11",
+     "volta": "2027-02-17",
+     "preco": 7550.0
+    },
+    {
+     "ida": "2027-02-12",
+     "volta": "2027-02-18",
+     "preco": 7550.0
+    },
+    {
+     "ida": "2027-02-13",
+     "volta": "2027-02-19",
+     "preco": 7550.0
+    },
+    {
+     "ida": "2027-02-15",
+     "volta": "2027-02-21",
+     "preco": 7550.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20UIO%20from%20GRU%20on%202027-02-10%20through%202027-02-16%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/uio/270210/270216/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-26T04:17+00:00"
+  }
+ },
+ "GRU-JFK-economica": {
+  "historico": [
+   [
+    "2026-11-26T04:17+00:00",
+    3943.0
+   ]
+  ],
+  "atual": {
+   "chave": "GRU-JFK-economica",
+   "origem": "GRU",
+   "destino": "JFK",
+   "cidade": "Nova York",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 3943.0,
+   "moeda": "BRL",
+   "ida": "2027-02-09",
+   "volta": "2027-02-19",
+   "referencia": 5131.0,
+   "desconto": 0.2315,
+   "limite": 2600.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-09",
+     "volta": "2027-02-19",
+     "preco": 3943.0
+    },
+    {
+     "ida": "2027-02-18",
+     "volta": "2027-02-28",
+     "preco": 3943.0
+    },
+    {
+     "ida": "2027-02-22",
+     "volta": "2027-03-04",
+     "preco": 3943.0
+    },
+    {
+     "ida": "2027-02-23",
+     "volta": "2027-03-05",
+     "preco": 3943.0
+    },
+    {
+     "ida": "2027-02-24",
+     "volta": "2027-03-06",
+     "preco": 3943.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20JFK%20from%20GRU%20on%202027-02-09%20through%202027-02-19%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/jfk/270209/270219/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-26T04:17+00:00"
+  }
+ },
+ "GRU-JFK-premium": {
+  "historico": [
+   [
+    "2026-11-26T04:17+00:00",
+    9503.0
+   ]
+  ],
+  "atual": {
+   "chave": "GRU-JFK-premium",
+   "origem": "GRU",
+   "destino": "JFK",
+   "cidade": "Nova York",
+   "regiao": "america_norte_central",
+   "regiao_nome": "América do Norte, Central e Caribe",
+   "classe": "premium",
+   "classe_nome": "Premium Economy",
+   "preco": 9503.0,
+   "moeda": "BRL",
+   "ida": "2027-05-14",
+   "volta": "2027-05-24",
+   "referencia": 11049.0,
+   "desconto": 0.1399,
+   "limite": 4500.0,
+   "prioridade": "",
+   "datas_baratas": [
+    {
+     "ida": "2027-05-14",
+     "volta": "2027-05-24",
+     "preco": 9503.0
+    },
+    {
+     "ida": "2027-04-09",
+     "volta": "2027-04-19",
+     "preco": 9661.0
+    },
+    {
+     "ida": "2027-04-30",
+     "volta": "2027-05-10",
+     "preco": 9661.0
+    },
+    {
+     "ida": "2027-03-31",
+     "volta": "2027-04-10",
+     "preco": 9890.0
+    },
+    {
+     "ida": "2027-04-02",
+     "volta": "2027-04-12",
+     "preco": 9890.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20JFK%20from%20GRU%20on%202027-05-14%20through%202027-05-24%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/jfk/270514/270524/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-26T04:17+00:00"
   }
  }
 }
