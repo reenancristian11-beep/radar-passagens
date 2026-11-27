@@ -82,5 +82,13 @@
  "GRU-AKL-economica": {
   "preco": 6203.0,
   "quando": "2026-11-27T14:05+00:00"
+ },
+ "VCP-SSA-economica": {
+  "preco": 639.0,
+  "quando": "2026-11-27T15:11+00:00"
+ },
+ "VCP-REC-economica": {
+  "preco": 670.0,
+  "quando": "2026-11-27T15:11+00:00"
  }
 }
