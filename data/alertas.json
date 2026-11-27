@@ -16,8 +16,8 @@
   "quando": "2026-11-24T00:04+00:00"
  },
  "GRU-MIA-economica": {
-  "preco": 2889.0,
-  "quando": "2026-11-24T01:28+00:00"
+  "preco": 2688.0,
+  "quando": "2026-11-27T20:41+00:00"
  },
  "GRU-ADZ-premium": {
   "preco": 4267.0,
@@ -90,5 +90,9 @@
  "VCP-REC-economica": {
   "preco": 670.0,
   "quando": "2026-11-27T15:11+00:00"
+ },
+ "VCP-GIG-economica": {
+  "preco": 236.0,
+  "quando": "2026-11-27T20:41+00:00"
  }
 }
