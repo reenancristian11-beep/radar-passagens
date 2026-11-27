@@ -20,8 +20,8 @@
   "quando": "2026-11-24T01:28+00:00"
  },
  "GRU-ADZ-premium": {
-  "preco": 4829.0,
-  "quando": "2026-11-24T01:28+00:00"
+  "preco": 4267.0,
+  "quando": "2026-11-27T00:08+00:00"
  },
  "GRU-ADZ-executiva": {
   "preco": 9081.0,
@@ -66,5 +66,9 @@
  "GRU-LHR-premium": {
   "preco": 6034.0,
   "quando": "2026-11-26T16:22+00:00"
+ },
+ "GRU-ADZ-economica": {
+  "preco": 2643.0,
+  "quando": "2026-11-27T00:08+00:00"
  }
 }
