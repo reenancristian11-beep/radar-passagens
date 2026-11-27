@@ -70,5 +70,13 @@
  "GRU-ADZ-economica": {
   "preco": 2643.0,
   "quando": "2026-11-27T00:08+00:00"
+ },
+ "CGH-MCO-economica": {
+  "preco": 3719.0,
+  "quando": "2026-11-27T11:39+00:00"
+ },
+ "CGH-ADZ-economica": {
+  "preco": 2861.0,
+  "quando": "2026-11-27T11:39+00:00"
  }
 }
