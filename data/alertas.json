@@ -78,5 +78,9 @@
  "CGH-ADZ-economica": {
   "preco": 2861.0,
   "quando": "2026-11-27T11:39+00:00"
+ },
+ "GRU-AKL-economica": {
+  "preco": 6203.0,
+  "quando": "2026-11-27T14:05+00:00"
  }
 }
