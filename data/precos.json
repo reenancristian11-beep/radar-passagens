@@ -3472,6 +3472,10 @@
    [
     "2026-11-26T21:06+00:00",
     17167.0
+   ],
+   [
+    "2026-11-27T18:33+00:00",
+    16802.0
    ]
   ],
   "atual": {
@@ -3483,36 +3487,26 @@
    "regiao_nome": "Europa",
    "classe": "premium",
    "classe_nome": "Premium Economy",
-   "preco": 17167.0,
+   "preco": 16802.0,
    "moeda": "BRL",
-   "ida": "2027-02-08",
-   "volta": "2027-02-18",
-   "referencia": 17832.0,
-   "desconto": 0.0373,
+   "ida": "2027-06-02",
+   "volta": "2027-06-12",
+   "referencia": 17626.0,
+   "desconto": 0.0467,
    "limite": 5750.0,
    "prioridade": "escolhido por você",
    "datas_baratas": [
     {
-     "ida": "2027-02-08",
-     "volta": "2027-02-18",
-     "preco": 17167.0
-    },
-    {
-     "ida": "2027-04-04",
-     "volta": "2027-04-14",
-     "preco": 17902.0
-    },
-    {
-     "ida": "2027-06-11",
-     "volta": "2027-06-21",
-     "preco": 18637.0
+     "ida": "2027-06-02",
+     "volta": "2027-06-12",
+     "preco": 16802.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FCO%20from%20SJP%20on%202027-02-08%20through%202027-02-18%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/fco/270208/270218/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
-   "atualizado": "2026-11-26T21:06+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FCO%20from%20SJP%20on%202027-06-02%20through%202027-06-12%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/fco/270602/270612/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-27T18:33+00:00"
   }
  },
  "SJP-FCO-executiva": {
@@ -3578,7 +3572,9 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20FCO%20from%20SJP%20on%202027-02-09%20through%202027-02-19%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/fco/270209/270219/?adultsv2=1&cabinclass=business&rtn=1",
    "atualizado": "2026-11-26T21:07+00:00"
-  }
+  },
+  "vazias": 1,
+  "ultima_vazia": "2026-11-27"
  },
  "SJP-FCO-primeira": {
   "historico": [
@@ -3597,6 +3593,10 @@
    [
     "2026-11-26T21:08+00:00",
     92991.0
+   ],
+   [
+    "2026-11-27T18:34+00:00",
+    72740.0
    ]
   ],
   "atual": {
@@ -3608,31 +3608,31 @@
    "regiao_nome": "Europa",
    "classe": "primeira",
    "classe_nome": "Primeira Classe",
-   "preco": 92991.0,
+   "preco": 72740.0,
    "moeda": "BRL",
-   "ida": "2026-12-15",
-   "volta": "2026-12-25",
-   "referencia": 74543.0,
-   "desconto": -0.2475,
+   "ida": "2026-12-23",
+   "volta": "2027-01-02",
+   "referencia": 80501.5,
+   "desconto": 0.0964,
    "limite": 17250.0,
    "prioridade": "escolhido por você",
    "datas_baratas": [
     {
-     "ida": "2026-12-15",
-     "volta": "2026-12-25",
-     "preco": 92991.0
+     "ida": "2026-12-23",
+     "volta": "2027-01-02",
+     "preco": 72740.0
     },
     {
-     "ida": "2027-01-29",
-     "volta": "2027-02-08",
-     "preco": 111529.0
+     "ida": "2027-02-26",
+     "volta": "2027-03-08",
+     "preco": 84803.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FCO%20from%20SJP%20on%202026-12-15%20through%202026-12-25%20first%20class&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/fco/261215/261225/?adultsv2=1&cabinclass=first&rtn=1",
-   "atualizado": "2026-11-26T21:08+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FCO%20from%20SJP%20on%202026-12-23%20through%202027-01-02%20first%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/fco/261223/270102/?adultsv2=1&cabinclass=first&rtn=1",
+   "atualizado": "2026-11-27T18:34+00:00"
   }
  },
  "SJP-MXP-economica": {
@@ -3652,6 +3652,10 @@
    [
     "2026-11-26T21:08+00:00",
     7081.0
+   ],
+   [
+    "2026-11-27T18:34+00:00",
+    5998.0
    ]
   ],
   "atual": {
@@ -3663,36 +3667,31 @@
    "regiao_nome": "Europa",
    "classe": "economica",
    "classe_nome": "Econômica",
-   "preco": 7081.0,
+   "preco": 5998.0,
    "moeda": "BRL",
-   "ida": "2027-04-15",
-   "volta": "2027-04-25",
-   "referencia": 6112.0,
-   "desconto": -0.1585,
+   "ida": "2027-02-07",
+   "volta": "2027-02-17",
+   "referencia": 6167.0,
+   "desconto": 0.0274,
    "limite": 3219.9999999999995,
    "prioridade": "perto de Zurique (204 km)",
    "datas_baratas": [
     {
-     "ida": "2027-04-15",
-     "volta": "2027-04-25",
-     "preco": 7081.0
+     "ida": "2027-02-07",
+     "volta": "2027-02-17",
+     "preco": 5998.0
     },
     {
-     "ida": "2027-06-24",
-     "volta": "2027-07-04",
-     "preco": 7334.0
-    },
-    {
-     "ida": "2026-12-10",
-     "volta": "2026-12-20",
-     "preco": 9254.0
+     "ida": "2027-06-19",
+     "volta": "2027-06-29",
+     "preco": 8141.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MXP%20from%20SJP%20on%202027-04-15%20through%202027-04-25%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/mxp/270415/270425/?adultsv2=1&cabinclass=economy&rtn=1",
-   "atualizado": "2026-11-26T21:08+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MXP%20from%20SJP%20on%202027-02-07%20through%202027-02-17%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/mxp/270207/270217/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-27T18:34+00:00"
   }
  },
  "SJP-MXP-premium": {
@@ -3712,6 +3711,10 @@
    [
     "2026-11-26T21:09+00:00",
     31190.0
+   ],
+   [
+    "2026-11-27T18:35+00:00",
+    19418.0
    ]
   ],
   "atual": {
@@ -3723,31 +3726,31 @@
    "regiao_nome": "Europa",
    "classe": "premium",
    "classe_nome": "Premium Economy",
-   "preco": 31190.0,
+   "preco": 19418.0,
    "moeda": "BRL",
-   "ida": "2026-12-09",
-   "volta": "2026-12-19",
-   "referencia": 31069.0,
-   "desconto": -0.0039,
+   "ida": "2027-06-28",
+   "volta": "2027-07-08",
+   "referencia": 31129.5,
+   "desconto": 0.3762,
    "limite": 5750.0,
    "prioridade": "perto de Zurique (204 km)",
    "datas_baratas": [
     {
-     "ida": "2026-12-09",
-     "volta": "2026-12-19",
-     "preco": 31190.0
+     "ida": "2027-06-28",
+     "volta": "2027-07-08",
+     "preco": 19418.0
     },
     {
-     "ida": "2027-02-01",
-     "volta": "2027-02-11",
-     "preco": 31194.0
+     "ida": "2026-12-19",
+     "volta": "2026-12-29",
+     "preco": 30473.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MXP%20from%20SJP%20on%202026-12-09%20through%202026-12-19%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/mxp/261209/261219/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
-   "atualizado": "2026-11-26T21:09+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MXP%20from%20SJP%20on%202027-06-28%20through%202027-07-08%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/mxp/270628/270708/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-27T18:35+00:00"
   }
  },
  "SJP-MXP-executiva": {
@@ -3767,6 +3770,10 @@
    [
     "2026-11-26T22:05+00:00",
     20530.0
+   ],
+   [
+    "2026-11-27T18:35+00:00",
+    25233.0
    ]
   ],
   "atual": {
@@ -3778,36 +3785,31 @@
    "regiao_nome": "Europa",
    "classe": "executiva",
    "classe_nome": "Executiva",
-   "preco": 20530.0,
+   "preco": 25233.0,
    "moeda": "BRL",
-   "ida": "2027-02-09",
-   "volta": "2027-02-19",
-   "referencia": 24103.0,
-   "desconto": 0.1482,
+   "ida": "2027-01-31",
+   "volta": "2027-02-10",
+   "referencia": 23811.0,
+   "desconto": -0.0597,
    "limite": 10350.0,
    "prioridade": "perto de Zurique (204 km)",
    "datas_baratas": [
     {
-     "ida": "2027-02-09",
-     "volta": "2027-02-19",
-     "preco": 20530.0
+     "ida": "2027-01-31",
+     "volta": "2027-02-10",
+     "preco": 25233.0
     },
     {
-     "ida": "2027-06-11",
-     "volta": "2027-06-21",
-     "preco": 24197.0
-    },
-    {
-     "ida": "2026-12-08",
-     "volta": "2026-12-18",
-     "preco": 39643.0
+     "ida": "2027-06-02",
+     "volta": "2027-06-12",
+     "preco": 25658.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MXP%20from%20SJP%20on%202027-02-09%20through%202027-02-19%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/mxp/270209/270219/?adultsv2=1&cabinclass=business&rtn=1",
-   "atualizado": "2026-11-26T22:05+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MXP%20from%20SJP%20on%202027-01-31%20through%202027-02-10%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/mxp/270131/270210/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-27T18:35+00:00"
   }
  },
  "SJP-MXP-primeira": {
@@ -3858,7 +3860,9 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20MXP%20from%20SJP%20on%202026-12-16%20through%202026-12-26%20first%20class&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/mxp/261216/261226/?adultsv2=1&cabinclass=first&rtn=1",
    "atualizado": "2026-11-26T22:05+00:00"
-  }
+  },
+  "vazias": 1,
+  "ultima_vazia": "2026-11-27"
  },
  "SJP-DXB-economica": {
   "historico": [
@@ -3877,6 +3881,10 @@
    [
     "2026-11-26T22:06+00:00",
     7696.0
+   ],
+   [
+    "2026-11-27T18:36+00:00",
+    7516.0
    ]
   ],
   "atual": {
@@ -3888,31 +3896,31 @@
    "regiao_nome": "Oriente Médio",
    "classe": "economica",
    "classe_nome": "Econômica",
-   "preco": 7696.0,
+   "preco": 7516.0,
    "moeda": "BRL",
-   "ida": "2027-04-20",
-   "volta": "2027-04-30",
-   "referencia": 7618.0,
-   "desconto": -0.0102,
+   "ida": "2027-04-06",
+   "volta": "2027-04-16",
+   "referencia": 7657.0,
+   "desconto": 0.0184,
    "limite": 4370.0,
    "prioridade": "escolhido por você",
    "datas_baratas": [
     {
-     "ida": "2027-04-20",
-     "volta": "2027-04-30",
-     "preco": 7696.0
+     "ida": "2027-04-06",
+     "volta": "2027-04-16",
+     "preco": 7516.0
     },
     {
-     "ida": "2026-11-30",
-     "volta": "2026-12-10",
-     "preco": 17139.0
+     "ida": "2027-02-14",
+     "volta": "2027-02-24",
+     "preco": 8047.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20DXB%20from%20SJP%20on%202027-04-20%20through%202027-04-30%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/dxb/270420/270430/?adultsv2=1&cabinclass=economy&rtn=1",
-   "atualizado": "2026-11-26T22:06+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20DXB%20from%20SJP%20on%202027-04-06%20through%202027-04-16%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/dxb/270406/270416/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-27T18:36+00:00"
   }
  },
  "SJP-DXB-premium": {
@@ -3932,6 +3940,10 @@
    [
     "2026-11-26T22:06+00:00",
     21486.0
+   ],
+   [
+    "2026-11-27T18:37+00:00",
+    20966.0
    ]
   ],
   "atual": {
@@ -3943,31 +3955,26 @@
    "regiao_nome": "Oriente Médio",
    "classe": "premium",
    "classe_nome": "Premium Economy",
-   "preco": 21486.0,
+   "preco": 20966.0,
    "moeda": "BRL",
-   "ida": "2027-02-18",
-   "volta": "2027-02-28",
-   "referencia": 21778.0,
-   "desconto": 0.0134,
+   "ida": "2027-06-24",
+   "volta": "2027-07-04",
+   "referencia": 21632.0,
+   "desconto": 0.0308,
    "limite": 6899.999999999999,
    "prioridade": "escolhido por você",
    "datas_baratas": [
     {
-     "ida": "2027-02-18",
-     "volta": "2027-02-28",
-     "preco": 21486.0
-    },
-    {
-     "ida": "2027-04-08",
-     "volta": "2027-04-18",
-     "preco": 27389.0
+     "ida": "2027-06-24",
+     "volta": "2027-07-04",
+     "preco": 20966.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20DXB%20from%20SJP%20on%202027-02-18%20through%202027-02-28%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/dxb/270218/270228/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
-   "atualizado": "2026-11-26T22:06+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20DXB%20from%20SJP%20on%202027-06-24%20through%202027-07-04%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/dxb/270624/270704/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-27T18:37+00:00"
   }
  },
  "SJP-DXB-executiva": {
@@ -3987,6 +3994,10 @@
    [
     "2026-11-26T22:07+00:00",
     28531.0
+   ],
+   [
+    "2026-11-27T18:37+00:00",
+    27883.0
    ]
   ],
   "atual": {
@@ -3998,36 +4009,26 @@
    "regiao_nome": "Oriente Médio",
    "classe": "executiva",
    "classe_nome": "Executiva",
-   "preco": 28531.0,
+   "preco": 27883.0,
    "moeda": "BRL",
-   "ida": "2027-06-13",
-   "volta": "2027-06-23",
-   "referencia": 28565.0,
-   "desconto": 0.0012,
+   "ida": "2027-06-11",
+   "volta": "2027-06-21",
+   "referencia": 28548.0,
+   "desconto": 0.0233,
    "limite": 11500.0,
    "prioridade": "escolhido por você",
    "datas_baratas": [
     {
-     "ida": "2027-06-13",
-     "volta": "2027-06-23",
-     "preco": 28531.0
-    },
-    {
-     "ida": "2027-02-08",
-     "volta": "2027-02-18",
-     "preco": 36213.0
-    },
-    {
-     "ida": "2026-12-14",
-     "volta": "2026-12-24",
-     "preco": 37702.0
+     "ida": "2027-06-11",
+     "volta": "2027-06-21",
+     "preco": 27883.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20DXB%20from%20SJP%20on%202027-06-13%20through%202027-06-23%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/dxb/270613/270623/?adultsv2=1&cabinclass=business&rtn=1",
-   "atualizado": "2026-11-26T22:07+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20DXB%20from%20SJP%20on%202027-06-11%20through%202027-06-21%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/dxb/270611/270621/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-27T18:37+00:00"
   }
  },
  "SJP-DXB-primeira": {
@@ -4047,6 +4048,10 @@
    [
     "2026-11-26T22:08+00:00",
     95086.0
+   ],
+   [
+    "2026-11-27T18:38+00:00",
+    92868.0
    ]
   ],
   "atual": {
@@ -4058,36 +4063,26 @@
    "regiao_nome": "Oriente Médio",
    "classe": "primeira",
    "classe_nome": "Primeira Classe",
-   "preco": 95086.0,
+   "preco": 92868.0,
    "moeda": "BRL",
-   "ida": "2026-12-23",
-   "volta": "2027-01-02",
-   "referencia": 104783.0,
-   "desconto": 0.0925,
+   "ida": "2026-12-20",
+   "volta": "2026-12-30",
+   "referencia": 104504.0,
+   "desconto": 0.1113,
    "limite": 20700.0,
    "prioridade": "escolhido por você",
    "datas_baratas": [
     {
-     "ida": "2026-12-23",
-     "volta": "2027-01-02",
-     "preco": 95086.0
-    },
-    {
-     "ida": "2027-06-22",
-     "volta": "2027-07-02",
-     "preco": 104668.0
-    },
-    {
-     "ida": "2027-04-11",
-     "volta": "2027-04-21",
-     "preco": 104694.0
+     "ida": "2026-12-20",
+     "volta": "2026-12-30",
+     "preco": 92868.0
     }
    ],
    "promocao": false,
    "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20DXB%20from%20SJP%20on%202026-12-23%20through%202027-01-02%20first%20class&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/dxb/261223/270102/?adultsv2=1&cabinclass=first&rtn=1",
-   "atualizado": "2026-11-26T22:08+00:00"
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20DXB%20from%20SJP%20on%202026-12-20%20through%202026-12-30%20first%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/dxb/261220/261230/?adultsv2=1&cabinclass=first&rtn=1",
+   "atualizado": "2026-11-27T18:38+00:00"
   }
  },
  "SJP-AUH-economica": {
