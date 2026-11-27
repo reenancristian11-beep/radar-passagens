@@ -1,5 +1,5 @@
 {
- "gerado": "2026-11-27T00:08+00:00",
+ "gerado": "2026-11-27T01:34+00:00",
  "origens": [
   "SJP",
   "GRU",
@@ -2850,56 +2850,6 @@
    "atualizado": "2026-11-26T09:23+00:00"
   },
   {
-   "chave": "GRU-MUC-premium",
-   "origem": "GRU",
-   "destino": "MUC",
-   "cidade": "Munique",
-   "regiao": "europa",
-   "regiao_nome": "Europa",
-   "classe": "premium",
-   "classe_nome": "Premium Economy",
-   "preco": 8160.0,
-   "moeda": "BRL",
-   "ida": "2027-06-07",
-   "volta": "2027-06-17",
-   "referencia": 11394.0,
-   "desconto": 0.2838,
-   "limite": 5750.0,
-   "prioridade": "perto de Zurique (261 km)",
-   "datas_baratas": [
-    {
-     "ida": "2027-06-07",
-     "volta": "2027-06-17",
-     "preco": 8160.0
-    },
-    {
-     "ida": "2027-01-24",
-     "volta": "2027-02-03",
-     "preco": 8171.0
-    },
-    {
-     "ida": "2027-01-25",
-     "volta": "2027-02-04",
-     "preco": 8171.0
-    },
-    {
-     "ida": "2027-06-14",
-     "volta": "2027-06-24",
-     "preco": 8291.0
-    },
-    {
-     "ida": "2026-12-14",
-     "volta": "2026-12-24",
-     "preco": 8305.0
-    }
-   ],
-   "promocao": false,
-   "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MUC%20from%20GRU%20on%202027-06-07%20through%202027-06-17%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/muc/270607/270617/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
-   "atualizado": "2026-11-26T04:16+00:00"
-  },
-  {
    "chave": "GRU-NRT-premium",
    "origem": "GRU",
    "destino": "NRT",
@@ -2998,56 +2948,6 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20FCO%20from%20GRU%20on%202026-12-07%20through%202026-12-17%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/fco/261207/261217/?adultsv2=1&cabinclass=business&rtn=1",
    "atualizado": "2026-11-26T05:25+00:00"
-  },
-  {
-   "chave": "GRU-FRA-executiva",
-   "origem": "GRU",
-   "destino": "FRA",
-   "cidade": "Frankfurt",
-   "regiao": "europa",
-   "regiao_nome": "Europa",
-   "classe": "executiva",
-   "classe_nome": "Executiva",
-   "preco": 13114.0,
-   "moeda": "BRL",
-   "ida": "2027-02-16",
-   "volta": "2027-02-26",
-   "referencia": 18182.0,
-   "desconto": 0.2787,
-   "limite": 10350.0,
-   "prioridade": "perto de Zurique (285 km)",
-   "datas_baratas": [
-    {
-     "ida": "2027-02-16",
-     "volta": "2027-02-26",
-     "preco": 13114.0
-    },
-    {
-     "ida": "2027-03-08",
-     "volta": "2027-03-18",
-     "preco": 13114.0
-    },
-    {
-     "ida": "2027-03-29",
-     "volta": "2027-04-08",
-     "preco": 13114.0
-    },
-    {
-     "ida": "2027-03-31",
-     "volta": "2027-04-10",
-     "preco": 13114.0
-    },
-    {
-     "ida": "2027-04-01",
-     "volta": "2027-04-11",
-     "preco": 13114.0
-    }
-   ],
-   "promocao": false,
-   "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FRA%20from%20GRU%20on%202027-02-16%20through%202027-02-26%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/fra/270216/270226/?adultsv2=1&cabinclass=business&rtn=1",
-   "atualizado": "2026-11-26T04:15+00:00"
   },
   {
    "chave": "VCP-MIA-premium",
@@ -3650,6 +3550,56 @@
    "atualizado": "2026-11-26T17:36+00:00"
   },
   {
+   "chave": "GRU-FRA-executiva",
+   "origem": "GRU",
+   "destino": "FRA",
+   "cidade": "Frankfurt",
+   "regiao": "europa",
+   "regiao_nome": "Europa",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 14858.0,
+   "moeda": "BRL",
+   "ida": "2026-12-21",
+   "volta": "2026-12-31",
+   "referencia": 19786.0,
+   "desconto": 0.2491,
+   "limite": 10350.0,
+   "prioridade": "perto de Zurique (285 km)",
+   "datas_baratas": [
+    {
+     "ida": "2026-12-21",
+     "volta": "2026-12-31",
+     "preco": 14858.0
+    },
+    {
+     "ida": "2026-12-22",
+     "volta": "2027-01-01",
+     "preco": 15673.0
+    },
+    {
+     "ida": "2027-01-26",
+     "volta": "2027-02-05",
+     "preco": 15895.0
+    },
+    {
+     "ida": "2026-12-15",
+     "volta": "2026-12-25",
+     "preco": 16325.0
+    },
+    {
+     "ida": "2026-12-24",
+     "volta": "2027-01-03",
+     "preco": 16329.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FRA%20from%20GRU%20on%202026-12-21%20through%202026-12-31%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/fra/261221/261231/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-27T01:31+00:00"
+  },
+  {
    "chave": "CGH-DXB-premium",
    "origem": "CGH",
    "destino": "DXB",
@@ -3750,6 +3700,56 @@
    "atualizado": "2026-11-26T06:42+00:00"
   },
   {
+   "chave": "GRU-MUC-economica",
+   "origem": "GRU",
+   "destino": "MUC",
+   "cidade": "Munique",
+   "regiao": "europa",
+   "regiao_nome": "Europa",
+   "classe": "economica",
+   "classe_nome": "Econômica",
+   "preco": 4728.0,
+   "moeda": "BRL",
+   "ida": "2027-03-29",
+   "volta": "2027-04-08",
+   "referencia": 6276.0,
+   "desconto": 0.2467,
+   "limite": 3219.9999999999995,
+   "prioridade": "perto de Zurique (261 km)",
+   "datas_baratas": [
+    {
+     "ida": "2027-03-29",
+     "volta": "2027-04-08",
+     "preco": 4728.0
+    },
+    {
+     "ida": "2027-02-11",
+     "volta": "2027-02-21",
+     "preco": 4823.0
+    },
+    {
+     "ida": "2027-02-12",
+     "volta": "2027-02-22",
+     "preco": 4823.0
+    },
+    {
+     "ida": "2027-02-13",
+     "volta": "2027-02-23",
+     "preco": 4823.0
+    },
+    {
+     "ida": "2027-02-14",
+     "volta": "2027-02-24",
+     "preco": 4823.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MUC%20from%20GRU%20on%202027-03-29%20through%202027-04-08%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/muc/270329/270408/?adultsv2=1&cabinclass=economy&rtn=1",
+   "atualizado": "2026-11-27T01:31+00:00"
+  },
+  {
    "chave": "CGH-MCO-premium",
    "origem": "CGH",
    "destino": "MCO",
@@ -3848,56 +3848,6 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20MCO%20from%20SJP%20on%202027-01-31%20through%202027-02-10%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/sjp/mco/270131/270210/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
    "atualizado": "2026-11-26T18:36+00:00"
-  },
-  {
-   "chave": "GRU-MUC-executiva",
-   "origem": "GRU",
-   "destino": "MUC",
-   "cidade": "Munique",
-   "regiao": "europa",
-   "regiao_nome": "Europa",
-   "classe": "executiva",
-   "classe_nome": "Executiva",
-   "preco": 13791.0,
-   "moeda": "BRL",
-   "ida": "2027-03-28",
-   "volta": "2027-04-07",
-   "referencia": 17969.0,
-   "desconto": 0.2325,
-   "limite": 10350.0,
-   "prioridade": "perto de Zurique (261 km)",
-   "datas_baratas": [
-    {
-     "ida": "2027-03-28",
-     "volta": "2027-04-07",
-     "preco": 13791.0
-    },
-    {
-     "ida": "2027-03-29",
-     "volta": "2027-04-08",
-     "preco": 13791.0
-    },
-    {
-     "ida": "2027-04-07",
-     "volta": "2027-04-17",
-     "preco": 13791.0
-    },
-    {
-     "ida": "2027-04-08",
-     "volta": "2027-04-18",
-     "preco": 13791.0
-    },
-    {
-     "ida": "2027-04-09",
-     "volta": "2027-04-19",
-     "preco": 13791.0
-    }
-   ],
-   "promocao": false,
-   "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MUC%20from%20GRU%20on%202027-03-28%20through%202027-04-07%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/muc/270328/270407/?adultsv2=1&cabinclass=business&rtn=1",
-   "atualizado": "2026-11-26T04:16+00:00"
   },
   {
    "chave": "VCP-NRT-economica",
@@ -4100,6 +4050,56 @@
    "atualizado": "2026-11-26T10:41+00:00"
   },
   {
+   "chave": "GRU-MUC-premium",
+   "origem": "GRU",
+   "destino": "MUC",
+   "cidade": "Munique",
+   "regiao": "europa",
+   "regiao_nome": "Europa",
+   "classe": "premium",
+   "classe_nome": "Premium Economy",
+   "preco": 8158.0,
+   "moeda": "BRL",
+   "ida": "2027-01-29",
+   "volta": "2027-02-08",
+   "referencia": 10554.5,
+   "desconto": 0.2271,
+   "limite": 5750.0,
+   "prioridade": "perto de Zurique (261 km)",
+   "datas_baratas": [
+    {
+     "ida": "2027-01-29",
+     "volta": "2027-02-08",
+     "preco": 8158.0
+    },
+    {
+     "ida": "2027-04-05",
+     "volta": "2027-04-15",
+     "preco": 8158.0
+    },
+    {
+     "ida": "2027-04-06",
+     "volta": "2027-04-16",
+     "preco": 8158.0
+    },
+    {
+     "ida": "2027-04-07",
+     "volta": "2027-04-17",
+     "preco": 8158.0
+    },
+    {
+     "ida": "2027-04-08",
+     "volta": "2027-04-18",
+     "preco": 8158.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MUC%20from%20GRU%20on%202027-01-29%20through%202027-02-08%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/muc/270129/270208/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-27T01:31+00:00"
+  },
+  {
    "chave": "CGH-FRA-economica",
    "origem": "CGH",
    "destino": "FRA",
@@ -4298,6 +4298,56 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20MUC%20from%20VCP%20on%202027-03-20%20through%202027-03-30%20economy&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/vcp/muc/270320/270330/?adultsv2=1&cabinclass=economy&rtn=1",
    "atualizado": "2026-11-26T10:41+00:00"
+  },
+  {
+   "chave": "GRU-MUC-executiva",
+   "origem": "GRU",
+   "destino": "MUC",
+   "cidade": "Munique",
+   "regiao": "europa",
+   "regiao_nome": "Europa",
+   "classe": "executiva",
+   "classe_nome": "Executiva",
+   "preco": 13791.0,
+   "moeda": "BRL",
+   "ida": "2027-03-28",
+   "volta": "2027-04-07",
+   "referencia": 17581.0,
+   "desconto": 0.2156,
+   "limite": 10350.0,
+   "prioridade": "perto de Zurique (261 km)",
+   "datas_baratas": [
+    {
+     "ida": "2027-03-28",
+     "volta": "2027-04-07",
+     "preco": 13791.0
+    },
+    {
+     "ida": "2027-03-29",
+     "volta": "2027-04-08",
+     "preco": 13791.0
+    },
+    {
+     "ida": "2027-04-07",
+     "volta": "2027-04-17",
+     "preco": 13791.0
+    },
+    {
+     "ida": "2027-04-08",
+     "volta": "2027-04-18",
+     "preco": 13791.0
+    },
+    {
+     "ida": "2027-04-09",
+     "volta": "2027-04-19",
+     "preco": 13791.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MUC%20from%20GRU%20on%202027-03-28%20through%202027-04-07%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/muc/270328/270407/?adultsv2=1&cabinclass=business&rtn=1",
+   "atualizado": "2026-11-27T01:31+00:00"
   },
   {
    "chave": "CGH-FCO-premium",
@@ -5050,56 +5100,6 @@
    "atualizado": "2026-11-27T00:06+00:00"
   },
   {
-   "chave": "GRU-FRA-premium",
-   "origem": "GRU",
-   "destino": "FRA",
-   "cidade": "Frankfurt",
-   "regiao": "europa",
-   "regiao_nome": "Europa",
-   "classe": "premium",
-   "classe_nome": "Premium Economy",
-   "preco": 7721.0,
-   "moeda": "BRL",
-   "ida": "2027-01-24",
-   "volta": "2027-02-03",
-   "referencia": 9447.0,
-   "desconto": 0.1827,
-   "limite": 5750.0,
-   "prioridade": "perto de Zurique (285 km)",
-   "datas_baratas": [
-    {
-     "ida": "2027-01-24",
-     "volta": "2027-02-03",
-     "preco": 7721.0
-    },
-    {
-     "ida": "2027-01-25",
-     "volta": "2027-02-04",
-     "preco": 7721.0
-    },
-    {
-     "ida": "2027-02-01",
-     "volta": "2027-02-11",
-     "preco": 7721.0
-    },
-    {
-     "ida": "2027-02-02",
-     "volta": "2027-02-12",
-     "preco": 7721.0
-    },
-    {
-     "ida": "2027-02-05",
-     "volta": "2027-02-15",
-     "preco": 7721.0
-    }
-   ],
-   "promocao": false,
-   "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FRA%20from%20GRU%20on%202027-01-24%20through%202027-02-03%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/fra/270124/270203/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
-   "atualizado": "2026-11-26T04:15+00:00"
-  },
-  {
    "chave": "GRU-MXP-economica",
    "origem": "GRU",
    "destino": "MXP",
@@ -5148,56 +5148,6 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20MXP%20from%20GRU%20on%202027-02-12%20through%202027-02-22%20economy&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/mxp/270212/270222/?adultsv2=1&cabinclass=economy&rtn=1",
    "atualizado": "2026-11-26T05:26+00:00"
-  },
-  {
-   "chave": "GRU-MUC-economica",
-   "origem": "GRU",
-   "destino": "MUC",
-   "cidade": "Munique",
-   "regiao": "europa",
-   "regiao_nome": "Europa",
-   "classe": "economica",
-   "classe_nome": "Econômica",
-   "preco": 4728.0,
-   "moeda": "BRL",
-   "ida": "2027-03-14",
-   "volta": "2027-03-24",
-   "referencia": 5754.0,
-   "desconto": 0.1783,
-   "limite": 3219.9999999999995,
-   "prioridade": "perto de Zurique (261 km)",
-   "datas_baratas": [
-    {
-     "ida": "2027-03-14",
-     "volta": "2027-03-24",
-     "preco": 4728.0
-    },
-    {
-     "ida": "2027-03-28",
-     "volta": "2027-04-07",
-     "preco": 4728.0
-    },
-    {
-     "ida": "2027-03-29",
-     "volta": "2027-04-08",
-     "preco": 4728.0
-    },
-    {
-     "ida": "2027-02-11",
-     "volta": "2027-02-21",
-     "preco": 4897.0
-    },
-    {
-     "ida": "2027-02-12",
-     "volta": "2027-02-22",
-     "preco": 4897.0
-    }
-   ],
-   "promocao": false,
-   "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20MUC%20from%20GRU%20on%202027-03-14%20through%202027-03-24%20economy&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/muc/270314/270324/?adultsv2=1&cabinclass=economy&rtn=1",
-   "atualizado": "2026-11-26T04:16+00:00"
   },
   {
    "chave": "GRU-ZRH-primeira",
@@ -5348,56 +5298,6 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20NRT%20from%20CGH%20on%202027-06-25%20through%202027-07-09%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/cgh/nrt/270625/270709/?adultsv2=1&cabinclass=business&rtn=1",
    "atualizado": "2026-11-26T17:36+00:00"
-  },
-  {
-   "chave": "GRU-FRA-primeira",
-   "origem": "GRU",
-   "destino": "FRA",
-   "cidade": "Frankfurt",
-   "regiao": "europa",
-   "regiao_nome": "Europa",
-   "classe": "primeira",
-   "classe_nome": "Primeira Classe",
-   "preco": 61635.0,
-   "moeda": "BRL",
-   "ida": "2026-11-29",
-   "volta": "2026-12-09",
-   "referencia": 74860.0,
-   "desconto": 0.1767,
-   "limite": 17250.0,
-   "prioridade": "perto de Zurique (285 km)",
-   "datas_baratas": [
-    {
-     "ida": "2026-11-29",
-     "volta": "2026-12-09",
-     "preco": 61635.0
-    },
-    {
-     "ida": "2026-11-30",
-     "volta": "2026-12-10",
-     "preco": 61635.0
-    },
-    {
-     "ida": "2027-01-25",
-     "volta": "2027-02-04",
-     "preco": 74561.0
-    },
-    {
-     "ida": "2027-01-26",
-     "volta": "2027-02-05",
-     "preco": 74561.0
-    },
-    {
-     "ida": "2027-01-27",
-     "volta": "2027-02-06",
-     "preco": 74561.0
-    }
-   ],
-   "promocao": false,
-   "motivos": [],
-   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FRA%20from%20GRU%20on%202026-11-29%20through%202026-12-09%20first%20class&curr=BRL&hl=pt-BR&gl=BR",
-   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/fra/261129/261209/?adultsv2=1&cabinclass=first&rtn=1",
-   "atualizado": "2026-11-26T04:16+00:00"
   },
   {
    "chave": "VCP-FCO-premium",
@@ -8495,6 +8395,56 @@
    "atualizado": "2026-11-25T10:40+00:00"
   },
   {
+   "chave": "GRU-FRA-primeira",
+   "origem": "GRU",
+   "destino": "FRA",
+   "cidade": "Frankfurt",
+   "regiao": "europa",
+   "regiao_nome": "Europa",
+   "classe": "primeira",
+   "classe_nome": "Primeira Classe",
+   "preco": 74561.0,
+   "moeda": "BRL",
+   "ida": "2027-04-03",
+   "volta": "2027-04-13",
+   "referencia": 74860.0,
+   "desconto": 0.004,
+   "limite": 17250.0,
+   "prioridade": "perto de Zurique (285 km)",
+   "datas_baratas": [
+    {
+     "ida": "2027-04-03",
+     "volta": "2027-04-13",
+     "preco": 74561.0
+    },
+    {
+     "ida": "2027-04-04",
+     "volta": "2027-04-14",
+     "preco": 74561.0
+    },
+    {
+     "ida": "2027-04-09",
+     "volta": "2027-04-19",
+     "preco": 74561.0
+    },
+    {
+     "ida": "2027-04-10",
+     "volta": "2027-04-20",
+     "preco": 74561.0
+    },
+    {
+     "ida": "2027-04-11",
+     "volta": "2027-04-21",
+     "preco": 74561.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FRA%20from%20GRU%20on%202027-04-03%20through%202027-04-13%20first%20class&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/fra/270403/270413/?adultsv2=1&cabinclass=first&rtn=1",
+   "atualizado": "2026-11-27T01:31+00:00"
+  },
+  {
    "chave": "SJP-ADZ-premium",
    "origem": "SJP",
    "destino": "ADZ",
@@ -9003,6 +8953,56 @@
    "google": "https://www.google.com/travel/flights?q=Flights%20to%20MCO%20from%20GRU%20on%202027-02-04%20through%202027-02-14%20business%20class&curr=BRL&hl=pt-BR&gl=BR",
    "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/mco/270204/270214/?adultsv2=1&cabinclass=business&rtn=1",
    "atualizado": "2026-11-27T00:06+00:00"
+  },
+  {
+   "chave": "GRU-FRA-premium",
+   "origem": "GRU",
+   "destino": "FRA",
+   "cidade": "Frankfurt",
+   "regiao": "europa",
+   "regiao_nome": "Europa",
+   "classe": "premium",
+   "classe_nome": "Premium Economy",
+   "preco": 7721.0,
+   "moeda": "BRL",
+   "ida": "2027-02-01",
+   "volta": "2027-02-11",
+   "referencia": 7721.0,
+   "desconto": 0.0,
+   "limite": 5750.0,
+   "prioridade": "perto de Zurique (285 km)",
+   "datas_baratas": [
+    {
+     "ida": "2027-02-01",
+     "volta": "2027-02-11",
+     "preco": 7721.0
+    },
+    {
+     "ida": "2027-03-16",
+     "volta": "2027-03-26",
+     "preco": 7721.0
+    },
+    {
+     "ida": "2027-03-17",
+     "volta": "2027-03-27",
+     "preco": 7721.0
+    },
+    {
+     "ida": "2027-03-18",
+     "volta": "2027-03-28",
+     "preco": 7721.0
+    },
+    {
+     "ida": "2027-03-19",
+     "volta": "2027-03-29",
+     "preco": 7721.0
+    }
+   ],
+   "promocao": false,
+   "motivos": [],
+   "google": "https://www.google.com/travel/flights?q=Flights%20to%20FRA%20from%20GRU%20on%202027-02-01%20through%202027-02-11%20premium%20economy&curr=BRL&hl=pt-BR&gl=BR",
+   "skyscanner": "https://www.skyscanner.com.br/transporte/passagens-aereas/gru/fra/270201/270211/?adultsv2=1&cabinclass=premiumeconomy&rtn=1",
+   "atualizado": "2026-11-27T01:31+00:00"
   },
   {
    "chave": "VCP-AUH-economica",
